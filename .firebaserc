@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "prelay-bca36",
+    "development": "prelay-bca36",
+    "production": "prelay-bca36"
+  }
+}
