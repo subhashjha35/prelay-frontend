@@ -4,16 +4,21 @@ cache:
   paths:
     - node_modules/
 
-stages:
-  - deploy
+before_script:
+  - npm install
+  - npm install -g @angular/cli
 
-deploy:
-  stage: deploy
+stages:
+  - pages
+
+pages:
+  stage: pages
   environment:
-    name: development
+    name: production
   script:
-    - npm install
-    - npm run builddev
-    - npm run deploy
+    - ng build --prod --output-path=public --base-href /frontend/
   only:
     - master
+  artifacts:
+    paths:
+      - public
