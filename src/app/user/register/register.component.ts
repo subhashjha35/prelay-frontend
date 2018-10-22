@@ -1,0 +1,53 @@
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UserService } from '../../user.service';
+import { forEach } from '@angular/router/src/utils/collection';
+
+export interface User{
+  name:string;
+  email:string;
+  password:string;
+}
+@Component({
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
+})
+export class RegisterComponent implements OnInit {
+  registerForm:FormGroup;
+  submitted=false;
+  formArray;
+  userCols;
+  userData:any[]=[];
+  constructor(private formBuilder:FormBuilder, private userService:UserService) { }
+
+  ngOnInit() {
+    this.registerForm = this.formBuilder.group({
+      name: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(6)]]
+  });
+}
+
+  get f() { return this.registerForm.controls; }
+  data(){
+    this.formArray =this.registerForm.controls;
+    console.log(this.formArray);
+    Object.keys(this.formArray).forEach(key => {
+      this.userData.push({[key] : this.formArray[key].value})
+    });
+    console.log(this.userData);
+  }  
+  onSubmit() {
+    this.submitted = true;
+
+    // stop here if form is invalid
+    if (this.registerForm.invalid) {
+        return;
+    }
+    this.data();
+    this.userService.registerUser(this.userData).subscribe(data => {
+      console.log("Request completed");
+    });
+  }
+}
