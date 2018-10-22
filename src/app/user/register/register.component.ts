@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { UserService } from '../../user.service';
-import { forEach } from '@angular/router/src/utils/collection';
 
 export interface User{
   name:string;
@@ -18,7 +17,7 @@ export class RegisterComponent implements OnInit {
   submitted=false;
   formArray;
   userCols;
-  userData:any[]=[];
+  userData:User={name:null,email:null,password:null};
   constructor(private formBuilder:FormBuilder, private userService:UserService) { }
 
   ngOnInit() {
@@ -34,7 +33,8 @@ export class RegisterComponent implements OnInit {
     this.formArray =this.registerForm.controls;
     console.log(this.formArray);
     Object.keys(this.formArray).forEach(key => {
-      this.userData.push({[key] : this.formArray[key].value})
+      console.log(this.userData);
+      this.userData[key] = this.formArray[key].value;
     });
     console.log(this.userData);
   }  

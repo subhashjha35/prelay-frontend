@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { UserService } from '../../user.service';
-
+export interface User{
+  email:string;
+  password:string;
+}
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -12,7 +15,7 @@ export class LoginComponent implements OnInit {
   submitted=false;
   formArray;
   userCols;
-  userData:any[]=[];
+  userData:User={email:null,password:null};
 
   constructor(private formBuilder:FormBuilder, private userService:UserService) { }
 
