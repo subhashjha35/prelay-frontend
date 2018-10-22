@@ -16,10 +16,10 @@ export class UserService {
     let options = {
       headers: httpHeaders
     };
-    return this.http.post("http://prelay-api.herokuapp.com/v1/user/signup?key=MOCK1234", userData, options);
+    return this.http.post("https://prelay-api.herokuapp.com/v1/user/signup?key=MOCK1234", userData, options);
   }
 
   loginUser(userData:any[]){
-    return this.http.post("http://prelay-api.herokuapp.com/v1/user/login?key=MOCK1234", userData);
+    return this.http.post("https://prelay-api.herokuapp.com/v1/user/login?key=MOCK1234", userData);
   }
 }
