@@ -18,4 +18,8 @@ export class UserService {
     };
     return this.http.post("http://prelay-api.herokuapp.com/v1/user/signup?key=MOCK1234", userData, options);
   }
+
+  loginUser(userData:any[]){
+    return this.http.post("http://prelay-api.herokuapp.com/v1/user/login?key=MOCK1234", userData);
+  }
 }

@@ -1,5 +1,5 @@
 export class Stations {
-    [
+    showList:any[]=[
         {
           "id": 8442, 
           "name": "A [Augsburg Hbf]"
