@@ -8,7 +8,7 @@ export class UserService {
 
   constructor(private http:HttpClient) { }
 
-  registerUser(userData:any[]){
+  registerUser(userData){
     let httpHeaders = new HttpHeaders({
       'Content-Type' : 'application/json',
       'Cache-Control': 'no-cache'
@@ -19,7 +19,7 @@ export class UserService {
     return this.http.post("https://prelay-api.herokuapp.com/v1/user/signup?key=MOCK1234", userData, options);
   }
 
-  loginUser(userData:any[]){
+  loginUser(userData){
     return this.http.post("https://prelay-api.herokuapp.com/v1/user/login?key=MOCK1234", userData);
   }
 }

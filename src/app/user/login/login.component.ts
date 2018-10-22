@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
     this.formArray =this.loginForm.controls;
     console.log(this.formArray);
     Object.keys(this.formArray).forEach(key => {
-      this.userData.push({[key] : this.formArray[key].value})
+      this.userData[key] = this.formArray[key].value;
     });
     console.log(this.userData);
   }  
