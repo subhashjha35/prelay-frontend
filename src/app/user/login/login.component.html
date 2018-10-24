@@ -20,6 +20,12 @@
         <div class="form-group">
             <button class="btn btn-primary">Sign In</button>
         </div>
+        <div class="alert alert-danger" *ngIf="(error!=null)">
+            {{error}}
+        </div>
+        <div class="alert alert-success" *ngIf="(success!=null)">
+            {{success}}
+        </div>
       </form>
       <p class="text-center text-muted small">Don't have an account? <a [routerLink]="['/register']">Register here!</a></p>
     </div>

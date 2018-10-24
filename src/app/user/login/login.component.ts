@@ -16,7 +16,8 @@ export class LoginComponent implements OnInit {
   formArray;
   userCols;
   userData:User={email:null,password:null};
-
+  error;
+  success;
   constructor(private formBuilder:FormBuilder, private userService:UserService) { }
 
   ngOnInit() {
@@ -40,11 +41,18 @@ export class LoginComponent implements OnInit {
 
     // stop here if form is invalid
     if (this.loginForm.invalid) {
-        return;
+      return;
     }
     this.data();
     this.userService.loginUser(this.userData).subscribe(data => {
-      console.log("Request completed");
-  });
-}
+      if(data['success']==true){
+        this.success="User Logged In";
+      }
+      console.log(data);
+    },
+    error => {
+      this.error=error.error['error'];
+      // console.log(error.error);
+    });
+  }
 }

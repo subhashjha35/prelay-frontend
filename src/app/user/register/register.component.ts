@@ -33,7 +33,7 @@ export class RegisterComponent implements OnInit {
     this.formArray =this.registerForm.controls;
     console.log(this.formArray);
     Object.keys(this.formArray).forEach(key => {
-      console.log(this.userData);
+      // console.log(this.userData);
       this.userData[key] = this.formArray[key].value;
     });
     console.log(this.userData);
