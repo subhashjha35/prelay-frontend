@@ -55,10 +55,10 @@
         <tr *ngFor="let rows of res">
           <td>{{ stnCodeToName(rows.from_station_id) }}</td>
           <td>{{ stnCodeToName(rows.to_station_id) }}</td>
-          <td>{{ rows.arrival.actual}}</td>
-          <td>{{ rows.arrival.scheduled}}</td>
-          <td>{{ rows.departure.actual}}</td>
-          <td>{{ rows.departure.scheduled}}</td>
+          <td>{{ timestampToTime(rows.arrival.actual) }}</td>
+          <td>{{ timestampToTime(rows.arrival.scheduled )}}</td>
+          <td>{{ timestampToTime(rows.departure.actual) }}</td>
+          <td>{{ timestampToTime(rows.departure.scheduled) }}</td>
         </tr>
       </table>
     </div>

@@ -50,7 +50,19 @@ export class ScheduleComponent implements OnInit {
   }
   stnCodeToName(code){
     return this.stn[this.stn.findIndex(x=>x.id == code)].name;
-  }
+  };
+  timestampToTime(timeStamp){
+    if(isNaN(timeStamp)){
+      return timeStamp
+    }
+    var h=Math.floor(timeStamp/60);
+    var m=timeStamp%60;
+    if(h<10) 
+      h="0"+h.toString();
+    if(m<10)
+      m="0"+m.toString();
+    return (h+":"+m);
+  };
   onSubmit(){
     this.submitted = true;
     console.log("submitted");
