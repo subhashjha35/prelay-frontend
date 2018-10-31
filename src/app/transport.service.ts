@@ -17,6 +17,6 @@ export class TransportService {
     this.scheduleObj.arr_id=data.selectedDestination;
     this.scheduleObj.toj=data.toj;
     console.log(this.scheduleObj);
-    return this.http.get("http://prelay-api.herokuapp.com/v1/schedule/mav/"+this.scheduleObj.dep_id+"/"+this.scheduleObj.arr_id+"/"+this.scheduleObj.toj+"?key=MOCK1234");
+    return this.http.get("https://prelay-api.herokuapp.com/v1/schedule/mav/"+this.scheduleObj.dep_id+"/"+this.scheduleObj.arr_id+"/"+this.scheduleObj.toj+"?key=MOCK1234");
   }
 }
