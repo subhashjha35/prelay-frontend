@@ -15,6 +15,8 @@ export interface User{
 export class RegisterComponent implements OnInit {
   registerForm:FormGroup;
   submitted=false;
+  error;
+  success;
   formArray;
   userCols;
   userData:User={name:null,email:null,password:null};
@@ -48,6 +50,13 @@ export class RegisterComponent implements OnInit {
     this.data();
     this.userService.registerUser(this.userData).subscribe(data => {
       console.log("Request completed");
+      this.success="Registered Successfully!!!";
+      this.error=null;
+    },
+    error => {
+      this.success=null;
+      this.error=error.error['error'];
+      // console.log(error.error);
     });
   }
 }

@@ -1,0 +1,71 @@
+<div class="row jumbotron">
+  <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+    <form [formGroup]="scheduleForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label>Source:</label>
+        <ng-select 
+          formControlName="selectedSource"
+          [items]="stn"
+          bindLabel="name"
+          placeholder="Select Stations"
+          [virtualScroll]="true"
+          [ngClass]="{ 'is-invalid': submitted && f.selectedSource.errors }">
+        </ng-select>
+        <div *ngIf="submitted && f.selectedSource.errors" class="invalid-feedback">
+            <div *ngIf="f.selectedSource.errors.required">Source is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Destination:</label>
+        <ng-select
+          formControlName="selectedDestination"
+          [items]="stn"
+          bindLabel="name"
+          placeholder="Select Stations"
+          [virtualScroll]="true"
+          [ngClass]="{ 'is-invalid': submitted && f.selectedDestination.errors }">
+        </ng-select>
+        <div *ngIf="submitted && f.selectedDestination.errors" class="invalid-feedback">
+            <div *ngIf="f.selectedDestination.errors.required">Destination is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Journey Time</label>
+        <input type="date" formControlName="toj" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.toj.errors }" />
+        <div *ngIf="submitted && f.toj.errors" class="invalid-feedback">
+            <div *ngIf="f.toj.errors.required">Time of Journey is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary">Sign In</button>
+      </div>
+      <div class="alert alert-danger" *ngIf="(error!=null)">
+        {{error}}
+      </div>
+      <div class="alert alert-success" *ngIf="(success!=null)">
+        {{success}}
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row" *ngIf="(scheduleResData)">
+  <div class="col-md-6 offset-md-3">
+    <div *ngFor="let res of scheduleResData">
+      <table class="table table-bordered table-sm table-striped">
+        <tr *ngFor="let rows of res">
+          <td>{{ stnCodeToName(rows.from_station_id) }}</td>
+          <td>{{ stnCodeToName(rows.to_station_id) }}</td>
+          <td>{{ rows.arrival.actual}}</td>
+          <td>{{ rows.arrival.scheduled}}</td>
+          <td>{{ rows.departure.actual}}</td>
+          <td>{{ rows.departure.scheduled}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="row" *ngIf="(scheduleResData)">
+  <div class="col-md-6 offset-md-3">
+    <pre>{{scheduleResData |json}}</pre>
+  </div>
+</div>

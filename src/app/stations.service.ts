@@ -1,8 +1,19 @@
-export class Stations {
+import { Injectable } from '@angular/core';
+
+export interface stationType{
+  id:number;
+  name:string;
+}
+@Injectable({
+  providedIn: 'root'
+})
+export class StationsService {
+
+  constructor() { };
     getList(){
       return this.showList;
     }
-    showList:any[]=[
+    showList:stationType[]=[
         {
           "id": 8442, 
           "name": "A [Augsburg Hbf]"
@@ -17663,5 +17674,5 @@ export class Stations {
           "id": 6693, 
           "name": "Z.zentl\u0151rinc [Zalaszentl\u0151rinc]"
         }
-      ]
+      ];
 }
