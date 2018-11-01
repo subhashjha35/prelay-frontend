@@ -55,12 +55,12 @@ export class ScheduleComponent implements OnInit {
     if(isNaN(timeStamp)){
       return timeStamp
     }
-    var h=Math.floor(timeStamp/60);
-    var m=timeStamp%60;
-    if(h<10) 
-      h="0"+h.toString();
-    if(m<10)
-      m="0"+m.toString();
+    var h=Math.floor(timeStamp/60).toString();
+    var m=(timeStamp%60).toString();
+    if(h.length>1)
+      h="0"+h;
+    if(m.length>1)
+      m="0"+m;
     return (h+":"+m);
   };
   onSubmit(){
