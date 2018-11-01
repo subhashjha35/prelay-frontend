@@ -57,6 +57,7 @@ export class ScheduleComponent implements OnInit {
     }
     var h=Math.floor(timeStamp/60).toString();
     var m=(timeStamp%60).toString();
+    console.log("h="+h+" m="+m);
     if(h.length<2)
       h="0"+h;
     if(m.length<2)
