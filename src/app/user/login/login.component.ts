@@ -47,11 +47,13 @@ export class LoginComponent implements OnInit {
     this.userService.loginUser(this.userData).subscribe(data => {
       if(data['success']==true){
         this.success="User Logged In";
+        this.error=null;
       }
       console.log(data);
     },
     error => {
       this.error=error.error['error'];
+      this.success=null;
       // console.log(error.error);
     });
   }
