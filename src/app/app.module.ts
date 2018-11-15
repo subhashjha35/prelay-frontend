@@ -14,6 +14,9 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { StationsService } from './stations.service';
 import { TransportService } from './transport.service';
+import { ProfileComponent } from './user/profile/profile.component';
+import { ProfileHomeComponent } from './user/profile/profile-home/profile-home.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { TransportService } from './transport.service';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    ProfileComponent,
+    ProfileHomeComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

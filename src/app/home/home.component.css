@@ -1,0 +1,12 @@
+.welcome_img_container {
+    position: relative;
+    background-image:url("/assets/imgs/budapest_station.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* Bottom right text */
+.text-block {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
