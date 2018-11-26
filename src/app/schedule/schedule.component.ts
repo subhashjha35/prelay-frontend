@@ -14,6 +14,7 @@ export interface ScheduleModel{
   styleUrls: ['./schedule.component.css']
 })
 export class ScheduleComponent implements OnInit {
+  reqError;
   stn:stationType[];
   schdeduleReqData:ScheduleModel={selectedSource:null, selectedDestination: null, toj:null};
   scheduleResData;
@@ -65,6 +66,8 @@ export class ScheduleComponent implements OnInit {
     return (h+":"+m);
   };
   onSubmit(){
+    this.reqError=null;
+    this.scheduleResData=[];
     this.submitted = true;
     console.log("submitted");
     this.data();
@@ -72,6 +75,10 @@ export class ScheduleComponent implements OnInit {
       data=>{
         console.log(data);
         this.scheduleResData=data;
+      },
+      error=>{
+        this.reqError=error.header.message;
+        console.log(this.reqError);
       });
     // stop here if form is invalid
     if (this.scheduleForm.invalid) {

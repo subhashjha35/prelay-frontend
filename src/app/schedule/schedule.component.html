@@ -48,14 +48,31 @@
     </form>
   </div>
 </div>
+<div *ngIf="(scheduleResData==[])" class="alert alert-warning" role="alert">
+  <p class="mb-0">There is no such route</p>
+</div>
+<div class="text-center alert-danger" *ngIf="(reqError)">
+  {{"Error:"}}{{reqError}}  
+</div>
+<!-- <div class="text-center" *ngIf="(submitted && !reqError)">
+  <img src="https://media1.tenor.com/images/a6a6686cbddb3e99a5f0b60a829effb3/tenor.gif?itemid=7427055" alt="">
+</div> -->
 <div class="row" *ngIf="(scheduleResData)">
-  <div class="col-md-6 offset-md-3">
+  <div class="col-md-6 offset-md-3" style="overflow:scroll">
     <div *ngFor="let res of scheduleResData">
       <table class="table table-bordered table-sm table-striped">
+        <tr>
+          <td>Departure Station</td>
+          <td>Arrival Station</td>
+          <td>Next day Forecast</td>
+          <td>Arrival Scheduled</td>
+          <td>Departure Actual</td>
+          <td>Departure Scheduled</td>
+        </tr>
         <tr *ngFor="let rows of res">
-          <td>{{ stnCodeToName(rows.from_station_id) }}</td>
-          <td>{{ stnCodeToName(rows.to_station_id) }}</td>
-          <td>{{ timestampToTime(rows.arrival.actual) }}</td>
+          <td>{{ stnCodeToName(rows.departure.station) }}</td>
+          <td>{{ stnCodeToName(rows.arrival.station) }}</td>
+          <td>{{ timestampToTime(rows.arrival.forecast_for_tomorrow) }}</td>
           <td>{{ timestampToTime(rows.arrival.scheduled )}}</td>
           <td>{{ timestampToTime(rows.departure.actual) }}</td>
           <td>{{ timestampToTime(rows.departure.scheduled) }}</td>
@@ -65,7 +82,7 @@
   </div>
 </div>
 <div class="row" *ngIf="(scheduleResData)">
-  <div class="col-md-6 offset-md-3">
+  <!-- <div class="col-md-6 offset-md-3">
     <pre>{{scheduleResData |json}}</pre>
-  </div>
+  </div> -->
 </div>

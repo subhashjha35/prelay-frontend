@@ -7,18 +7,19 @@ import { ScheduleComponent } from '../schedule/schedule.component';
 import { ProfileComponent } from '../user/profile/profile.component'
 import { ProfileHomeComponent } from '../user/profile/profile-home/profile-home.component';
 import { FaqComponent } from '../faq/faq.component';
+import { AuthGuard } from '../guards/auth.guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'schedule', component: ScheduleComponent },
+  { path: 'schedule', component: ScheduleComponent, canActivate: [AuthGuard]  },
   { path: 'faq', component: FaqComponent },
-  { path: 'profile', component: ProfileComponent,
+  { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] ,
     children: [
       {path:'', component:ProfileHomeComponent}
 
-    ] },
+    ]},
   { path: '**', component: HomeComponent },
 ];
 

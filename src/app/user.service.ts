@@ -1,13 +1,24 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
 
-  constructor(private http:HttpClient) { }
-
+  isLoginSubject = new BehaviorSubject<boolean>(this.hasToken());
+  constructor(private http:HttpClient, private route:Router ) { 
+  }
+  
+  isLoggedIn() : Observable<boolean> {
+    console.log(this.isLoginSubject.asObservable());
+    return this.isLoginSubject.asObservable();
+  }
+  hasToken():boolean{
+    return !!localStorage.getItem('token');
+  }
   registerUser(userData){
     let httpHeaders = new HttpHeaders({
       'Content-Type' : 'application/json',
@@ -21,5 +32,10 @@ export class UserService {
 
   loginUser(userData){
     return this.http.post("https://prelay-api.herokuapp.com/v1/user/login?key=MOCK1234", userData);
+  }
+  logout() : void {
+    localStorage.removeItem('token');
+    this.isLoginSubject.next(false);
+    this.route.navigate(['\login']);
   }
 }

@@ -1,17667 +1,15552 @@
-export class Stations {
+export class Stations{
     getList(){
-      return this.showList;
+        return this.all_stations;
     }
-    showList:any[]=[
+
+    all_stations:any[]=[
         {
-          "id": 8442, 
-          "name": "A [Augsburg Hbf]"
-        }, 
-        {
-          "id": 5, 
+          "id": "005512328", 
+          "is_domestic": true, 
+          "latitude": 47.4553099845687, 
+          "legacy_id": 5, 
+          "longitude": 20.5531242155933, 
           "name": "Ab\u00e1dszal\u00f3k"
         }, 
         {
-          "id": 6, 
+          "id": "005507229", 
+          "is_domestic": true, 
+          "latitude": 46.152809436255, 
+          "legacy_id": 6, 
+          "longitude": 18.0754236212985, 
           "name": "Abaliget"
         }, 
         {
-          "id": 7, 
+          "id": "005504135", 
+          "is_domestic": true, 
+          "latitude": 47.0238354573265, 
+          "legacy_id": 7, 
+          "longitude": 18.5423046678278, 
           "name": "Aba-S\u00e1rkereszt\u00far"
         }, 
         {
-          "id": 8, 
+          "id": "005513326", 
+          "is_domestic": true, 
+          "latitude": 48.3088283850299, 
+          "legacy_id": 8, 
+          "longitude": 21.1981489008495, 
           "name": "Aba\u00fajk\u00e9r"
         }, 
         {
-          "id": 9, 
+          "id": "005513300", 
+          "is_domestic": true, 
+          "latitude": 48.2864261961239, 
+          "legacy_id": 9, 
+          "longitude": 21.181245291225, 
           "name": "Aba\u00fajsz\u00e1nt\u00f3"
         }, 
         {
-          "id": 10, 
+          "id": "005513318", 
+          "is_domestic": true, 
+          "latitude": 48.2687234135462, 
+          "legacy_id": 10, 
+          "longitude": 21.1795918948942, 
           "name": "Aba\u00fajsz\u00e1nt\u00f3i f\u00fcrd\u0151"
         }, 
         {
-          "id": 8160, 
-          "name": "Abb\u00e1zia [Opatija-Matulji]"
-        }, 
-        {
-          "id": 11, 
+          "id": "005501305", 
+          "is_domestic": true, 
+          "latitude": 47.6907486905979, 
+          "legacy_id": 11, 
+          "longitude": 17.5409082703735, 
           "name": "Abda"
         }, 
         {
-          "id": 13, 
+          "id": "005513730", 
+          "is_domestic": true, 
+          "latitude": 47.1732106717516, 
+          "legacy_id": 13, 
+          "longitude": 20.0159365068214, 
           "name": "Abony"
         }, 
         {
-          "id": 14, 
+          "id": "005542317", 
+          "is_domestic": true, 
+          "latitude": 47.2061034040506, 
+          "legacy_id": 14, 
+          "longitude": 20.1255259022915, 
           "name": "Abonyi \u00fat"
         }, 
         {
-          "id": 15, 
+          "id": "005504523", 
+          "is_domestic": true, 
+          "latitude": 46.8149404753789, 
+          "legacy_id": 15, 
+          "longitude": 17.5721755326157, 
           "name": "\u00c1brah\u00e1mhegy"
         }, 
         {
-          "id": 23, 
+          "id": "005501230", 
+          "is_domestic": true, 
+          "latitude": 47.7167466586844, 
+          "legacy_id": 23, 
+          "longitude": 18.004688892271, 
           "name": "\u00c1cs"
         }, 
         {
-          "id": 24, 
+          "id": "004305249", 
+          "is_domestic": true, 
+          "latitude": 47.3084059938557, 
+          "legacy_id": 24, 
+          "longitude": 16.734719739479, 
           "name": "Acs\u00e1d"
         }, 
         {
-          "id": 25, 
+          "id": "005510884", 
+          "is_domestic": true, 
+          "latitude": 47.8010271495146, 
+          "legacy_id": 25, 
+          "longitude": 19.3859179571118, 
           "name": "Acsa-Erd\u0151k\u00fcrt"
         }, 
         {
-          "id": 26, 
+          "id": "005511247", 
+          "is_domestic": true, 
+          "latitude": 47.6964559578757, 
+          "legacy_id": 26, 
+          "longitude": 19.9752513374526, 
           "name": "Ad\u00e1cs"
         }, 
         {
-          "id": 27, 
+          "id": "005508383", 
+          "is_domestic": true, 
+          "latitude": 46.8541320906221, 
+          "legacy_id": 27, 
+          "longitude": 18.1415119757196, 
           "name": "\u00c1d\u00e1nd"
         }, 
         {
-          "id": 31, 
+          "id": "005506452", 
+          "is_domestic": true, 
+          "latitude": 47.1062283435955, 
+          "legacy_id": 31, 
+          "longitude": 18.847983658786, 
           "name": "Adony"
         }, 
         {
-          "id": 35, 
+          "id": "005503244", 
+          "is_domestic": true, 
+          "latitude": 47.1976224444944, 
+          "legacy_id": 35, 
+          "longitude": 18.6047767945955, 
           "name": "Ag\u00e1rd"
         }, 
         {
-          "id": 36, 
-          "name": "\u00c1gcserny\u0151 [Cierna Nad Tisou]"
-        }, 
-        {
-          "id": 38, 
+          "id": "005332182", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 38, 
+          "longitude": null, 
           "name": "Aghires"
         }, 
         {
-          "id": 8053, 
-          "name": "AGHIRES [Aghires]"
-        }, 
-        {
-          "id": 54, 
+          "id": "005514100", 
+          "is_domestic": true, 
+          "latitude": 48.1865117121535, 
+          "legacy_id": 54, 
+          "longitude": 22.0488903387837, 
           "name": "Ajak"
         }, 
         {
-          "id": 56, 
+          "id": "005503996", 
+          "is_domestic": true, 
+          "latitude": 47.1058064937751, 
+          "legacy_id": 56, 
+          "longitude": 17.5727151925969, 
           "name": "Ajka"
         }, 
         {
-          "id": 57, 
+          "id": "005504010", 
+          "is_domestic": true, 
+          "latitude": 47.096782565733, 
+          "legacy_id": 57, 
+          "longitude": 17.5553799031127, 
           "name": "Ajka-Gy\u00e1rtelep"
         }, 
         {
-          "id": 58, 
-          "name": "Akali [Balatonakali-D\u00f6rgicse]"
+          "id": "005504465_0", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 58, 
+          "longitude": null, 
+          "name": "Akali (Balatonakali-D\u00f6rgicse)"
         }, 
         {
-          "id": 59, 
-          "name": "Akarattya [Balatonakarattya]"
+          "id": "005504325_1", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 59, 
+          "longitude": null, 
+          "name": "Akarattya (Balatonakarattya)"
         }, 
         {
-          "id": 60, 
+          "id": "005510520", 
+          "is_domestic": true, 
+          "latitude": 47.6018554608298, 
+          "legacy_id": 60, 
+          "longitude": 19.1539558803756, 
           "name": "Alagimajor"
         }, 
         {
-          "id": 61, 
+          "id": "005506635", 
+          "is_domestic": true, 
+          "latitude": 46.8319094594005, 
+          "legacy_id": 61, 
+          "longitude": 18.6572150902238, 
           "name": "Alap"
         }, 
         {
-          "id": 64, 
+          "id": "005323038", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 62, 
+          "longitude": null, 
+          "name": "Alba Iulia"
+        }, 
+        {
+          "id": "005503111", 
+          "is_domestic": true, 
+          "latitude": 47.4411222408417, 
+          "legacy_id": 64, 
+          "longitude": 19.0337404475939, 
           "name": "Albertfalva"
         }, 
         {
-          "id": 65, 
+          "id": "005513698", 
+          "is_domestic": true, 
+          "latitude": 47.2404689051997, 
+          "legacy_id": 65, 
+          "longitude": 19.6065236452712, 
           "name": "Albertirsa"
         }, 
         {
-          "id": 70, 
-          "name": "Aleksinac"
-        }, 
-        {
-          "id": 13176, 
-          "name": "ALEKSINAC [Aleksinac]"
-        }, 
-        {
-          "id": 71, 
-          "name": "Aleksince"
-        }, 
-        {
-          "id": 72, 
+          "id": "005332508", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 72, 
+          "longitude": null, 
           "name": "Alesd"
         }, 
         {
-          "id": 8205, 
-          "name": "ALESD [Alesd]"
-        }, 
-        {
-          "id": 78, 
+          "id": "005518549", 
+          "is_domestic": true, 
+          "latitude": 46.3356460531545, 
+          "legacy_id": 78, 
+          "longitude": 20.1960381275901, 
           "name": "Algy\u0151"
         }, 
         {
-          "id": 79, 
-          "name": "Aliga [Balatonaliga]"
+          "id": "005503319_2", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 79, 
+          "longitude": null, 
+          "name": "Aliga (Balatonaliga)"
         }, 
         {
-          "id": 7904, 
-          "name": "\u00c1llami telepek [G\u00f6d\u00f6ll\u0151-\u00c1llami telepek]"
+          "id": "005540584_3", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7904, 
+          "longitude": null, 
+          "name": "\u00c1llami telepek (G\u00f6d\u00f6ll\u0151-\u00c1llami telepek)"
         }, 
         {
-          "id": 86, 
-          "name": "Alm\u00e1di [Balatonalm\u00e1di]"
+          "id": "005504366_4", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 86, 
+          "longitude": null, 
+          "name": "Alm\u00e1di (Balatonalm\u00e1di)"
         }, 
         {
-          "id": 88, 
+          "id": "005546060", 
+          "is_domestic": true, 
+          "latitude": 47.9561261488095, 
+          "legacy_id": 88, 
+          "longitude": 20.3569277352532, 
           "name": "Alm\u00e1r"
         }, 
         {
-          "id": 89, 
+          "id": "005516659", 
+          "is_domestic": true, 
+          "latitude": 46.1162879136553, 
+          "legacy_id": 89, 
+          "longitude": 19.3288047652071, 
           "name": "Alm\u00e1s"
         }, 
         {
-          "id": 90, 
+          "id": "005501172", 
+          "is_domestic": true, 
+          "latitude": 47.7254710796398, 
+          "legacy_id": 90, 
+          "longitude": 18.2617534738487, 
           "name": "Alm\u00e1sf\u00fczit\u0151"
         }, 
         {
-          "id": 91, 
+          "id": "005501180", 
+          "is_domestic": true, 
+          "latitude": 47.7312465114375, 
+          "legacy_id": 91, 
+          "longitude": 18.2179911232616, 
           "name": "Alm\u00e1sf\u00fczit\u0151 fels\u0151"
         }, 
         {
-          "id": 94, 
+          "id": "005503517", 
+          "is_domestic": true, 
+          "latitude": 46.7242857002854, 
+          "legacy_id": 94, 
+          "longitude": 17.5163976006657, 
           "name": "Als\u00f3b\u00e9latelep"
         }, 
         {
-          "id": 95, 
+          "id": "005512898", 
+          "is_domestic": true, 
+          "latitude": 48.2128441693924, 
+          "legacy_id": 95, 
+          "longitude": 20.7922302959501, 
           "name": "Als\u00f3boldva"
         }, 
         {
-          "id": 96, 
+          "id": "005501123", 
+          "is_domestic": true, 
+          "latitude": 47.5632443579627, 
+          "legacy_id": 96, 
+          "longitude": 18.4245875672128, 
           "name": "Als\u00f3galla"
         }, 
         {
-          "id": 97, 
+          "id": "005510405", 
+          "is_domestic": true, 
+          "latitude": 47.6781832453443, 
+          "legacy_id": 97, 
+          "longitude": 19.1347442309472, 
           "name": "Als\u00f3g\u00f6d"
         }, 
         {
-          "id": 98, 
+          "id": "005504754", 
+          "is_domestic": true, 
+          "latitude": 46.7658565125565, 
+          "legacy_id": 98, 
+          "longitude": 17.2765474145529, 
           "name": "Als\u00f3gyenes"
         }, 
         {
-          "id": 99, 
-          "name": "Als\u00f3kubin [Dolny Kubin]"
-        }, 
-        {
-          "id": 100, 
+          "id": "005544677", 
+          "is_domestic": true, 
+          "latitude": 46.9615955951897, 
+          "legacy_id": 100, 
+          "longitude": 19.5790544564703, 
           "name": "Als\u00f3m\u00e9ntelek"
         }, 
         {
-          "id": 101, 
-          "name": "Als\u00f3mih\u00e1lyi [Michalany]"
+          "id": "005507021_5", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 102, 
+          "longitude": null, 
+          "name": "Als\u00f3mocsol\u00e1d (M\u00e1gocs-Als\u00f3mocsol\u00e1d)"
         }, 
         {
-          "id": 102, 
-          "name": "Als\u00f3mocsol\u00e1d [M\u00e1gocs-Als\u00f3mocsol\u00e1d]"
-        }, 
-        {
-          "id": 103, 
+          "id": "005505389", 
+          "is_domestic": true, 
+          "latitude": 46.853913433396, 
+          "legacy_id": 103, 
+          "longitude": 16.9366355027136, 
           "name": "Als\u00f3nemesap\u00e1ti"
         }, 
         {
-          "id": 104, 
+          "id": "005544370", 
+          "is_domestic": true, 
+          "latitude": 46.1993879278058, 
+          "legacy_id": 104, 
+          "longitude": 18.7384324172797, 
           "name": "Als\u00f3ny\u00e9k"
         }, 
         {
-          "id": 105, 
+          "id": "005504382", 
+          "is_domestic": true, 
+          "latitude": 46.9852174566052, 
+          "legacy_id": 105, 
+          "longitude": 17.9745735680715, 
           "name": "Als\u00f3\u00f6rs"
         }, 
         {
-          "id": 106, 
+          "id": "004302311", 
+          "is_domestic": true, 
+          "latitude": 46.964105, 
+          "legacy_id": 106, 
+          "longitude": 16.37791, 
           "name": "Als\u00f3r\u00f6n\u00f6k"
         }, 
         {
-          "id": 107, 
-          "name": "Als\u00f3szeleste [\u00d6lb\u0151-Als\u00f3szeleste]"
+          "id": "004302485_6", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 107, 
+          "longitude": null, 
+          "name": "Als\u00f3szeleste (\u00d6lb\u0151-Als\u00f3szeleste)"
         }, 
         {
-          "id": 109, 
+          "id": "005517244", 
+          "is_domestic": true, 
+          "latitude": 46.8984773031108, 
+          "legacy_id": 109, 
+          "longitude": 19.7799868400935, 
           "name": "Als\u00f3\u00farr\u00e9t"
         }, 
         {
-          "id": 110, 
-          "name": "Als\u00f3v\u00e1ros [V\u00e1c-Als\u00f3v\u00e1ros]"
+          "id": "005540816_7", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 110, 
+          "longitude": null, 
+          "name": "Als\u00f3v\u00e1ros (V\u00e1c-Als\u00f3v\u00e1ros)"
         }, 
         {
-          "id": 119, 
-          "name": "Alvinc [Vintu De Jos]"
+          "id": "005321028_8", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 119, 
+          "longitude": null, 
+          "name": "Alvinc (Vintu De Jos)"
         }, 
         {
-          "id": 122, 
+          "id": "005544354", 
+          "is_domestic": true, 
+          "latitude": 46.3530006680412, 
+          "legacy_id": 122, 
+          "longitude": 20.7405873943738, 
           "name": "Ambr\u00f3zfalva"
         }, 
         {
-          "id": 8458, 
-          "name": "AMBURGO(HAMBURG) [Hamburg Hbf]"
-        }, 
-        {
-          "id": 125, 
-          "name": "Amstetten"
-        }, 
-        {
-          "id": 127, 
-          "name": "Andac"
-        }, 
-        {
-          "id": 129, 
+          "id": "005508300", 
+          "is_domestic": true, 
+          "latitude": 46.6472907158442, 
+          "legacy_id": 129, 
+          "longitude": 17.8922770698367, 
           "name": "Andocs"
         }, 
         {
-          "id": 131, 
+          "id": "005512393", 
+          "is_domestic": true, 
+          "latitude": 47.8522926207243, 
+          "legacy_id": 131, 
+          "longitude": 20.402322251352, 
           "name": "Andornakt\u00e1lya"
         }, 
         {
-          "id": 7867, 
-          "name": "ANDRAE AM ZICKSEE ST [St. Andr\u00e4 am Zicksee]"
-        }, 
-        {
-          "id": 133, 
+          "id": "005505108", 
+          "is_domestic": true, 
+          "latitude": 46.8629324986001, 
+          "legacy_id": 133, 
+          "longitude": 16.7792963439987, 
           "name": "Andr\u00e1shida"
         }, 
         {
-          "id": 135, 
-          "name": "Andrijevci"
-        }, 
-        {
-          "id": 12721, 
-          "name": "ANDRIJEVCI [Andrijevci]"
-        }, 
-        {
-          "id": 6726, 
+          "id": "005510124", 
+          "is_domestic": true, 
+          "latitude": 47.5496856093726, 
+          "legacy_id": 6726, 
+          "longitude": 19.0897229494241, 
           "name": "Angyalf\u00f6ld"
         }, 
         {
-          "id": 141, 
-          "name": "Anhovo"
-        }, 
-        {
-          "id": 12808, 
-          "name": "ANHOVO [Anhovo]"
-        }, 
-        {
-          "id": 7883, 
-          "name": "ANTON AM ARLBERG ST [St.Anton Am Arlberg]"
-        }, 
-        {
-          "id": 153, 
+          "id": "005341846", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 153, 
+          "longitude": null, 
           "name": "Apa"
         }, 
         {
-          "id": 8019, 
-          "name": "APA [Apa]"
-        }, 
-        {
-          "id": 154, 
+          "id": "005513938", 
+          "is_domestic": true, 
+          "latitude": 47.584048369599, 
+          "legacy_id": 154, 
+          "longitude": 21.6556064076663, 
           "name": "Apafa"
         }, 
         {
-          "id": 155, 
+          "id": "005515669", 
+          "is_domestic": true, 
+          "latitude": 47.953878529128, 
+          "legacy_id": 155, 
+          "longitude": 21.9390347597065, 
           "name": "Apagy"
         }, 
         {
-          "id": 158, 
-          "name": "Apaj [D\u00f6ms\u00f6d]"
+          "id": "005516196_9", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 158, 
+          "longitude": null, 
+          "name": "Apaj (D\u00f6ms\u00f6d)"
         }, 
         {
-          "id": 160, 
+          "id": "005519117", 
+          "is_domestic": true, 
+          "latitude": 46.1751299165495, 
+          "legacy_id": 160, 
+          "longitude": 20.580360666692, 
           "name": "Ap\u00e1tfalva"
         }, 
         {
-          "id": 161, 
+          "id": "005511767", 
+          "is_domestic": true, 
+          "latitude": 47.7912582952425, 
+          "legacy_id": 161, 
+          "longitude": 19.6683506175344, 
           "name": "Apc-Zagyvasz\u00e1nt\u00f3"
         }, 
         {
-          "id": 6663, 
+          "id": "005540253", 
+          "is_domestic": true, 
+          "latitude": 47.5659665919677, 
+          "legacy_id": 6663, 
+          "longitude": 19.0498815652649, 
           "name": "Aquincum"
         }, 
         {
-          "id": 166, 
-          "name": "Ar\u00e1cs [Balatonar\u00e1cs]"
+          "id": "005504408_10", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 166, 
+          "longitude": null, 
+          "name": "Ar\u00e1cs (Balatonar\u00e1cs)"
         }, 
         {
-          "id": 167, 
+          "id": "005321834", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 167, 
+          "longitude": null, 
           "name": "Arad"
         }, 
         {
-          "id": 8245, 
-          "name": "ARAD [Arad]"
-        }, 
-        {
-          "id": 169, 
+          "id": "005515362", 
+          "is_domestic": true, 
+          "latitude": 47.6628107468851, 
+          "legacy_id": 169, 
+          "longitude": 21.8426261766562, 
           "name": "Aradv\u00e1nypuszta"
         }, 
         {
-          "id": 170, 
+          "id": "005515891", 
+          "is_domestic": true, 
+          "latitude": 48.2114909671371, 
+          "legacy_id": 170, 
+          "longitude": 22.2535488131395, 
           "name": "Aranyosap\u00e1ti"
         }, 
         {
-          "id": 171, 
-          "name": "Aranyosgy\u00e9res [Campia Turzii]"
+          "id": "005331827_11", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 171, 
+          "longitude": null, 
+          "name": "Aranyosgy\u00e9res (Campia Turzii)"
         }, 
         {
-          "id": 172, 
-          "name": "Aranyosmeggyes [Mediesu Aurit]"
+          "id": "005341860_12", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 172, 
+          "longitude": null, 
+          "name": "Aranyosmeggyes (Mediesu Aurit)"
         }, 
         {
-          "id": 7345, 
+          "id": "005501408", 
+          "is_domestic": true, 
+          "latitude": 47.5735000222898, 
+          "legacy_id": 7345, 
+          "longitude": 19.0182025676238, 
           "name": "Aranyv\u00f6lgy"
         }, 
         {
-          "id": 186, 
+          "id": "005544743", 
+          "is_domestic": true, 
+          "latitude": 46.8663968544844, 
+          "legacy_id": 186, 
+          "longitude": 19.9892915238315, 
           "name": "\u00c1rp\u00e1dsz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 189, 
-          "name": "\u00c1rvav\u00e1ralja [Oravsky Podzamok]"
-        }, 
-        {
-          "id": 199, 
+          "id": "005513151", 
+          "is_domestic": true, 
+          "latitude": 48.2201957186359, 
+          "legacy_id": 199, 
+          "longitude": 20.9616826933273, 
           "name": "Aszal\u00f3"
         }, 
         {
-          "id": 200, 
+          "id": "005511163", 
+          "is_domestic": true, 
+          "latitude": 47.6479065882178, 
+          "legacy_id": 200, 
+          "longitude": 19.4924707509794, 
           "name": "Asz\u00f3d"
         }, 
         {
-          "id": 201, 
+          "id": "005504424", 
+          "is_domestic": true, 
+          "latitude": 46.925517524345, 
+          "legacy_id": 201, 
+          "longitude": 17.8326298813048, 
           "name": "Asz\u00f3f\u0151"
         }, 
         {
-          "id": 202, 
+          "id": "005507419", 
+          "is_domestic": true, 
+          "latitude": 45.9357874036648, 
+          "legacy_id": 202, 
+          "longitude": 18.3072073899147, 
           "name": "\u00c1ta"
         }, 
         {
-          "id": 206, 
-          "name": "\u00c1tkel\u00e9s [D\u00f6m\u00f6si \u00e1tkel\u00e9s]"
+          "id": "005540857_13", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 206, 
+          "longitude": null, 
+          "name": "\u00c1tkel\u00e9s (D\u00f6m\u00f6si \u00e1tkel\u00e9s)"
         }, 
         {
-          "id": 207, 
-          "name": "Atomske Toplice Hotel"
-        }, 
-        {
-          "id": 208, 
+          "id": "005506213", 
+          "is_domestic": true, 
+          "latitude": 46.3686544785504, 
+          "legacy_id": 208, 
+          "longitude": 18.0674862273147, 
           "name": "Attala"
         }, 
         {
-          "id": 210, 
-          "name": "Attnang-Puchheim"
-        }, 
-        {
-          "id": 13153, 
-          "name": "AT.TOPLICE [Atomske Toplice Hotel]"
-        }, 
-        {
-          "id": 8459, 
-          "name": "AUGSBOURG [Augsburg Hbf]"
-        }, 
-        {
-          "id": 214, 
+          "id": "008002140", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 214, 
+          "longitude": null, 
           "name": "Augsburg Hbf"
         }, 
         {
-          "id": 221, 
-          "name": "Auschwitz [Oswiecim]"
-        }, 
-        {
-          "id": 225, 
-          "name": "Avce"
-        }, 
-        {
-          "id": 12860, 
-          "name": "AVCE [Avce]"
-        }, 
-        {
-          "id": 9968, 
-          "name": "B [BERLIN*]"
-        }, 
-        {
-          "id": 233, 
+          "id": "005505637", 
+          "is_domestic": true, 
+          "latitude": 46.0284263149505, 
+          "legacy_id": 233, 
+          "longitude": 17.3423695929518, 
           "name": "Bab\u00f3csa"
         }, 
         {
-          "id": 234, 
-          "name": "B\u00e1bolna [Nagyigm\u00e1nd-B\u00e1bolna]"
+          "id": "005503798_14", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 234, 
+          "longitude": null, 
+          "name": "B\u00e1bolna (Nagyigm\u00e1nd-B\u00e1bolna)"
         }, 
         {
-          "id": 235, 
+          "id": "005508359", 
+          "is_domestic": true, 
+          "latitude": 46.7461655569037, 
+          "legacy_id": 235, 
+          "longitude": 18.1098558752979, 
           "name": "B\u00e1bonymegyer"
         }, 
         {
-          "id": 241, 
+          "id": "007223404", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 241, 
+          "longitude": null, 
           "name": "Backa Topola"
         }, 
         {
-          "id": 245, 
+          "id": "005516642", 
+          "is_domestic": true, 
+          "latitude": 46.1178343803841, 
+          "legacy_id": 245, 
+          "longitude": 19.3469258620944, 
           "name": "B\u00e1csalm\u00e1s"
         }, 
         {
-          "id": 246, 
+          "id": "005516675", 
+          "is_domestic": true, 
+          "latitude": 46.1157016703161, 
+          "legacy_id": 246, 
+          "longitude": 19.159773131093, 
           "name": "B\u00e1csbokod-B\u00e1csbors\u00f3d"
         }, 
         {
-          "id": 247, 
-          "name": "B\u00e1csbors\u00f3d [B\u00e1csbokod-B\u00e1csbors\u00f3d]"
+          "id": "005516675_15", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 247, 
+          "longitude": null, 
+          "name": "B\u00e1csbors\u00f3d (B\u00e1csbokod-B\u00e1csbors\u00f3d)"
         }, 
         {
-          "id": 244, 
-          "name": "Bacuch"
-        }, 
-        {
-          "id": 256, 
-          "name": "Bad Gastein"
-        }, 
-        {
-          "id": 259, 
-          "name": "Bad Hofgastein"
-        }, 
-        {
-          "id": 9983, 
+          "id": "008133020", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 267, 
+          "longitude": null, 
           "name": "Bad Neusiedl Am See "
         }, 
         {
-          "id": 268, 
-          "name": "Bad Oeynhausen"
-        }, 
-        {
-          "id": 8472, 
-          "name": "Bad Oeynhausen S\u00fcd"
-        }, 
-        {
-          "id": 275, 
-          "name": "Bad Sauerbrunn"
-        }, 
-        {
-          "id": 277, 
+          "id": "008006006", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 277, 
+          "longitude": null, 
           "name": "Bad Schandau"
         }, 
         {
-          "id": 286, 
+          "id": "005504556", 
+          "is_domestic": true, 
+          "latitude": 46.7884201071854, 
+          "legacy_id": 286, 
+          "longitude": 17.5063637504202, 
           "name": "Badacsony"
         }, 
         {
-          "id": 287, 
+          "id": "005504564", 
+          "is_domestic": true, 
+          "latitude": 46.790671033091, 
+          "legacy_id": 287, 
+          "longitude": 17.4741118848143, 
           "name": "Badacsonyl\u00e1bdihegy"
         }, 
         {
-          "id": 288, 
+          "id": "005504531", 
+          "is_domestic": true, 
+          "latitude": 46.8064430475963, 
+          "legacy_id": 288, 
+          "longitude": 17.5299814841203, 
           "name": "Badacsony\u00f6rs"
         }, 
         {
-          "id": 289, 
+          "id": "005504549", 
+          "is_domestic": true, 
+          "latitude": 46.8045950441853, 
+          "legacy_id": 289, 
+          "longitude": 17.5180955159057, 
           "name": "Badacsonytomaj"
         }, 
         {
-          "id": 290, 
+          "id": "005504572", 
+          "is_domestic": true, 
+          "latitude": 46.8098669363305, 
+          "legacy_id": 290, 
+          "longitude": 17.4692461941763, 
           "name": "Badacsonyt\u00f6rdemic-Szigliget"
         }, 
         {
-          "id": 295, 
+          "id": "005511155", 
+          "is_domestic": true, 
+          "latitude": 47.6410055581286, 
+          "legacy_id": 295, 
+          "longitude": 19.4716586790959, 
           "name": "Bag"
         }, 
         {
-          "id": 296, 
+          "id": "005518085", 
+          "is_domestic": true, 
+          "latitude": 47.0601624298036, 
+          "legacy_id": 296, 
+          "longitude": 20.3156969998324, 
           "name": "Bagimajor"
         }, 
         {
-          "id": 297, 
+          "id": "005505116", 
+          "is_domestic": true, 
+          "latitude": 46.8749456171493, 
+          "legacy_id": 297, 
+          "longitude": 16.7460113357875, 
           "name": "Bagod"
         }, 
         {
-          "id": 298, 
-          "name": "Bahon"
-        }, 
-        {
-          "id": 8258, 
-          "name": "BAI [B\u0103ile Tu\u015fnad]"
-        }, 
-        {
-          "id": 8222, 
-          "name": "BAIA [Baia Mare]"
-        }, 
-        {
-          "id": 300, 
+          "id": "005341638", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 300, 
+          "longitude": null, 
           "name": "Baia Mare"
         }, 
         {
-          "id": 6802, 
+          "id": "005311308", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6740, 
+          "longitude": null, 
+          "name": "B\u0103ile Herculane"
+        }, 
+        {
+          "id": "005340256", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6802, 
+          "longitude": null, 
           "name": "B\u0103ile Tu\u015fnad"
         }, 
         {
-          "id": 308, 
+          "id": "005516709", 
+          "is_domestic": true, 
+          "latitude": 46.1865982556542, 
+          "legacy_id": 308, 
+          "longitude": 18.9576009398678, 
           "name": "Baja"
         }, 
         {
-          "id": 309, 
+          "id": "005507161", 
+          "is_domestic": true, 
+          "latitude": 46.1931463270009, 
+          "legacy_id": 309, 
+          "longitude": 18.9211648198225, 
           "name": "Baja-Dunaf\u00fcrd\u0151"
         }, 
         {
-          "id": 310, 
+          "id": "005505082", 
+          "is_domestic": true, 
+          "latitude": 46.8180563531455, 
+          "legacy_id": 310, 
+          "longitude": 16.3580552250713, 
           "name": "Baj\u00e1nsenye"
         }, 
         {
-          "id": 311, 
-          "name": "Bajc"
-        }, 
-        {
-          "id": 312, 
+          "id": "005504937", 
+          "is_domestic": true, 
+          "latitude": 46.7320060677493, 
+          "legacy_id": 312, 
+          "longitude": 16.8488783797938, 
           "name": "Bak"
         }, 
         {
-          "id": 6680, 
-          "name": "B.akali [Balatonakali-D\u00f6rgicse]"
+          "id": "005504465_16", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6680, 
+          "longitude": null, 
+          "name": "B.akali (Balatonakali-D\u00f6rgicse)"
         }, 
         {
-          "id": 6685, 
-          "name": "B.akarattya [Balatonakarattya]"
+          "id": "005504325_17", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6685, 
+          "longitude": null, 
+          "name": "B.akarattya (Balatonakarattya)"
         }, 
         {
-          "id": 314, 
+          "id": "005545716", 
+          "is_domestic": true, 
+          "latitude": 47.4160267972336, 
+          "legacy_id": 314, 
+          "longitude": 17.8116884679568, 
           "name": "Bakonygyir\u00f3t"
         }, 
         {
-          "id": 315, 
+          "id": "005503756", 
+          "is_domestic": true, 
+          "latitude": 47.4438978524944, 
+          "legacy_id": 315, 
+          "longitude": 18.1034435572176, 
           "name": "Bakonys\u00e1rk\u00e1ny"
         }, 
         {
-          "id": 316, 
+          "id": "005502972", 
+          "is_domestic": true, 
+          "latitude": 47.3960002335981, 
+          "legacy_id": 316, 
+          "longitude": 17.8175325279802, 
           "name": "Bakonyszentl\u00e1szl\u00f3"
         }, 
         {
-          "id": 317, 
+          "id": "005515701", 
+          "is_domestic": true, 
+          "latitude": 47.9884566138614, 
+          "legacy_id": 317, 
+          "longitude": 22.082640647877, 
           "name": "Baktal\u00f3r\u00e1nth\u00e1za"
         }, 
         {
-          "id": 318, 
+          "id": "005545922", 
+          "is_domestic": true, 
+          "latitude": 46.6907819267761, 
+          "legacy_id": 318, 
+          "longitude": 16.8244795355183, 
           "name": "Bakt\u00fctt\u00f6s"
         }, 
         {
-          "id": 320, 
+          "id": "005510967", 
+          "is_domestic": true, 
+          "latitude": 48.0714172569973, 
+          "legacy_id": 320, 
+          "longitude": 19.2937078561101, 
           "name": "Balassagyarmat"
         }, 
         {
-          "id": 321, 
+          "id": "005517178", 
+          "is_domestic": true, 
+          "latitude": 46.4135321847188, 
+          "legacy_id": 321, 
+          "longitude": 20.0015257249272, 
           "name": "Bal\u00e1stya"
         }, 
         {
-          "id": 322, 
+          "id": "005504465", 
+          "is_domestic": true, 
+          "latitude": 46.8798411715374, 
+          "legacy_id": 322, 
+          "longitude": 17.747843081434, 
           "name": "Balatonakali-D\u00f6rgicse"
         }, 
         {
-          "id": 323, 
+          "id": "005504325", 
+          "is_domestic": true, 
+          "latitude": 47.0173854090932, 
+          "legacy_id": 323, 
+          "longitude": 18.1677626912872, 
           "name": "Balatonakarattya"
         }, 
         {
-          "id": 324, 
+          "id": "005503319", 
+          "is_domestic": true, 
+          "latitude": 46.9842720778511, 
+          "legacy_id": 324, 
+          "longitude": 18.1709870643641, 
           "name": "Balatonaliga"
         }, 
         {
-          "id": 325, 
+          "id": "005504366", 
+          "is_domestic": true, 
+          "latitude": 47.0283947459369, 
+          "legacy_id": 325, 
+          "longitude": 18.0147352924566, 
           "name": "Balatonalm\u00e1di"
         }, 
         {
-          "id": 326, 
+          "id": "005504408", 
+          "is_domestic": true, 
+          "latitude": 46.9625541587481, 
+          "legacy_id": 326, 
+          "longitude": 17.8973615279917, 
           "name": "Balatonar\u00e1cs"
         }, 
         {
-          "id": 327, 
+          "id": "005503558", 
+          "is_domestic": true, 
+          "latitude": 46.713812260086, 
+          "legacy_id": 327, 
+          "longitude": 17.3169045178208, 
           "name": "Balatonber\u00e9ny"
         }, 
         {
-          "id": 328, 
+          "id": "005503475", 
+          "is_domestic": true, 
+          "latitude": 46.7759022947657, 
+          "legacy_id": 328, 
+          "longitude": 17.6469624148716, 
           "name": "Balatonbogl\u00e1r"
         }, 
         {
-          "id": 329, 
+          "id": "005504804", 
+          "is_domestic": true, 
+          "latitude": 46.802661092803, 
+          "legacy_id": 329, 
+          "longitude": 17.3849226990925, 
           "name": "Balatonederics"
         }, 
         {
-          "id": 330, 
+          "id": "005503525", 
+          "is_domestic": true, 
+          "latitude": 46.7137186484454, 
+          "legacy_id": 330, 
+          "longitude": 17.4832300655658, 
           "name": "Balatonfenyves"
         }, 
         {
-          "id": 331, 
+          "id": "005503483", 
+          "is_domestic": true, 
+          "latitude": 46.7082720820666, 
+          "legacy_id": 331, 
+          "longitude": 17.453917651224, 
           "name": "Balatonfenyves als\u00f3"
         }, 
         {
-          "id": 332, 
+          "id": "005549452", 
+          "is_domestic": true, 
+          "latitude": 46.7124176999601, 
+          "legacy_id": 332, 
+          "longitude": 17.4790174638129, 
           "name": "Balatonfenyves GV"
         }, 
         {
-          "id": 333, 
+          "id": "005547308", 
+          "is_domestic": true, 
+          "latitude": 47.0310877098314, 
+          "legacy_id": 333, 
+          "longitude": 18.2142593578276, 
           "name": "Balatonf\u0151kaj\u00e1r fels\u0151"
         }, 
         {
-          "id": 334, 
+          "id": "005503418", 
+          "is_domestic": true, 
+          "latitude": 46.8531913734159, 
+          "legacy_id": 334, 
+          "longitude": 17.8800831426576, 
           "name": "Balatonf\u00f6ldv\u00e1r"
         }, 
         {
-          "id": 335, 
+          "id": "005504416", 
+          "is_domestic": true, 
+          "latitude": 46.956030040575, 
+          "legacy_id": 335, 
+          "longitude": 17.8832934232644, 
           "name": "Balatonf\u00fcred"
         }, 
         {
-          "id": 336, 
+          "id": "005504358", 
+          "is_domestic": true, 
+          "latitude": 47.0598504723118, 
+          "legacy_id": 336, 
+          "longitude": 18.0426961654691, 
           "name": "Balatonf\u0171zf\u0151"
         }, 
         {
-          "id": 337, 
+          "id": "005504788", 
+          "is_domestic": true, 
+          "latitude": 46.7519423099569, 
+          "legacy_id": 337, 
+          "longitude": 17.3541435769754, 
           "name": "Balatongy\u00f6r\u00f6k"
         }, 
         {
-          "id": 338, 
+          "id": "005504341", 
+          "is_domestic": true, 
+          "latitude": 47.0324810167327, 
+          "legacy_id": 338, 
+          "longitude": 18.105619039235, 
           "name": "Balatonkenese"
         }, 
         {
-          "id": 7412, 
-          "name": "Balatonkenese-\u00dcd\u00fcl\u0151telep [Csitt\u00e9nyhegy]"
+          "id": "005504333_18", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7412, 
+          "longitude": null, 
+          "name": "Balatonkenese-\u00dcd\u00fcl\u0151telep (Csitt\u00e9nyhegy)"
         }, 
         {
-          "id": 340, 
+          "id": "005503459", 
+          "is_domestic": true, 
+          "latitude": 46.7874744561778, 
+          "legacy_id": 340, 
+          "longitude": 17.6942556519146, 
           "name": "Balatonlelle"
         }, 
         {
-          "id": 341, 
+          "id": "005503442", 
+          "is_domestic": true, 
+          "latitude": 46.7947228937021, 
+          "legacy_id": 341, 
+          "longitude": 17.7198794747937, 
           "name": "Balatonlelle fels\u0151"
         }, 
         {
-          "id": 342, 
+          "id": "005503541", 
+          "is_domestic": true, 
+          "latitude": 46.7041462848337, 
+          "legacy_id": 342, 
+          "longitude": 17.3749606856427, 
           "name": "Balatonm\u00e1riaf\u00fcrd\u0151"
         }, 
         {
-          "id": 344, 
+          "id": "005504515", 
+          "is_domestic": true, 
+          "latitude": 46.8255012543755, 
+          "legacy_id": 344, 
+          "longitude": 17.5840855899427, 
           "name": "Balatonrendes"
         }, 
         {
-          "id": 345, 
+          "id": "005503426", 
+          "is_domestic": true, 
+          "latitude": 46.8318976307712, 
+          "legacy_id": 345, 
+          "longitude": 17.8303615570583, 
           "name": "Balatonsz\u00e1rsz\u00f3"
         }, 
         {
-          "id": 346, 
+          "id": "005503434", 
+          "is_domestic": true, 
+          "latitude": 46.8116519754734, 
+          "legacy_id": 346, 
+          "longitude": 17.7759917242329, 
           "name": "Balatonszemes"
         }, 
         {
-          "id": 347, 
+          "id": "005503566", 
+          "is_domestic": true, 
+          "latitude": 46.6925759614405, 
+          "legacy_id": 347, 
+          "longitude": 17.2885406016183, 
           "name": "Balatonszentgy\u00f6rgy"
         }, 
         {
-          "id": 348, 
+          "id": "005504481", 
+          "is_domestic": true, 
+          "latitude": 46.8511605430272, 
+          "legacy_id": 348, 
+          "longitude": 17.6630505373357, 
           "name": "Balatonszepezd"
         }, 
         {
-          "id": 349, 
+          "id": "005503376", 
+          "is_domestic": true, 
+          "latitude": 46.8918946386229, 
+          "legacy_id": 349, 
+          "longitude": 17.9933002833432, 
           "name": "Balatonsz\u00e9plak als\u00f3"
         }, 
         {
-          "id": 350, 
+          "id": "005503368", 
+          "is_domestic": true, 
+          "latitude": 46.898001053013, 
+          "legacy_id": 350, 
+          "longitude": 18.0181141393196, 
           "name": "Balatonsz\u00e9plak fels\u0151"
         }, 
         {
-          "id": 351, 
+          "id": "005504440", 
+          "is_domestic": true, 
+          "latitude": 46.9047717793033, 
+          "legacy_id": 351, 
+          "longitude": 17.8078537840224, 
           "name": "Balatonudvari"
         }, 
         {
-          "id": 352, 
+          "id": "005503327", 
+          "is_domestic": true, 
+          "latitude": 46.9637575995532, 
+          "legacy_id": 352, 
+          "longitude": 18.1576620887631, 
           "name": "Balatonvil\u00e1gos"
         }, 
         {
-          "id": 6648, 
-          "name": "B.aliga [Balatonaliga]"
+          "id": "005503319_19", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6648, 
+          "longitude": null, 
+          "name": "B.aliga (Balatonaliga)"
         }, 
         {
-          "id": 6821, 
-          "name": "B.alm\u00e1di [Balatonalm\u00e1di]"
+          "id": "005504366_20", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6821, 
+          "longitude": null, 
+          "name": "B.alm\u00e1di (Balatonalm\u00e1di)"
         }, 
         {
-          "id": 359, 
+          "id": "005514506", 
+          "is_domestic": true, 
+          "latitude": 47.6137668464941, 
+          "legacy_id": 359, 
+          "longitude": 21.3478818481347, 
           "name": "Balmaz\u00fajv\u00e1ros"
         }, 
         {
-          "id": 361, 
-          "name": "Balogunyom [J\u00e1k-Balogunyom]"
+          "id": "004302261_21", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 361, 
+          "longitude": null, 
+          "name": "Balogunyom (J\u00e1k-Balogunyom)"
         }, 
         {
-          "id": 365, 
+          "id": "005322606", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 363, 
+          "longitude": null, 
+          "name": "Balota"
+        }, 
+        {
+          "id": "005516329", 
+          "is_domestic": true, 
+          "latitude": 46.3492895368492, 
+          "legacy_id": 365, 
+          "longitude": 19.5331973780959, 
           "name": "Balotasz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 373, 
-          "name": "B\u00e1n [Banovce Nad Bebravou]"
+          "id": "005332261_22", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 377, 
+          "longitude": null, 
+          "name": "B\u00e1nffyhunyad (Huedin)"
         }, 
         {
-          "id": 377, 
-          "name": "B\u00e1nffyhunyad [Huedin]"
-        }, 
-        {
-          "id": 378, 
+          "id": "005542481", 
+          "is_domestic": true, 
+          "latitude": 47.3249682236804, 
+          "legacy_id": 378, 
+          "longitude": 20.665805161564, 
           "name": "B\u00e1nhalma-Halast\u00f3"
         }, 
         {
-          "id": 379, 
+          "id": "005541129", 
+          "is_domestic": true, 
+          "latitude": 47.5739322225939, 
+          "legacy_id": 379, 
+          "longitude": 18.3720921633684, 
           "name": "B\u00e1nhida"
         }, 
         {
-          "id": 382, 
+          "id": "005519299", 
+          "is_domestic": true, 
+          "latitude": 46.5052844149511, 
+          "legacy_id": 382, 
+          "longitude": 21.0942399767289, 
           "name": "B\u00e1nk\u00fat"
         }, 
         {
-          "id": 383, 
-          "name": "B\u00e1n\u00f3c [Banovce Nad Ondavou]"
-        }, 
-        {
-          "id": 384, 
-          "name": "Banov"
-        }, 
-        {
-          "id": 385, 
-          "name": "Banova Jaruga"
-        }, 
-        {
-          "id": 8692, 
-          "name": "BANOVCE [Banovce Nad Bebravou]"
-        }, 
-        {
-          "id": 8583, 
-          "name": "BANOVCE [Banovce Nad Ondavou]"
-        }, 
-        {
-          "id": 386, 
-          "name": "Banovce Nad Bebravou"
-        }, 
-        {
-          "id": 387, 
-          "name": "Banovce Nad Ondavou"
-        }, 
-        {
-          "id": 388, 
+          "id": "005512849", 
+          "is_domestic": true, 
+          "latitude": 48.2997800802784, 
+          "legacy_id": 388, 
+          "longitude": 20.3523112926196, 
           "name": "B\u00e1nr\u00e9ve"
         }, 
         {
-          "id": 389, 
+          "id": "005541558", 
+          "is_domestic": true, 
+          "latitude": 48.284301643768, 
+          "legacy_id": 389, 
+          "longitude": 20.3680912012445, 
           "name": "B\u00e1nr\u00e9vei V\u00edzm\u0171"
         }, 
         {
-          "id": 8600, 
-          "name": "BANSKA [Banska Bela]"
+          "id": "005511866_23", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6679, 
+          "longitude": null, 
+          "name": "B\u00e1nyatelep (Kisterenye-B\u00e1nyatelep)"
         }, 
         {
-          "id": 8617, 
-          "name": "BANSKA [Banska Bystrica]"
+          "id": "005504408_24", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6843, 
+          "longitude": null, 
+          "name": "B.ar\u00e1cs (Balatonar\u00e1cs)"
         }, 
         {
-          "id": 390, 
-          "name": "Banska Bela"
-        }, 
-        {
-          "id": 391, 
-          "name": "Banska Bystrica"
-        }, 
-        {
-          "id": 392, 
-          "name": "Banska Bystrica Mesto"
-        }, 
-        {
-          "id": 393, 
-          "name": "Banska Stiavnica"
-        }, 
-        {
-          "id": 394, 
-          "name": "Bansky Studenec"
-        }, 
-        {
-          "id": 6679, 
-          "name": "B\u00e1nyatelep [Kisterenye-B\u00e1nyatelep]"
-        }, 
-        {
-          "id": 6811, 
-          "name": "Bar"
-        }, 
-        {
-          "id": 8235, 
-          "name": "BAR [Bar]"
-        }, 
-        {
-          "id": 6843, 
-          "name": "B.ar\u00e1cs [Balatonar\u00e1cs]"
-        }, 
-        {
-          "id": 397, 
+          "id": "005503186", 
+          "is_domestic": true, 
+          "latitude": 47.2981299503437, 
+          "legacy_id": 397, 
+          "longitude": 18.7551712890605, 
           "name": "Baracska"
         }, 
         {
-          "id": 399, 
+          "id": "005514407", 
+          "is_domestic": true, 
+          "latitude": 47.2996280589717, 
+          "legacy_id": 399, 
+          "longitude": 21.2351736173285, 
           "name": "B\u00e1r\u00e1nd"
         }, 
         {
-          "id": 7327, 
-          "name": "Bar\u00e1tudvar-F\u00e9ltorony [M\u00f6nchhof-Halbturn [\u00d6BB]]"
+          "id": "008103024_25", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7327, 
+          "longitude": null, 
+          "name": "Bar\u00e1tudvar-F\u00e9ltorony (M\u00f6nchhof-Halbturn [\u00d6BB])"
         }, 
         {
-          "id": 406, 
-          "name": "Barca"
-        }, 
-        {
-          "id": 407, 
-          "name": "B\u00e1rca [Barca]"
-        }, 
-        {
-          "id": 409, 
+          "id": "005505660", 
+          "is_domestic": true, 
+          "latitude": 45.9519085391513, 
+          "legacy_id": 409, 
+          "longitude": 17.4466382443607, 
           "name": "Barcs"
         }, 
         {
-          "id": 410, 
+          "id": "005505678", 
+          "is_domestic": true, 
+          "latitude": 45.9583419387013, 
+          "legacy_id": 410, 
+          "longitude": 17.4860265373614, 
           "name": "Barcs fels\u0151"
         }, 
         {
-          "id": 411, 
-          "name": "Bardejov"
-        }, 
-        {
-          "id": 412, 
-          "name": "Bark\u00f3 [Brekov]"
-        }, 
-        {
-          "id": 416, 
+          "id": "005547399", 
+          "is_domestic": true, 
+          "latitude": 47.3987248152334, 
+          "legacy_id": 416, 
+          "longitude": 18.9893728813879, 
           "name": "Barosstelep"
         }, 
         {
-          "id": 417, 
-          "name": "B\u00e1rtfa [Bardejov]"
-        }, 
-        {
-          "id": 419, 
-          "name": "Bartosova Lehotka"
-        }, 
-        {
-          "id": 420, 
-          "name": "Bartosovce"
-        }, 
-        {
-          "id": 428, 
+          "id": "005514910", 
+          "is_domestic": true, 
+          "latitude": 48.0260798673501, 
+          "legacy_id": 428, 
+          "longitude": 21.5145525503702, 
           "name": "Bashalom"
         }, 
         {
-          "id": 429, 
+          "id": "005507146", 
+          "is_domestic": true, 
+          "latitude": 46.2024722127936, 
+          "legacy_id": 429, 
+          "longitude": 18.7150442644928, 
           "name": "B\u00e1tasz\u00e9k"
         }, 
         {
-          "id": 430, 
+          "id": "005506247", 
+          "is_domestic": true, 
+          "latitude": 46.3556069441299, 
+          "legacy_id": 430, 
+          "longitude": 17.9607733826099, 
           "name": "Bat\u00e9"
         }, 
         {
-          "id": 6849, 
+          "id": "002238250", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6849, 
+          "longitude": null, 
           "name": "Batevo"
         }, 
         {
-          "id": 12643, 
-          "name": "BATEVO [Batevo]"
+          "id": "005347319_26", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 433, 
+          "longitude": null, 
+          "name": "Batiz (Botiz)"
         }, 
         {
-          "id": 433, 
-          "name": "Batiz [Botiz]"
-        }, 
-        {
-          "id": 434, 
+          "id": "005519323", 
+          "is_domestic": true, 
+          "latitude": 46.2819786368012, 
+          "legacy_id": 434, 
+          "longitude": 21.0043166500805, 
           "name": "Battonya"
         }, 
         {
-          "id": 437, 
-          "name": "Batyk [Zalab\u00e9r-Batyk]"
+          "id": "005504846_27", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 437, 
+          "longitude": null, 
+          "name": "Batyk (Zalab\u00e9r-Batyk)"
         }, 
         {
-          "id": 6751, 
-          "name": "B\u00e1ty\u00fa [Batevo]"
+          "id": "002238250_28", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6751, 
+          "longitude": null, 
+          "name": "B\u00e1ty\u00fa (Batevo)"
         }, 
         {
-          "id": 438, 
+          "id": "008133216", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 438, 
+          "longitude": null, 
           "name": "Baumgarten"
         }, 
         {
-          "id": 6790, 
-          "name": "Bazaltb\u00e1nya [S\u00fcmegi Bazaltb\u00e1nya]"
+          "id": "005504655_29", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6790, 
+          "longitude": null, 
+          "name": "Bazaltb\u00e1nya (S\u00fcmegi Bazaltb\u00e1nya)"
         }, 
         {
-          "id": 446, 
-          "name": "Bazin [Pezinok]"
+          "id": "005503558_30", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6812, 
+          "longitude": null, 
+          "name": "B.ber\u00e9ny (Balatonber\u00e9ny)"
         }, 
         {
-          "id": 6812, 
-          "name": "B.ber\u00e9ny [Balatonber\u00e9ny]"
+          "id": "005503475_31", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6696, 
+          "longitude": null, 
+          "name": "B.bogl\u00e1r (Balatonbogl\u00e1r)"
         }, 
         {
-          "id": 6696, 
-          "name": "B.bogl\u00e1r [Balatonbogl\u00e1r]"
-        }, 
-        {
-          "id": 450, 
+          "id": "005504796", 
+          "is_domestic": true, 
+          "latitude": 46.7760159024261, 
+          "legacy_id": 450, 
+          "longitude": 17.3725626068262, 
           "name": "Becehegy"
         }, 
         {
-          "id": 8177, 
-          "name": "BECLEAN [Beclean Pe Somes]"
-        }, 
-        {
-          "id": 452, 
+          "id": "005341054", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 452, 
+          "longitude": null, 
           "name": "Beclean Pe Somes"
         }, 
         {
-          "id": 7879, 
-          "name": "BECS FOEPALYAUDVAR [Wien Hbf]"
+          "id": "008108000_32", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 453, 
+          "longitude": null, 
+          "name": "B\u00e9cs (WIEN*)"
         }, 
         {
-          "id": 454, 
-          "name": "B\u00e9cs Westbahnhof [Wien Westbf]"
-        }, 
-        {
-          "id": 453, 
-          "name": "B\u00e9cs [WIEN*]"
-        }, 
-        {
-          "id": 455, 
+          "id": "005541244", 
+          "is_domestic": true, 
+          "latitude": 47.8955983343392, 
+          "legacy_id": 455, 
+          "longitude": 19.3669955770605, 
           "name": "Becske als\u00f3"
         }, 
         {
-          "id": 456, 
-          "name": "B\u00e9cs\u00fajhely [Wiener Neustadt]"
+          "id": "005504804_33", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6664, 
+          "longitude": null, 
+          "name": "B.ederics (Balatonederics)"
         }, 
         {
-          "id": 13097, 
-          "name": "Bedekovcina"
-        }, 
-        {
-          "id": 12756, 
-          "name": "BEDEKOVCINA [Bedekovcina]"
-        }, 
-        {
-          "id": 6664, 
-          "name": "B.ederics [Balatonederics]"
-        }, 
-        {
-          "id": 458, 
+          "id": "005518036", 
+          "is_domestic": true, 
+          "latitude": 46.6692165341288, 
+          "legacy_id": 458, 
+          "longitude": 21.082009695858, 
           "name": "B\u00e9k\u00e9scsaba"
         }, 
         {
-          "id": 459, 
-          "name": "Bela Nad Cirochou"
-        }, 
-        {
-          "id": 460, 
-          "name": "Bela Palanka"
-        }, 
-        {
-          "id": 461, 
+          "id": "005512476", 
+          "is_domestic": true, 
+          "latitude": 48.0557045867082, 
+          "legacy_id": 461, 
+          "longitude": 20.3405135941486, 
           "name": "B\u00e9lap\u00e1tfalva"
         }, 
         {
-          "id": 462, 
+          "id": "005512484", 
+          "is_domestic": true, 
+          "latitude": 48.0575900082992, 
+          "legacy_id": 462, 
+          "longitude": 20.3530091818801, 
           "name": "B\u00e9lap\u00e1tfalvi Cementgy\u00e1r"
         }, 
         {
-          "id": 463, 
+          "id": "005503509", 
+          "is_domestic": true, 
+          "latitude": 46.7376101876286, 
+          "legacy_id": 463, 
+          "longitude": 17.5349884875876, 
           "name": "B\u00e9latelep"
         }, 
         {
-          "id": 464, 
+          "id": "005505611", 
+          "is_domestic": true, 
+          "latitude": 46.1228796345456, 
+          "legacy_id": 464, 
+          "longitude": 17.2075745828775, 
           "name": "B\u00e9lav\u00e1r"
         }, 
         {
-          "id": 465, 
+          "id": "005546029", 
+          "is_domestic": true, 
+          "latitude": 46.6396192243915, 
+          "legacy_id": 465, 
+          "longitude": 18.4114569991163, 
           "name": "Belecska"
         }, 
         {
-          "id": 466, 
+          "id": "004302402", 
+          "is_domestic": true, 
+          "latitude": 47.4666132122881, 
+          "legacy_id": 466, 
+          "longitude": 17.085095421081, 
           "name": "Beled"
         }, 
         {
-          "id": 467, 
+          "id": "005506353", 
+          "is_domestic": true, 
+          "latitude": 46.3168118021296, 
+          "legacy_id": 467, 
+          "longitude": 17.420434078247, 
           "name": "Beleg"
         }, 
         {
-          "id": 468, 
+          "id": "005505553", 
+          "is_domestic": true, 
+          "latitude": 46.3262630080532, 
+          "legacy_id": 468, 
+          "longitude": 16.8774304787853, 
           "name": "Belezna"
         }, 
         {
-          "id": 7878, 
-          "name": "BELJAK GL.KOL. [Villach Hbf]"
+          "id": "007871705", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6606, 
+          "longitude": null, 
+          "name": "Beli Manastir"
         }, 
         {
-          "id": 6613, 
-          "name": "Beloiannisz [Iv\u00e1ncsa]"
+          "id": "005505868_34", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6613, 
+          "longitude": null, 
+          "name": "Beloiannisz (Iv\u00e1ncsa)"
         }, 
         {
-          "id": 477, 
-          "name": "Belov\u00e1r [Bjelovar]"
-        }, 
-        {
-          "id": 481, 
+          "id": "005504119", 
+          "is_domestic": true, 
+          "latitude": 47.1028187034005, 
+          "legacy_id": 481, 
+          "longitude": 18.4997748795344, 
           "name": "Bels\u0151b\u00e1r\u00e1nd"
         }, 
         {
-          "id": 482, 
+          "id": "005542978", 
+          "is_domestic": true, 
+          "latitude": 46.3412621831228, 
+          "legacy_id": 482, 
+          "longitude": 20.8485254069123, 
           "name": "Bels\u0151kamar\u00e1spuszta"
         }, 
         {
-          "id": 483, 
+          "id": "005519307", 
+          "is_domestic": true, 
+          "latitude": 46.3202543702163, 
+          "legacy_id": 483, 
+          "longitude": 20.9061544872845, 
           "name": "Bels\u0151peregpuszta"
         }, 
         {
-          "id": 484, 
-          "name": "Belusa"
-        }, 
-        {
-          "id": 489, 
-          "name": "Benus"
-        }, 
-        {
-          "id": 8193, 
-          "name": "BEOGRAD [Beograd Centar]"
-        }, 
-        {
-          "id": 8214, 
+          "id": "007216052", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 8214, 
+          "longitude": null, 
           "name": "Beograd Centar"
         }, 
         {
-          "id": 13938, 
-          "name": "Beograd Top\u010dider"
-        }, 
-        {
-          "id": 494, 
+          "id": "005514225", 
+          "is_domestic": true, 
+          "latitude": 47.3748502319321, 
+          "legacy_id": 494, 
+          "longitude": 20.8273415464455, 
           "name": "Berekf\u00fcrd\u0151"
         }, 
         {
-          "id": 495, 
+          "id": "005512757", 
+          "is_domestic": true, 
+          "latitude": 48.2386946205473, 
+          "legacy_id": 495, 
+          "longitude": 20.6729004424952, 
           "name": "Berente"
         }, 
         {
-          "id": 496, 
+          "id": "005514423", 
+          "is_domestic": true, 
+          "latitude": 47.2122334733219, 
+          "legacy_id": 496, 
+          "longitude": 21.5322404983994, 
           "name": "Beretty\u00f3\u00fajfalu"
         }, 
         {
-          "id": 503, 
+          "id": "005510629", 
+          "is_domestic": true, 
+          "latitude": 47.8855258747064, 
+          "legacy_id": 503, 
+          "longitude": 19.0715288610412, 
           "name": "Berkenye"
         }, 
         {
-          "id": 9969, 
-          "name": "BERLIJN [BERLIN*]"
-        }, 
-        {
-          "id": 504, 
+          "id": "008062648", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 504, 
+          "longitude": null, 
           "name": "BERLIN*"
         }, 
         {
-          "id": 13963, 
-          "name": "BERLIN CENTRAL STATION [Berlin Hbf]"
-        }, 
-        {
-          "id": 13960, 
-          "name": "BERLIN HAUPTBAHNHOF [Berlin Hbf]"
-        }, 
-        {
-          "id": 506, 
+          "id": "008065969", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 506, 
+          "longitude": null, 
           "name": "Berlin Hbf"
         }, 
         {
-          "id": 507, 
+          "id": "008031922", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 507, 
+          "longitude": null, 
           "name": "Berlin Hbf (Tief)"
         }, 
         {
-          "id": 508, 
+          "id": "008003004", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 508, 
+          "longitude": null, 
           "name": "Berlin Ostbahnhof"
         }, 
         {
-          "id": 509, 
+          "id": "008065971", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 509, 
+          "longitude": null, 
           "name": "Berlin S\u00fcdkreuz"
         }, 
         {
-          "id": 9967, 
-          "name": "BERLINO [BERLIN*]"
+          "id": "008003034", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Berlin-Charlottenbg."
         }, 
         {
-          "id": 512, 
+          "id": "008003025", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 512, 
+          "longitude": null, 
           "name": "Berlin-Spandau"
         }, 
         {
-          "id": 10071, 
-          "name": "Berlin-Spandau [Berlin-Spandau]"
-        }, 
-        {
-          "id": 519, 
-          "name": "Bernolakovo"
-        }, 
-        {
-          "id": 520, 
+          "id": "005505595", 
+          "is_domestic": true, 
+          "latitude": 46.2012472285071, 
+          "legacy_id": 520, 
+          "longitude": 17.143796830538, 
           "name": "Berzence"
         }, 
         {
-          "id": 521, 
-          "name": "Besa"
+          "id": "005505868_35", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6614, 
+          "longitude": null, 
+          "name": "Besny\u0151 (Iv\u00e1ncsa)"
         }, 
         {
-          "id": 6835, 
-          "name": "Beska"
+          "id": "005341054_36", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 527, 
+          "longitude": null, 
+          "name": "Bethlen (Beclean Pe Somes)"
         }, 
         {
-          "id": 8253, 
-          "name": "BESKA [Beska]"
-        }, 
-        {
-          "id": 8482, 
-          "name": "Besko"
-        }, 
-        {
-          "id": 8651, 
-          "name": "BESKO [Besko]"
-        }, 
-        {
-          "id": 6614, 
-          "name": "Besny\u0151 [Iv\u00e1ncsa]"
-        }, 
-        {
-          "id": 525, 
-          "name": "Beszterceb\u00e1nya [Banska Bystrica]"
-        }, 
-        {
-          "id": 527, 
-          "name": "Bethlen [Beclean Pe Somes]"
-        }, 
-        {
-          "id": 529, 
+          "id": "004347431", 
+          "is_domestic": true, 
+          "latitude": 47.973296, 
+          "legacy_id": 529, 
+          "longitude": 17.207873, 
           "name": "Bezenye"
         }, 
         {
-          "id": 6694, 
-          "name": "B.fenyves als\u00f3 [Balatonfenyves als\u00f3]"
+          "id": "005503525_37", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6761, 
+          "longitude": null, 
+          "name": "B.fenyves (Balatonfenyves)"
         }, 
         {
-          "id": 6761, 
-          "name": "B.fenyves [Balatonfenyves]"
+          "id": "005503483_38", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6694, 
+          "longitude": null, 
+          "name": "B.fenyves als\u00f3 (Balatonfenyves als\u00f3)"
         }, 
         {
-          "id": 6853, 
-          "name": "B.fenyves GV [Balatonfenyves GV]"
+          "id": "005549452_39", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6853, 
+          "longitude": null, 
+          "name": "B.fenyves GV (Balatonfenyves GV)"
         }, 
         {
-          "id": 6690, 
-          "name": "B.f\u0151kaj\u00e1r fels\u0151 [Balatonf\u0151kaj\u00e1r fels\u0151]"
+          "id": "005547308_40", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6690, 
+          "longitude": null, 
+          "name": "B.f\u0151kaj\u00e1r fels\u0151 (Balatonf\u0151kaj\u00e1r fels\u0151)"
         }, 
         {
-          "id": 6632, 
-          "name": "B.f\u00f6ldv\u00e1r [Balatonf\u00f6ldv\u00e1r]"
+          "id": "005503418_41", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6632, 
+          "longitude": null, 
+          "name": "B.f\u00f6ldv\u00e1r (Balatonf\u00f6ldv\u00e1r)"
         }, 
         {
-          "id": 6765, 
-          "name": "B.f\u00fcred [Balatonf\u00fcred]"
+          "id": "005504416_42", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6765, 
+          "longitude": null, 
+          "name": "B.f\u00fcred (Balatonf\u00fcred)"
         }, 
         {
-          "id": 6647, 
-          "name": "B.f\u00fczf\u0151 [Balatonf\u0171zf\u0151]"
+          "id": "005504358_43", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6647, 
+          "longitude": null, 
+          "name": "B.f\u00fczf\u0151 (Balatonf\u0171zf\u0151)"
         }, 
         {
-          "id": 6840, 
-          "name": "B.gy\u00f6r\u00f6k [Balatongy\u00f6r\u00f6k]"
+          "id": "005504788_44", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6840, 
+          "longitude": null, 
+          "name": "B.gy\u00f6r\u00f6k (Balatongy\u00f6r\u00f6k)"
         }, 
         {
-          "id": 13962, 
-          "name": "BHBF [Berlin Hbf]"
-        }, 
-        {
-          "id": 532, 
+          "id": "005501057", 
+          "is_domestic": true, 
+          "latitude": 47.4798682139984, 
+          "legacy_id": 532, 
+          "longitude": 18.8344660227594, 
           "name": "Biatorb\u00e1gy"
         }, 
         {
-          "id": 536, 
+          "id": "005518689", 
+          "is_domestic": true, 
+          "latitude": 46.6598896832577, 
+          "legacy_id": 536, 
+          "longitude": 21.1794749783131, 
           "name": "Bicere"
         }, 
         {
-          "id": 540, 
+          "id": "005507278", 
+          "is_domestic": true, 
+          "latitude": 46.0411465749434, 
+          "legacy_id": 540, 
+          "longitude": 18.0540340017933, 
           "name": "Bics\u00e9rd"
         }, 
         {
-          "id": 541, 
+          "id": "005501081", 
+          "is_domestic": true, 
+          "latitude": 47.4843100376845, 
+          "legacy_id": 541, 
+          "longitude": 18.6184560821317, 
           "name": "Bicske"
         }, 
         {
-          "id": 542, 
+          "id": "005540170", 
+          "is_domestic": true, 
+          "latitude": 47.4865399180115, 
+          "legacy_id": 542, 
+          "longitude": 18.6432457445197, 
           "name": "Bicske als\u00f3"
         }, 
         {
-          "id": 543, 
-          "name": "Biel"
+          "id": "005344989_45", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 547, 
+          "longitude": null, 
+          "name": "Bihar (Biharia)"
         }, 
         {
-          "id": 545, 
-          "name": "Bielovce"
+          "id": "005345048_46", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 548, 
+          "longitude": null, 
+          "name": "Bihardi\u00f3szeg (Diosig)"
         }, 
         {
-          "id": 547, 
-          "name": "Bihar [Biharia]"
-        }, 
-        {
-          "id": 548, 
-          "name": "Bihardi\u00f3szeg [Diosig]"
-        }, 
-        {
-          "id": 549, 
+          "id": "005344989", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 549, 
+          "longitude": null, 
           "name": "Biharia"
         }, 
         {
-          "id": 8036, 
-          "name": "BIHARIA [Biharia]"
-        }, 
-        {
-          "id": 550, 
+          "id": "005514449", 
+          "is_domestic": true, 
+          "latitude": 47.1354270744317, 
+          "legacy_id": 550, 
+          "longitude": 21.7218663870529, 
           "name": "Biharkeresztes"
         }, 
         {
-          "id": 551, 
+          "id": "005514324", 
+          "is_domestic": true, 
+          "latitude": 47.2088420241607, 
+          "legacy_id": 551, 
+          "longitude": 21.2217956407186, 
           "name": "Biharnagybajom"
         }, 
         {
-          "id": 552, 
-          "name": "Biharp\u00fcsp\u00f6ki [Episcopia Bihor]"
+          "id": "005332742_47", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 552, 
+          "longitude": null, 
+          "name": "Biharp\u00fcsp\u00f6ki (Episcopia Bihor)"
         }, 
         {
-          "id": 13106, 
-          "name": "BIJELO [Bijelo Brdo]"
-        }, 
-        {
-          "id": 8260, 
-          "name": "BIJELO [Bijelo Polje]"
-        }, 
-        {
-          "id": 13070, 
-          "name": "Bijelo Brdo"
-        }, 
-        {
-          "id": 6730, 
-          "name": "Bijelo Polje"
-        }, 
-        {
-          "id": 553, 
-          "name": "Bina"
-        }, 
-        {
-          "id": 555, 
-          "name": "Binovce"
-        }, 
-        {
-          "id": 12775, 
-          "name": "BIRCNA [Bircna Vas]"
-        }, 
-        {
-          "id": 557, 
-          "name": "Bircna Vas"
-        }, 
-        {
-          "id": 559, 
+          "id": "008101134", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 559, 
+          "longitude": null, 
           "name": "Bischofshofen"
         }, 
         {
-          "id": 12873, 
-          "name": "BIST. [Bistrica Ob Dravi]"
+          "id": "005504341_48", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6827, 
+          "longitude": null, 
+          "name": "B.kenese (Balatonkenese)"
         }, 
         {
-          "id": 561, 
-          "name": "Bistrica Ob Dravi"
+          "id": "005504333_49", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7413, 
+          "longitude": null, 
+          "name": "B.kenese-\u00dcd\u00fcl\u0151telep (Csitt\u00e9nyhegy)"
         }, 
         {
-          "id": 565, 
-          "name": "Bizovac"
+          "id": "005331530", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 568, 
+          "longitude": null, 
+          "name": "Blaj"
         }, 
         {
-          "id": 13277, 
-          "name": "BIZOVAC [Bizovac]"
-        }, 
-        {
-          "id": 12832, 
-          "name": "B.JARUGA [Banova Jaruga]"
-        }, 
-        {
-          "id": 567, 
-          "name": "Bjelovar"
-        }, 
-        {
-          "id": 13072, 
-          "name": "BJELOVAR [Bjelovar]"
-        }, 
-        {
-          "id": 6827, 
-          "name": "B.kenese [Balatonkenese]"
-        }, 
-        {
-          "id": 7413, 
-          "name": "B.kenese-\u00dcd\u00fcl\u0151telep [Csitt\u00e9nyhegy]"
-        }, 
-        {
-          "id": 569, 
-          "name": "Blanca"
-        }, 
-        {
-          "id": 13026, 
-          "name": "BLANCA [Blanca]"
-        }, 
-        {
-          "id": 9999, 
+          "id": "005433095", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9999, 
+          "longitude": null, 
           "name": "Blansko"
         }, 
         {
-          "id": 10004, 
-          "name": "BLANSKO [Blansko]"
+          "id": "005503459_50", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6773, 
+          "longitude": null, 
+          "name": "B.lelle (Balatonlelle)"
         }, 
         {
-          "id": 8521, 
-          "name": "Blatnice Pod Svatym Antoninkem"
+          "id": "005503442_51", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6634, 
+          "longitude": null, 
+          "name": "B.lelle fels\u0151 (Balatonlelle fels\u0151)"
         }, 
         {
-          "id": 8668, 
-          "name": "BLATN.P.S.A. [Blatnice Pod Svatym Antoninkem]"
-        }, 
-        {
-          "id": 13152, 
-          "name": "BLED [Bled Jezero]"
-        }, 
-        {
-          "id": 572, 
-          "name": "Bled Jezero"
-        }, 
-        {
-          "id": 6773, 
-          "name": "B.lelle [Balatonlelle]"
-        }, 
-        {
-          "id": 6634, 
-          "name": "B.lelle fels\u0151 [Balatonlelle fels\u0151]"
-        }, 
-        {
-          "id": 575, 
-          "name": "Blhovce"
-        }, 
-        {
-          "id": 576, 
+          "id": "008101230", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 576, 
+          "longitude": null, 
           "name": "Bludenz"
         }, 
         {
-          "id": 10050, 
-          "name": "B.m\u00e1riaf\u0171rd\u0151 als\u00f3 [M\u00e1riahull\u00e1mtelep]"
+          "id": "005503541_52", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6683, 
+          "longitude": null, 
+          "name": "B.m\u00e1riaf\u0171rd\u0151 (Balatonm\u00e1riaf\u00fcrd\u0151)"
         }, 
         {
-          "id": 6683, 
-          "name": "B.m\u00e1riaf\u0171rd\u0151 [Balatonm\u00e1riaf\u00fcrd\u0151]"
+          "id": "005503533_53", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6805, 
+          "longitude": null, 
+          "name": "B.m\u00e1riaf\u0171rd\u0151 als\u00f3 (M\u00e1riahull\u00e1mtelep)"
         }, 
         {
-          "id": 13961, 
-          "name": "BOB [Berlin Ostbahnhof]"
-        }, 
-        {
-          "id": 578, 
+          "id": "005504093", 
+          "is_domestic": true, 
+          "latitude": 47.1826460646972, 
+          "legacy_id": 578, 
+          "longitude": 17.1912876888672, 
           "name": "Boba"
         }, 
         {
-          "id": 8674, 
-          "name": "BOCANOVICE [Bocanovice (Boconowice)]"
-        }, 
-        {
-          "id": 8691, 
-          "name": "Bocanovice (Boconowice)"
-        }, 
-        {
-          "id": 581, 
+          "id": "005504911", 
+          "is_domestic": true, 
+          "latitude": 46.7782397833344, 
+          "legacy_id": 581, 
+          "longitude": 16.8532405050289, 
           "name": "Bocf\u00f6lde"
         }, 
         {
-          "id": 588, 
+          "id": "005513946", 
+          "is_domestic": true, 
+          "latitude": 47.6406347628745, 
+          "legacy_id": 588, 
+          "longitude": 21.6659890001602, 
           "name": "Bocskaikert"
         }, 
         {
-          "id": 590, 
+          "id": "005503707", 
+          "is_domestic": true, 
+          "latitude": 47.3179488910162, 
+          "legacy_id": 590, 
+          "longitude": 18.2518126190884, 
           "name": "Bodajk"
         }, 
         {
-          "id": 593, 
+          "id": "005545450", 
+          "is_domestic": true, 
+          "latitude": 46.1999876434838, 
+          "legacy_id": 593, 
+          "longitude": 18.1288090901162, 
           "name": "Bodolyab\u00e9r"
         }, 
         {
-          "id": 594, 
+          "id": "005513417", 
+          "is_domestic": true, 
+          "latitude": 48.1758562873695, 
+          "legacy_id": 594, 
+          "longitude": 21.3543216514443, 
           "name": "Bodrogkereszt\u00far"
         }, 
         {
-          "id": 6616, 
-          "name": "Bodrogkisfalud [Bodrogkereszt\u00far]"
+          "id": "005513417_54", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6616, 
+          "longitude": null, 
+          "name": "Bodrogkisfalud (Bodrogkereszt\u00far)"
         }, 
         {
-          "id": 595, 
+          "id": "005513458", 
+          "is_domestic": true, 
+          "latitude": 48.2852287225519, 
+          "legacy_id": 595, 
+          "longitude": 21.5121812985712, 
           "name": "Bodrogolaszi"
         }, 
         {
-          "id": 596, 
-          "name": "Bodrogszerdahely [Streda Nad Bodrogom]"
-        }, 
-        {
-          "id": 597, 
+          "id": "005513029", 
+          "is_domestic": true, 
+          "latitude": 48.5375004812034, 
+          "legacy_id": 597, 
+          "longitude": 20.7378673387376, 
           "name": "B\u00f3dvaszilas"
         }, 
         {
-          "id": 6713, 
-          "name": "Bogl\u00e1r [Balatonbogl\u00e1r]"
+          "id": "005503475_55", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6713, 
+          "longitude": null, 
+          "name": "Bogl\u00e1r (Balatonbogl\u00e1r)"
         }, 
         {
-          "id": 12867, 
-          "name": "Bogojevo"
-        }, 
-        {
-          "id": 12738, 
-          "name": "BOGOJEVO [Bogojevo]"
-        }, 
-        {
-          "id": 8662, 
-          "name": "Boguchwala"
-        }, 
-        {
-          "id": 8517, 
-          "name": "BOGUCHWALA [Boguchwala]"
-        }, 
-        {
-          "id": 12777, 
-          "name": "BOH. [Bohinjska Bistrica]"
-        }, 
-        {
-          "id": 12760, 
-          "name": "BOH.BELA [Bohinjska Bela]"
-        }, 
-        {
-          "id": 602, 
-          "name": "Bohdanovce"
-        }, 
-        {
-          "id": 603, 
-          "name": "Bohinjska Bela"
-        }, 
-        {
-          "id": 604, 
-          "name": "Bohinjska Bistrica"
-        }, 
-        {
-          "id": 605, 
+          "id": "005434124", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 605, 
+          "longitude": null, 
           "name": "Bohumin"
         }, 
         {
-          "id": 8158, 
-          "name": "BOHUMIN [Bohumin]"
+          "id": "008133025_56", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 609, 
+          "longitude": null, 
+          "name": "Boldogasszony (Frauenkirchen)"
         }, 
         {
-          "id": 9980, 
-          "name": "Boldogasszony [Frauenkirchen]"
-        }, 
-        {
-          "id": 610, 
+          "id": "005513334", 
+          "is_domestic": true, 
+          "latitude": 48.34493441291, 
+          "legacy_id": 610, 
+          "longitude": 21.2088625917103, 
           "name": "Boldogk\u0151v\u00e1ralja"
         }, 
         {
-          "id": 612, 
+          "id": "005512914", 
+          "is_domestic": true, 
+          "latitude": 48.2232023189544, 
+          "legacy_id": 612, 
+          "longitude": 20.7903349695065, 
           "name": "Boldva"
         }, 
         {
-          "id": 613, 
-          "name": "Boleraz"
-        }, 
-        {
-          "id": 616, 
+          "id": "005506387", 
+          "is_domestic": true, 
+          "latitude": 46.2821526628221, 
+          "legacy_id": 616, 
+          "longitude": 17.2751970185144, 
           "name": "Bolh\u00e1s"
         }, 
         {
-          "id": 623, 
+          "id": "005507765", 
+          "is_domestic": true, 
+          "latitude": 45.9376654932913, 
+          "legacy_id": 623, 
+          "longitude": 18.5383016457272, 
           "name": "B\u00f3ly"
         }, 
         {
-          "id": 628, 
+          "id": "005508292", 
+          "is_domestic": true, 
+          "latitude": 46.6096285479771, 
+          "legacy_id": 628, 
+          "longitude": 17.9106602211813, 
           "name": "Bonnya"
         }, 
         {
-          "id": 627, 
-          "name": "Bonyh\u00e1d [Hidas-Bonyh\u00e1d]"
+          "id": "005507088_57", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 627, 
+          "longitude": null, 
+          "name": "Bonyh\u00e1d (Hidas-Bonyh\u00e1d)"
         }, 
         {
-          "id": 633, 
-          "name": "Borovnica"
-        }, 
-        {
-          "id": 12623, 
-          "name": "BOROVNICA [Borovnica]"
-        }, 
-        {
-          "id": 635, 
+          "id": "005544776", 
+          "is_domestic": true, 
+          "latitude": 46.769798352101, 
+          "legacy_id": 635, 
+          "longitude": 19.9128917005268, 
           "name": "Borsihalom"
         }, 
         {
-          "id": 8628, 
-          "name": "BORSKY [Borsky Mikulas]"
-        }, 
-        {
-          "id": 636, 
-          "name": "Borsky Mikulas"
-        }, 
-        {
-          "id": 637, 
+          "id": "005512922", 
+          "is_domestic": true, 
+          "latitude": 48.2590670129063, 
+          "legacy_id": 637, 
+          "longitude": 20.7707020270787, 
           "name": "Borsodszir\u00e1k"
         }, 
         {
-          "id": 638, 
+          "id": "005510652", 
+          "is_domestic": true, 
+          "latitude": 47.9731777706033, 
+          "legacy_id": 638, 
+          "longitude": 19.0948574119952, 
           "name": "Borsosber\u00e9ny"
         }, 
         {
-          "id": 644, 
-          "name": "Bosany"
-        }, 
-        {
-          "id": 645, 
-          "name": "Bostanj"
-        }, 
-        {
-          "id": 12772, 
-          "name": "BOSTANJ [Bostanj]"
-        }, 
-        {
-          "id": 647, 
+          "id": "005347319", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 647, 
+          "longitude": null, 
           "name": "Botiz"
         }, 
         {
-          "id": 8033, 
-          "name": "BOTIZ [Botiz]"
-        }, 
-        {
-          "id": 655, 
+          "id": "007873112", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 655, 
+          "longitude": null, 
           "name": "Bozjakovina"
         }, 
         {
-          "id": 10062, 
-          "name": "BOZJAKOVINA [Bozjakovina]"
+          "id": "005511403_58", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 657, 
+          "longitude": null, 
+          "name": "B\u0151cs (Hern\u00e1dn\u00e9meti-B\u0151cs)"
         }, 
         {
-          "id": 657, 
-          "name": "B\u0151cs [Hern\u00e1dn\u00e9meti-B\u0151cs]"
-        }, 
-        {
-          "id": 660, 
+          "id": "005504101", 
+          "is_domestic": true, 
+          "latitude": 47.1400533965803, 
+          "legacy_id": 660, 
+          "longitude": 18.5152123376293, 
           "name": "B\u00f6rg\u00f6nd"
         }, 
         {
-          "id": 661, 
+          "id": "004302360", 
+          "is_domestic": true, 
+          "latitude": 47.6854799840682, 
+          "legacy_id": 661, 
+          "longitude": 17.234391875524, 
           "name": "B\u0151s\u00e1rk\u00e1ny"
         }, 
         {
-          "id": 662, 
+          "id": "005516212", 
+          "is_domestic": true, 
+          "latitude": 46.9383191381323, 
+          "legacy_id": 662, 
+          "longitude": 19.1595211634017, 
           "name": "B\u00f6szt\u00f6r"
         }, 
         {
-          "id": 668, 
-          "name": "Bp [BUDAPEST*]"
+          "id": "005510009_59", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 668, 
+          "longitude": null, 
+          "name": "Bp (BUDAPEST*)"
         }, 
         {
-          "id": 678, 
-          "name": "Branc"
-        }, 
-        {
-          "id": 7645, 
-          "name": "Branesci"
-        }, 
-        {
-          "id": 8176, 
-          "name": "BRANESCI [Branesci]"
-        }, 
-        {
-          "id": 685, 
-          "name": "Branik"
-        }, 
-        {
-          "id": 13075, 
-          "name": "BRANIK [Branik]"
-        }, 
-        {
-          "id": 9951, 
+          "id": "005330691", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9951, 
+          "longitude": null, 
           "name": "Bra\u015fov"
         }, 
         {
-          "id": 9950, 
-          "name": "BRASOV [Bra\u015fov]"
+          "id": "005330691_60", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9952, 
+          "longitude": null, 
+          "name": "Brass\u00f3 (Bra\u015fov)"
         }, 
         {
-          "id": 9952, 
-          "name": "Brass\u00f3 [Bra\u015fov]"
-        }, 
-        {
-          "id": 691, 
+          "id": "005332388", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 691, 
+          "longitude": null, 
           "name": "Bratca"
         }, 
         {
-          "id": 8022, 
-          "name": "BRATCA [Bratca]"
-        }, 
-        {
-          "id": 693, 
+          "id": "005620000", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 693, 
+          "longitude": null, 
           "name": "BRATISLAVA*"
         }, 
         {
-          "id": 8142, 
-          "name": "BRATISLAVA [Bratislava hl. st.]"
-        }, 
-        {
-          "id": 694, 
+          "id": "005613206", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 694, 
+          "longitude": null, 
           "name": "Bratislava hl. st."
         }, 
         {
-          "id": 695, 
-          "name": "Bratislava Predmestie"
-        }, 
-        {
-          "id": 696, 
-          "name": "Bratislava-Lamac"
-        }, 
-        {
-          "id": 697, 
-          "name": "Bratislava-N. M."
-        }, 
-        {
-          "id": 698, 
+          "id": "005614576", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 698, 
+          "longitude": null, 
           "name": "Bratislava-Petrzalka"
         }, 
         {
-          "id": 699, 
-          "name": "Bratislava-Raca"
-        }, 
-        {
-          "id": 700, 
-          "name": "Bratislava-Vajnory"
-        }, 
-        {
-          "id": 701, 
-          "name": "Bratislava-Vinohrady"
-        }, 
-        {
-          "id": 702, 
-          "name": "Bratislava-Zelezna Studienka"
-        }, 
-        {
-          "id": 709, 
+          "id": "005433425", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 709, 
+          "longitude": null, 
           "name": "Breclav"
         }, 
         {
-          "id": 8134, 
-          "name": "BRECLAV [Breclav]"
+          "id": "005504515_61", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6643, 
+          "longitude": null, 
+          "name": "B.rendes (Balatonrendes)"
         }, 
         {
-          "id": 710, 
-          "name": "Breg"
-        }, 
-        {
-          "id": 13165, 
-          "name": "BREG [Breg]"
-        }, 
-        {
-          "id": 13022, 
-          "name": "Bregi"
-        }, 
-        {
-          "id": 13229, 
-          "name": "BREGI [Bregi]"
-        }, 
-        {
-          "id": 718, 
-          "name": "Breitensee N.\u00d6."
-        }, 
-        {
-          "id": 722, 
-          "name": "Brekov"
-        }, 
-        {
-          "id": 6643, 
-          "name": "B.rendes [Balatonrendes]"
-        }, 
-        {
-          "id": 728, 
-          "name": "Brestanica"
-        }, 
-        {
-          "id": 13209, 
-          "name": "BRESTANICA [Brestanica]"
-        }, 
-        {
-          "id": 730, 
-          "name": "Brestovany"
-        }, 
-        {
-          "id": 731, 
-          "name": "Brestovec"
-        }, 
-        {
-          "id": 734, 
-          "name": "Brezice"
-        }, 
-        {
-          "id": 12991, 
-          "name": "BREZICE [Brezice]"
-        }, 
-        {
-          "id": 735, 
-          "name": "Breznicka"
-        }, 
-        {
-          "id": 736, 
-          "name": "Brezno"
-        }, 
-        {
-          "id": 737, 
-          "name": "Brezno Mesto"
-        }, 
-        {
-          "id": 738, 
-          "name": "Brezn\u00f3b\u00e1nya [Brezno]"
-        }, 
-        {
-          "id": 739, 
-          "name": "Brezno-Halny"
-        }, 
-        {
-          "id": 740, 
-          "name": "Brezno-Rohozna"
-        }, 
-        {
-          "id": 741, 
-          "name": "Brezovica"
-        }, 
-        {
-          "id": 12799, 
-          "name": "BREZOVICA [Brezovica]"
-        }, 
-        {
-          "id": 12856, 
-          "name": "Brezovljani"
-        }, 
-        {
-          "id": 13207, 
-          "name": "BREZOVLJANI [Brezovljani]"
-        }, 
-        {
-          "id": 12748, 
-          "name": "BRLOG [Brlog Grad]"
-        }, 
-        {
-          "id": 13245, 
-          "name": "Brlog Grad"
-        }, 
-        {
-          "id": 12884, 
-          "name": "BR.MORAVICE [Brod Moravice]"
-        }, 
-        {
-          "id": 746, 
+          "id": "005408994", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 746, 
+          "longitude": null, 
           "name": "BRNO*"
         }, 
         {
-          "id": 8133, 
-          "name": "BRNO [Brno hl. n.]"
+          "id": "005438015", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9948, 
+          "longitude": null, 
+          "name": "Brno dolni nadrazi"
         }, 
         {
-          "id": 747, 
+          "id": "005433295", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 747, 
+          "longitude": null, 
           "name": "Brno hl. n."
         }, 
         {
-          "id": 8337, 
-          "name": "BRNO-ZIDEN. [Brno-Zidenice]"
-        }, 
-        {
-          "id": 8336, 
+          "id": "005433395", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 8336, 
+          "longitude": null, 
           "name": "Brno-Zidenice"
         }, 
         {
-          "id": 749, 
-          "name": "Brod Moravice"
-        }, 
-        {
-          "id": 7662, 
-          "name": "Brodarevo"
-        }, 
-        {
-          "id": 8172, 
-          "name": "BRODAREVO [Brodarevo]"
-        }, 
-        {
-          "id": 750, 
-          "name": "Brodno"
-        }, 
-        {
-          "id": 751, 
-          "name": "Brodske"
-        }, 
-        {
-          "id": 13144, 
-          "name": "Brodski Stupnik"
-        }, 
-        {
-          "id": 13199, 
-          "name": "BR.STUPNIK [Brodski Stupnik]"
-        }, 
-        {
-          "id": 754, 
+          "id": "008102974", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 754, 
+          "longitude": null, 
           "name": "Bruck a.d. Leitha"
         }, 
         {
-          "id": 6867, 
-          "name": "Bruck a.d.Mur"
+          "id": "005408994_62", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 778, 
+          "longitude": null, 
+          "name": "Br\u00fcnn (BRNO*)"
         }, 
         {
-          "id": 767, 
-          "name": "Brunovce"
-        }, 
-        {
-          "id": 8699, 
-          "name": "BRUSNO [Brusno Kupele]"
-        }, 
-        {
-          "id": 769, 
-          "name": "Brusno Kupele"
-        }, 
-        {
-          "id": 771, 
-          "name": "Bruszn\u00f3f\u00fcrd\u0151 [Brusno Kupele]"
-        }, 
-        {
-          "id": 778, 
-          "name": "Br\u00fcnn [BRNO*]"
-        }, 
-        {
-          "id": 8145, 
-          "name": "BRZESZCZE [Brzeszcze Jawiszowice]"
-        }, 
-        {
-          "id": 7933, 
+          "id": "005107722", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7933, 
+          "longitude": null, 
           "name": "Brzeszcze Jawiszowice"
         }, 
         {
-          "id": 8470, 
-          "name": "BSK [Berlin S\u00fcdkreuz]"
+          "id": "005503426_63", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6829, 
+          "longitude": null, 
+          "name": "B.sz\u00e1rsz\u00f3 (Balatonsz\u00e1rsz\u00f3)"
         }, 
         {
-          "id": 8451, 
-          "name": "BSP [Berlin-Spandau]"
+          "id": "005503434_64", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6682, 
+          "longitude": null, 
+          "name": "B.szemes (Balatonszemes)"
         }, 
         {
-          "id": 6829, 
-          "name": "B.sz\u00e1rsz\u00f3 [Balatonsz\u00e1rsz\u00f3]"
+          "id": "005503566_65", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6699, 
+          "longitude": null, 
+          "name": "B.szentgy\u00f6rgy (Balatonszentgy\u00f6rgy)"
         }, 
         {
-          "id": 6682, 
-          "name": "B.szemes [Balatonszemes]"
+          "id": "005504481_66", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6857, 
+          "longitude": null, 
+          "name": "B.szepezd (Balatonszepezd)"
         }, 
         {
-          "id": 6699, 
-          "name": "B.szentgy\u00f6rgy [Balatonszentgy\u00f6rgy]"
+          "id": "005503376_67", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6691, 
+          "longitude": null, 
+          "name": "B.sz\u00e9plak als\u00f3 (Balatonsz\u00e9plak als\u00f3)"
         }, 
         {
-          "id": 6857, 
-          "name": "B.szepezd [Balatonszepezd]"
+          "id": "005503368_68", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6755, 
+          "longitude": null, 
+          "name": "B.sz\u00e9plak fels\u0151 (Balatonsz\u00e9plak fels\u0151)"
         }, 
         {
-          "id": 6691, 
-          "name": "B.sz\u00e9plak als\u00f3 [Balatonsz\u00e9plak als\u00f3]"
-        }, 
-        {
-          "id": 6755, 
-          "name": "B.sz\u00e9plak fels\u0151 [Balatonsz\u00e9plak fels\u0151]"
-        }, 
-        {
-          "id": 12842, 
-          "name": "Bubnjarci"
-        }, 
-        {
-          "id": 13193, 
-          "name": "BUBNJARCI [Bubnjarci]"
-        }, 
-        {
-          "id": 10040, 
-          "name": "BUC [BUCURESTI*]"
-        }, 
-        {
-          "id": 789, 
+          "id": "008509404", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 789, 
+          "longitude": null, 
           "name": "Buchs Sg"
         }, 
         {
-          "id": 799, 
+          "id": "008101244", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6795, 
+          "longitude": null, 
+          "name": "Buchs(SG)"
+        }, 
+        {
+          "id": "005505405", 
+          "is_domestic": true, 
+          "latitude": 46.7922458242988, 
+          "legacy_id": 799, 
+          "longitude": 16.9325525540038, 
           "name": "B\u00facs\u00faszentl\u00e1szl\u00f3"
         }, 
         {
-          "id": 13868, 
-          "name": "BUCU [BUCURESTI*]"
-        }, 
-        {
-          "id": 791, 
+          "id": "005399999", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 791, 
+          "longitude": null, 
           "name": "BUCURESTI*"
         }, 
         {
-          "id": 8210, 
-          "name": "BUCURESTI [Bucure\u015fti Nord]"
-        }, 
-        {
-          "id": 6770, 
+          "id": "005310017", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6770, 
+          "longitude": null, 
           "name": "Bucure\u015fti Nord"
         }, 
         {
-          "id": 801, 
+          "id": "005545955", 
+          "is_domestic": true, 
+          "latitude": 46.8516265792854, 
+          "legacy_id": 801, 
+          "longitude": 16.6246872685885, 
           "name": "Budafa"
         }, 
         {
-          "id": 802, 
+          "id": "005503129", 
+          "is_domestic": true, 
+          "latitude": 47.4237600831436, 
+          "legacy_id": 802, 
+          "longitude": 19.0414299772641, 
           "name": "Budafok"
         }, 
         {
-          "id": 803, 
-          "name": "Budafok-Albertfalva [Albertfalva]"
+          "id": "005503111_69", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 803, 
+          "longitude": null, 
+          "name": "Budafok-Albertfalva (Albertfalva)"
         }, 
         {
-          "id": 804, 
-          "name": "Budafok-Belv\u00e1ros [Budafok]"
+          "id": "005503129_70", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 804, 
+          "longitude": null, 
+          "name": "Budafok-Belv\u00e1ros (Budafok)"
         }, 
         {
-          "id": 805, 
-          "name": "Budafok-H\u00e1ros [H\u00e1ros]"
-        }, 
-        {
-          "id": 807, 
+          "id": "005541418", 
+          "is_domestic": true, 
+          "latitude": 47.2084034447925, 
+          "legacy_id": 807, 
+          "longitude": 19.7310875898551, 
           "name": "Budai \u00fat"
         }, 
         {
-          "id": 808, 
+          "id": "005501032", 
+          "is_domestic": true, 
+          "latitude": 47.4477362657445, 
+          "legacy_id": 808, 
+          "longitude": 18.9649707872022, 
           "name": "Buda\u00f6rs"
         }, 
         {
-          "id": 809, 
+          "id": "005510009", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 809, 
+          "longitude": null, 
           "name": "BUDAPEST*"
         }, 
         {
-          "id": 810, 
-          "name": "Budapest Airport [Ferihegy]"
+          "id": "005501016_71", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 812, 
+          "longitude": null, 
+          "name": "Budapest D\u00e9li (Budapest-D\u00e9li)"
         }, 
         {
-          "id": 811, 
-          "name": "Budapest City [BUDAPEST*]"
+          "id": "005510025_72", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 814, 
+          "longitude": null, 
+          "name": "Budapest Ferencv\u00e1ros (Ferencv\u00e1ros)"
         }, 
         {
-          "id": 812, 
-          "name": "Budapest D\u00e9li [Budapest-D\u00e9li]"
+          "id": "005513615_73", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 815, 
+          "longitude": null, 
+          "name": "Budapest Ferihegy (Ferihegy)"
         }, 
         {
-          "id": 814, 
-          "name": "Budapest Ferencv\u00e1ros [Ferencv\u00e1ros]"
+          "id": "005501024_74", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 817, 
+          "longitude": null, 
+          "name": "Budapest Kelenf\u00f6ld (Kelenf\u00f6ld)"
         }, 
         {
-          "id": 815, 
-          "name": "Budapest Ferihegy [Ferihegy]"
+          "id": "005510017_75", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 818, 
+          "longitude": null, 
+          "name": "Budapest Keleti (Budapest-Keleti)"
         }, 
         {
-          "id": 816, 
-          "name": "Budapest Flughafen [Ferihegy]"
+          "id": "005510173_76", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6636, 
+          "longitude": null, 
+          "name": "Budapest K\u0151b\u00e1nya-Kispest (K\u0151b\u00e1nya-Kispest)"
         }, 
         {
-          "id": 817, 
-          "name": "Budapest Kelenf\u00f6ld [Kelenf\u00f6ld]"
+          "id": "005510033_77", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 820, 
+          "longitude": null, 
+          "name": "Budapest Nyugati (Budapest-Nyugati)"
         }, 
         {
-          "id": 818, 
-          "name": "Budapest Keleti [Budapest-Keleti]"
+          "id": "005510116_78", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 823, 
+          "longitude": null, 
+          "name": "Budapest Soroks\u00e1ri \u00fat (Soroks\u00e1ri \u00fat)"
         }, 
         {
-          "id": 6636, 
-          "name": "Budapest K\u0151b\u00e1nya-Kispest [K\u0151b\u00e1nya-Kispest]"
+          "id": "005501412_79", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 824, 
+          "longitude": null, 
+          "name": "Budapest \u00dcr\u00f6m (\u00dcr\u00f6m)"
         }, 
         {
-          "id": 820, 
-          "name": "Budapest Nyugati [Budapest-Nyugati]"
+          "id": "005510090_80", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 825, 
+          "longitude": null, 
+          "name": "Budapest Zugl\u00f3 (Zugl\u00f3)"
         }, 
         {
-          "id": 823, 
-          "name": "Budapest Soroks\u00e1ri \u00fat [Soroks\u00e1ri \u00fat]"
+          "id": "005510124_81", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6721, 
+          "longitude": null, 
+          "name": "Budapest-Angyalf\u00f6ld (Angyalf\u00f6ld)"
         }, 
         {
-          "id": 824, 
-          "name": "Budapest \u00dcr\u00f6m [\u00dcr\u00f6m]"
-        }, 
-        {
-          "id": 825, 
-          "name": "Budapest Zugl\u00f3 [Zugl\u00f3]"
-        }, 
-        {
-          "id": 6721, 
-          "name": "Budapest-Angyalf\u00f6ld [Angyalf\u00f6ld]"
-        }, 
-        {
-          "id": 826, 
+          "id": "005501016", 
+          "is_domestic": true, 
+          "latitude": 47.4993914367586, 
+          "legacy_id": 826, 
+          "longitude": 19.0255441339548, 
           "name": "Budapest-D\u00e9li"
         }, 
         {
-          "id": 829, 
+          "id": "005510017", 
+          "is_domestic": true, 
+          "latitude": 47.500229555633, 
+          "legacy_id": 829, 
+          "longitude": 19.0838720011161, 
           "name": "Budapest-Keleti"
         }, 
         {
-          "id": 830, 
+          "id": "005510033", 
+          "is_domestic": true, 
+          "latitude": 47.5127182973784, 
+          "legacy_id": 830, 
+          "longitude": 19.0608576203505, 
           "name": "Budapest-Nyugati"
         }, 
         {
-          "id": 834, 
+          "id": "005540543", 
+          "is_domestic": true, 
+          "latitude": 47.4051143785965, 
+          "legacy_id": 834, 
+          "longitude": 19.016369905445, 
           "name": "Budat\u00e9t\u00e9ny"
         }, 
         {
-          "id": 13112, 
-          "name": "Budinscina"
+          "id": "005504440_82", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6707, 
+          "longitude": null, 
+          "name": "B.udvari (Balatonudvari)"
         }, 
         {
-          "id": 12829, 
-          "name": "BUDINSCINA [Budinscina]"
-        }, 
-        {
-          "id": 6707, 
-          "name": "B.udvari [Balatonudvari]"
-        }, 
-        {
-          "id": 839, 
-          "name": "Bujakovo Zastavka"
-        }, 
-        {
-          "id": 842, 
-          "name": "Bukarest [BUCURESTI*]"
-        }, 
-        {
-          "id": 843, 
-          "name": "Bukova"
-        }, 
-        {
-          "id": 861, 
-          "name": "B\u00farszentmikl\u00f3s [Borsky Mikulas]"
-        }, 
-        {
-          "id": 862, 
+          "id": "005341767", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 862, 
+          "longitude": null, 
           "name": "Busag"
         }, 
         {
-          "id": 8024, 
-          "name": "BUSAG [Busag]"
+          "id": "005341767_83", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 863, 
+          "longitude": null, 
+          "name": "Bus\u00e1g (Busag)"
         }, 
         {
-          "id": 863, 
-          "name": "Bus\u00e1g [Busag]"
-        }, 
-        {
-          "id": 864, 
-          "name": "Busovce"
-        }, 
-        {
-          "id": 865, 
+          "id": "005330548", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 865, 
+          "longitude": null, 
           "name": "Busteni"
         }, 
         {
-          "id": 8231, 
-          "name": "BUSTENI [Busteni]"
-        }, 
-        {
-          "id": 871, 
-          "name": "Buzet"
-        }, 
-        {
-          "id": 12671, 
-          "name": "BUZET [Buzet]"
-        }, 
-        {
-          "id": 875, 
+          "id": "008001054", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 875, 
+          "longitude": null, 
           "name": "B\u00fcchen"
         }, 
         {
-          "id": 876, 
+          "id": "005541517", 
+          "is_domestic": true, 
+          "latitude": 48.3739005203137, 
+          "legacy_id": 876, 
+          "longitude": 20.7255982046853, 
           "name": "B\u00fcd\u00f6sk\u00fatpuszta"
         }, 
         {
-          "id": 877, 
+          "id": "004305231", 
+          "is_domestic": true, 
+          "latitude": 47.3887703068438, 
+          "legacy_id": 877, 
+          "longitude": 16.7522814063771, 
           "name": "B\u00fck"
         }, 
         {
-          "id": 878, 
+          "id": "005507245", 
+          "is_domestic": true, 
+          "latitude": 46.1131163558173, 
+          "legacy_id": 878, 
+          "longitude": 17.9994669952899, 
           "name": "B\u00fckk\u00f6sd"
         }, 
         {
-          "id": 6799, 
-          "name": "B.vil\u00e1gos [Balatonvil\u00e1gos]"
+          "id": "005503327_84", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6799, 
+          "longitude": null, 
+          "name": "B.vil\u00e1gos (Balatonvil\u00e1gos)"
         }, 
         {
-          "id": 883, 
-          "name": "Bystre"
-        }, 
-        {
-          "id": 884, 
-          "name": "Bystricany"
-        }, 
-        {
-          "id": 8675, 
-          "name": "Bystrice (Bystrzyca)"
-        }, 
-        {
-          "id": 8513, 
-          "name": "BYSTRICE/OL. [Bystrice (Bystrzyca)]"
-        }, 
-        {
-          "id": 885, 
-          "name": "Bytca"
-        }, 
-        {
-          "id": 886, 
-          "name": "Bytcica"
-        }, 
-        {
-          "id": 887, 
-          "name": "Bzenica"
-        }, 
-        {
-          "id": 888, 
-          "name": "Bziny"
-        }, 
-        {
-          "id": 891, 
-          "name": "Cabuna"
-        }, 
-        {
-          "id": 13001, 
-          "name": "CABUNA [Cabuna]"
-        }, 
-        {
-          "id": 892, 
-          "name": "Cachtice"
-        }, 
-        {
-          "id": 894, 
-          "name": "Cacinci"
-        }, 
-        {
-          "id": 12845, 
-          "name": "CACINCI [Cacinci]"
-        }, 
-        {
-          "id": 7469, 
-          "name": "\u010cadca"
-        }, 
-        {
-          "id": 8627, 
-          "name": "CADCA [Cadca Mesto]"
-        }, 
-        {
-          "id": 897, 
-          "name": "Cadca Mesto"
-        }, 
-        {
-          "id": 898, 
-          "name": "Cadca Zastavka"
-        }, 
-        {
-          "id": 899, 
+          "id": "005345062", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 899, 
+          "longitude": null, 
           "name": "Cadia"
         }, 
         {
-          "id": 8042, 
-          "name": "CADIA [Cadia]"
-        }, 
-        {
-          "id": 904, 
-          "name": "Cakajovce"
-        }, 
-        {
-          "id": 13254, 
-          "name": "\u010cakovec"
-        }, 
-        {
-          "id": 12869, 
-          "name": "CAKOVEC [\u010cakovec]"
-        }, 
-        {
-          "id": 13238, 
-          "name": "CAKOVEC-B [Cakovec-Buzovec]"
-        }, 
-        {
-          "id": 12841, 
-          "name": "Cakovec-Buzovec"
-        }, 
-        {
-          "id": 917, 
-          "name": "Camovce"
-        }, 
-        {
-          "id": 8239, 
-          "name": "CAMPIA [Campia Turzii]"
-        }, 
-        {
-          "id": 919, 
+          "id": "005331827", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 919, 
+          "longitude": null, 
           "name": "Campia Turzii"
         }, 
         {
-          "id": 921, 
-          "name": "Campona [Budat\u00e9t\u00e9ny]"
+          "id": "005310574", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 937, 
+          "longitude": null, 
+          "name": "Caracal"
         }, 
         {
-          "id": 945, 
+          "id": "005311554", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6803, 
+          "longitude": null, 
+          "name": "Caransebe\u015f"
+        }, 
+        {
+          "id": "005345323", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 945, 
+          "longitude": null, 
           "name": "Carei"
         }, 
         {
-          "id": 8218, 
-          "name": "CAREI [Carei]"
-        }, 
-        {
-          "id": 946, 
+          "id": "007873104", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 946, 
+          "longitude": null, 
           "name": "Carevdar"
         }, 
         {
-          "id": 10060, 
-          "name": "CAREVDAR [Carevdar]"
-        }, 
-        {
-          "id": 956, 
-          "name": "Cata (Slo)"
-        }, 
-        {
-          "id": 963, 
+          "id": "005506650", 
+          "is_domestic": true, 
+          "latitude": 46.7723247300156, 
+          "legacy_id": 963, 
+          "longitude": 18.623790660988, 
           "name": "Cece"
         }, 
         {
-          "id": 964, 
-          "name": "Cecejovce"
-        }, 
-        {
-          "id": 965, 
+          "id": "005335433", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 965, 
+          "longitude": null, 
           "name": "Cefa"
         }, 
         {
-          "id": 8015, 
-          "name": "CEFA [Cefa]"
-        }, 
-        {
-          "id": 966, 
+          "id": "005513722", 
+          "is_domestic": true, 
+          "latitude": 47.1821110109582, 
+          "legacy_id": 966, 
+          "longitude": 19.8070740893064, 
           "name": "Cegl\u00e9d"
         }, 
         {
-          "id": 967, 
+          "id": "005541384", 
+          "is_domestic": true, 
+          "latitude": 47.2165205324933, 
+          "legacy_id": 967, 
+          "longitude": 19.6573108118856, 
           "name": "Cegl\u00e9dbercel"
         }, 
         {
-          "id": 968, 
+          "id": "005513714", 
+          "is_domestic": true, 
+          "latitude": 47.210852905199, 
+          "legacy_id": 968, 
+          "longitude": 19.6861691684773, 
           "name": "Cegl\u00e9dbercel-Cser\u0151"
         }, 
         {
-          "id": 969, 
+          "id": "005546102", 
+          "is_domestic": true, 
+          "latitude": 47.1690545899834, 
+          "legacy_id": 969, 
+          "longitude": 19.8263674272988, 
           "name": "Cegl\u00e9di sz\u00e1ll\u00e1sok"
         }, 
         {
-          "id": 970, 
+          "id": "007943100", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 970, 
+          "longitude": null, 
           "name": "Celje"
         }, 
         {
-          "id": 12624, 
-          "name": "CELJE [Celje]"
-        }, 
-        {
-          "id": 12852, 
-          "name": "CELJE [Celje Lava]"
-        }, 
-        {
-          "id": 971, 
-          "name": "Celje Lava"
-        }, 
-        {
-          "id": 972, 
+          "id": "005502170", 
+          "is_domestic": true, 
+          "latitude": 47.2612465646999, 
+          "legacy_id": 972, 
+          "longitude": 17.1520200745229, 
           "name": "Celld\u00f6m\u00f6lk"
         }, 
         {
-          "id": 974, 
-          "name": "Celovce"
+          "id": "005512484_85", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6757, 
+          "longitude": null, 
+          "name": "Cementgy\u00e1r (B\u00e9lap\u00e1tfalvi Cementgy\u00e1r)"
         }, 
         {
-          "id": 7877, 
-          "name": "CELOVEC GL.KOL. [Klagenfurt Hbf]"
-        }, 
-        {
-          "id": 7882, 
-          "name": "CELOVEC HL.N. [Klagenfurt Hbf]"
-        }, 
-        {
-          "id": 6757, 
-          "name": "Cementgy\u00e1r [B\u00e9lap\u00e1tfalvi Cementgy\u00e1r]"
-        }, 
-        {
-          "id": 976, 
-          "name": "Cerencany"
-        }, 
-        {
-          "id": 977, 
-          "name": "Cerhov"
-        }, 
-        {
-          "id": 981, 
-          "name": "Cerova-Lieskove"
-        }, 
-        {
-          "id": 8545, 
-          "name": "CERVENA [Cervena Skala]"
-        }, 
-        {
-          "id": 982, 
-          "name": "Cervena Skala"
-        }, 
-        {
-          "id": 983, 
-          "name": "Cervenica"
-        }, 
-        {
-          "id": 8721, 
-          "name": "Cervenka"
-        }, 
-        {
-          "id": 8540, 
-          "name": "CERVENKA [Cervenka]"
-        }, 
-        {
-          "id": 6789, 
+          "id": "005453913", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6789, 
+          "longitude": null, 
           "name": "\u010cesk\u00e1 Trebov\u00e1"
         }, 
         {
-          "id": 985, 
-          "name": "Ceske Brezovo"
-        }, 
-        {
-          "id": 7473, 
-          "name": "Cesky Tesin"
-        }, 
-        {
-          "id": 990, 
-          "name": "Cestice"
-        }, 
-        {
-          "id": 10001, 
+          "id": "005106790", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
           "name": "Chalupki"
         }, 
         {
-          "id": 9991, 
-          "name": "CHALUPKI [Chalupki]"
-        }, 
-        {
-          "id": 1017, 
-          "name": "Chmelnica"
-        }, 
-        {
-          "id": 7936, 
+          "id": "005453813", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7936, 
+          "longitude": null, 
           "name": "Chocen"
         }, 
         {
-          "id": 8139, 
-          "name": "CHOCEN [Chocen]"
-        }, 
-        {
-          "id": 1018, 
+          "id": "002238010", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1018, 
+          "longitude": null, 
           "name": "Chop"
         }, 
         {
-          "id": 12695, 
-          "name": "CHOP [Chop]"
-        }, 
-        {
-          "id": 8489, 
-          "name": "Chotebuz"
-        }, 
-        {
-          "id": 1019, 
-          "name": "Chotin"
-        }, 
-        {
-          "id": 1020, 
-          "name": "Chrabrany"
-        }, 
-        {
-          "id": 1021, 
-          "name": "Chrast Nad Hornadom"
-        }, 
-        {
-          "id": 1022, 
-          "name": "Chrenovec"
-        }, 
-        {
-          "id": 1028, 
-          "name": "Chvatimech"
-        }, 
-        {
-          "id": 1029, 
-          "name": "Chynorany"
-        }, 
-        {
-          "id": 1030, 
+          "id": "005341779", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1030, 
+          "longitude": null, 
           "name": "Cicarlau"
         }, 
         {
-          "id": 8043, 
-          "name": "CICARLAU [Cicarlau]"
-        }, 
-        {
-          "id": 1033, 
-          "name": "Cicevac"
-        }, 
-        {
-          "id": 13123, 
-          "name": "CICEVAC [Cicevac]"
-        }, 
-        {
-          "id": 8603, 
-          "name": "CIERNA [Cierna Nad Tisou]"
-        }, 
-        {
-          "id": 1035, 
-          "name": "Cierna Nad Tisou"
-        }, 
-        {
-          "id": 1036, 
-          "name": "Cierna Nad Tisou Zastavka"
-        }, 
-        {
-          "id": 1037, 
-          "name": "Cierne Nad Toplou"
-        }, 
-        {
-          "id": 1038, 
-          "name": "Cierne Polesie"
-        }, 
-        {
-          "id": 1039, 
-          "name": "Cierne Pri Cadci"
-        }, 
-        {
-          "id": 1040, 
-          "name": "Cierne Pri Cadci Zastavka"
-        }, 
-        {
-          "id": 1041, 
-          "name": "Cifer"
-        }, 
-        {
-          "id": 1042, 
+          "id": "005545484", 
+          "is_domestic": true, 
+          "latitude": 46.2635195862574, 
+          "legacy_id": 1042, 
+          "longitude": 18.5574816175338, 
           "name": "Cik\u00f3"
         }, 
         {
-          "id": 1058, 
-          "name": "Cirknica"
-        }, 
-        {
-          "id": 12783, 
-          "name": "CIRKNICA [Cirknica]"
-        }, 
-        {
-          "id": 1059, 
-          "name": "Cirkovce"
-        }, 
-        {
-          "id": 13204, 
-          "name": "CIRKOVCE [Cirkovce]"
-        }, 
-        {
-          "id": 12950, 
-          "name": "Cirkvena"
-        }, 
-        {
-          "id": 13054, 
-          "name": "CIRKVENA [Cirkvena]"
-        }, 
-        {
-          "id": 1061, 
+          "id": "005332326", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1061, 
+          "longitude": null, 
           "name": "Ciucea"
         }, 
         {
-          "id": 8217, 
-          "name": "CIUCEA [Ciucea]"
-        }, 
-        {
-          "id": 1066, 
-          "name": "Ciz Kupele"
-        }, 
-        {
-          "id": 8184, 
-          "name": "CLUJ [Cluj Napoca]"
-        }, 
-        {
-          "id": 1069, 
+          "id": "005332015", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1069, 
+          "longitude": null, 
           "name": "Cluj Napoca"
         }, 
         {
-          "id": 1075, 
+          "id": "005320050", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1075, 
+          "longitude": null, 
           "name": "Codlea"
         }, 
         {
-          "id": 9995, 
-          "name": "CODLEA [Codlea]"
+          "id": "005310770", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1125, 
+          "longitude": null, 
+          "name": "Craiova"
         }, 
         {
-          "id": 12876, 
-          "name": "Cret"
-        }, 
-        {
-          "id": 12932, 
-          "name": "CRET [Cret]"
-        }, 
-        {
-          "id": 1135, 
-          "name": "Crnomelj"
-        }, 
-        {
-          "id": 13053, 
-          "name": "CRNOMELJ [Crnomelj]"
-        }, 
-        {
-          "id": 1136, 
-          "name": "Crnotice"
-        }, 
-        {
-          "id": 12892, 
-          "name": "CRNOTICE [Crnotice]"
-        }, 
-        {
-          "id": 1150, 
+          "id": "005518267", 
+          "is_domestic": true, 
+          "latitude": 46.8228604370932, 
+          "legacy_id": 1150, 
+          "longitude": 20.6635907949476, 
           "name": "Csabacs\u0171d"
         }, 
         {
-          "id": 1151, 
+          "id": "005544412", 
+          "is_domestic": true, 
+          "latitude": 46.8290315360684, 
+          "legacy_id": 1151, 
+          "longitude": 20.64941693281, 
           "name": "Csabacs\u0171d fels\u0151"
         }, 
         {
-          "id": 7475, 
-          "name": "Csaca [\u010cadca]"
-        }, 
-        {
-          "id": 1153, 
+          "id": "005504317", 
+          "is_domestic": true, 
+          "latitude": 47.0337020973828, 
+          "legacy_id": 1153, 
+          "longitude": 18.1862886510015, 
           "name": "Csaj\u00e1g"
         }, 
         {
-          "id": 1154, 
+          "id": "004302295", 
+          "is_domestic": true, 
+          "latitude": 46.9785164369494, 
+          "legacy_id": 1154, 
+          "longitude": 16.5005266514542, 
           "name": "Cs\u00e1k\u00e1nydoroszl\u00f3"
         }, 
         {
-          "id": 13037, 
-          "name": "Cs\u00e1ktornya [\u010cakovec]"
-        }, 
-        {
-          "id": 1156, 
+          "id": "005519158", 
+          "is_domestic": true, 
+          "latitude": 46.2360385339946, 
+          "legacy_id": 1156, 
+          "longitude": 20.7324919401438, 
           "name": "Csan\u00e1dpalota"
         }, 
         {
-          "id": 1157, 
+          "id": "004302428", 
+          "is_domestic": true, 
+          "latitude": 47.430519266809, 
+          "legacy_id": 1157, 
+          "longitude": 17.0262357418243, 
           "name": "Cs\u00e1nig"
         }, 
         {
-          "id": 1159, 
-          "name": "Csap [Chop]"
+          "id": "002238010_86", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1159, 
+          "longitude": null, 
+          "name": "Csap (Chop)"
         }, 
         {
-          "id": 1160, 
-          "name": "Csap\u00f3kert [Debrecen-Csap\u00f3kert]"
+          "id": "005513920_87", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1160, 
+          "longitude": null, 
+          "name": "Csap\u00f3kert (Debrecen-Csap\u00f3kert)"
         }, 
         {
-          "id": 1161, 
+          "id": "005517871", 
+          "is_domestic": true, 
+          "latitude": 46.8621020374878, 
+          "legacy_id": 1161, 
+          "longitude": 20.9306398507894, 
           "name": "Cs\u00e1rdasz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 1162, 
-          "name": "Csata [Cata (Slo)]"
-        }, 
-        {
-          "id": 1163, 
-          "name": "Cselej [Celovce]"
-        }, 
-        {
-          "id": 1164, 
+          "id": "005517152", 
+          "is_domestic": true, 
+          "latitude": 46.5383571596681, 
+          "legacy_id": 1164, 
+          "longitude": 19.9088626522683, 
           "name": "Csengele"
         }, 
         {
-          "id": 1165, 
+          "id": "005515578", 
+          "is_domestic": true, 
+          "latitude": 47.8262455527412, 
+          "legacy_id": 1165, 
+          "longitude": 22.6664014290286, 
           "name": "Csenger"
         }, 
         {
-          "id": 1166, 
+          "id": "005516253", 
+          "is_domestic": true, 
+          "latitude": 46.7174627372343, 
+          "legacy_id": 1166, 
+          "longitude": 19.2741125589562, 
           "name": "Cseng\u0151d"
         }, 
         {
-          "id": 1167, 
+          "id": "005517384", 
+          "is_domestic": true, 
+          "latitude": 46.812291115713, 
+          "legacy_id": 1167, 
+          "longitude": 20.1346792599234, 
           "name": "Cs\u00e9pa"
         }, 
         {
-          "id": 1168, 
+          "id": "005507252", 
+          "is_domestic": true, 
+          "latitude": 46.0857065151509, 
+          "legacy_id": 1168, 
+          "longitude": 17.987530575044, 
           "name": "Cserdi-Helesfa"
         }, 
         {
-          "id": 1169, 
-          "name": "Cserk\u00fat [Mecsekalja-Cserk\u00fat]"
+          "id": "005507286_88", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1169, 
+          "longitude": null, 
+          "name": "Cserk\u00fat (Mecsekalja-Cserk\u00fat)"
         }, 
         {
-          "id": 1170, 
-          "name": "Csermajor [Vitny\u00e9d-Csermajor]"
+          "id": "004302634_89", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1170, 
+          "longitude": null, 
+          "name": "Csermajor (Vitny\u00e9d-Csermajor)"
         }, 
         {
-          "id": 1171, 
-          "name": "Cser\u0151 [Cegl\u00e9dbercel-Cser\u0151]"
+          "id": "005513714_90", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1171, 
+          "longitude": null, 
+          "name": "Cser\u0151 (Cegl\u00e9dbercel-Cser\u0151)"
         }, 
         {
-          "id": 1172, 
-          "name": "Csesznek [Porva-Csesznek]"
+          "id": "005502980_91", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1172, 
+          "longitude": null, 
+          "name": "Csesznek (Porva-Csesznek)"
         }, 
         {
-          "id": 1173, 
+          "id": "005506155", 
+          "is_domestic": true, 
+          "latitude": 46.4660082587659, 
+          "legacy_id": 1173, 
+          "longitude": 18.3351090539693, 
           "name": "Csibr\u00e1k"
         }, 
         {
-          "id": 1174, 
+          "id": "005507013", 
+          "is_domestic": true, 
+          "latitude": 46.3371092451947, 
+          "legacy_id": 1174, 
+          "longitude": 18.1526098719014, 
           "name": "Csik\u00f3st\u0151tt\u0151s"
         }, 
         {
-          "id": 1175, 
-          "name": "Cs\u00edkszentdomokos [Izvoru Oltului]"
+          "id": "005340490_92", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1175, 
+          "longitude": null, 
+          "name": "Cs\u00edkszentdomokos (Izvoru Oltului)"
         }, 
         {
-          "id": 1176, 
-          "name": "Cs\u00edkszereda [Miercurea Ciuc]"
+          "id": "005340373_93", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1176, 
+          "longitude": null, 
+          "name": "Cs\u00edkszereda (Miercurea Ciuc)"
         }, 
         {
-          "id": 1177, 
+          "id": "005511346", 
+          "is_domestic": true, 
+          "latitude": 47.8904962465961, 
+          "legacy_id": 1177, 
+          "longitude": 20.7636139372701, 
           "name": "Csincse"
         }, 
         {
-          "id": 7373, 
+          "id": "005504333", 
+          "is_domestic": true, 
+          "latitude": 47.0251802549012, 
+          "legacy_id": 339, 
+          "longitude": 18.1375103536245, 
           "name": "Csitt\u00e9nyhegy"
         }, 
         {
-          "id": 1178, 
-          "name": "Cs\u00edzf\u00fcrd\u0151 [Ciz Kupele]"
-        }, 
-        {
-          "id": 1179, 
+          "id": "005513177", 
+          "is_domestic": true, 
+          "latitude": 48.277342952554, 
+          "legacy_id": 1179, 
+          "longitude": 21.0338882711491, 
           "name": "Csob\u00e1d"
         }, 
         {
-          "id": 7378, 
+          "id": "005503723", 
+          "is_domestic": true, 
+          "latitude": 47.3298297759895, 
+          "legacy_id": 7378, 
+          "longitude": 18.237533138988, 
           "name": "Cs\u00f3kak\u0151"
         }, 
         {
-          "id": 1180, 
+          "id": "005510553", 
+          "is_domestic": true, 
+          "latitude": 47.6356164461841, 
+          "legacy_id": 1180, 
+          "longitude": 19.2228366123086, 
           "name": "Csom\u00e1d"
         }, 
         {
-          "id": 1181, 
+          "id": "005506221", 
+          "is_domestic": true, 
+          "latitude": 46.3666037512756, 
+          "legacy_id": 1181, 
+          "longitude": 18.0449139931989, 
           "name": "Csoma-Szabadi"
         }, 
         {
-          "id": 1182, 
+          "id": "005517434", 
+          "is_domestic": true, 
+          "latitude": 46.7045488668709, 
+          "legacy_id": 1182, 
+          "longitude": 20.1401813805425, 
           "name": "Csongr\u00e1d"
         }, 
         {
-          "id": 1183, 
+          "id": "005544891", 
+          "is_domestic": true, 
+          "latitude": 46.711464904476, 
+          "legacy_id": 1183, 
+          "longitude": 20.1275473903589, 
           "name": "Csongr\u00e1d als\u00f3"
         }, 
         {
-          "id": 1184, 
+          "id": "005544875", 
+          "is_domestic": true, 
+          "latitude": 46.6901951298697, 
+          "legacy_id": 1184, 
+          "longitude": 19.9224127520709, 
           "name": "Csongr\u00e1di \u00fati tany\u00e1k"
         }, 
         {
-          "id": 1185, 
-          "name": "Csop [Chop]"
+          "id": "002238010_94", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1185, 
+          "longitude": null, 
+          "name": "Csop (Chop)"
         }, 
         {
-          "id": 1186, 
+          "id": "005504390", 
+          "is_domestic": true, 
+          "latitude": 46.9746553078037, 
+          "legacy_id": 1186, 
+          "longitude": 17.9311607062861, 
           "name": "Csopak"
         }, 
         {
-          "id": 1187, 
-          "name": "Csorba [Strba]"
-        }, 
-        {
-          "id": 1188, 
-          "name": "Csorba-t\u00f3 [Strbske Pleso]"
-        }, 
-        {
-          "id": 1189, 
+          "id": "005502576", 
+          "is_domestic": true, 
+          "latitude": 47.6020235134894, 
+          "legacy_id": 1189, 
+          "longitude": 17.2490680392888, 
           "name": "Csorna"
         }, 
         {
-          "id": 1190, 
+          "id": "005518630", 
+          "is_domestic": true, 
+          "latitude": 46.6235562398229, 
+          "legacy_id": 1190, 
+          "longitude": 20.840882691314, 
           "name": "Csorv\u00e1s"
         }, 
         {
-          "id": 1191, 
+          "id": "005518648", 
+          "is_domestic": true, 
+          "latitude": 46.6352943699147, 
+          "legacy_id": 1191, 
+          "longitude": 20.8898613277525, 
           "name": "Csorv\u00e1s als\u00f3"
         }, 
         {
-          "id": 1192, 
+          "id": "005504960", 
+          "is_domestic": true, 
+          "latitude": 46.6079180250976, 
+          "legacy_id": 1192, 
+          "longitude": 16.6418389429363, 
           "name": "Cs\u00f6m\u00f6d\u00e9r-P\u00e1ka"
         }, 
         {
-          "id": 1193, 
+          "id": "005510843", 
+          "is_domestic": true, 
+          "latitude": 47.7359794326912, 
+          "legacy_id": 1193, 
+          "longitude": 19.1963420220847, 
           "name": "Cs\u00f6r\u00f6g"
         }, 
         {
-          "id": 1194, 
-          "name": "Csucsa [Ciucea]"
+          "id": "005332326_95", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1194, 
+          "longitude": null, 
+          "name": "Csucsa (Ciucea)"
         }, 
         {
-          "id": 1195, 
+          "id": "005517830", 
+          "is_domestic": true, 
+          "latitude": 47.0500680324307, 
+          "legacy_id": 1195, 
+          "longitude": 20.5412383648962, 
           "name": "Csugar"
         }, 
         {
-          "id": 1196, 
+          "id": "005506411", 
+          "is_domestic": true, 
+          "latitude": 46.2611116977137, 
+          "legacy_id": 1196, 
+          "longitude": 17.0919391076387, 
           "name": "Csurg\u00f3"
         }, 
         {
-          "id": 8140, 
-          "name": "C.TREBOVA [\u010cesk\u00e1 Trebov\u00e1]"
+          "id": "005518721_96", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6744, 
+          "longitude": null, 
+          "name": "Cukorgy\u00e1r (Sarkadi Cukorgy\u00e1r)"
         }, 
         {
-          "id": 6744, 
-          "name": "Cukorgy\u00e1r [Sarkadi Cukorgy\u00e1r]"
-        }, 
-        {
-          "id": 1142, 
+          "id": "007872403", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1142, 
+          "longitude": null, 
           "name": "Culinec"
         }, 
         {
-          "id": 10052, 
-          "name": "CULINEC [Culinec]"
-        }, 
-        {
-          "id": 1144, 
-          "name": "Cuprija"
-        }, 
-        {
-          "id": 12968, 
-          "name": "CUPRIJA [Cuprija]"
-        }, 
-        {
-          "id": 1145, 
+          "id": "005321925", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1145, 
+          "longitude": null, 
           "name": "Curtici"
         }, 
         {
-          "id": 8236, 
-          "name": "CURTICI [Curtici]"
-        }, 
-        {
-          "id": 1146, 
+          "id": "005345232", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1146, 
+          "longitude": null, 
           "name": "Curtuiuseni"
         }, 
         {
-          "id": 8009, 
-          "name": "CURTUIUSENI [Curtuiuseni]"
-        }, 
-        {
-          "id": 8532, 
-          "name": "Czaszyn"
-        }, 
-        {
-          "id": 8580, 
-          "name": "CZASZYN [Czaszyn]"
-        }, 
-        {
-          "id": 1148, 
+          "id": "005107600", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1148, 
+          "longitude": null, 
           "name": "Czechowice Dziedzice"
         }, 
         {
-          "id": 8131, 
-          "name": "CZECHOWICE-DZ. [Czechowice Dziedzice]"
-        }, 
-        {
-          "id": 1197, 
+          "id": "005516840", 
+          "is_domestic": true, 
+          "latitude": 47.1946459000314, 
+          "legacy_id": 1197, 
+          "longitude": 19.3293259108625, 
           "name": "Dabas"
         }, 
         {
-          "id": 1200, 
+          "id": "005504812", 
+          "is_domestic": true, 
+          "latitude": 47.0257433155641, 
+          "legacy_id": 1200, 
+          "longitude": 17.1669566772406, 
           "name": "Dabronc"
         }, 
         {
-          "id": 8123, 
-          "name": "DABROWA [Dabrowa Gornicza]"
-        }, 
-        {
-          "id": 7932, 
+          "id": "005107458", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7932, 
+          "longitude": null, 
           "name": "Dabrowa Gornicza"
         }, 
         {
-          "id": 13039, 
-          "name": "Dalj"
+          "id": "005501537_97", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6695, 
+          "longitude": null, 
+          "name": "D.alm\u00e1s (Dunaalm\u00e1s)"
         }, 
         {
-          "id": 13162, 
-          "name": "DALJ [Dalj]"
-        }, 
-        {
-          "id": 12887, 
-          "name": "Dalja [Dalj]"
-        }, 
-        {
-          "id": 6695, 
-          "name": "D.alm\u00e1s [Dunaalm\u00e1s]"
-        }, 
-        {
-          "id": 8667, 
-          "name": "DANIELOV [Danielov Dom]"
-        }, 
-        {
-          "id": 1212, 
-          "name": "Danielov Dom"
-        }, 
-        {
-          "id": 1213, 
+          "id": "005505694", 
+          "is_domestic": true, 
+          "latitude": 45.9921320590262, 
+          "legacy_id": 1213, 
+          "longitude": 17.598229328024, 
           "name": "Dar\u00e1ny"
         }, 
         {
-          "id": 1214, 
+          "id": "005508367", 
+          "is_domestic": true, 
+          "latitude": 46.7665573386482, 
+          "legacy_id": 1214, 
+          "longitude": 18.1467765029689, 
           "name": "Dar\u00e1nypuszta"
         }, 
         {
-          "id": 8467, 
-          "name": "DD [Dresden Hbf]"
-        }, 
-        {
-          "id": 10000, 
-          "name": "DDN [Dresden-Neustadt]"
-        }, 
-        {
-          "id": 13118, 
-          "name": "Deanovec"
-        }, 
-        {
-          "id": 13151, 
-          "name": "DEANOVEC [Deanovec]"
-        }, 
-        {
-          "id": 1227, 
+          "id": "005513912", 
+          "is_domestic": true, 
+          "latitude": 47.5200096651574, 
+          "legacy_id": 1227, 
+          "longitude": 21.6275816393047, 
           "name": "Debrecen"
         }, 
         {
-          "id": 1228, 
+          "id": "005513920", 
+          "is_domestic": true, 
+          "latitude": 47.5405812686475, 
+          "legacy_id": 1228, 
+          "longitude": 21.6480453146486, 
           "name": "Debrecen-Csap\u00f3kert"
         }, 
         {
-          "id": 1229, 
+          "id": "005515131", 
+          "is_domestic": true, 
+          "latitude": 47.5257237147742, 
+          "legacy_id": 1229, 
+          "longitude": 21.7136986578911, 
           "name": "Debrecen-Kondoros"
         }, 
         {
-          "id": 1230, 
+          "id": "005515123", 
+          "is_domestic": true, 
+          "latitude": 47.5277781875118, 
+          "legacy_id": 1230, 
+          "longitude": 21.6586863419988, 
           "name": "Debrecen-Szabads\u00e1gtelep"
         }, 
         {
-          "id": 8130, 
-          "name": "DECIN [Decin hl. n.]"
-        }, 
-        {
-          "id": 1233, 
+          "id": "005455659", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1233, 
+          "longitude": null, 
           "name": "Decin hl. n."
         }, 
         {
-          "id": 1234, 
+          "id": "005506783", 
+          "is_domestic": true, 
+          "latitude": 46.2838395756669, 
+          "legacy_id": 1234, 
+          "longitude": 18.7560592576182, 
           "name": "Decs"
         }, 
         {
-          "id": 1235, 
+          "id": "005340830", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1235, 
+          "longitude": null, 
           "name": "Deda"
         }, 
         {
-          "id": 8254, 
-          "name": "DEDA [Deda]"
+          "id": "005340830_98", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1236, 
+          "longitude": null, 
+          "name": "D\u00e9da (Deda)"
         }, 
         {
-          "id": 1236, 
-          "name": "D\u00e9da [Deda]"
-        }, 
-        {
-          "id": 1238, 
-          "name": "Dedinky"
-        }, 
-        {
-          "id": 6804, 
+          "id": "005341195", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6804, 
+          "longitude": null, 
           "name": "Dej C\u0103l\u0103tori"
         }, 
         {
-          "id": 8208, 
-          "name": "DEJ [Dej C\u0103l\u0103tori]"
-        }, 
-        {
-          "id": 1242, 
+          "id": "005510710", 
+          "is_domestic": true, 
+          "latitude": 48.0455162485798, 
+          "legacy_id": 1242, 
+          "longitude": 19.1964072275294, 
           "name": "Dejt\u00e1r"
         }, 
         {
-          "id": 1243, 
+          "id": "005516162", 
+          "is_domestic": true, 
+          "latitude": 47.2535038460374, 
+          "legacy_id": 1243, 
+          "longitude": 19.0610120738331, 
           "name": "D\u00e9legyh\u00e1za"
         }, 
         {
-          "id": 12701, 
-          "name": "Deletovci"
+          "id": "005501016_99", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7453, 
+          "longitude": null, 
+          "name": "D\u00e9li (Budapest) (Budapest-D\u00e9li)"
         }, 
         {
-          "id": 7453, 
-          "name": "D\u00e9li (Budapest) [Budapest-D\u00e9li]"
+          "id": "005503814_100", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7458, 
+          "longitude": null, 
+          "name": "D\u00e9li (Sz\u0151ny) (Sz\u0151ny-D\u00e9li)"
         }, 
         {
-          "id": 7458, 
-          "name": "D\u00e9li (Sz\u0151ny) [Sz\u0151ny-D\u00e9li]"
-        }, 
-        {
-          "id": 1249, 
-          "name": "Delnice"
-        }, 
-        {
-          "id": 12913, 
-          "name": "DELNICE [Delnice]"
-        }, 
-        {
-          "id": 1250, 
+          "id": "005514076", 
+          "is_domestic": true, 
+          "latitude": 48.1116560931626, 
+          "legacy_id": 1250, 
+          "longitude": 21.9267251417907, 
           "name": "Demecser"
         }, 
         {
-          "id": 13198, 
-          "name": "DEMIR [Demir Kapija]"
-        }, 
-        {
-          "id": 6625, 
-          "name": "Demir Kapija"
-        }, 
-        {
-          "id": 8722, 
-          "name": "DEMJATA [Demjata Obec]"
-        }, 
-        {
-          "id": 1252, 
-          "name": "Demjata Obec"
-        }, 
-        {
-          "id": 1253, 
+          "id": "004302410", 
+          "is_domestic": true, 
+          "latitude": 47.4487049193285, 
+          "legacy_id": 1253, 
+          "longitude": 17.0549080970046, 
           "name": "D\u00e9nesfa"
         }, 
         {
-          "id": 1256, 
+          "id": "005514951", 
+          "is_domestic": true, 
+          "latitude": 47.3640949315424, 
+          "legacy_id": 1256, 
+          "longitude": 21.5833423866959, 
           "name": "Derecske"
         }, 
         {
-          "id": 1257, 
+          "id": "005514969", 
+          "is_domestic": true, 
+          "latitude": 47.3515784256025, 
+          "legacy_id": 1257, 
+          "longitude": 21.580864986043, 
           "name": "Derecske-V\u00e1s\u00e1rt\u00e9r"
         }, 
         {
-          "id": 6738, 
-          "name": "D\u00e9s [Dej C\u0103l\u0103tori]"
+          "id": "005341195_101", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6738, 
+          "longitude": null, 
+          "name": "D\u00e9s (Dej C\u0103l\u0103tori)"
         }, 
         {
-          "id": 1263, 
+          "id": "005518960", 
+          "is_domestic": true, 
+          "latitude": 46.2100058608911, 
+          "legacy_id": 1263, 
+          "longitude": 20.2459265655172, 
           "name": "Deszk"
         }, 
         {
-          "id": 8688, 
-          "name": "Detmarovice"
-        }, 
-        {
-          "id": 8498, 
-          "name": "DETMAROVICE [Detmarovice]"
-        }, 
-        {
-          "id": 1265, 
-          "name": "Detrek\u0151cs\u00fct\u00f6rt\u00f6k [Plavecky Stvrtok]"
-        }, 
-        {
-          "id": 1266, 
-          "name": "Detva"
-        }, 
-        {
-          "id": 1268, 
+          "id": "008103282", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1268, 
+          "longitude": null, 
           "name": "Deutschkreutz"
         }, 
         {
-          "id": 1269, 
+          "id": "005321286", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1269, 
+          "longitude": null, 
           "name": "Deva"
         }, 
         {
-          "id": 8170, 
-          "name": "DEVA [Deva]"
+          "id": "005321286_102", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1270, 
+          "longitude": null, 
+          "name": "D\u00e9va (Deva)"
         }, 
         {
-          "id": 1270, 
-          "name": "D\u00e9va [Deva]"
-        }, 
-        {
-          "id": 1271, 
+          "id": "005518424", 
+          "is_domestic": true, 
+          "latitude": 47.0339086488407, 
+          "legacy_id": 1271, 
+          "longitude": 20.9434921503954, 
           "name": "D\u00e9vav\u00e1nya"
         }, 
         {
-          "id": 1272, 
+          "id": "005504044", 
+          "is_domestic": true, 
+          "latitude": 47.1121608029443, 
+          "legacy_id": 1272, 
+          "longitude": 17.4357566329332, 
           "name": "Devecser"
         }, 
         {
-          "id": 1274, 
-          "name": "D\u00e9v\u00e9ny\u00fajfalu [Devinska Nova Ves]"
+          "id": "005516121_103", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6633, 
+          "longitude": null, 
+          "name": "D.haraszti (Dunaharaszti)"
         }, 
         {
-          "id": 8488, 
-          "name": "DEVINSKA [Devinska Nova Ves]"
+          "id": "005542325_104", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6660, 
+          "longitude": null, 
+          "name": "D.haraszti als\u00f3 (Dunaharaszti als\u00f3)"
         }, 
         {
-          "id": 1275, 
-          "name": "Devinska Nova Ves"
-        }, 
-        {
-          "id": 1276, 
-          "name": "Devinske Jazero"
-        }, 
-        {
-          "id": 6660, 
-          "name": "D.haraszti als\u00f3 [Dunaharaszti als\u00f3]"
-        }, 
-        {
-          "id": 6633, 
-          "name": "D.haraszti [Dunaharaszti]"
-        }, 
-        {
-          "id": 13189, 
-          "name": "DIMITROVGRAD [Dimitrovgrad (SZ)]"
-        }, 
-        {
-          "id": 1284, 
-          "name": "Dimitrovgrad (SZ)"
-        }, 
-        {
-          "id": 1287, 
+          "id": "005503103", 
+          "is_domestic": true, 
+          "latitude": 47.1808315775908, 
+          "legacy_id": 1287, 
+          "longitude": 18.5639310111404, 
           "name": "Dinny\u00e9s"
         }, 
         {
-          "id": 1288, 
-          "name": "Di\u00f3sd [Nagyt\u00e9t\u00e9ny-Di\u00f3sd]"
-        }, 
-        {
-          "id": 1289, 
+          "id": "005345048", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1289, 
+          "longitude": null, 
           "name": "Diosig"
         }, 
         {
-          "id": 8174, 
-          "name": "DIOSIG [Diosig]"
-        }, 
-        {
-          "id": 1290, 
+          "id": "005510645", 
+          "is_domestic": true, 
+          "latitude": 47.9400285633628, 
+          "legacy_id": 1290, 
+          "longitude": 19.0495379510813, 
           "name": "Di\u00f3sjen\u0151"
         }, 
         {
-          "id": 1291, 
-          "name": "Di\u00f3szeg [Diosig]"
+          "id": "005345048_105", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Di\u00f3szeg (Diosig)"
         }, 
         {
-          "id": 1292, 
-          "name": "Di\u00f3szeg [Sladkovicovo]"
+          "id": "005510371_106", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6777, 
+          "longitude": null, 
+          "name": "D.keszi (Dunakeszi)"
         }, 
         {
-          "id": 1294, 
-          "name": "Divaca"
+          "id": "005540758_107", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6769, 
+          "longitude": null, 
+          "name": "D.keszi als\u00f3 (Dunakeszi als\u00f3)"
         }, 
         {
-          "id": 12664, 
-          "name": "DIVACA [Divaca]"
-        }, 
-        {
-          "id": 1295, 
-          "name": "Diviaky"
-        }, 
-        {
-          "id": 12861, 
-          "name": "DJELETOVCI [Deletovci]"
-        }, 
-        {
-          "id": 12750, 
-          "name": "DJURDJENOVAC [Durdenovac]"
-        }, 
-        {
-          "id": 12766, 
-          "name": "DJURDJEVAC [Durdevac]"
-        }, 
-        {
-          "id": 12960, 
-          "name": "DJURMANEC [Durmanec]"
-        }, 
-        {
-          "id": 6769, 
-          "name": "D.keszi als\u00f3 [Dunakeszi als\u00f3]"
-        }, 
-        {
-          "id": 6777, 
-          "name": "D.keszi [Dunakeszi]"
-        }, 
-        {
-          "id": 1297, 
-          "name": "Dlha Nad Oravou"
-        }, 
-        {
-          "id": 1298, 
-          "name": "Dlhe Nad Cirochou"
-        }, 
-        {
-          "id": 1299, 
-          "name": "Dlhe Nad Cirochou Obec"
-        }, 
-        {
-          "id": 1301, 
-          "name": "Dobova"
-        }, 
-        {
-          "id": 13098, 
-          "name": "DOBOVA [Dobova]"
-        }, 
-        {
-          "id": 1302, 
-          "name": "Dobovec"
-        }, 
-        {
-          "id": 12910, 
-          "name": "DOBOVEC [Dobovec]"
-        }, 
-        {
-          "id": 1304, 
-          "name": "Dobra (Slo)"
-        }, 
-        {
-          "id": 8509, 
-          "name": "DOBRAPRICIER [Dobra (Slo)]"
-        }, 
-        {
-          "id": 1305, 
-          "name": "Dobravice"
-        }, 
-        {
-          "id": 12920, 
-          "name": "DOBRAVICE [Dobravice]"
-        }, 
-        {
-          "id": 1308, 
-          "name": "Dobrije"
-        }, 
-        {
-          "id": 12818, 
-          "name": "DOBRIJE [Dobrije]"
-        }, 
-        {
-          "id": 1311, 
-          "name": "Dobsina-J\u00e9gbarlang [Dobsinska Ladova Jaskyna]"
-        }, 
-        {
-          "id": 8542, 
-          "name": "DOBSIN.LAD.JASK. [Dobsinska Ladova Jaskyna]"
-        }, 
-        {
-          "id": 1312, 
-          "name": "Dobsinska Ladova Jaskyna"
-        }, 
-        {
-          "id": 1316, 
-          "name": "Dohnany"
-        }, 
-        {
-          "id": 13058, 
-          "name": "DOLGA [Dolga Gora]"
-        }, 
-        {
-          "id": 1320, 
-          "name": "Dolga Gora"
-        }, 
-        {
-          "id": 8512, 
-          "name": "DOL.LUTYNE [Dolni Lutyne]"
-        }, 
-        {
-          "id": 1322, 
-          "name": "Dolna Sec"
-        }, 
-        {
-          "id": 1323, 
-          "name": "Dolne Hamre"
-        }, 
-        {
-          "id": 1324, 
-          "name": "Dolne Kockovce"
-        }, 
-        {
-          "id": 1325, 
-          "name": "Dolne Krskany"
-        }, 
-        {
-          "id": 1326, 
-          "name": "Dolne Nastice"
-        }, 
-        {
-          "id": 8501, 
-          "name": "Dolni Lutyne"
-        }, 
-        {
-          "id": 8723, 
-          "name": "DOLNY [Dolny Hricov]"
-        }, 
-        {
-          "id": 8724, 
-          "name": "DOLNY [Dolny Kubin]"
-        }, 
-        {
-          "id": 1331, 
-          "name": "Dolny Hricov"
-        }, 
-        {
-          "id": 1332, 
-          "name": "Dolny Kubin"
-        }, 
-        {
-          "id": 1333, 
-          "name": "Dolny Kubin Zastavka"
-        }, 
-        {
-          "id": 1334, 
-          "name": "Dolny Smokovec"
-        }, 
-        {
-          "id": 1335, 
+          "id": "005345359", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1335, 
+          "longitude": null, 
           "name": "Domanesti"
         }, 
         {
-          "id": 8048, 
-          "name": "DOMANESTI [Domanesti]"
-        }, 
-        {
-          "id": 1337, 
+          "id": "005515339", 
+          "is_domestic": true, 
+          "latitude": 47.6027582168125, 
+          "legacy_id": 1337, 
+          "longitude": 21.7063960086489, 
           "name": "Dombostanya"
         }, 
         {
-          "id": 1338, 
+          "id": "005506189", 
+          "is_domestic": true, 
+          "latitude": 46.3702522374874, 
+          "legacy_id": 1338, 
+          "longitude": 18.1496025225156, 
           "name": "Domb\u00f3v\u00e1r"
         }, 
         {
-          "id": 1339, 
+          "id": "005506197", 
+          "is_domestic": true, 
+          "latitude": 46.3637515107121, 
+          "legacy_id": 1339, 
+          "longitude": 18.1342756371497, 
           "name": "Domb\u00f3v\u00e1r als\u00f3"
         }, 
         {
-          "id": 1344, 
-          "name": "Domony fels\u0151 [Iklad-Domony fels\u0151]"
+          "id": "005510801_108", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1343, 
+          "longitude": null, 
+          "name": "Domony (Iklad-Domony)"
         }, 
         {
-          "id": 1343, 
-          "name": "Domony [Iklad-Domony]"
+          "id": "005510819_109", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1344, 
+          "longitude": null, 
+          "name": "Domony fels\u0151 (Iklad-Domony fels\u0151)"
         }, 
         {
-          "id": 1345, 
-          "name": "Domzale"
-        }, 
-        {
-          "id": 13205, 
-          "name": "DOMZALE [Domzale]"
-        }, 
-        {
-          "id": 1346, 
+          "id": "005544925", 
+          "is_domestic": true, 
+          "latitude": 46.6698242607944, 
+          "legacy_id": 1346, 
+          "longitude": 20.3680952403544, 
           "name": "Don\u00e1t"
         }, 
         {
-          "id": 12764, 
-          "name": "DONJA [Donja Vrba]"
-        }, 
-        {
-          "id": 12980, 
-          "name": "Donja Vrba"
-        }, 
-        {
-          "id": 13169, 
-          "name": "DONJI [Donji Kraljevec]"
-        }, 
-        {
-          "id": 1349, 
-          "name": "Donji Kraljevec"
-        }, 
-        {
-          "id": 1358, 
-          "name": "Dornberk"
-        }, 
-        {
-          "id": 13235, 
-          "name": "DORNBERK [Dornberk]"
-        }, 
-        {
-          "id": 1364, 
+          "id": "005501495", 
+          "is_domestic": true, 
+          "latitude": 47.7235354491039, 
+          "legacy_id": 1364, 
+          "longitude": 18.7325494089389, 
           "name": "Dorog"
         }, 
         {
-          "id": 1368, 
+          "id": "005506171", 
+          "is_domestic": true, 
+          "latitude": 46.4163270239646, 
+          "legacy_id": 1368, 
+          "longitude": 18.2528702665099, 
           "name": "D\u00f6br\u00f6k\u00f6z"
         }, 
         {
-          "id": 1370, 
+          "id": "005540857", 
+          "is_domestic": true, 
+          "latitude": 47.7700793676928, 
+          "legacy_id": 1370, 
+          "longitude": 18.9180111176339, 
           "name": "D\u00f6m\u00f6si \u00e1tkel\u00e9s"
         }, 
         {
-          "id": 1371, 
+          "id": "005516196", 
+          "is_domestic": true, 
+          "latitude": 47.1104173355998, 
+          "legacy_id": 1371, 
+          "longitude": 19.0795697686999, 
           "name": "D\u00f6ms\u00f6d"
         }, 
         {
-          "id": 1372, 
-          "name": "D\u00f6rgicse [Balatonakali-D\u00f6rgicse]"
+          "id": "005504465_110", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1372, 
+          "longitude": null, 
+          "name": "D\u00f6rgicse (Balatonakali-D\u00f6rgicse)"
         }, 
         {
-          "id": 12955, 
-          "name": "Dragalic"
-        }, 
-        {
-          "id": 12953, 
-          "name": "DRAGALIC [Dragalic]"
-        }, 
-        {
-          "id": 1378, 
-          "name": "Dragoman"
-        }, 
-        {
-          "id": 7679, 
-          "name": "DRAGOMAN [Dragoman]"
-        }, 
-        {
-          "id": 1382, 
-          "name": "Drahovce Zastavka"
-        }, 
-        {
-          "id": 8499, 
+          "id": "004333215", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 8499, 
+          "longitude": null, 
           "name": "DRASSBURG"
         }, 
         {
-          "id": 12821, 
-          "name": "Dr\u00e1vaszarvas [Sarvas]"
-        }, 
-        {
-          "id": 1385, 
-          "name": "Dravograd"
-        }, 
-        {
-          "id": 12957, 
-          "name": "DRAVOGRAD [Dravograd]"
-        }, 
-        {
-          "id": 1386, 
+          "id": "005510686", 
+          "is_domestic": true, 
+          "latitude": 48.042433510376, 
+          "legacy_id": 1386, 
+          "longitude": 19.0569644341452, 
           "name": "Dr\u00e9gely"
         }, 
         {
-          "id": 1387, 
+          "id": "005510694", 
+          "is_domestic": true, 
+          "latitude": 48.0547191342475, 
+          "legacy_id": 1387, 
+          "longitude": 19.046811604577, 
           "name": "Dr\u00e9gelypal\u00e1nk"
         }, 
         {
-          "id": 1388, 
+          "id": "005510678", 
+          "is_domestic": true, 
+          "latitude": 48.002062909738, 
+          "legacy_id": 1388, 
+          "longitude": 19.079633700548, 
           "name": "Dr\u00e9gelyv\u00e1r"
         }, 
         {
-          "id": 8444, 
-          "name": "DRESDA [Dresden Hbf]"
-        }, 
-        {
-          "id": 1391, 
+          "id": "008006050", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1391, 
+          "longitude": null, 
           "name": "Dresden Hbf"
         }, 
         {
-          "id": 1392, 
+          "id": "008006216", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1392, 
+          "longitude": null, 
           "name": "Dresden-Neustadt"
         }, 
         {
-          "id": 1393, 
-          "name": "Drezda [Dresden Hbf]"
+          "id": "008006050_111", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1393, 
+          "longitude": null, 
+          "name": "Drezda (Dresden Hbf)"
         }, 
         {
-          "id": 1397, 
-          "name": "Drienovska Nova Ves"
+          "id": "005311140", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1401, 
+          "longitude": null, 
+          "name": "Drobeta Tr.Severin"
         }, 
         {
-          "id": 1398, 
-          "name": "Drienovska Nova Ves Obec"
-        }, 
-        {
-          "id": 1399, 
-          "name": "Drivenik"
-        }, 
-        {
-          "id": 12907, 
-          "name": "DRIVENIK [Drivenik]"
-        }, 
-        {
-          "id": 1400, 
-          "name": "Drnis"
-        }, 
-        {
-          "id": 12978, 
-          "name": "DRNIS [Drnis]"
-        }, 
-        {
-          "id": 12665, 
-          "name": "D.SELO [Dugo Selo]"
-        }, 
-        {
-          "id": 1408, 
+          "id": "005512815", 
+          "is_domestic": true, 
+          "latitude": 48.280647254985, 
+          "legacy_id": 1408, 
+          "longitude": 20.5047207425303, 
           "name": "Dubics\u00e1ny"
         }, 
         {
-          "id": 8677, 
-          "name": "DUBNICA [Dubnica Nad Vahom]"
-        }, 
-        {
-          "id": 1409, 
-          "name": "Dubnica Nad Vahom"
-        }, 
-        {
-          "id": 1410, 
-          "name": "Dubova"
-        }, 
-        {
-          "id": 13268, 
-          "name": "DUGA [Duga Resa]"
-        }, 
-        {
-          "id": 1416, 
-          "name": "Duga Resa"
-        }, 
-        {
-          "id": 1417, 
+          "id": "007872517", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1417, 
+          "longitude": null, 
           "name": "Dugo Selo"
         }, 
         {
-          "id": 6767, 
-          "name": "D.\u00fajv\u00e1ros [Duna\u00fajv\u00e1ros]"
+          "id": "005506502_112", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6767, 
+          "longitude": null, 
+          "name": "D.\u00fajv\u00e1ros (Duna\u00fajv\u00e1ros)"
         }, 
         {
-          "id": 6712, 
-          "name": "D.\u00fajv\u00e1ros k\u00fcls\u0151 [Duna\u00fajv\u00e1ros k\u00fcls\u0151]"
+          "id": "005506494_113", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6712, 
+          "longitude": null, 
+          "name": "D.\u00fajv\u00e1ros k\u00fcls\u0151 (Duna\u00fajv\u00e1ros k\u00fcls\u0151)"
         }, 
         {
-          "id": 1424, 
+          "id": "005501537", 
+          "is_domestic": true, 
+          "latitude": 47.7329999374912, 
+          "legacy_id": 1424, 
+          "longitude": 18.3263865976229, 
           "name": "Dunaalm\u00e1s"
         }, 
         {
-          "id": 6820, 
-          "name": "Dunaf\u00fcrd\u0151 [Baja-Dunaf\u00fcrd\u0151]"
+          "id": "005507161_114", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6820, 
+          "longitude": null, 
+          "name": "Dunaf\u00fcrd\u0151 (Baja-Dunaf\u00fcrd\u0151)"
         }, 
         {
-          "id": 1425, 
+          "id": "005516121", 
+          "is_domestic": true, 
+          "latitude": 47.3527384699692, 
+          "legacy_id": 1425, 
+          "longitude": 19.0964245476094, 
           "name": "Dunaharaszti"
         }, 
         {
-          "id": 1426, 
+          "id": "005542325", 
+          "is_domestic": true, 
+          "latitude": 47.3401991611568, 
+          "legacy_id": 1426, 
+          "longitude": 19.0872990276681, 
           "name": "Dunaharaszti als\u00f3"
         }, 
         {
-          "id": 1427, 
+          "id": "005505843", 
+          "is_domestic": true, 
+          "latitude": 47.2943762209903, 
+          "legacy_id": 1427, 
+          "longitude": 18.8787244942528, 
           "name": "Dunai Finom\u00edt\u00f3"
         }, 
         {
-          "id": 1428, 
-          "name": "Dunajov"
-        }, 
-        {
-          "id": 1429, 
+          "id": "005510371", 
+          "is_domestic": true, 
+          "latitude": 47.6257973650079, 
+          "legacy_id": 1429, 
+          "longitude": 19.1364718242725, 
           "name": "Dunakeszi"
         }, 
         {
-          "id": 1430, 
+          "id": "005540758", 
+          "is_domestic": true, 
+          "latitude": 47.6076820190807, 
+          "legacy_id": 1430, 
+          "longitude": 19.1288259374953, 
           "name": "Dunakeszi als\u00f3"
         }, 
         {
-          "id": 1431, 
+          "id": "005510397", 
+          "is_domestic": true, 
+          "latitude": 47.6437945795886, 
+          "legacy_id": 1431, 
+          "longitude": 19.134974054153, 
           "name": "Dunakeszi-Gy\u00e1rtelep"
         }, 
         {
-          "id": 1433, 
+          "id": "005506502", 
+          "is_domestic": true, 
+          "latitude": 46.960770166712, 
+          "legacy_id": 1433, 
+          "longitude": 18.9137424432555, 
           "name": "Duna\u00fajv\u00e1ros"
         }, 
         {
-          "id": 1434, 
+          "id": "005506494", 
+          "is_domestic": true, 
+          "latitude": 46.9825377521438, 
+          "legacy_id": 1434, 
+          "longitude": 18.9036063230889, 
           "name": "Duna\u00fajv\u00e1ros k\u00fcls\u0151"
         }, 
         {
-          "id": 1435, 
+          "id": "005516154", 
+          "is_domestic": true, 
+          "latitude": 47.2744783555068, 
+          "legacy_id": 1435, 
+          "longitude": 19.0650082177117, 
           "name": "Dunavars\u00e1ny"
         }, 
         {
-          "id": 1436, 
-          "name": "Duplica - Bakovnik"
-        }, 
-        {
-          "id": 12710, 
-          "name": "DUPLICA [Duplica - Bakovnik]"
-        }, 
-        {
-          "id": 1438, 
-          "name": "Durdenovac"
-        }, 
-        {
-          "id": 1439, 
-          "name": "Durdevac"
-        }, 
-        {
-          "id": 1440, 
-          "name": "Durkova"
-        }, 
-        {
-          "id": 13019, 
-          "name": "Durmanec"
-        }, 
-        {
-          "id": 1441, 
-          "name": "Dutovlje"
-        }, 
-        {
-          "id": 12878, 
-          "name": "DUTOVLJE [Dutovlje]"
-        }, 
-        {
-          "id": 1442, 
+          "id": "005506148", 
+          "is_domestic": true, 
+          "latitude": 46.4940050509538, 
+          "legacy_id": 1442, 
+          "longitude": 18.3773746687297, 
           "name": "D\u00fazs"
         }, 
         {
-          "id": 6745, 
-          "name": "D.vars\u00e1ny [Dunavars\u00e1ny]"
+          "id": "005516154_115", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6745, 
+          "longitude": null, 
+          "name": "D.vars\u00e1ny (Dunavars\u00e1ny)"
         }, 
         {
-          "id": 8697, 
-          "name": "Dvory nad Zitavou"
-        }, 
-        {
-          "id": 1449, 
-          "name": "Dycka"
-        }, 
-        {
-          "id": 1451, 
+          "id": "008103199", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1451, 
+          "longitude": null, 
           "name": "Ebenfurth"
         }, 
         {
-          "id": 1456, 
+          "id": "005513896", 
+          "is_domestic": true, 
+          "latitude": 47.4625160624778, 
+          "legacy_id": 1456, 
+          "longitude": 21.4887523547507, 
           "name": "Ebes"
         }, 
         {
-          "id": 1457, 
+          "id": "008103195", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1457, 
+          "longitude": null, 
           "name": "Ebreichsdorf"
         }, 
         {
-          "id": 1459, 
+          "id": "005511544", 
+          "is_domestic": true, 
+          "latitude": 47.4405693745772, 
+          "legacy_id": 1459, 
+          "longitude": 19.3149335784426, 
           "name": "Ecser"
         }, 
         {
-          "id": 1460, 
+          "id": "005512948", 
+          "is_domestic": true, 
+          "latitude": 48.2996819429876, 
+          "legacy_id": 1460, 
+          "longitude": 20.7493534739598, 
           "name": "Edel\u00e9ny"
         }, 
         {
-          "id": 1461, 
+          "id": "005512930", 
+          "is_domestic": true, 
+          "latitude": 48.2784753683841, 
+          "legacy_id": 1461, 
+          "longitude": 20.7610095546022, 
           "name": "Edel\u00e9ny als\u00f3"
         }, 
         {
-          "id": 1462, 
-          "name": "Ederics [Balatonederics]"
+          "id": "005504804_116", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1462, 
+          "longitude": null, 
+          "name": "Ederics (Balatonederics)"
         }, 
         {
-          "id": 1470, 
-          "name": "Egbell [Gbely]"
-        }, 
-        {
-          "id": 1471, 
+          "id": "005512401", 
+          "is_domestic": true, 
+          "latitude": 47.8915284186486, 
+          "legacy_id": 1471, 
+          "longitude": 20.3817154826947, 
           "name": "Eger"
         }, 
         {
-          "id": 1472, 
-          "name": "Egeres [Aghires]"
+          "id": "005332182_117", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1472, 
+          "longitude": null, 
+          "name": "Egeres (Aghires)"
         }, 
         {
-          "id": 1473, 
+          "id": "005514597", 
+          "is_domestic": true, 
+          "latitude": 47.7115661083925, 
+          "legacy_id": 1473, 
+          "longitude": 20.5225336518449, 
           "name": "Egerfarmos"
         }, 
         {
-          "id": 1474, 
+          "id": "005512435", 
+          "is_domestic": true, 
+          "latitude": 47.9365761248689, 
+          "legacy_id": 1474, 
+          "longitude": 20.3705820683647, 
           "name": "Eger-Feln\u00e9met"
         }, 
         {
-          "id": 1475, 
+          "id": "005512427", 
+          "is_domestic": true, 
+          "latitude": 47.9075432156188, 
+          "legacy_id": 1475, 
+          "longitude": 20.3807437170958, 
           "name": "Egerv\u00e1r"
         }, 
         {
-          "id": 1476, 
+          "id": "004305355", 
+          "is_domestic": true, 
+          "latitude": 46.9418727411856, 
+          "legacy_id": 1476, 
+          "longitude": 16.8624608677255, 
           "name": "Egerv\u00e1r-Vasboldogasszony"
         }, 
         {
-          "id": 1479, 
+          "id": "005503087", 
+          "is_domestic": true, 
+          "latitude": 47.5220840020857, 
+          "legacy_id": 1479, 
+          "longitude": 17.3166424564138, 
           "name": "Egyed-R\u00e1bacsanak"
         }, 
         {
-          "id": 1480, 
+          "id": "005514555", 
+          "is_domestic": true, 
+          "latitude": 47.6167455199482, 
+          "legacy_id": 1480, 
+          "longitude": 20.883735573066, 
           "name": "Egyek"
         }, 
         {
-          "id": 1481, 
+          "id": "004302279", 
+          "is_domestic": true, 
+          "latitude": 47.0908566670159, 
+          "legacy_id": 1481, 
+          "longitude": 16.6198385070535, 
           "name": "Egyh\u00e1zasr\u00e1d\u00f3c"
         }, 
         {
-          "id": 1482, 
+          "id": "005514746", 
+          "is_domestic": true, 
+          "latitude": 47.9724760604108, 
+          "legacy_id": 1482, 
+          "longitude": 21.3650261234717, 
           "name": "Egyh\u00e1zerd\u0151"
         }, 
         {
-          "id": 1493, 
-          "name": "\u00c9lesd [Alesd]"
+          "id": "005332508_118", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1493, 
+          "longitude": null, 
+          "name": "\u00c9lesd (Alesd)"
         }, 
         {
-          "id": 1497, 
+          "id": "005544990", 
+          "is_domestic": true, 
+          "latitude": 47.363441656431, 
+          "legacy_id": 1497, 
+          "longitude": 20.6540903051937, 
           "name": "El\u0151h\u00e1t"
         }, 
         {
-          "id": 1507, 
+          "id": "005511353", 
+          "is_domestic": true, 
+          "latitude": 47.9308974388105, 
+          "legacy_id": 1507, 
+          "longitude": 20.8224694440481, 
           "name": "Em\u0151d"
         }, 
         {
-          "id": 1508, 
-          "name": "Encs [Forr\u00f3-Encs]"
+          "id": "005513193_119", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1508, 
+          "longitude": null, 
+          "name": "Encs (Forr\u00f3-Encs)"
         }, 
         {
-          "id": 1509, 
+          "id": "004302535", 
+          "is_domestic": true, 
+          "latitude": 47.6441610924294, 
+          "legacy_id": 1509, 
+          "longitude": 17.4254245226357, 
           "name": "Enese"
         }, 
         {
-          "id": 7917, 
-          "name": "Eperjes [Pre\u0161ov]"
-        }, 
-        {
-          "id": 1516, 
+          "id": "005515867", 
+          "is_domestic": true, 
+          "latitude": 48.3597755449989, 
+          "legacy_id": 1516, 
+          "longitude": 22.1897924043931, 
           "name": "Eperjeske als\u00f3"
         }, 
         {
-          "id": 1518, 
+          "id": "005332742", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1518, 
+          "longitude": null, 
           "name": "Episcopia Bihor"
         }, 
         {
-          "id": 8220, 
-          "name": "EPISCOPIA [Episcopia Bihor]"
-        }, 
-        {
-          "id": 1519, 
+          "id": "005503038", 
+          "is_domestic": true, 
+          "latitude": 47.1927228978844, 
+          "legacy_id": 1519, 
+          "longitude": 17.921768427994, 
           "name": "Epl\u00e9ny"
         }, 
         {
-          "id": 1520, 
+          "id": "005505850", 
+          "is_domestic": true, 
+          "latitude": 47.2470155275661, 
+          "legacy_id": 1520, 
+          "longitude": 18.8757614985687, 
           "name": "Ercsi"
         }, 
         {
-          "id": 1522, 
+          "id": "005505827", 
+          "is_domestic": true, 
+          "latitude": 47.3699152326562, 
+          "legacy_id": 1522, 
+          "longitude": 18.90115533286, 
           "name": "\u00c9rd"
         }, 
         {
-          "id": 1523, 
+          "id": "005503152", 
+          "is_domestic": true, 
+          "latitude": 47.3797527781386, 
+          "legacy_id": 1523, 
+          "longitude": 18.9236860076808, 
           "name": "\u00c9rd als\u00f3"
         }, 
         {
-          "id": 7272, 
+          "id": "005500017", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1521, 
+          "longitude": null, 
           "name": "\u00c9RD* (\u00c9rd als\u00f3, \u00c9rd fels\u0151)"
         }, 
         {
-          "id": 1524, 
+          "id": "005505819", 
+          "is_domestic": true, 
+          "latitude": 47.3811155171454, 
+          "legacy_id": 1524, 
+          "longitude": 18.9228213700557, 
           "name": "\u00c9rd fels\u0151"
         }, 
         {
-          "id": 1525, 
+          "id": "005505801", 
+          "is_domestic": true, 
+          "latitude": 47.3903959066304, 
+          "legacy_id": 1525, 
+          "longitude": 18.9380708940314, 
           "name": "\u00c9rdliget"
         }, 
         {
-          "id": 1526, 
+          "id": "005513433", 
+          "is_domestic": true, 
+          "latitude": 48.2181213881008, 
+          "legacy_id": 1526, 
+          "longitude": 21.4018389096497, 
           "name": "Erd\u0151b\u00e9nye"
         }, 
         {
-          "id": 12805, 
-          "name": "Erd\u0151d [Erdut]"
-        }, 
-        {
-          "id": 1527, 
+          "id": "005510579", 
+          "is_domestic": true, 
+          "latitude": 47.6622124485664, 
+          "legacy_id": 1527, 
+          "longitude": 19.2959295823431, 
           "name": "Erd\u0151kertes"
         }, 
         {
-          "id": 1528, 
-          "name": "Erd\u0151k\u00fcrt [Acsa-Erd\u0151k\u00fcrt]"
+          "id": "005510884_120", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1528, 
+          "longitude": null, 
+          "name": "Erd\u0151k\u00fcrt (Acsa-Erd\u0151k\u00fcrt)"
         }, 
         {
-          "id": 1529, 
+          "id": "005516592", 
+          "is_domestic": true, 
+          "latitude": 46.3293967356844, 
+          "legacy_id": 1529, 
+          "longitude": 19.3947617550284, 
           "name": "Erd\u0151sz\u00e9l"
         }, 
         {
-          "id": 1530, 
+          "id": "005512260", 
+          "is_domestic": true, 
+          "latitude": 47.6832142335648, 
+          "legacy_id": 1530, 
+          "longitude": 20.3025584441984, 
           "name": "Erd\u0151telek"
         }, 
         {
-          "id": 12927, 
-          "name": "Erdut"
+          "id": "005345153_121", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7594, 
+          "longitude": null, 
+          "name": "\u00c9rmih\u00e1lyfalva (Valea lui Mihai)"
         }, 
         {
-          "id": 12765, 
-          "name": "ERDUT [Erdut]"
+          "id": "005511734_122", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7449, 
+          "longitude": null, 
+          "name": "Er\u0151m\u0171 (M\u00e1travid\u00e9ki) (M\u00e1travid\u00e9ki Er\u0151m\u0171)"
         }, 
         {
-          "id": 7594, 
-          "name": "\u00c9rmih\u00e1lyfalva [Valea lui Mihai]"
+          "id": "005613436_123", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6749, 
+          "longitude": null, 
+          "name": "\u00c9rsek\u00fajv\u00e1r (Nov\u00e9 Z\u00e1mky)"
         }, 
         {
-          "id": 7449, 
-          "name": "Er\u0151m\u0171 (M\u00e1travid\u00e9ki) [M\u00e1travid\u00e9ki Er\u0151m\u0171]"
+          "id": "005345103_124", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1539, 
+          "longitude": null, 
+          "name": "\u00c9rsel\u00e9nd (Silindru)"
         }, 
         {
-          "id": 6749, 
-          "name": "\u00c9rsek\u00fajv\u00e1r [Nov\u00e9 Z\u00e1mky]"
+          "id": "005515024_125", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1548, 
+          "longitude": null, 
+          "name": "Eszt\u00e1r (Pocsaj-Eszt\u00e1r)"
         }, 
         {
-          "id": 1539, 
-          "name": "\u00c9rsel\u00e9nd [Silindru]"
-        }, 
-        {
-          "id": 13855, 
-          "name": "ES [Esslingen(Neckar)]"
-        }, 
-        {
-          "id": 1546, 
-          "name": "Esslingen(Neckar)"
-        }, 
-        {
-          "id": 1547, 
-          "name": "Esz\u00e9k [Osijek]"
-        }, 
-        {
-          "id": 12843, 
-          "name": "Esz\u00e9k-Als\u00f3v\u00e1ros [Osijek Donji Grad]"
-        }, 
-        {
-          "id": 1548, 
-          "name": "Eszt\u00e1r [Pocsaj-Eszt\u00e1r]"
-        }, 
-        {
-          "id": 1549, 
+          "id": "005501511", 
+          "is_domestic": true, 
+          "latitude": 47.7779119534741, 
+          "legacy_id": 1549, 
+          "longitude": 18.7434555633048, 
           "name": "Esztergom"
         }, 
         {
-          "id": 1550, 
+          "id": "005501503", 
+          "is_domestic": true, 
+          "latitude": 47.7428472853069, 
+          "legacy_id": 1550, 
+          "longitude": 18.7178192544169, 
           "name": "Esztergom-Kertv\u00e1ros"
         }, 
         {
-          "id": 1551, 
+          "id": "005501586", 
+          "is_domestic": true, 
+          "latitude": 47.7555537457724, 
+          "legacy_id": 1551, 
+          "longitude": 18.529897233299, 
           "name": "Eternitgy\u00e1r"
         }, 
         {
-          "id": 1561, 
+          "id": "005517467", 
+          "is_domestic": true, 
+          "latitude": 46.6701337629462, 
+          "legacy_id": 1561, 
+          "longitude": 20.4565675119145, 
           "name": "F\u00e1bi\u00e1nsebesty\u00e9n"
         }, 
         {
-          "id": 1562, 
+          "id": "005506734", 
+          "is_domestic": true, 
+          "latitude": 46.4488323266804, 
+          "legacy_id": 1562, 
+          "longitude": 18.735495056247, 
           "name": "F\u00e1c\u00e1nkert"
         }, 
         {
-          "id": 1563, 
+          "id": "005320232", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1563, 
+          "longitude": null, 
           "name": "Fagaras"
         }, 
         {
-          "id": 8182, 
-          "name": "FAGARAS [Fagaras]"
-        }, 
-        {
-          "id": 1565, 
-          "name": "Fala"
-        }, 
-        {
-          "id": 12770, 
-          "name": "FALA [Fala]"
-        }, 
-        {
-          "id": 1569, 
+          "id": "004302584", 
+          "is_domestic": true, 
+          "latitude": 47.595988, 
+          "legacy_id": 1569, 
+          "longitude": 17.196105, 
           "name": "Far\u00e1d"
         }, 
         {
-          "id": 1573, 
+          "id": "005511668", 
+          "is_domestic": true, 
+          "latitude": 47.3553699201213, 
+          "legacy_id": 1573, 
+          "longitude": 19.8375769377738, 
           "name": "Farmos"
         }, 
         {
-          "id": 13853, 
-          "name": "FASTOV [Fastov I]"
-        }, 
-        {
-          "id": 6793, 
-          "name": "Fastov I"
-        }, 
-        {
-          "id": 1575, 
+          "id": "005513805", 
+          "is_domestic": true, 
+          "latitude": 47.1945069748473, 
+          "legacy_id": 1575, 
+          "longitude": 20.55766508026, 
           "name": "Fegyvernek-\u00d6rm\u00e9nyes"
         }, 
         {
-          "id": 1576, 
+          "id": "005515768", 
+          "is_domestic": true, 
+          "latitude": 47.978829327164, 
+          "legacy_id": 1576, 
+          "longitude": 22.5241282848893, 
           "name": "Feh\u00e9rgyarmat"
         }, 
         {
-          "id": 1577, 
-          "name": "Feh\u00e9rhalom [Luky Pod Makytou]"
-        }, 
-        {
-          "id": 1578, 
+          "id": "008103505", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1578, 
+          "longitude": null, 
           "name": "Fehring"
         }, 
         {
-          "id": 1579, 
-          "name": "Feketehalom [Codlea]"
+          "id": "005320050_126", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Feketehalom (Codlea)"
         }, 
         {
-          "id": 1581, 
+          "id": "008103503", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1581, 
+          "longitude": null, 
           "name": "Feldbach"
         }, 
         {
-          "id": 1584, 
+          "id": "008101236", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1584, 
+          "longitude": null, 
           "name": "Feldkirch"
         }, 
         {
-          "id": 1590, 
-          "name": "Feled [Jesenske]"
+          "id": "005512435_127", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1593, 
+          "longitude": null, 
+          "name": "Feln\u00e9met (Eger-Feln\u00e9met)"
         }, 
         {
-          "id": 1593, 
-          "name": "Feln\u00e9met [Eger-Feln\u00e9met]"
-        }, 
-        {
-          "id": 1595, 
+          "id": "005510421", 
+          "is_domestic": true, 
+          "latitude": 47.7055796164947, 
+          "legacy_id": 1595, 
+          "longitude": 19.1432969144365, 
           "name": "Fels\u0151g\u00f6d"
         }, 
         {
-          "id": 1596, 
+          "id": "005505041", 
+          "is_domestic": true, 
+          "latitude": 46.8415113769334, 
+          "legacy_id": 1596, 
+          "longitude": 16.5435275034222, 
           "name": "Fels\u0151j\u00e1nosfa"
         }, 
         {
-          "id": 1597, 
+          "id": "005516899", 
+          "is_domestic": true, 
+          "latitude": 47.06877310909, 
+          "legacy_id": 1597, 
+          "longitude": 19.4983508093819, 
           "name": "Fels\u0151lajos"
         }, 
         {
-          "id": 1598, 
+          "id": "005544669", 
+          "is_domestic": true, 
+          "latitude": 46.987095518035, 
+          "legacy_id": 1598, 
+          "longitude": 19.5577375009387, 
           "name": "Fels\u0151m\u00e9ntelek"
         }, 
         {
-          "id": 1599, 
+          "id": "005508276", 
+          "is_domestic": true, 
+          "latitude": 46.5606341418828, 
+          "legacy_id": 1599, 
+          "longitude": 17.8214867897766, 
           "name": "Fels\u0151mocsol\u00e1d"
         }, 
         {
-          "id": 1600, 
+          "id": "005544644", 
+          "is_domestic": true, 
+          "latitude": 47.3437770839328, 
+          "legacy_id": 1600, 
+          "longitude": 19.2306414311276, 
           "name": "Fels\u0151pakony"
         }, 
         {
-          "id": 1601, 
+          "id": "005505439", 
+          "is_domestic": true, 
+          "latitude": 46.6670679959195, 
+          "legacy_id": 1601, 
+          "longitude": 16.9829912835009, 
           "name": "Fels\u0151rajk"
         }, 
         {
-          "id": 1602, 
-          "name": "Fels\u0151stubnya [Horna Stubna]"
-        }, 
-        {
-          "id": 1603, 
-          "name": "Fels\u0151szernye [Horne Srnie]"
-        }, 
-        {
-          "id": 1604, 
+          "id": "005511395", 
+          "is_domestic": true, 
+          "latitude": 48.0835021235695, 
+          "legacy_id": 1604, 
+          "longitude": 20.8661280106004, 
           "name": "Fels\u0151zsolca"
         }, 
         {
-          "id": 1605, 
+          "id": "005504739", 
+          "is_domestic": true, 
+          "latitude": 46.7117661811569, 
+          "legacy_id": 1605, 
+          "longitude": 17.2485939356699, 
           "name": "Fen\u00e9kpuszta"
         }, 
         {
-          "id": 1607, 
+          "id": "005518671", 
+          "is_domestic": true, 
+          "latitude": 46.6598938484031, 
+          "legacy_id": 1607, 
+          "longitude": 21.1656720433787, 
           "name": "F\u00e9nyes"
         }, 
         {
-          "id": 1608, 
+          "id": "005514134", 
+          "is_domestic": true, 
+          "latitude": 48.2672364288199, 
+          "legacy_id": 1608, 
+          "longitude": 22.1070582793655, 
           "name": "F\u00e9nyeslitke"
         }, 
         {
-          "id": 1610, 
-          "name": "Fenyves als\u00f3 [Balatonfenyves als\u00f3]"
+          "id": "005503525_128", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1609, 
+          "longitude": null, 
+          "name": "Fenyves (Balatonfenyves)"
         }, 
         {
-          "id": 1609, 
-          "name": "Fenyves [Balatonfenyves]"
+          "id": "005503483_129", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1610, 
+          "longitude": null, 
+          "name": "Fenyves als\u00f3 (Balatonfenyves als\u00f3)"
         }, 
         {
-          "id": 1611, 
+          "id": "005546409", 
+          "is_domestic": true, 
+          "latitude": 47.8181511293859, 
+          "legacy_id": 1611, 
+          "longitude": 19.0682363081779, 
           "name": "Fenyveshegy"
         }, 
         {
-          "id": 1612, 
+          "id": "005510025", 
+          "is_domestic": true, 
+          "latitude": 47.468642889377, 
+          "legacy_id": 1612, 
+          "longitude": 19.0879383160883, 
           "name": "Ferencv\u00e1ros"
         }, 
         {
-          "id": 13033, 
-          "name": "Fericanci"
-        }, 
-        {
-          "id": 12753, 
-          "name": "FERICANCI [Fericanci]"
-        }, 
-        {
-          "id": 1613, 
+          "id": "005513615", 
+          "is_domestic": true, 
+          "latitude": 47.4372159329539, 
+          "legacy_id": 1613, 
+          "longitude": 19.2239204324028, 
           "name": "Ferihegy"
         }, 
         {
-          "id": 1616, 
+          "id": "004302709", 
+          "is_domestic": true, 
+          "latitude": 47.6265169194866, 
+          "legacy_id": 1616, 
+          "longitude": 16.6888238369143, 
           "name": "Fert\u0151boz"
         }, 
         {
-          "id": 6653, 
-          "name": "Fert\u0151d [Fert\u0151sz\u00e9plak-Fert\u0151d]"
+          "id": "004302857_130", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6653, 
+          "longitude": null, 
+          "name": "Fert\u0151d (Fert\u0151sz\u00e9plak-Fert\u0151d)"
         }, 
         {
-          "id": 1619, 
+          "id": "004302667", 
+          "is_domestic": true, 
+          "latitude": 47.5997638132008, 
+          "legacy_id": 1619, 
+          "longitude": 16.8586315194811, 
           "name": "Fert\u0151szentmikl\u00f3s"
         }, 
         {
-          "id": 1620, 
+          "id": "004302857", 
+          "is_domestic": true, 
+          "latitude": 47.6178669146863, 
+          "legacy_id": 1620, 
+          "longitude": 16.8510299025042, 
           "name": "Fert\u0151sz\u00e9plak-Fert\u0151d"
         }, 
         {
-          "id": 8728, 
-          "name": "Fi\u013eakovo"
+          "id": "005310902", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1631, 
+          "longitude": null, 
+          "name": "Filiasi"
         }, 
         {
-          "id": 1629, 
-          "name": "Filakovo Zastavka"
-        }, 
-        {
-          "id": 1641, 
+          "id": "005503632", 
+          "is_domestic": true, 
+          "latitude": 46.379097824601, 
+          "legacy_id": 1641, 
+          "longitude": 16.9215812378833, 
           "name": "Fityeh\u00e1z"
         }, 
         {
-          "id": 1642, 
-          "name": "Fiume [Rijeka]"
+          "id": "005320232_131", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1656, 
+          "longitude": null, 
+          "name": "Fogaras (Fagaras)"
         }, 
         {
-          "id": 1651, 
-          "name": "Florjan"
-        }, 
-        {
-          "id": 12874, 
-          "name": "FLORJAN [Florjan]"
-        }, 
-        {
-          "id": 1656, 
-          "name": "Fogaras [Fagaras]"
-        }, 
-        {
-          "id": 1658, 
+          "id": "005513359", 
+          "is_domestic": true, 
+          "latitude": 48.4106639251201, 
+          "legacy_id": 1658, 
+          "longitude": 21.2423769616446, 
           "name": "Fony"
         }, 
         {
-          "id": 1659, 
+          "id": "005503491", 
+          "is_domestic": true, 
+          "latitude": 46.7495796309432, 
+          "legacy_id": 1659, 
+          "longitude": 17.5567343511288, 
           "name": "Fony\u00f3d"
         }, 
         {
-          "id": 1660, 
+          "id": "005503467", 
+          "is_domestic": true, 
+          "latitude": 46.7592289740067, 
+          "legacy_id": 1660, 
+          "longitude": 17.5923785774689, 
           "name": "Fony\u00f3dliget"
         }, 
         {
-          "id": 1661, 
-          "name": "Forbasy"
-        }, 
-        {
-          "id": 1662, 
+          "id": "005513193", 
+          "is_domestic": true, 
+          "latitude": 48.3274219532012, 
+          "legacy_id": 1662, 
+          "longitude": 21.1178489884545, 
           "name": "Forr\u00f3-Encs"
         }, 
         {
-          "id": 1666, 
+          "id": "005510538", 
+          "is_domestic": true, 
+          "latitude": 47.6113216799594, 
+          "legacy_id": 1666, 
+          "longitude": 19.1816720414424, 
           "name": "F\u00f3t"
         }, 
         {
-          "id": 1667, 
+          "id": "005546391", 
+          "is_domestic": true, 
+          "latitude": 47.6222705791679, 
+          "legacy_id": 1667, 
+          "longitude": 19.2006181695698, 
           "name": "F\u00f3tf\u00fcrd\u0151"
         }, 
         {
-          "id": 1668, 
+          "id": "005510546", 
+          "is_domestic": true, 
+          "latitude": 47.6149741085374, 
+          "legacy_id": 1668, 
+          "longitude": 19.1927695445484, 
           "name": "F\u00f3t\u00fajfalu"
         }, 
         {
-          "id": 1670, 
-          "name": "F\u0151kaj\u00e1r fels\u0151 [Balatonf\u0151kaj\u00e1r fels\u0151]"
+          "id": "005547308_132", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1670, 
+          "longitude": null, 
+          "name": "F\u0151kaj\u00e1r fels\u0151 (Balatonf\u0151kaj\u00e1r fels\u0151)"
         }, 
         {
-          "id": 1671, 
+          "id": "005504457", 
+          "is_domestic": true, 
+          "latitude": 46.8935846699782, 
+          "legacy_id": 1671, 
+          "longitude": 17.7894598714406, 
           "name": "F\u00f6venyes"
         }, 
         {
-          "id": 1674, 
-          "name": "Frakn\u00f3n\u00e1dasd [Marz-Rohrbach]"
-        }, 
-        {
-          "id": 8449, 
-          "name": "FRANCFORT (MAIN) [Frankfurt(Main)Hbf]"
-        }, 
-        {
-          "id": 8456, 
-          "name": "FRANKFURT AM MAIN FLUGHAFEN FERNBAHNHOF [Frankfurt(M)-Flughafen Fernbf.]"
-        }, 
-        {
-          "id": 8462, 
-          "name": "FRANKFURT AM MAIN FLUGHAFEN REGIOBAHNHOF [Frankfurt(M)-Flughafen Regiobf]"
-        }, 
-        {
-          "id": 1680, 
+          "id": "008011068", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1680, 
+          "longitude": null, 
           "name": "Frankfurt(Main)Hbf"
         }, 
         {
-          "id": 8450, 
-          "name": "FRANKFURT(M)FLUGH. F [Frankfurt(M)-Flughafen Fernbf.]"
-        }, 
-        {
-          "id": 8475, 
-          "name": "FRANKFURT(M)FLUGH. R [Frankfurt(M)-Flughafen Regiobf]"
-        }, 
-        {
-          "id": 1678, 
+          "id": "008061676", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1678, 
+          "longitude": null, 
           "name": "Frankfurt(M)-Flughafen Fernbf."
         }, 
         {
-          "id": 1679, 
-          "name": "Frankfurt(M)-Flughafen Regiobf"
+          "id": "008003171", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1683, 
+          "longitude": null, 
+          "name": "Frankfurt(Oder)"
         }, 
         {
-          "id": 1684, 
-          "name": "Frankovci"
-        }, 
-        {
-          "id": 13020, 
-          "name": "FRANKOVCI [Frankovci]"
-        }, 
-        {
-          "id": 6724, 
+          "id": "008133025", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1690, 
+          "longitude": null, 
           "name": "Frauenkirchen"
         }, 
         {
-          "id": 1707, 
-          "name": "Fulianka"
-        }, 
-        {
-          "id": 1716, 
-          "name": "Fuzine"
-        }, 
-        {
-          "id": 12735, 
-          "name": "FUZINE [Fuzine]"
-        }, 
-        {
-          "id": 1717, 
+          "id": "005504291", 
+          "is_domestic": true, 
+          "latitude": 47.0499272883064, 
+          "legacy_id": 1717, 
+          "longitude": 18.2553892235749, 
           "name": "F\u00fcle"
         }, 
         {
-          "id": 8632, 
-          "name": "F\u00fclek [Fi\u013eakovo]"
-        }, 
-        {
-          "id": 1719, 
+          "id": "005516238", 
+          "is_domestic": true, 
+          "latitude": 46.8207395320503, 
+          "legacy_id": 1719, 
+          "longitude": 19.246840852731, 
           "name": "F\u00fcl\u00f6psz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 1720, 
+          "id": "005518663", 
+          "is_domestic": true, 
+          "latitude": 46.6722630640785, 
+          "legacy_id": 1720, 
+          "longitude": 21.0234359537147, 
           "name": "F\u00fcrjes"
         }, 
         {
-          "id": 1725, 
+          "id": "005511296", 
+          "is_domestic": true, 
+          "latitude": 47.7512652669602, 
+          "legacy_id": 1725, 
+          "longitude": 20.4159941543061, 
           "name": "F\u00fczesabony"
         }, 
         {
-          "id": 1726, 
+          "id": "005543760", 
+          "is_domestic": true, 
+          "latitude": 47.9887044506262, 
+          "legacy_id": 1726, 
+          "longitude": 21.6478427380275, 
           "name": "F\u00fczesbokor"
         }, 
         {
-          "id": 1727, 
+          "id": "005514365", 
+          "is_domestic": true, 
+          "latitude": 47.1130582653291, 
+          "legacy_id": 1727, 
+          "longitude": 21.1944014096898, 
           "name": "F\u00fczesgyarmat"
         }, 
         {
-          "id": 1728, 
+          "id": "005514373", 
+          "is_domestic": true, 
+          "latitude": 47.0928604942168, 
+          "legacy_id": 1728, 
+          "longitude": 21.2017487453334, 
           "name": "F\u00fczesgyarmatf\u00fcrd\u0151"
         }, 
         {
-          "id": 1729, 
-          "name": "F\u00fczf\u0151 [Balatonf\u0171zf\u0151]"
+          "id": "005504358_133", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1729, 
+          "longitude": null, 
+          "name": "F\u00fczf\u0151 (Balatonf\u0171zf\u0151)"
         }, 
         {
-          "id": 8041, 
-          "name": "G [General Gh. Avramescu]"
-        }, 
-        {
-          "id": 1730, 
-          "name": "Gaber"
-        }, 
-        {
-          "id": 13094, 
-          "name": "GABER [Gaber]"
-        }, 
-        {
-          "id": 1732, 
+          "id": "005515818", 
+          "is_domestic": true, 
+          "latitude": 47.9263942620207, 
+          "legacy_id": 1732, 
+          "longitude": 22.7448631367702, 
           "name": "Gacs\u00e1ly"
         }, 
         {
-          "id": 1733, 
+          "id": "005517475", 
+          "is_domestic": true, 
+          "latitude": 46.6567266020303, 
+          "legacy_id": 1733, 
+          "longitude": 20.5882973681376, 
           "name": "G\u00e1doros"
         }, 
         {
-          "id": 13135, 
-          "name": "Gajnice"
-        }, 
-        {
-          "id": 12784, 
-          "name": "GAJNICE [Gajnice]"
-        }, 
-        {
-          "id": 1743, 
+          "id": "005516774", 
+          "is_domestic": true, 
+          "latitude": 46.6252009492835, 
+          "legacy_id": 1743, 
+          "longitude": 19.8010744814701, 
           "name": "Galambos"
         }, 
         {
-          "id": 1744, 
-          "name": "Galanta"
-        }, 
-        {
-          "id": 1745, 
-          "name": "Gal\u00e1nta [Galanta]"
-        }, 
-        {
-          "id": 1751, 
+          "id": "005510892", 
+          "is_domestic": true, 
+          "latitude": 47.846351247645, 
+          "legacy_id": 1751, 
+          "longitude": 19.3862905963999, 
           "name": "Galgaguta"
         }, 
         {
-          "id": 1752, 
+          "id": "005510868", 
+          "is_domestic": true, 
+          "latitude": 47.7353458493486, 
+          "legacy_id": 1752, 
+          "longitude": 19.3720088892414, 
           "name": "Galgagy\u00f6rk"
         }, 
         {
-          "id": 1753, 
+          "id": "005511189", 
+          "is_domestic": true, 
+          "latitude": 47.6323306675236, 
+          "legacy_id": 1753, 
+          "longitude": 19.5581983114056, 
           "name": "Galgah\u00e9v\u00edz"
         }, 
         {
-          "id": 1754, 
+          "id": "005510827", 
+          "is_domestic": true, 
+          "latitude": 47.6937501156449, 
+          "legacy_id": 1754, 
+          "longitude": 19.3924757851635, 
           "name": "Galgam\u00e1csa"
         }, 
         {
-          "id": 1757, 
-          "name": "Galg\u00f3c [Hlohovec]"
+          "id": "004333022_134", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1758, 
+          "longitude": null, 
+          "name": "G\u00e1los (Gols)"
         }, 
         {
-          "id": 1758, 
-          "name": "G\u00e1los [Gols]"
-        }, 
-        {
-          "id": 1759, 
-          "name": "Gan"
-        }, 
-        {
-          "id": 1763, 
-          "name": "Ganovce"
-        }, 
-        {
-          "id": 1764, 
-          "name": "Garamberzence [Hronska Dubrava]"
-        }, 
-        {
-          "id": 1765, 
-          "name": "Garamkov\u00e1csi [Kozarovce]"
-        }, 
-        {
-          "id": 1766, 
-          "name": "Garamszentkereszt [Ziar Nad Hronom]"
-        }, 
-        {
-          "id": 1771, 
-          "name": "Garcin"
-        }, 
-        {
-          "id": 12745, 
-          "name": "GARCIN [Garcin]"
-        }, 
-        {
-          "id": 1772, 
-          "name": "Garcsin [Garcin]"
-        }, 
-        {
-          "id": 1773, 
+          "id": "005503236", 
+          "is_domestic": true, 
+          "latitude": 47.2060082426166, 
+          "legacy_id": 1773, 
+          "longitude": 18.6249289516937, 
           "name": "G\u00e1rdony"
         }, 
         {
-          "id": 1781, 
-          "name": "Gasparovo"
-        }, 
-        {
-          "id": 12904, 
-          "name": "GASTEIN BAD [Bad Gastein]"
-        }, 
-        {
-          "id": 1782, 
+          "id": "005517418", 
+          "is_domestic": true, 
+          "latitude": 46.6849594823896, 
+          "legacy_id": 1782, 
+          "longitude": 19.9622105382268, 
           "name": "G\u00e1t\u00e9r"
         }, 
         {
-          "id": 1783, 
+          "id": "008103004", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1783, 
+          "longitude": null, 
           "name": "Gattendorf"
         }, 
         {
-          "id": 8629, 
-          "name": "Gbelce [ZSSK]"
-        }, 
-        {
-          "id": 1787, 
-          "name": "Gbely"
-        }, 
-        {
-          "id": 8689, 
-          "name": "GBELY [Gbely Zastavka]"
-        }, 
-        {
-          "id": 1788, 
-          "name": "Gbely Zastavka"
-        }, 
-        {
-          "id": 1793, 
+          "id": "005502105", 
+          "is_domestic": true, 
+          "latitude": 47.4560349492143, 
+          "legacy_id": 1793, 
+          "longitude": 17.5151440415883, 
           "name": "Gecse-Gyarmat"
         }, 
         {
-          "id": 1795, 
+          "id": "005514084", 
+          "is_domestic": true, 
+          "latitude": 48.1286699216027, 
+          "legacy_id": 1795, 
+          "longitude": 21.9524626000419, 
           "name": "G\u00e9g\u00e9ny"
         }, 
         {
-          "id": 1800, 
-          "name": "Gelnica"
-        }, 
-        {
-          "id": 1801, 
-          "name": "Gelnica Mesto"
-        }, 
-        {
-          "id": 1802, 
-          "name": "Gelnica Zastavka"
-        }, 
-        {
-          "id": 1803, 
+          "id": "005505454", 
+          "is_domestic": true, 
+          "latitude": 46.6002039656766, 
+          "legacy_id": 1803, 
+          "longitude": 16.9828173799608, 
           "name": "Gelse"
         }, 
         {
-          "id": 1809, 
+          "id": "004305504", 
+          "is_domestic": true, 
+          "latitude": 47.2858300894713, 
+          "legacy_id": 1809, 
+          "longitude": 16.6001873129125, 
           "name": "Gencsap\u00e1ti als\u00f3"
         }, 
         {
-          "id": 1810, 
+          "id": "004345989", 
+          "is_domestic": true, 
+          "latitude": 47.2994351514467, 
+          "legacy_id": 1810, 
+          "longitude": 16.5937420469387, 
           "name": "Gencsap\u00e1ti fels\u0151"
         }, 
         {
-          "id": 1812, 
+          "id": "005345373", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1812, 
+          "longitude": null, 
           "name": "General Gh. Avramescu"
         }, 
         {
-          "id": 6781, 
-          "name": "Gevgelija"
-        }, 
-        {
-          "id": 12840, 
-          "name": "GEVGELIJA [Gevgelija]"
-        }, 
-        {
-          "id": 7415, 
+          "id": "005340579", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7415, 
+          "longitude": null, 
           "name": "Gheorgheni"
         }, 
         {
-          "id": 1825, 
+          "id": "005344094", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1825, 
+          "longitude": null, 
           "name": "Gherla"
         }, 
         {
-          "id": 8211, 
-          "name": "GHERLA [Gherla]"
-        }, 
-        {
-          "id": 1839, 
-          "name": "Gjurgjev\u00e1c [Durdevac]"
-        }, 
-        {
-          "id": 1843, 
+          "id": "008103497", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1843, 
+          "longitude": null, 
           "name": "Gleisdorf"
         }, 
         {
-          "id": 1846, 
-          "name": "Glinzendorf"
+          "id": "005104220", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Glogow"
         }, 
         {
-          "id": 1847, 
-          "name": "Globoko"
-        }, 
-        {
-          "id": 12788, 
-          "name": "GLOBOKO [Globoko]"
-        }, 
-        {
-          "id": 1857, 
+          "id": "008103502", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1857, 
+          "longitude": null, 
           "name": "Gniebing"
         }, 
         {
-          "id": 1860, 
+          "id": "005507211", 
+          "is_domestic": true, 
+          "latitude": 46.2233250693515, 
+          "legacy_id": 1860, 
+          "longitude": 18.1048757343623, 
           "name": "Godisa"
         }, 
         {
-          "id": 1861, 
+          "id": "005504671", 
+          "is_domestic": true, 
+          "latitude": 47.0211361926895, 
+          "legacy_id": 1861, 
+          "longitude": 17.2074804371207, 
           "name": "G\u00f3g\u00e1nfa"
         }, 
         {
-          "id": 1868, 
+          "id": "005513292", 
+          "is_domestic": true, 
+          "latitude": 48.2423916185058, 
+          "legacy_id": 1868, 
+          "longitude": 21.2047985667396, 
           "name": "Golop"
         }, 
         {
-          "id": 1869, 
+          "id": "004333022", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1869, 
+          "longitude": null, 
           "name": "Gols"
         }, 
         {
-          "id": 12773, 
-          "name": "Gombos [Bogojevo]"
-        }, 
-        {
-          "id": 13067, 
-          "name": "GOMILA [Gomila (Slo)]"
-        }, 
-        {
-          "id": 1870, 
-          "name": "Gomila (Slo)"
-        }, 
-        {
-          "id": 1871, 
-          "name": "Gomirje"
-        }, 
-        {
-          "id": 12838, 
-          "name": "GOMIRJE [Gomirje]"
-        }, 
-        {
-          "id": 10041, 
-          "name": "GORNJE [Gornje Lezece]"
-        }, 
-        {
-          "id": 1877, 
-          "name": "Gornje Lezece"
-        }, 
-        {
-          "id": 13119, 
-          "name": "GORNJI [Gornji Petrovci]"
-        }, 
-        {
-          "id": 1878, 
-          "name": "Gornji Petrovci"
-        }, 
-        {
-          "id": 1879, 
-          "name": "Gortva"
-        }, 
-        {
-          "id": 1882, 
-          "name": "Gospic"
-        }, 
-        {
-          "id": 13132, 
-          "name": "GOSPIC [Gospic]"
-        }, 
-        {
-          "id": 1886, 
+          "id": "005510413", 
+          "is_domestic": true, 
+          "latitude": 47.6879847391486, 
+          "legacy_id": 1886, 
+          "longitude": 19.1374660107509, 
           "name": "G\u00f6d"
         }, 
         {
-          "id": 1887, 
-          "name": "G\u00f6d als\u00f3 [Als\u00f3g\u00f6d]"
+          "id": "005510405_135", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1887, 
+          "longitude": null, 
+          "name": "G\u00f6d als\u00f3 (Als\u00f3g\u00f6d)"
         }, 
         {
-          "id": 1888, 
-          "name": "G\u00f6d fels\u0151 [Fels\u0151g\u00f6d]"
+          "id": "005510421_136", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1888, 
+          "longitude": null, 
+          "name": "G\u00f6d fels\u0151 (Fels\u0151g\u00f6d)"
         }, 
         {
-          "id": 1890, 
+          "id": "005511130", 
+          "is_domestic": true, 
+          "latitude": 47.5921831537862, 
+          "legacy_id": 1890, 
+          "longitude": 19.358543757626, 
           "name": "G\u00f6d\u00f6ll\u0151"
         }, 
         {
-          "id": 7903, 
+          "id": "005540584", 
+          "is_domestic": true, 
+          "latitude": 47.5643823077127, 
+          "legacy_id": 1891, 
+          "longitude": 19.3756613353029, 
           "name": "G\u00f6d\u00f6ll\u0151-\u00c1llami telepek"
         }, 
         {
-          "id": 1893, 
-          "name": "G\u00f6lnicb\u00e1nya [Gelnica]"
+          "id": "005512674_137", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1894, 
+          "longitude": null, 
+          "name": "G\u00f6m\u00f6ri (Miskolc-G\u00f6m\u00f6ri)"
         }, 
         {
-          "id": 1894, 
-          "name": "G\u00f6m\u00f6ri [Miskolc-G\u00f6m\u00f6ri]"
-        }, 
-        {
-          "id": 1895, 
+          "id": "005513383", 
+          "is_domestic": true, 
+          "latitude": 48.4706206581209, 
+          "legacy_id": 1895, 
+          "longitude": 21.2614110427217, 
           "name": "G\u00f6nc"
         }, 
         {
-          "id": 1896, 
+          "id": "005513375", 
+          "is_domestic": true, 
+          "latitude": 48.4451949144606, 
+          "legacy_id": 1896, 
+          "longitude": 21.2469750871995, 
           "name": "G\u00f6ncruszka"
         }, 
         {
-          "id": 1899, 
+          "id": "005511494", 
+          "is_domestic": true, 
+          "latitude": 48.0399316098515, 
+          "legacy_id": 1899, 
+          "longitude": 21.5555802359881, 
           "name": "G\u00f6r\u00f6gsz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 1902, 
+          "id": "008102969", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1902, 
+          "longitude": null, 
           "name": "G\u00f6tzendorf"
         }, 
         {
-          "id": 1904, 
-          "name": "Gracac"
-        }, 
-        {
-          "id": 13260, 
-          "name": "GRACAC [Gracac]"
-        }, 
-        {
-          "id": 1905, 
-          "name": "Gradac"
-        }, 
-        {
-          "id": 13042, 
-          "name": "GRADAC [Gradac]"
-        }, 
-        {
-          "id": 1906, 
+          "id": "007873109", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1906, 
+          "longitude": null, 
           "name": "Gradec"
         }, 
         {
-          "id": 10058, 
-          "name": "GRADEC [Gradec]"
-        }, 
-        {
-          "id": 13213, 
-          "name": "Gradsko"
-        }, 
-        {
-          "id": 13239, 
-          "name": "GRADSKO [Gradsko]"
-        }, 
-        {
-          "id": 1912, 
-          "name": "Grahovo"
-        }, 
-        {
-          "id": 13035, 
-          "name": "GRAHOVO [Grahovo]"
-        }, 
-        {
-          "id": 1914, 
+          "id": "008102968", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1914, 
+          "longitude": null, 
           "name": "Gramatneusiedl"
         }, 
         {
-          "id": 1918, 
+          "id": "008103172", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1918, 
+          "longitude": null, 
           "name": "GRAZ*"
         }, 
         {
-          "id": 1919, 
+          "id": "008103490", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1919, 
+          "longitude": null, 
           "name": "Graz Don Bosco"
         }, 
         {
-          "id": 1920, 
+          "id": "008103171", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1920, 
+          "longitude": null, 
           "name": "Graz Hbf"
         }, 
         {
-          "id": 6772, 
+          "id": "008103487", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6772, 
+          "longitude": null, 
           "name": "Graz Liebenau Murpark"
         }, 
         {
-          "id": 1921, 
+          "id": "008103491", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1921, 
+          "longitude": null, 
           "name": "Graz Ostbf"
         }, 
         {
-          "id": 12929, 
-          "name": "Greda"
-        }, 
-        {
-          "id": 13221, 
-          "name": "GREDA [Greda]"
-        }, 
-        {
-          "id": 12811, 
-          "name": "Grginac"
-        }, 
-        {
-          "id": 13122, 
-          "name": "GRGINAC [Grginac]"
-        }, 
-        {
-          "id": 12966, 
-          "name": "GRGINAC [Grginac Novi]"
-        }, 
-        {
-          "id": 13010, 
-          "name": "Grginac Novi"
-        }, 
-        {
-          "id": 1937, 
-          "name": "Grlava"
-        }, 
-        {
-          "id": 13015, 
-          "name": "GRLAVA [Grlava]"
-        }, 
-        {
-          "id": 1938, 
-          "name": "Grobelno"
-        }, 
-        {
-          "id": 12897, 
-          "name": "GROBELNO [Grobelno]"
-        }, 
-        {
-          "id": 1949, 
-          "name": "Grosuplje"
-        }, 
-        {
-          "id": 13219, 
-          "name": "GROSUPLJE [Grosuplje]"
-        }, 
-        {
-          "id": 1981, 
+          "id": "005504952", 
+          "is_domestic": true, 
+          "latitude": 46.6468620733188, 
+          "legacy_id": 1981, 
+          "longitude": 16.7398907566104, 
           "name": "Gutorf\u00f6lde"
         }, 
         {
-          "id": 1982, 
+          "id": "008002084", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1982, 
+          "longitude": null, 
           "name": "G\u00fcnzburg"
         }, 
         {
-          "id": 1984, 
+          "id": "005516816", 
+          "is_domestic": true, 
+          "latitude": 47.3759619582743, 
+          "legacy_id": 1984, 
+          "longitude": 19.2202480864762, 
           "name": "Gy\u00e1l"
         }, 
         {
-          "id": 1985, 
+          "id": "005516808", 
+          "is_domestic": true, 
+          "latitude": 47.3894772862276, 
+          "legacy_id": 1985, 
+          "longitude": 19.2057408135044, 
           "name": "Gy\u00e1l fels\u0151"
         }, 
         {
-          "id": 1986, 
-          "name": "Gyanafalva [Jennersdorf]"
+          "id": "008103508_138", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 1986, 
+          "longitude": null, 
+          "name": "Gyanafalva (Jennersdorf)"
         }, 
         {
-          "id": 1987, 
-          "name": "Gyarmat [Gecse-Gyarmat]"
+          "id": "005502105_139", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 1987, 
+          "longitude": null, 
+          "name": "Gyarmat (Gecse-Gyarmat)"
         }, 
         {
-          "id": 7451, 
-          "name": "Gy\u00e1rtelep (Ajka) [Ajka-Gy\u00e1rtelep]"
+          "id": "005504010_140", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7451, 
+          "longitude": null, 
+          "name": "Gy\u00e1rtelep (Ajka) (Ajka-Gy\u00e1rtelep)"
         }, 
         {
-          "id": 7457, 
-          "name": "Gy\u00e1rtelep (Dunakeszi) [Dunakeszi-Gy\u00e1rtelep]"
+          "id": "005510397_141", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7457, 
+          "longitude": null, 
+          "name": "Gy\u00e1rtelep (Dunakeszi) (Dunakeszi-Gy\u00e1rtelep)"
         }, 
         {
-          "id": 7452, 
-          "name": "Gy\u00e1rtelep (Tiszaf\u00fcred) [Tiszaf\u00fcred-Gy\u00e1rtelep]"
+          "id": "005543984_142", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7452, 
+          "longitude": null, 
+          "name": "Gy\u00e1rtelep (Tiszaf\u00fcred) (Tiszaf\u00fcred-Gy\u00e1rtelep)"
         }, 
         {
-          "id": 6698, 
-          "name": "Gy\u00e1rv\u00e1ros [Gy\u0151r-Gy\u00e1rv\u00e1ros]"
+          "id": "005501263_143", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6698, 
+          "longitude": null, 
+          "name": "Gy\u00e1rv\u00e1ros (Gy\u0151r-Gy\u00e1rv\u00e1ros)"
         }, 
         {
-          "id": 1988, 
+          "id": "005506437", 
+          "is_domestic": true, 
+          "latitude": 46.2492995717275, 
+          "legacy_id": 1988, 
+          "longitude": 16.955962732145, 
           "name": "Gy\u00e9k\u00e9nyes"
         }, 
         {
-          "id": 1989, 
+          "id": "005504762", 
+          "is_domestic": true, 
+          "latitude": 46.763344942382, 
+          "legacy_id": 1989, 
+          "longitude": 17.2925078250636, 
           "name": "Gyenesdi\u00e1s"
         }, 
         {
-          "id": 7414, 
-          "name": "Gyergy\u00f3szentmikl\u00f3s [Gheorgheni]"
+          "id": "005340579_144", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7414, 
+          "longitude": null, 
+          "name": "Gyergy\u00f3szentmikl\u00f3s (Gheorgheni)"
         }, 
         {
-          "id": 1991, 
+          "id": "005517863", 
+          "is_domestic": true, 
+          "latitude": 46.9270393938616, 
+          "legacy_id": 1991, 
+          "longitude": 20.8211954339439, 
           "name": "Gyoma"
         }, 
         {
-          "id": 1992, 
+          "id": "005516857", 
+          "is_domestic": true, 
+          "latitude": 47.1806148746266, 
+          "legacy_id": 1992, 
+          "longitude": 19.3518398121456, 
           "name": "Gy\u00f3n"
         }, 
         {
-          "id": 1993, 
+          "id": "005517509", 
+          "is_domestic": true, 
+          "latitude": 46.567708442883, 
+          "legacy_id": 1993, 
+          "longitude": 20.6306608086738, 
           "name": "Gyop\u00e1rosf\u00fcrd\u0151"
         }, 
         {
-          "id": 1994, 
+          "id": "005502089", 
+          "is_domestic": true, 
+          "latitude": 47.4853053818318, 
+          "legacy_id": 1994, 
+          "longitude": 17.5586686493346, 
           "name": "Gy\u00f6m\u00f6re"
         }, 
         {
-          "id": 1995, 
+          "id": "005502071", 
+          "is_domestic": true, 
+          "latitude": 47.5016906889279, 
+          "legacy_id": 1995, 
+          "longitude": 17.5595882330351, 
           "name": "Gy\u00f6m\u00f6re-T\u00e9t"
         }, 
         {
-          "id": 1996, 
+          "id": "005511577", 
+          "is_domestic": true, 
+          "latitude": 47.4296353372608, 
+          "legacy_id": 1996, 
+          "longitude": 19.3933417597212, 
           "name": "Gy\u00f6mr\u0151"
         }, 
         {
-          "id": 1997, 
+          "id": "005545534", 
+          "is_domestic": true, 
+          "latitude": 45.983144084156, 
+          "legacy_id": 1997, 
+          "longitude": 17.9568762894501, 
           "name": "Gy\u00f6ngyfa-Magyarmecske"
         }, 
         {
-          "id": 1998, 
+          "id": "005512096", 
+          "is_domestic": true, 
+          "latitude": 47.7831396705898, 
+          "legacy_id": 1998, 
+          "longitude": 19.9372442986369, 
           "name": "Gy\u00f6ngy\u00f6s"
         }, 
         {
-          "id": 1999, 
+          "id": "004305512", 
+          "is_domestic": true, 
+          "latitude": 47.316358655976, 
+          "legacy_id": 1999, 
+          "longitude": 16.5886367361074, 
           "name": "Gy\u00f6ngy\u00f6sfalu"
         }, 
         {
-          "id": 2000, 
+          "id": "005512088", 
+          "is_domestic": true, 
+          "latitude": 47.7441584641625, 
+          "legacy_id": 2000, 
+          "longitude": 19.932289352449, 
           "name": "Gy\u00f6ngy\u00f6shal\u00e1sz"
         }, 
         {
-          "id": 2001, 
+          "id": "004346169", 
+          "is_domestic": true, 
+          "latitude": 47.2027700175918, 
+          "legacy_id": 2001, 
+          "longitude": 16.6571779981047, 
           "name": "Gy\u00f6ngy\u00f6sherm\u00e1n"
         }, 
         {
-          "id": 2002, 
-          "name": "Gy\u00f6nk [Kesz\u0151hidegk\u00fat-Gy\u00f6nk]"
+          "id": "005506106_145", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2002, 
+          "longitude": null, 
+          "name": "Gy\u00f6nk (Kesz\u0151hidegk\u00fat-Gy\u00f6nk)"
         }, 
         {
-          "id": 2003, 
+          "id": "005501289", 
+          "is_domestic": true, 
+          "latitude": 47.6822663533916, 
+          "legacy_id": 2003, 
+          "longitude": 17.6349441297605, 
           "name": "Gy\u0151r"
         }, 
         {
-          "id": 2004, 
+          "id": "005502956", 
+          "is_domestic": true, 
+          "latitude": 47.4941163121277, 
+          "legacy_id": 2004, 
+          "longitude": 17.7989378471585, 
           "name": "Gy\u0151rasszonyfa"
         }, 
         {
-          "id": 2005, 
+          "id": "005501263", 
+          "is_domestic": true, 
+          "latitude": 47.684548, 
+          "legacy_id": 2005, 
+          "longitude": 17.662096, 
           "name": "Gy\u0151r-Gy\u00e1rv\u00e1ros"
         }, 
         {
-          "id": 2006, 
-          "name": "Gy\u00f6r\u00f6k [Balatongy\u00f6r\u00f6k]"
+          "id": "005504788_146", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2006, 
+          "longitude": null, 
+          "name": "Gy\u00f6r\u00f6k (Balatongy\u00f6r\u00f6k)"
         }, 
         {
-          "id": 2007, 
+          "id": "005502022", 
+          "is_domestic": true, 
+          "latitude": 47.6630719902149, 
+          "legacy_id": 2007, 
+          "longitude": 17.6480780259351, 
           "name": "Gy\u0151rszabadhegy"
         }, 
         {
-          "id": 2008, 
+          "id": "005502055", 
+          "is_domestic": true, 
+          "latitude": 47.5670917474665, 
+          "legacy_id": 2008, 
+          "longitude": 17.5845512700003, 
           "name": "Gy\u0151rszemere"
         }, 
         {
-          "id": 2009, 
+          "id": "005501255", 
+          "is_domestic": true, 
+          "latitude": 47.6888107832808, 
+          "legacy_id": 2009, 
+          "longitude": 17.745948779872, 
           "name": "Gy\u0151rszentiv\u00e1n"
         }, 
         {
-          "id": 2010, 
+          "id": "005515529", 
+          "is_domestic": true, 
+          "latitude": 47.9368453618445, 
+          "legacy_id": 2010, 
+          "longitude": 22.4246909242854, 
           "name": "Gy\u0151rtelek"
         }, 
         {
-          "id": 2011, 
+          "id": "005515537", 
+          "is_domestic": true, 
+          "latitude": 47.9210760489733, 
+          "legacy_id": 2011, 
+          "longitude": 22.443394351743, 
           "name": "Gy\u0151rtelek als\u00f3"
         }, 
         {
-          "id": 2012, 
+          "id": "004305348", 
+          "is_domestic": true, 
+          "latitude": 46.9897153923902, 
+          "legacy_id": 2012, 
+          "longitude": 16.8418462063473, 
           "name": "Gy\u0151rv\u00e1r"
         }, 
         {
-          "id": 2013, 
+          "id": "005518697", 
+          "is_domestic": true, 
+          "latitude": 46.6563020596271, 
+          "legacy_id": 2013, 
+          "longitude": 21.2735486380136, 
           "name": "Gyula"
         }, 
         {
-          "id": 2015, 
+          "id": "005544479", 
+          "is_domestic": true, 
+          "latitude": 46.6948541611194, 
+          "legacy_id": 2015, 
+          "longitude": 21.3227141888879, 
           "name": "Gyulai v\u00e1roserd\u0151"
         }, 
         {
-          "id": 2016, 
+          "id": "005515917", 
+          "is_domestic": true, 
+          "latitude": 48.1717328798594, 
+          "legacy_id": 2016, 
+          "longitude": 22.2692532658224, 
           "name": "Gy\u00fcre"
         }, 
         {
-          "id": 8463, 
-          "name": "GZ [G\u00fcnzburg]"
-        }, 
-        {
-          "id": 13252, 
-          "name": "H [Homec Pri Kamniku]"
-        }, 
-        {
-          "id": 2018, 
-          "name": "Hacava"
-        }, 
-        {
-          "id": 2019, 
-          "name": "Hacava Skalie"
-        }, 
-        {
-          "id": 2034, 
-          "name": "Hajdina"
-        }, 
-        {
-          "id": 13154, 
-          "name": "HAJDINA [Hajdina]"
-        }, 
-        {
-          "id": 2035, 
+          "id": "005514670", 
+          "is_domestic": true, 
+          "latitude": 47.6688423457054, 
+          "legacy_id": 2035, 
+          "longitude": 21.5239786376639, 
           "name": "Hajd\u00fab\u00f6sz\u00f6rm\u00e9ny"
         }, 
         {
-          "id": 2036, 
+          "id": "005514696", 
+          "is_domestic": true, 
+          "latitude": 47.8054301004021, 
+          "legacy_id": 2036, 
+          "longitude": 21.493073099564, 
           "name": "Hajd\u00fadorog"
         }, 
         {
-          "id": 2037, 
+          "id": "005513953", 
+          "is_domestic": true, 
+          "latitude": 47.6872419890613, 
+          "legacy_id": 2037, 
+          "longitude": 21.6792826309075, 
           "name": "Hajd\u00fahadh\u00e1z"
         }, 
         {
-          "id": 2038, 
+          "id": "005514704", 
+          "is_domestic": true, 
+          "latitude": 47.8318069720808, 
+          "legacy_id": 2038, 
+          "longitude": 21.4276356513608, 
           "name": "Hajd\u00fan\u00e1n\u00e1s"
         }, 
         {
-          "id": 2039, 
+          "id": "005514712", 
+          "is_domestic": true, 
+          "latitude": 47.8427422708821, 
+          "legacy_id": 2039, 
+          "longitude": 21.4075473817526, 
           "name": "Hajd\u00fan\u00e1n\u00e1s-V\u00e1s\u00e1rt\u00e9r"
         }, 
         {
-          "id": 2040, 
+          "id": "005515347", 
+          "is_domestic": true, 
+          "latitude": 47.608133434297, 
+          "legacy_id": 2040, 
+          "longitude": 21.7552097178703, 
           "name": "Hajd\u00fas\u00e1mson"
         }, 
         {
-          "id": 2041, 
+          "id": "005514654", 
+          "is_domestic": true, 
+          "latitude": 47.6081185539758, 
+          "legacy_id": 2041, 
+          "longitude": 21.5786207461369, 
           "name": "Hajd\u00faszentgy\u00f6rgy"
         }, 
         {
-          "id": 2042, 
+          "id": "005513888", 
+          "is_domestic": true, 
+          "latitude": 47.4294805965494, 
+          "legacy_id": 2042, 
+          "longitude": 21.4070691868922, 
           "name": "Hajd\u00faszoboszl\u00f3"
         }, 
         {
-          "id": 2043, 
+          "id": "005514688", 
+          "is_domestic": true, 
+          "latitude": 47.748554468046, 
+          "legacy_id": 2043, 
+          "longitude": 21.5082508046699, 
           "name": "Hajd\u00favid"
         }, 
         {
-          "id": 2044, 
+          "id": "005503939", 
+          "is_domestic": true, 
+          "latitude": 47.1410804922128, 
+          "legacy_id": 2044, 
+          "longitude": 18.0093192369868, 
           "name": "Hajm\u00e1sk\u00e9r"
         }, 
         {
-          "id": 2045, 
-          "name": "Hajnacka"
-        }, 
-        {
-          "id": 2046, 
+          "id": "005514878", 
+          "is_domestic": true, 
+          "latitude": 47.9988657098112, 
+          "legacy_id": 2046, 
+          "longitude": 21.4148049100424, 
           "name": "Hajnalos"
         }, 
         {
-          "id": 2047, 
+          "id": "005515156", 
+          "is_domestic": true, 
+          "latitude": 47.5216811286529, 
+          "legacy_id": 2047, 
+          "longitude": 21.8187609270737, 
           "name": "Hal\u00e1p"
         }, 
         {
-          "id": 6823, 
-          "name": "Halast\u00f3 [B\u00e1nhalma-Halast\u00f3]"
+          "id": "005514530_147", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Halast\u00f3 (Hortob\u00e1gyi Halast\u00f3)"
         }, 
         {
-          "id": 6846, 
-          "name": "Halast\u00f3 [Hortob\u00e1gyi Halast\u00f3]"
+          "id": "005542481_148", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Halast\u00f3 (B\u00e1nhalma-Halast\u00f3)"
         }, 
         {
-          "id": 2048, 
+          "id": "005544396", 
+          "is_domestic": true, 
+          "latitude": 46.9115141520527, 
+          "legacy_id": 2048, 
+          "longitude": 20.5623681857975, 
           "name": "Hal\u00e1szlak"
         }, 
         {
-          "id": 2051, 
+          "id": "005502063", 
+          "is_domestic": true, 
+          "latitude": 47.5201986154661, 
+          "legacy_id": 2051, 
+          "longitude": 17.5604704858701, 
           "name": "Halipuszta"
         }, 
         {
-          "id": 2058, 
+          "id": "005513169", 
+          "is_domestic": true, 
+          "latitude": 48.2466404254295, 
+          "legacy_id": 2058, 
+          "longitude": 20.9915333949652, 
           "name": "Halmaj"
         }, 
         {
-          "id": 8464, 
-          "name": "HAMBOURG (HBF) [Hamburg Hbf]"
-        }, 
-        {
-          "id": 2062, 
+          "id": "008099970", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2062, 
+          "longitude": null, 
           "name": "HAMBURG*"
         }, 
         {
-          "id": 2063, 
-          "name": "Hamburg Dammtor"
-        }, 
-        {
-          "id": 2064, 
+          "id": "008001071", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2064, 
+          "longitude": null, 
           "name": "Hamburg Hbf"
         }, 
         {
-          "id": 2065, 
+          "id": "008001093", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2065, 
+          "longitude": null, 
           "name": "Hamburg-Altona"
         }, 
         {
-          "id": 2066, 
+          "id": "008001063", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2066, 
+          "longitude": null, 
           "name": "Hamburg-Bergedorf"
         }, 
         {
-          "id": 2072, 
-          "name": "Handlova"
-        }, 
-        {
-          "id": 2073, 
-          "name": "Haniska Pri Kosiciach"
-        }, 
-        {
-          "id": 2074, 
-          "name": "Haniska Pri Presove"
-        }, 
-        {
-          "id": 2075, 
-          "name": "Hankovce"
-        }, 
-        {
-          "id": 2079, 
+          "id": "004345666", 
+          "is_domestic": true, 
+          "latitude": 47.7200654249643, 
+          "legacy_id": 2079, 
+          "longitude": 17.2156562772552, 
           "name": "Hans\u00e1gliget"
         }, 
         {
-          "id": 2080, 
+          "id": "004302352", 
+          "is_domestic": true, 
+          "latitude": 47.7410229902358, 
+          "legacy_id": 2080, 
+          "longitude": 17.1890329916409, 
           "name": "Hans\u00e1g-Nagyerd\u0151"
         }, 
         {
-          "id": 2082, 
-          "name": "Hanusovce Nad Toplou"
-        }, 
-        {
-          "id": 2083, 
-          "name": "Hanusovce Nad Toplou Mesto"
-        }, 
-        {
-          "id": 2085, 
+          "id": "004346375", 
+          "is_domestic": true, 
+          "latitude": 46.964639, 
+          "legacy_id": 2085, 
+          "longitude": 16.282662, 
           "name": "Haris"
         }, 
         {
-          "id": 2086, 
+          "id": "005516733", 
+          "is_domestic": true, 
+          "latitude": 46.4584342252349, 
+          "legacy_id": 2086, 
+          "longitude": 19.6021098659342, 
           "name": "Harkak\u00f6t\u00f6ny"
         }, 
         {
-          "id": 6792, 
-          "name": "H\u00e1rmas\u00fat [Kisv\u00e1rda-H\u00e1rmas\u00fat]"
+          "id": "005514126_149", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6792, 
+          "longitude": null, 
+          "name": "H\u00e1rmas\u00fat (Kisv\u00e1rda-H\u00e1rmas\u00fat)"
         }, 
         {
-          "id": 2088, 
+          "id": "005505785", 
+          "is_domestic": true, 
+          "latitude": 47.4130198730913, 
+          "legacy_id": 2088, 
+          "longitude": 19.0363311177078, 
           "name": "H\u00e1ros"
         }, 
         {
-          "id": 2090, 
-          "name": "H\u00e1rsliget [Lipovci]"
+          "id": "007943703_150", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2090, 
+          "longitude": null, 
+          "name": "H\u00e1rsliget (Lipovci)"
         }, 
         {
-          "id": 9966, 
+          "id": "008103509", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9966, 
+          "longitude": null, 
           "name": "Hart bei Graz"
         }, 
         {
-          "id": 2098, 
-          "name": "Hasznos [M\u00e1trasz\u0151l\u0151s-Hasznos]"
+          "id": "005511817_151", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2098, 
+          "longitude": null, 
+          "name": "Hasznos (M\u00e1trasz\u0151l\u0151s-Hasznos)"
         }, 
         {
-          "id": 2102, 
+          "id": "005511205", 
+          "is_domestic": true, 
+          "latitude": 47.6634276776199, 
+          "legacy_id": 2102, 
+          "longitude": 19.6717846645993, 
           "name": "Hatvan"
         }, 
         {
-          "id": 2106, 
-          "name": "Hausfeldstrasse"
+          "id": "005514670_152", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6813, 
+          "longitude": null, 
+          "name": "H.b\u00f6sz\u00f6rm\u00e9ny (Hajd\u00fab\u00f6sz\u00f6rm\u00e9ny)"
         }, 
         {
-          "id": 8564, 
-          "name": "Havirov"
+          "id": "005514696_153", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6743, 
+          "longitude": null, 
+          "name": "H.dorog (Hajd\u00fadorog)"
         }, 
         {
-          "id": 8511, 
-          "name": "HAVIROV [Havirov]"
-        }, 
-        {
-          "id": 2110, 
-          "name": "Hazin Nad Cirochou"
-        }, 
-        {
-          "id": 6813, 
-          "name": "H.b\u00f6sz\u00f6rm\u00e9ny [Hajd\u00fab\u00f6sz\u00f6rm\u00e9ny]"
-        }, 
-        {
-          "id": 6743, 
-          "name": "H.dorog [Hajd\u00fadorog]"
-        }, 
-        {
-          "id": 2111, 
+          "id": "005501362", 
+          "is_domestic": true, 
+          "latitude": 47.9135532387146, 
+          "legacy_id": 2111, 
+          "longitude": 17.1476438174789, 
           "name": "Hegyeshalom"
         }, 
         {
-          "id": 2112, 
+          "id": "004302469", 
+          "is_domestic": true, 
+          "latitude": 47.3580932232525, 
+          "legacy_id": 2112, 
+          "longitude": 16.898653764826, 
           "name": "Hegyfalu"
         }, 
         {
-          "id": 2119, 
+          "id": "005513367", 
+          "is_domestic": true, 
+          "latitude": 48.4189693299834, 
+          "legacy_id": 2119, 
+          "longitude": 21.2453894145394, 
           "name": "Hejce-Vilm\u00e1ny"
         }, 
         {
-          "id": 2120, 
+          "id": "005512559", 
+          "is_domestic": true, 
+          "latitude": 47.9604886793742, 
+          "legacy_id": 2120, 
+          "longitude": 20.8695858387336, 
           "name": "Hej\u0151kereszt\u00far"
         }, 
         {
-          "id": 2121, 
+          "id": "005517442", 
+          "is_domestic": true, 
+          "latitude": 46.6750474481241, 
+          "legacy_id": 2121, 
+          "longitude": 20.2666947765555, 
           "name": "H\u00e9k\u00e9d"
         }, 
         {
-          "id": 2122, 
-          "name": "Helcmanovce"
+          "id": "005507252_154", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2123, 
+          "longitude": null, 
+          "name": "Helesfa (Cserdi-Helesfa)"
         }, 
         {
-          "id": 2123, 
-          "name": "Helesfa [Cserdi-Helesfa]"
-        }, 
-        {
-          "id": 2126, 
-          "name": "Helpa"
-        }, 
-        {
-          "id": 2127, 
-          "name": "Hencovce"
-        }, 
-        {
-          "id": 2131, 
+          "id": "005501065", 
+          "is_domestic": true, 
+          "latitude": 47.4939931473576, 
+          "legacy_id": 2131, 
+          "longitude": 18.7432683641151, 
           "name": "Herceghalom"
         }, 
         {
-          "id": 2132, 
+          "id": "005503954", 
+          "is_domestic": true, 
+          "latitude": 47.1369349776735, 
+          "legacy_id": 2132, 
+          "longitude": 17.7608028894001, 
           "name": "Herend"
         }, 
         {
-          "id": 2136, 
+          "id": "005516865", 
+          "is_domestic": true, 
+          "latitude": 47.1611995892004, 
+          "legacy_id": 2136, 
+          "longitude": 19.4026064580135, 
           "name": "Hern\u00e1d"
         }, 
         {
-          "id": 2137, 
+          "id": "005511403", 
+          "is_domestic": true, 
+          "latitude": 48.0515552235349, 
+          "legacy_id": 2137, 
+          "longitude": 20.9852308012521, 
           "name": "Hern\u00e1dn\u00e9meti-B\u0151cs"
         }, 
         {
-          "id": 2138, 
+          "id": "005513235", 
+          "is_domestic": true, 
+          "latitude": 48.4866256218076, 
+          "legacy_id": 2138, 
+          "longitude": 21.2133422596757, 
           "name": "Hern\u00e1dszurdok"
         }, 
         {
-          "id": 2141, 
-          "name": "Hertnik"
-        }, 
-        {
-          "id": 2149, 
+          "id": "005516956", 
+          "is_domestic": true, 
+          "latitude": 46.9308524112263, 
+          "legacy_id": 2149, 
+          "longitude": 19.5950240865734, 
           "name": "Het\u00e9nyegyh\u00e1za"
         }, 
         {
-          "id": 2150, 
-          "name": "H\u00e9th\u00e1rs [Lipany]"
-        }, 
-        {
-          "id": 2151, 
+          "id": "005507237", 
+          "is_domestic": true, 
+          "latitude": 46.1283195714142, 
+          "legacy_id": 2151, 
+          "longitude": 18.0450893844916, 
           "name": "Hetvehely"
         }, 
         {
-          "id": 2154, 
+          "id": "005512286", 
+          "is_domestic": true, 
+          "latitude": 47.6093621030844, 
+          "legacy_id": 2154, 
+          "longitude": 20.3060565667362, 
           "name": "Heves"
         }, 
         {
-          "id": 2155, 
+          "id": "005512294", 
+          "is_domestic": true, 
+          "latitude": 47.5617242741852, 
+          "legacy_id": 2155, 
+          "longitude": 20.3663358042794, 
           "name": "Hevesvezek\u00e9ny"
         }, 
         {
-          "id": 2156, 
-          "name": "H\u00e9v\u00edz [Keszthely]"
+          "id": "005504747_155", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2156, 
+          "longitude": null, 
+          "name": "H\u00e9v\u00edz (Keszthely)"
         }, 
         {
-          "id": 2157, 
+          "id": "005511171", 
+          "is_domestic": true, 
+          "latitude": 47.6387697763145, 
+          "legacy_id": 2157, 
+          "longitude": 19.5259164959169, 
           "name": "H\u00e9v\u00edzgy\u00f6rk"
         }, 
         {
-          "id": 6837, 
-          "name": "H.hadh\u00e1z [Hajd\u00fahadh\u00e1z]"
+          "id": "005513953_156", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6837, 
+          "longitude": null, 
+          "name": "H.hadh\u00e1z (Hajd\u00fahadh\u00e1z)"
         }, 
         {
-          "id": 8473, 
-          "name": "HHBD [Hamburg-Bergedorf]"
-        }, 
-        {
-          "id": 8466, 
-          "name": "HHH [Hamburg Hbf]"
-        }, 
-        {
-          "id": 2158, 
+          "id": "005507088", 
+          "is_domestic": true, 
+          "latitude": 46.2692999360198, 
+          "legacy_id": 2158, 
+          "longitude": 18.5235683655916, 
           "name": "Hidas-Bonyh\u00e1d"
         }, 
         {
-          "id": 2159, 
+          "id": "005513243", 
+          "is_domestic": true, 
+          "latitude": 48.5088005001696, 
+          "legacy_id": 2159, 
+          "longitude": 21.2302857093877, 
           "name": "Hidasn\u00e9meti"
         }, 
         {
-          "id": 2164, 
-          "name": "Himberg"
+          "id": "005514704_157", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6646, 
+          "longitude": null, 
+          "name": "H.n\u00e1n\u00e1s (Hajd\u00fan\u00e1n\u00e1s)"
         }, 
         {
-          "id": 2171, 
-          "name": "Hlinik Nad Hronom"
-        }, 
-        {
-          "id": 2172, 
-          "name": "Hlinne"
-        }, 
-        {
-          "id": 2173, 
-          "name": "Hlohovec"
-        }, 
-        {
-          "id": 2174, 
-          "name": "Hmelnickii"
-        }, 
-        {
-          "id": 12622, 
-          "name": "HMELNICKII [Hmelnickii]"
-        }, 
-        {
-          "id": 6646, 
-          "name": "H.n\u00e1n\u00e1s [Hajd\u00fan\u00e1n\u00e1s]"
-        }, 
-        {
-          "id": 2175, 
-          "name": "Hnilec"
-        }, 
-        {
-          "id": 2176, 
-          "name": "Hnusta"
-        }, 
-        {
-          "id": 2177, 
-          "name": "Hnusta Zastavka"
-        }, 
-        {
-          "id": 2178, 
-          "name": "Hoce"
-        }, 
-        {
-          "id": 12824, 
-          "name": "HOCE [Hoce]"
-        }, 
-        {
-          "id": 2183, 
+          "id": "005515479", 
+          "is_domestic": true, 
+          "latitude": 47.8961417205357, 
+          "legacy_id": 2183, 
+          "longitude": 22.2135192279257, 
           "name": "Hod\u00e1sz"
         }, 
         {
-          "id": 2184, 
-          "name": "Hodejov"
-        }, 
-        {
-          "id": 2185, 
+          "id": "005518572", 
+          "is_domestic": true, 
+          "latitude": 46.4132905678657, 
+          "legacy_id": 2185, 
+          "longitude": 20.339659925437, 
           "name": "H\u00f3dmez\u0151v\u00e1s\u00e1rhely"
         }, 
         {
-          "id": 2186, 
+          "id": "005518564", 
+          "is_domestic": true, 
+          "latitude": 46.4034176624457, 
+          "legacy_id": 2186, 
+          "longitude": 20.3126967475213, 
           "name": "H\u00f3dmez\u0151v\u00e1s\u00e1rhelyi N\u00e9pkert"
         }, 
         {
-          "id": 2187, 
+          "id": "005433845", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2187, 
+          "longitude": null, 
           "name": "Hodonin"
         }, 
         {
-          "id": 8147, 
-          "name": "HODONIN [Hodonin]"
-        }, 
-        {
-          "id": 7907, 
+          "id": "007943777", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7907, 
+          "longitude": null, 
           "name": "Hodo\u0161"
         }, 
         {
-          "id": 12697, 
-          "name": "HODOS [Hodo\u0161]"
-        }, 
-        {
-          "id": 13242, 
-          "name": "HOFGASTEIN BAD [Bad Hofgastein]"
-        }, 
-        {
-          "id": 2192, 
+          "id": "008103507", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2192, 
+          "longitude": null, 
           "name": "Hohenbrugg A.D.Raab"
         }, 
         {
-          "id": 8672, 
-          "name": "HOLIC [Holic Nad Moravou]"
-        }, 
-        {
-          "id": 2196, 
-          "name": "Holic Nad Moravou"
-        }, 
-        {
-          "id": 2197, 
-          "name": "Holics [Holic Nad Moravou]"
-        }, 
-        {
-          "id": 2198, 
-          "name": "Holisa"
-        }, 
-        {
-          "id": 2202, 
-          "name": "Holl\u00f3patak [Mlynky]"
-        }, 
-        {
-          "id": 2206, 
-          "name": "Homec Pri Kamniku"
-        }, 
-        {
-          "id": 2207, 
+          "id": "005518119", 
+          "is_domestic": true, 
+          "latitude": 46.9458509784942, 
+          "legacy_id": 2207, 
+          "longitude": 20.2697917348321, 
           "name": "Homok"
         }, 
         {
-          "id": 2208, 
-          "name": "Homonna [Humenne]"
-        }, 
-        {
-          "id": 2214, 
-          "name": "Horna Lehota"
-        }, 
-        {
-          "id": 2215, 
-          "name": "Horna Streda"
-        }, 
-        {
-          "id": 2216, 
-          "name": "Horna Stubna"
-        }, 
-        {
-          "id": 2217, 
-          "name": "Horna Stubna Obec"
-        }, 
-        {
-          "id": 2218, 
-          "name": "Horna Stubna Zastavka"
-        }, 
-        {
-          "id": 2220, 
-          "name": "Horne Ozorovce"
-        }, 
-        {
-          "id": 2221, 
-          "name": "Horne Srnie"
-        }, 
-        {
-          "id": 8660, 
-          "name": "HORNI [Horni Lidec]"
-        }, 
-        {
-          "id": 2223, 
-          "name": "Horni Lidec"
-        }, 
-        {
-          "id": 8712, 
-          "name": "HORNY [Horny Pial]"
-        }, 
-        {
-          "id": 2224, 
-          "name": "Horny Hricov"
-        }, 
-        {
-          "id": 2225, 
-          "name": "Horny Pial"
-        }, 
-        {
-          "id": 2226, 
-          "name": "Horny Smokovec"
-        }, 
-        {
-          "id": 2229, 
+          "id": "005514522", 
+          "is_domestic": true, 
+          "latitude": 47.5860272051831, 
+          "legacy_id": 2229, 
+          "longitude": 21.1542717534761, 
           "name": "Hortob\u00e1gy"
         }, 
         {
-          "id": 2230, 
+          "id": "005514530", 
+          "is_domestic": true, 
+          "latitude": 47.6040048023262, 
+          "legacy_id": 2230, 
+          "longitude": 21.0742161752588, 
           "name": "Hortob\u00e1gyi Halast\u00f3"
         }, 
         {
-          "id": 2231, 
+          "id": "004345658", 
+          "is_domestic": true, 
+          "latitude": 47.004996, 
+          "legacy_id": 2231, 
+          "longitude": 16.543849, 
           "name": "Horv\u00e1tn\u00e1dalja"
         }, 
         {
-          "id": 2232, 
+          "id": "005541269", 
+          "is_domestic": true, 
+          "latitude": 47.3703238827206, 
+          "legacy_id": 2232, 
+          "longitude": 19.3903204904527, 
           "name": "Hossz\u00faberek-P\u00e9teri"
         }, 
         {
-          "id": 2233, 
+          "id": "005514290", 
+          "is_domestic": true, 
+          "latitude": 47.2355342389925, 
+          "legacy_id": 2233, 
+          "longitude": 21.1020080845138, 
           "name": "Hossz\u00fah\u00e1t"
         }, 
         {
-          "id": 2237, 
-          "name": "H\u0151gy\u00e9sz [Szak\u00e1ly-H\u0151gy\u00e9sz]"
+          "id": "005506130_158", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2237, 
+          "longitude": null, 
+          "name": "H\u0151gy\u00e9sz (Szak\u00e1ly-H\u0151gy\u00e9sz)"
         }, 
         {
-          "id": 2242, 
-          "name": "Hrabovec Nad Laborcom"
-        }, 
-        {
-          "id": 2243, 
-          "name": "Hrachoviste"
-        }, 
-        {
-          "id": 2244, 
-          "name": "Hrachovo"
-        }, 
-        {
-          "id": 8519, 
-          "name": "Hradek (Grodek)"
-        }, 
-        {
-          "id": 8553, 
-          "name": "HRADEK [Hradek (Grodek)]"
-        }, 
-        {
-          "id": 8119, 
-          "name": "HRANICE [Hranice Na Morave]"
-        }, 
-        {
-          "id": 2245, 
+          "id": "005433722", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2245, 
+          "longitude": null, 
           "name": "Hranice Na Morave"
         }, 
         {
-          "id": 12846, 
-          "name": "HRASCINA-T. [Hrascina-Trgovisce]"
+          "id": "005515347_159", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6783, 
+          "longitude": null, 
+          "name": "H.s\u00e1mson (Hajd\u00fas\u00e1mson)"
         }, 
         {
-          "id": 13081, 
-          "name": "Hrascina-Trgovisce"
+          "id": "005514654_160", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6839, 
+          "longitude": null, 
+          "name": "H.szentgy\u00f6rgy (Hajd\u00faszentgy\u00f6rgy)"
         }, 
         {
-          "id": 2246, 
-          "name": "Hrastnik"
+          "id": "005513888_161", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6656, 
+          "longitude": null, 
+          "name": "H.szoboszl\u00f3 (Hajd\u00faszoboszl\u00f3)"
         }, 
         {
-          "id": 12658, 
-          "name": "HRASTNIK [Hrastnik]"
-        }, 
-        {
-          "id": 2247, 
-          "name": "Hrastovlje"
-        }, 
-        {
-          "id": 12723, 
-          "name": "HRASTOVLJE [Hrastovlje]"
-        }, 
-        {
-          "id": 2248, 
-          "name": "Hrboltova"
-        }, 
-        {
-          "id": 12939, 
-          "name": "Hromec"
-        }, 
-        {
-          "id": 13009, 
-          "name": "HROMEC [Hromec]"
-        }, 
-        {
-          "id": 2250, 
-          "name": "Hromos"
-        }, 
-        {
-          "id": 2251, 
-          "name": "Hronovce"
-        }, 
-        {
-          "id": 2252, 
-          "name": "Hronsek"
-        }, 
-        {
-          "id": 2253, 
-          "name": "Hronska Dubrava"
-        }, 
-        {
-          "id": 8619, 
-          "name": "HRONSKA [Hronska Dubrava]"
-        }, 
-        {
-          "id": 8561, 
-          "name": "HRONSKE [Hronske Klacany]"
-        }, 
-        {
-          "id": 2254, 
-          "name": "Hronske Klacany"
-        }, 
-        {
-          "id": 2255, 
-          "name": "Hronsky Benadik"
-        }, 
-        {
-          "id": 2256, 
-          "name": "Hrpelje-Kozina"
-        }, 
-        {
-          "id": 12673, 
-          "name": "HRPELJE-KOZINA [Hrpelje-Kozina]"
-        }, 
-        {
-          "id": 13105, 
-          "name": "Hrsovo"
-        }, 
-        {
-          "id": 12809, 
-          "name": "HRSOVO [Hrsovo]"
-        }, 
-        {
-          "id": 6783, 
-          "name": "H.s\u00e1mson [Hajd\u00fas\u00e1mson]"
-        }, 
-        {
-          "id": 6839, 
-          "name": "H.szentgy\u00f6rgy [Hajd\u00faszentgy\u00f6rgy]"
-        }, 
-        {
-          "id": 6656, 
-          "name": "H.szoboszl\u00f3 [Hajd\u00faszoboszl\u00f3]"
-        }, 
-        {
-          "id": 2258, 
-          "name": "Hudajuzna"
-        }, 
-        {
-          "id": 13134, 
-          "name": "HUDAJUZNA [Hudajuzna]"
-        }, 
-        {
-          "id": 2260, 
-          "name": "Hudo"
-        }, 
-        {
-          "id": 13095, 
-          "name": "HUDO [Hudo]"
-        }, 
-        {
-          "id": 2261, 
+          "id": "005332261", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2261, 
+          "longitude": null, 
           "name": "Huedin"
         }, 
         {
-          "id": 8232, 
-          "name": "HUEDIN [Huedin]"
-        }, 
-        {
-          "id": 2267, 
+          "id": "005510983", 
+          "is_domestic": true, 
+          "latitude": 48.0829028062048, 
+          "legacy_id": 2267, 
+          "longitude": 19.4235386357473, 
           "name": "Hugyag"
         }, 
         {
-          "id": 2268, 
-          "name": "Hul"
+          "id": "005514688_162", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6782, 
+          "longitude": null, 
+          "name": "H.vid (Hajd\u00favid)"
         }, 
         {
-          "id": 2269, 
-          "name": "Humenne"
-        }, 
-        {
-          "id": 2270, 
-          "name": "Humenne Mesto"
-        }, 
-        {
-          "id": 2271, 
-          "name": "Huncovce"
-        }, 
-        {
-          "id": 2272, 
-          "name": "Hurbanovo"
-        }, 
-        {
-          "id": 2274, 
-          "name": "Hutniky"
-        }, 
-        {
-          "id": 6782, 
-          "name": "H.vid [Hajd\u00favid]"
-        }, 
-        {
-          "id": 6855, 
-          "name": "Idomeni"
-        }, 
-        {
-          "id": 2284, 
+          "id": "005342747", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2284, 
+          "longitude": null, 
           "name": "Iernut"
         }, 
         {
-          "id": 8180, 
-          "name": "IERNUT [Iernut]"
-        }, 
-        {
-          "id": 7919, 
-          "name": "Igl\u00f3 [Spi\u0161sk\u00e1 Nov\u00e1 Ves]"
-        }, 
-        {
-          "id": 2291, 
+          "id": "005510801", 
+          "is_domestic": true, 
+          "latitude": 47.6581024986545, 
+          "legacy_id": 2291, 
+          "longitude": 19.4440060114738, 
           "name": "Iklad-Domony"
         }, 
         {
-          "id": 2292, 
+          "id": "005510819", 
+          "is_domestic": true, 
+          "latitude": 47.6676722561885, 
+          "legacy_id": 2292, 
+          "longitude": 19.4281879927847, 
           "name": "Iklad-Domony fels\u0151"
         }, 
         {
-          "id": 2293, 
+          "id": "005504978", 
+          "is_domestic": true, 
+          "latitude": 46.6031948473766, 
+          "legacy_id": 2293, 
+          "longitude": 16.6038498578092, 
           "name": "Ikl\u00f3db\u00f6rd\u0151ce"
         }, 
         {
-          "id": 2294, 
+          "id": "004302519", 
+          "is_domestic": true, 
+          "latitude": 47.6576728064763, 
+          "legacy_id": 2294, 
+          "longitude": 17.5238584099653, 
           "name": "Ikr\u00e9ny"
         }, 
         {
-          "id": 13182, 
-          "name": "Ilaca"
-        }, 
-        {
-          "id": 13214, 
-          "name": "ILACA [Ilaca]"
-        }, 
-        {
-          "id": 2295, 
-          "name": "Ilava"
-        }, 
-        {
-          "id": 2297, 
+          "id": "005341793", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2297, 
+          "longitude": null, 
           "name": "Ilba"
         }, 
         {
-          "id": 8035, 
-          "name": "ILBA [Ilba]"
-        }, 
-        {
-          "id": 2299, 
+          "id": "005321406", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2299, 
+          "longitude": null, 
           "name": "Ilia"
         }, 
         {
-          "id": 8257, 
-          "name": "ILIA [Ilia]"
+          "id": "005341793_163", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2304, 
+          "longitude": null, 
+          "name": "Iloba (Ilba)"
         }, 
         {
-          "id": 2301, 
-          "name": "Ilirska Bistrica"
-        }, 
-        {
-          "id": 12633, 
-          "name": "ILIRSKA [Ilirska Bistrica]"
-        }, 
-        {
-          "id": 2303, 
-          "name": "Illava [Ilava]"
-        }, 
-        {
-          "id": 2304, 
-          "name": "Iloba [Ilba]"
-        }, 
-        {
-          "id": 13232, 
-          "name": "Ilova"
-        }, 
-        {
-          "id": 13270, 
-          "name": "ILOVA [Ilova]"
-        }, 
-        {
-          "id": 2309, 
-          "name": "Imeno"
-        }, 
-        {
-          "id": 13103, 
-          "name": "IMENO [Imeno]"
-        }, 
-        {
-          "id": 6774, 
+          "id": "005549445", 
+          "is_domestic": true, 
+          "latitude": 46.6804057039101, 
+          "legacy_id": 2312, 
+          "longitude": 17.4997622898789, 
           "name": "Imremajor"
         }, 
         {
-          "id": 2315, 
+          "id": "005513185", 
+          "is_domestic": true, 
+          "latitude": 48.2893332178005, 
+          "legacy_id": 2315, 
+          "longitude": 21.0538281387338, 
           "name": "In\u00e1ncs"
         }, 
         {
-          "id": 2316, 
+          "id": "005516832", 
+          "is_domestic": true, 
+          "latitude": 47.2471267284921, 
+          "legacy_id": 2316, 
+          "longitude": 19.3180107057583, 
           "name": "In\u00e1rcs-Kakucs"
         }, 
         {
-          "id": 2319, 
-          "name": "India [Indjija]"
+          "id": "007216801_164", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2319, 
+          "longitude": null, 
+          "name": "India (Indjija)"
         }, 
         {
-          "id": 2320, 
+          "id": "007216801", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2320, 
+          "longitude": null, 
           "name": "Indjija"
         }, 
         {
-          "id": 8215, 
-          "name": "INDJIJA [Indjija]"
-        }, 
-        {
-          "id": 2322, 
+          "id": "008108996", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2322, 
+          "longitude": null, 
           "name": "INNSBRUCK*"
         }, 
         {
-          "id": 2323, 
+          "id": "008101187", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2323, 
+          "longitude": null, 
           "name": "Innsbruck Hbf."
         }, 
         {
-          "id": 6692, 
-          "name": "Ipartelepek [Polg\u00e1rdi-Ipartelepek]"
+          "id": "005504275_165", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6692, 
+          "longitude": null, 
+          "name": "Ipartelepek (Polg\u00e1rdi-Ipartelepek)"
         }, 
         {
-          "id": 2334, 
-          "name": "Ipelsky Sokolec"
-        }, 
-        {
-          "id": 2335, 
-          "name": "Ipolys\u00e1g [Sahy]"
-        }, 
-        {
-          "id": 2336, 
+          "id": "005510728", 
+          "is_domestic": true, 
+          "latitude": 48.0546594400009, 
+          "legacy_id": 2336, 
+          "longitude": 19.2233716029277, 
           "name": "Ipolysz\u00f6g"
         }, 
         {
-          "id": 2337, 
+          "id": "005511056", 
+          "is_domestic": true, 
+          "latitude": 48.2365910073761, 
+          "legacy_id": 2337, 
+          "longitude": 19.6290746302006, 
           "name": "Ipolytarn\u00f3c"
         }, 
         {
-          "id": 2338, 
+          "id": "005510702", 
+          "is_domestic": true, 
+          "latitude": 48.0575479046207, 
+          "legacy_id": 2338, 
+          "longitude": 19.1069224461927, 
           "name": "Ipolyvece"
         }, 
         {
-          "id": 2343, 
+          "id": "005511122", 
+          "is_domestic": true, 
+          "latitude": 47.5374299563147, 
+          "legacy_id": 2343, 
+          "longitude": 19.3894092903022, 
           "name": "Isaszeg"
         }, 
         {
-          "id": 2346, 
-          "name": "Istambul [Istanbul City]"
-        }, 
-        {
-          "id": 2347, 
-          "name": "Istanbul"
-        }, 
-        {
-          "id": 2348, 
-          "name": "Istanbul City"
-        }, 
-        {
-          "id": 10049, 
-          "name": "ISTANBUL CITY [Istanbul City]"
-        }, 
-        {
-          "id": 2349, 
-          "name": "Istebne"
-        }, 
-        {
-          "id": 2350, 
+          "id": "005510132", 
+          "is_domestic": true, 
+          "latitude": 47.5503338147095, 
+          "legacy_id": 2350, 
+          "longitude": 19.1063394481431, 
           "name": "Istv\u00e1ntelek"
         }, 
         {
-          "id": 2351, 
-          "name": "Isztanbul [Istanbul City]"
-        }, 
-        {
-          "id": 2355, 
+          "id": "005546326", 
+          "is_domestic": true, 
+          "latitude": 47.6418691135955, 
+          "legacy_id": 2355, 
+          "longitude": 19.2741975070237, 
           "name": "Ivacs"
         }, 
         {
-          "id": 2356, 
-          "name": "Ivancna Gorica"
-        }, 
-        {
-          "id": 13127, 
-          "name": "IVANCNA [Ivancna Gorica]"
-        }, 
-        {
-          "id": 2357, 
+          "id": "005505868", 
+          "is_domestic": true, 
+          "latitude": 47.1778321220846, 
+          "legacy_id": 2357, 
+          "longitude": 18.8118817443317, 
           "name": "Iv\u00e1ncsa"
         }, 
         {
-          "id": 2359, 
-          "name": "Ivanic Grad"
-        }, 
-        {
-          "id": 13192, 
-          "name": "IVANIC [Ivanic Grad]"
-        }, 
-        {
-          "id": 2360, 
-          "name": "Ivanicsv\u00e1r [Ivanic Grad]"
-        }, 
-        {
-          "id": 2361, 
+          "id": "007943603", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2361, 
+          "longitude": null, 
           "name": "Ivanjkovci"
         }, 
         {
-          "id": 10033, 
-          "name": "IVANJKOVCI [Ivanjkovci]"
-        }, 
-        {
-          "id": 2362, 
-          "name": "Ivanka Pri Dunaji"
-        }, 
-        {
-          "id": 2363, 
-          "name": "Ivanka Pri Nitre"
-        }, 
-        {
-          "id": 2364, 
-          "name": "Ivankovo"
-        }, 
-        {
-          "id": 13064, 
-          "name": "IVANKOVO [Ivankovo]"
-        }, 
-        {
-          "id": 8372, 
-          "name": "IZVORU [Izvoru Muresului]"
-        }, 
-        {
-          "id": 8188, 
-          "name": "IZVORU [Izvoru Oltului]"
-        }, 
-        {
-          "id": 2369, 
-          "name": "Izvoru Muresului"
-        }, 
-        {
-          "id": 2370, 
+          "id": "005340490", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2370, 
+          "longitude": null, 
           "name": "Izvoru Oltului"
         }, 
         {
-          "id": 2372, 
-          "name": "Jablonica"
-        }, 
-        {
-          "id": 8729, 
-          "name": "JABLUNKOV-NAVSI [Navsi (Nawsie)]"
-        }, 
-        {
-          "id": 2373, 
-          "name": "Jagodina"
-        }, 
-        {
-          "id": 13244, 
-          "name": "JAGODINA [Jagodina]"
-        }, 
-        {
-          "id": 2374, 
+          "id": "004302261", 
+          "is_domestic": true, 
+          "latitude": 47.1612802671934, 
+          "legacy_id": 2374, 
+          "longitude": 16.6304677067287, 
           "name": "J\u00e1k-Balogunyom"
         }, 
         {
-          "id": 2375, 
-          "name": "Jaklovce"
-        }, 
-        {
-          "id": 2376, 
+          "id": "005506338", 
+          "is_domestic": true, 
+          "latitude": 46.3445194158465, 
+          "legacy_id": 2376, 
+          "longitude": 17.5552723262099, 
           "name": "J\u00e1k\u00f3-Nagybajom"
         }, 
         {
-          "id": 2377, 
-          "name": "Jalna"
-        }, 
-        {
-          "id": 2378, 
-          "name": "Jalovec"
-        }, 
-        {
-          "id": 2379, 
+          "id": "005515800", 
+          "is_domestic": true, 
+          "latitude": 47.9420513610243, 
+          "legacy_id": 2379, 
+          "longitude": 22.6566587552797, 
           "name": "J\u00e1nkmajtis"
         }, 
         {
-          "id": 13014, 
-          "name": "Jankovci"
-        }, 
-        {
-          "id": 13225, 
-          "name": "JANKOVCI [Jankovci]"
-        }, 
-        {
-          "id": 2380, 
+          "id": "005516618", 
+          "is_domestic": true, 
+          "latitude": 46.2929338028837, 
+          "legacy_id": 2380, 
+          "longitude": 19.3305747246881, 
           "name": "J\u00e1noshalma"
         }, 
         {
-          "id": 2381, 
+          "id": "005504705", 
+          "is_domestic": true, 
+          "latitude": 47.1154376316768, 
+          "legacy_id": 2381, 
+          "longitude": 17.1715775559299, 
           "name": "J\u00e1nosh\u00e1za"
         }, 
         {
-          "id": 2382, 
-          "name": "J\u00e1noshida [J\u00e1szboldogh\u00e1za-J\u00e1noshida]"
+          "id": "005511981_166", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2382, 
+          "longitude": null, 
+          "name": "J\u00e1noshida (J\u00e1szboldogh\u00e1za-J\u00e1noshida)"
         }, 
         {
-          "id": 2383, 
+          "id": "004302345", 
+          "is_domestic": true, 
+          "latitude": 47.7890028814463, 
+          "legacy_id": 2383, 
+          "longitude": 17.1374382290352, 
           "name": "J\u00e1nossomorja"
         }, 
         {
-          "id": 2384, 
+          "id": "005544636", 
+          "is_domestic": true, 
+          "latitude": 46.3342854709691, 
+          "legacy_id": 2384, 
+          "longitude": 20.0511099672634, 
           "name": "J\u00e1nossz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 12828, 
-          "name": "JARSE-MENGE [Jarse-Menges]"
-        }, 
-        {
-          "id": 2386, 
-          "name": "Jarse-Menges"
-        }, 
-        {
-          "id": 2388, 
-          "name": "Jaska [Jastrebarsko]"
-        }, 
-        {
-          "id": 8557, 
-          "name": "Jaslo"
-        }, 
-        {
-          "id": 8727, 
-          "name": "JASLO [Jaslo]"
-        }, 
-        {
-          "id": 2389, 
-          "name": "Jastraba"
-        }, 
-        {
-          "id": 2390, 
-          "name": "Jastrebarsko"
-        }, 
-        {
-          "id": 12987, 
-          "name": "JASTREBARSKO [Jastrebarsko]"
-        }, 
-        {
-          "id": 2391, 
+          "id": "005512039", 
+          "is_domestic": true, 
+          "latitude": 47.5136074139038, 
+          "legacy_id": 2391, 
+          "longitude": 20.155133027516, 
           "name": "J\u00e1szap\u00e1ti"
         }, 
         {
-          "id": 2392, 
+          "id": "005512013", 
+          "is_domestic": true, 
+          "latitude": 47.6360682543157, 
+          "legacy_id": 2392, 
+          "longitude": 19.9700895663965, 
           "name": "J\u00e1sz\u00e1roksz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 2393, 
+          "id": "005511957", 
+          "is_domestic": true, 
+          "latitude": 47.4946060391621, 
+          "legacy_id": 2393, 
+          "longitude": 19.893579513743, 
           "name": "J\u00e1szber\u00e9ny"
         }, 
         {
-          "id": 2394, 
+          "id": "005511981", 
+          "is_domestic": true, 
+          "latitude": 47.3673654447373, 
+          "legacy_id": 2394, 
+          "longitude": 20.0008918332718, 
           "name": "J\u00e1szboldogh\u00e1za-J\u00e1noshida"
         }, 
         {
-          "id": 2395, 
+          "id": "005512021", 
+          "is_domestic": true, 
+          "latitude": 47.562759465593, 
+          "legacy_id": 2395, 
+          "longitude": 20.0281325733636, 
           "name": "J\u00e1szd\u00f3zsa"
         }, 
         {
-          "id": 2396, 
+          "id": "005511932", 
+          "is_domestic": true, 
+          "latitude": 47.5935896603079, 
+          "legacy_id": 2396, 
+          "longitude": 19.753200597747, 
           "name": "J\u00e1szf\u00e9nyszaru"
         }, 
         {
-          "id": 2397, 
+          "id": "005512047", 
+          "is_domestic": true, 
+          "latitude": 47.4561259504045, 
+          "legacy_id": 2397, 
+          "longitude": 20.2035790659428, 
           "name": "J\u00e1szkis\u00e9r"
         }, 
         {
-          "id": 2398, 
+          "id": "005542432", 
+          "is_domestic": true, 
+          "latitude": 47.4380835692543, 
+          "legacy_id": 2398, 
+          "longitude": 20.2025628097973, 
           "name": "J\u00e1szkis\u00e9r fels\u0151"
         }, 
         {
-          "id": 2399, 
+          "id": "005512062", 
+          "is_domestic": true, 
+          "latitude": 47.3728541829865, 
+          "legacy_id": 2399, 
+          "longitude": 20.1586697605787, 
           "name": "J\u00e1szlad\u00e1ny"
         }, 
         {
-          "id": 2400, 
+          "id": "005516766", 
+          "is_domestic": true, 
+          "latitude": 46.5657833092478, 
+          "legacy_id": 2400, 
+          "longitude": 19.7536191552336, 
           "name": "J\u00e1szszentl\u00e1szl\u00f3"
         }, 
         {
-          "id": 2402, 
-          "name": "Jatov"
-        }, 
-        {
-          "id": 2403, 
-          "name": "Javornik Nad Velickou Zastavka"
-        }, 
-        {
-          "id": 8483, 
-          "name": "JAVOR./V. [Javornik Nad Velickou Zastavka]"
-        }, 
-        {
-          "id": 2404, 
-          "name": "Jazernica"
-        }, 
-        {
-          "id": 8673, 
-          "name": "Jedlicze"
-        }, 
-        {
-          "id": 8684, 
-          "name": "JEDLICZE [Jedlicze]"
-        }, 
-        {
-          "id": 12879, 
-          "name": "Jelisavac"
-        }, 
-        {
-          "id": 12704, 
-          "name": "JELISAVAC [Jelisavac]"
-        }, 
-        {
-          "id": 2412, 
-          "name": "Jelovec"
-        }, 
-        {
-          "id": 13050, 
-          "name": "JELOVEC [Jelovec]"
-        }, 
-        {
-          "id": 2413, 
-          "name": "Jelsovce"
-        }, 
-        {
-          "id": 2418, 
+          "id": "008101176", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2418, 
+          "longitude": null, 
           "name": "Jenbach"
         }, 
         {
-          "id": 2419, 
+          "id": "008103508", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2419, 
+          "longitude": null, 
           "name": "Jennersdorf"
         }, 
         {
-          "id": 12863, 
-          "name": "JESENICE [Jesenice (Slo)]"
-        }, 
-        {
-          "id": 2421, 
-          "name": "Jesenice (Slo)"
-        }, 
-        {
-          "id": 2422, 
-          "name": "Jesenske"
-        }, 
-        {
-          "id": 2423, 
-          "name": "Jesenske Udolie"
-        }, 
-        {
-          "id": 2424, 
-          "name": "Jesenske Zastavka"
-        }, 
-        {
-          "id": 2425, 
-          "name": "Jevnica"
-        }, 
-        {
-          "id": 12858, 
-          "name": "JEVNICA [Jevnica]"
-        }, 
-        {
-          "id": 2432, 
+          "id": "005547704", 
+          "is_domestic": true, 
+          "latitude": 47.8290762895036, 
+          "legacy_id": 2432, 
+          "longitude": 19.6873080300961, 
           "name": "Jobb\u00e1gyi"
         }, 
         {
-          "id": 2435, 
-          "name": "J\u00f3k\u00fat [Kuty]"
+          "id": "005613016_167", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2435, 
+          "longitude": null, 
+          "name": "J\u00f3k\u00fat (Kuty)"
         }, 
         {
-          "id": 2436, 
-          "name": "Josipdol"
-        }, 
-        {
-          "id": 12919, 
-          "name": "JOSIPDOL [Josipdol]"
-        }, 
-        {
-          "id": 12801, 
-          "name": "Josipovac"
-        }, 
-        {
-          "id": 12983, 
-          "name": "JOSIPOVAC [Josipovac]"
-        }, 
-        {
-          "id": 2437, 
+          "id": "005513011", 
+          "is_domestic": true, 
+          "latitude": 48.4897007985589, 
+          "legacy_id": 2437, 
+          "longitude": 20.6934384393531, 
           "name": "J\u00f3svaf\u0151-Aggtelek"
         }, 
         {
-          "id": 2438, 
+          "id": "005514647", 
+          "is_domestic": true, 
+          "latitude": 47.6007736824346, 
+          "legacy_id": 2438, 
+          "longitude": 21.584377632673, 
           "name": "J\u00f3zsa"
         }, 
         {
-          "id": 2439, 
+          "id": "005518713", 
+          "is_domestic": true, 
+          "latitude": 46.7048863645258, 
+          "legacy_id": 2439, 
+          "longitude": 21.3331348974337, 
           "name": "J\u00f3zsef Szanat\u00f3rium"
         }, 
         {
-          "id": 2445, 
+          "id": "005517483", 
+          "is_domestic": true, 
+          "latitude": 46.6195379451181, 
+          "legacy_id": 2445, 
+          "longitude": 20.6165605085992, 
           "name": "Justhmajor"
         }, 
         {
-          "id": 2446, 
+          "id": "005513870", 
+          "is_domestic": true, 
+          "latitude": 47.3687559687741, 
+          "legacy_id": 2446, 
+          "longitude": 21.2594632654156, 
           "name": "Kaba"
         }, 
         {
-          "id": 2451, 
+          "id": "005507583", 
+          "is_domestic": true, 
+          "latitude": 45.9047103418813, 
+          "legacy_id": 2451, 
+          "longitude": 17.8522523124645, 
           "name": "K\u00e1kics"
         }, 
         {
-          "id": 2452, 
-          "name": "Kakucs [In\u00e1rcs-Kakucs]"
+          "id": "005516832_168", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2452, 
+          "longitude": null, 
+          "name": "Kakucs (In\u00e1rcs-Kakucs)"
         }, 
         {
-          "id": 12813, 
-          "name": "Kalinovac"
-        }, 
-        {
-          "id": 12994, 
-          "name": "KALINOVAC [Kalinovac]"
-        }, 
-        {
-          "id": 2453, 
-          "name": "Kalinovo"
-        }, 
-        {
-          "id": 2455, 
+          "id": "005511288", 
+          "is_domestic": true, 
+          "latitude": 47.734078213593, 
+          "legacy_id": 2455, 
+          "longitude": 20.2529580240368, 
           "name": "K\u00e1l-K\u00e1polna"
         }, 
         {
-          "id": 2457, 
+          "id": "005515438", 
+          "is_domestic": true, 
+          "latitude": 47.8544076516522, 
+          "legacy_id": 2457, 
+          "longitude": 21.9348070561583, 
           "name": "K\u00e1ll\u00f3semj\u00e9n"
         }, 
         {
-          "id": 2458, 
-          "name": "Kalna Nad Hronom"
-        }, 
-        {
-          "id": 2460, 
-          "name": "Kalotina - Zapad"
-        }, 
-        {
-          "id": 2461, 
-          "name": "Kalsa"
-        }, 
-        {
-          "id": 12996, 
-          "name": "Kamanje"
-        }, 
-        {
-          "id": 13124, 
-          "name": "KAMANJE [Kamanje]"
-        }, 
-        {
-          "id": 2466, 
-          "name": "Kamanova"
-        }, 
-        {
-          "id": 2468, 
-          "name": "Kamenica Nad Cirochou"
-        }, 
-        {
-          "id": 2469, 
-          "name": "Kamenica Nad Cirochou Dvor"
-        }, 
-        {
-          "id": 2470, 
-          "name": "Kamenin"
-        }, 
-        {
-          "id": 2472, 
-          "name": "Kamenny Most Nad Hronom"
-        }, 
-        {
-          "id": 2476, 
-          "name": "Kamnik"
-        }, 
-        {
-          "id": 2477, 
-          "name": "Kamnik Graben"
-        }, 
-        {
-          "id": 13155, 
-          "name": "KAMNIK [Kamnik]"
-        }, 
-        {
-          "id": 12986, 
-          "name": "KAMNIK [Kamnik Graben]"
-        }, 
-        {
-          "id": 13115, 
-          "name": "KAMNIK [Kamnik Mesto]"
-        }, 
-        {
-          "id": 2478, 
-          "name": "Kamnik Mesto"
-        }, 
-        {
-          "id": 2480, 
+          "id": "004347951", 
+          "is_domestic": true, 
+          "latitude": 47.254298802175, 
+          "legacy_id": 2480, 
+          "longitude": 16.6257926459696, 
           "name": "K\u00e1mon"
         }, 
         {
-          "id": 2481, 
-          "name": "Kanal"
+          "id": "005503624_169", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2483, 
+          "longitude": null, 
+          "name": "Kanizsa (Nagykanizsa)"
         }, 
         {
-          "id": 12995, 
-          "name": "KANAL [Kanal]"
-        }, 
-        {
-          "id": 2482, 
-          "name": "Kanfanar"
-        }, 
-        {
-          "id": 12637, 
-          "name": "KANFANAR [Kanfanar]"
-        }, 
-        {
-          "id": 2483, 
-          "name": "Kanizsa [Nagykanizsa]"
-        }, 
-        {
-          "id": 2487, 
-          "name": "Kapi [Kapusany Pri Presove]"
-        }, 
-        {
-          "id": 2489, 
+          "id": "005544594", 
+          "is_domestic": true, 
+          "latitude": 46.4353550335454, 
+          "legacy_id": 2489, 
+          "longitude": 19.9873938697389, 
           "name": "Kapit\u00e1nys\u00e1g"
         }, 
         {
-          "id": 2491, 
-          "name": "K\u00e1polna [K\u00e1l-K\u00e1polna]"
+          "id": "005511288_170", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2491, 
+          "longitude": null, 
+          "name": "K\u00e1polna (K\u00e1l-K\u00e1polna)"
         }, 
         {
-          "id": 2492, 
+          "id": "005503202", 
+          "is_domestic": true, 
+          "latitude": 47.2457794971354, 
+          "legacy_id": 2492, 
+          "longitude": 18.6926425508322, 
           "name": "K\u00e1poln\u00e1sny\u00e9k"
         }, 
         {
-          "id": 2493, 
+          "id": "005508334", 
+          "is_domestic": true, 
+          "latitude": 46.7136614316832, 
+          "legacy_id": 2493, 
+          "longitude": 17.9777904730343, 
           "name": "Kapoly"
         }, 
         {
-          "id": 2494, 
+          "id": "005506312", 
+          "is_domestic": true, 
+          "latitude": 46.3641015355663, 
+          "legacy_id": 2494, 
+          "longitude": 17.6602020297503, 
           "name": "Kaposf\u0151"
         }, 
         {
-          "id": 2495, 
+          "id": "005508425", 
+          "is_domestic": true, 
+          "latitude": 46.4143429228367, 
+          "legacy_id": 2495, 
+          "longitude": 17.7592673031171, 
           "name": "Kaposf\u00fcred"
         }, 
         {
-          "id": 2496, 
+          "id": "005506254", 
+          "is_domestic": true, 
+          "latitude": 46.3673751969333, 
+          "legacy_id": 2496, 
+          "longitude": 17.9218289134862, 
           "name": "Kaposhomok"
         }, 
         {
-          "id": 2497, 
+          "id": "005506304", 
+          "is_domestic": true, 
+          "latitude": 46.3652435470876, 
+          "legacy_id": 2497, 
+          "longitude": 17.6993979129207, 
           "name": "Kaposm\u00e9r\u0151"
         }, 
         {
-          "id": 2498, 
+          "id": "005506205", 
+          "is_domestic": true, 
+          "latitude": 46.3730787500152, 
+          "legacy_id": 2498, 
+          "longitude": 18.0969694915231, 
           "name": "Kapospula"
         }, 
         {
-          "id": 2504, 
+          "id": "005507187", 
+          "is_domestic": true, 
+          "latitude": 46.3309659645206, 
+          "legacy_id": 2504, 
+          "longitude": 18.1429987822757, 
           "name": "Kaposszekcs\u0151"
         }, 
         {
-          "id": 2505, 
+          "id": "005506270", 
+          "is_domestic": true, 
+          "latitude": 46.3571019826988, 
+          "legacy_id": 2505, 
+          "longitude": 17.8208041481671, 
           "name": "Kaposszentjakab"
         }, 
         {
-          "id": 2499, 
+          "id": "005508417", 
+          "is_domestic": true, 
+          "latitude": 46.3658745520902, 
+          "legacy_id": 2499, 
+          "longitude": 17.7738460178889, 
           "name": "Kapost\u00fcskev\u00e1r"
         }, 
         {
-          "id": 2500, 
+          "id": "005506296", 
+          "is_domestic": true, 
+          "latitude": 46.3670636463898, 
+          "legacy_id": 2500, 
+          "longitude": 17.7244241851751, 
           "name": "Kapos\u00fajlak"
         }, 
         {
-          "id": 2501, 
+          "id": "005506288", 
+          "is_domestic": true, 
+          "latitude": 46.3529162083011, 
+          "legacy_id": 2501, 
+          "longitude": 17.7945625550113, 
           "name": "Kaposv\u00e1r"
         }, 
         {
-          "id": 2502, 
-          "name": "Kaposv\u00e1ri Textilm\u0171vek [Kapost\u00fcskev\u00e1r]"
+          "id": "005508417_171", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2502, 
+          "longitude": null, 
+          "name": "Kaposv\u00e1ri Textilm\u0171vek (Kapost\u00fcskev\u00e1r)"
         }, 
         {
-          "id": 2503, 
-          "name": "Kaposv\u00e1r-K\u00f6zv\u00e1g\u00f3h\u00edd [Kaposszentjakab]"
+          "id": "005506270_172", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2503, 
+          "longitude": null, 
+          "name": "Kaposv\u00e1r-K\u00f6zv\u00e1g\u00f3h\u00edd (Kaposszentjakab)"
         }, 
         {
-          "id": 2507, 
-          "name": "Kapronca [Koprivnica]"
+          "id": "007873160_173", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2507, 
+          "longitude": null, 
+          "name": "Kapronca (Koprivnica)"
         }, 
         {
-          "id": 2508, 
+          "id": "005504374", 
+          "is_domestic": true, 
+          "latitude": 47.0102235577256, 
+          "legacy_id": 2508, 
+          "longitude": 18.0040385770758, 
           "name": "K\u00e1ptalanf\u00fcred"
         }, 
         {
-          "id": 8656, 
-          "name": "KAPUSANY [Kapusany Pri Presove]"
-        }, 
-        {
-          "id": 2509, 
-          "name": "Kapusany Pri Presove"
-        }, 
-        {
-          "id": 2510, 
+          "id": "004302626", 
+          "is_domestic": true, 
+          "latitude": 47.5822232422726, 
+          "legacy_id": 2510, 
+          "longitude": 17.049237334569, 
           "name": "Kapuv\u00e1r"
         }, 
         {
-          "id": 2511, 
+          "id": "005511254", 
+          "is_domestic": true, 
+          "latitude": 47.7173055170623, 
+          "legacy_id": 2511, 
+          "longitude": 20.0455153772612, 
           "name": "Kar\u00e1csond"
         }, 
         {
-          "id": 2513, 
+          "id": "005508318", 
+          "is_domestic": true, 
+          "latitude": 46.6810883970476, 
+          "legacy_id": 2513, 
+          "longitude": 17.8748918799143, 
           "name": "Kar\u00e1d"
         }, 
         {
-          "id": 2515, 
+          "id": "005504077", 
+          "is_domestic": true, 
+          "latitude": 47.1334564545486, 
+          "legacy_id": 2515, 
+          "longitude": 17.2882146128289, 
           "name": "Karak\u00f3sz\u00f6rcs\u00f6k"
         }, 
         {
-          "id": 2517, 
-          "name": "Kar\u00e1szn\u00f3 [Krasno Nad Kysucou]"
+          "id": "005507575_174", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2518, 
+          "longitude": null, 
+          "name": "K\u00e1r\u00e1szpuszta (Okor\u00e1g-K\u00e1r\u00e1szpuszta)"
         }, 
         {
-          "id": 2518, 
-          "name": "K\u00e1r\u00e1szpuszta [Okor\u00e1g-K\u00e1r\u00e1szpuszta]"
-        }, 
-        {
-          "id": 2520, 
+          "id": "005513847", 
+          "is_domestic": true, 
+          "latitude": 47.3034413837247, 
+          "legacy_id": 2520, 
+          "longitude": 20.9292331014039, 
           "name": "Karcag"
         }, 
         {
-          "id": 2521, 
+          "id": "005514209", 
+          "is_domestic": true, 
+          "latitude": 47.3219043363647, 
+          "legacy_id": 2521, 
+          "longitude": 20.907136898601, 
           "name": "Karcag-V\u00e1s\u00e1rt\u00e9r"
         }, 
         {
-          "id": 2522, 
+          "id": "005518358", 
+          "is_domestic": true, 
+          "latitude": 46.498269247083, 
+          "legacy_id": 2522, 
+          "longitude": 20.6978644136026, 
           "name": "Kardosk\u00fat"
         }, 
         {
-          "id": 2525, 
-          "name": "Karlovac"
+          "id": "005501339_175", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6618, 
+          "longitude": null, 
+          "name": "K\u00e1rolyh\u00e1za (Kimle-K\u00e1rolyh\u00e1za)"
         }, 
         {
-          "id": 13032, 
-          "name": "KARLOVAC CENTAR"
-        }, 
-        {
-          "id": 12769, 
-          "name": "KARLOVAC CENTAR [KARLOVAC CENTAR]"
-        }, 
-        {
-          "id": 13147, 
-          "name": "KARLOVAC [Karlovac]"
-        }, 
-        {
-          "id": 10068, 
-          "name": "K\u00e1rolyh\u00e1za [Kimle-K\u00e1rolyh\u00e1za]"
-        }, 
-        {
-          "id": 2530, 
-          "name": "K\u00e1rolyv\u00e1ros [Karlovac]"
-        }, 
-        {
-          "id": 2531, 
+          "id": "002238351", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2531, 
+          "longitude": null, 
           "name": "Karpaty"
         }, 
         {
-          "id": 10055, 
-          "name": "KARPATY [Karpaty]"
+          "id": "005613600_176", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2533, 
+          "longitude": null, 
+          "name": "Kassa (Kosice)"
         }, 
         {
-          "id": 7468, 
-          "name": "Karvina Hlavni Nadrazi"
-        }, 
-        {
-          "id": 8566, 
-          "name": "KARVINA [Karvina Hlavni Nadrazi]"
-        }, 
-        {
-          "id": 2534, 
-          "name": "Kassa Erzs\u00e9betv\u00e1ros [Kosice Predmestie]"
-        }, 
-        {
-          "id": 2533, 
-          "name": "Kassa [Kosice]"
-        }, 
-        {
-          "id": 12945, 
-          "name": "KASTEL [Kastel Stari]"
-        }, 
-        {
-          "id": 2537, 
-          "name": "Kastel Stari"
-        }, 
-        {
-          "id": 2538, 
+          "id": "005503135", 
+          "is_domestic": true, 
+          "latitude": 47.3913112010755, 
+          "legacy_id": 2538, 
+          "longitude": 18.9913010591406, 
           "name": "Kast\u00e9lypark"
         }, 
         {
-          "id": 2540, 
+          "id": "005517103", 
+          "is_domestic": true, 
+          "latitude": 46.9630789122209, 
+          "legacy_id": 2540, 
+          "longitude": 19.7190809954105, 
           "name": "Katonatelep"
         }, 
         {
-          "id": 2541, 
-          "name": "Katov"
-        }, 
-        {
-          "id": 2542, 
+          "id": "005107331", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2542, 
+          "longitude": null, 
           "name": "Katowice"
         }, 
         {
-          "id": 8150, 
-          "name": "KATOWICE [Katowice]"
-        }, 
-        {
-          "id": 2546, 
-          "name": "Katzelsdorf"
-        }, 
-        {
-          "id": 10064, 
-          "name": "KAZATIN-PASS [Kazatin-Passajirskii]"
-        }, 
-        {
-          "id": 2549, 
-          "name": "Kazatin-Passajirskii"
-        }, 
-        {
-          "id": 2550, 
+          "id": "005512781", 
+          "is_domestic": true, 
+          "latitude": 48.264431502226, 
+          "legacy_id": 2550, 
+          "longitude": 20.6274502290564, 
           "name": "Kazincbarcika"
         }, 
         {
-          "id": 2551, 
+          "id": "005543026", 
+          "is_domestic": true, 
+          "latitude": 48.255639608837, 
+          "legacy_id": 2551, 
+          "longitude": 20.6487111999967, 
           "name": "Kazincbarcika als\u00f3"
         }, 
         {
-          "id": 2552, 
+          "id": "005501750", 
+          "is_domestic": true, 
+          "latitude": 47.5203498887672, 
+          "legacy_id": 2552, 
+          "longitude": 18.3166348378323, 
           "name": "Kecsk\u00e9d als\u00f3"
         }, 
         {
-          "id": 2553, 
+          "id": "005517111", 
+          "is_domestic": true, 
+          "latitude": 46.9133543997579, 
+          "legacy_id": 2553, 
+          "longitude": 19.7009976568459, 
           "name": "Kecskem\u00e9t"
         }, 
         {
-          "id": 2554, 
+          "id": "005516535", 
+          "is_domestic": true, 
+          "latitude": 46.8957734443355, 
+          "legacy_id": 2554, 
+          "longitude": 19.6923897575058, 
           "name": "Kecskem\u00e9t als\u00f3"
         }, 
         {
-          "id": 2555, 
+          "id": "005516964", 
+          "is_domestic": true, 
+          "latitude": 46.9011930358007, 
+          "legacy_id": 2555, 
+          "longitude": 19.6760432153317, 
           "name": "Kecskem\u00e9t-M\u00e1riav\u00e1ros"
         }, 
         {
-          "id": 2558, 
+          "id": "005106700", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Kedzierzyn Kozle"
+        }, 
+        {
+          "id": "005514068", 
+          "is_domestic": true, 
+          "latitude": 48.0933864137192, 
+          "legacy_id": 2558, 
+          "longitude": 21.8840148837778, 
           "name": "K\u00e9k"
         }, 
         {
-          "id": 2559, 
+          "id": "005516352", 
+          "is_domestic": true, 
+          "latitude": 46.1947007215075, 
+          "legacy_id": 2559, 
+          "longitude": 19.6099248105476, 
           "name": "Kelebia"
         }, 
         {
-          "id": 2560, 
+          "id": "005501024", 
+          "is_domestic": true, 
+          "latitude": 47.4652421778493, 
+          "legacy_id": 2560, 
+          "longitude": 19.0192167221872, 
           "name": "Kelenf\u00f6ld"
         }, 
         {
-          "id": 2561, 
-          "name": "Keleti [Budapest-Keleti]"
+          "id": "005510017_177", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2561, 
+          "longitude": null, 
+          "name": "Keleti (Budapest-Keleti)"
         }, 
         {
-          "id": 2565, 
+          "id": "005514043", 
+          "is_domestic": true, 
+          "latitude": 48.065498360242, 
+          "legacy_id": 2565, 
+          "longitude": 21.8018134498556, 
           "name": "Kemecse"
         }, 
         {
-          "id": 2566, 
+          "id": "005504879", 
+          "is_domestic": true, 
+          "latitude": 46.9056958272206, 
+          "legacy_id": 2566, 
+          "longitude": 16.9467443854082, 
           "name": "Kemendoll\u00e1r"
         }, 
         {
-          "id": 2567, 
+          "id": "005502188", 
+          "is_domestic": true, 
+          "latitude": 47.2789999328961, 
+          "legacy_id": 2567, 
+          "longitude": 17.108861649209, 
           "name": "Kemenesmih\u00e1lyfa"
         }, 
         {
-          "id": 2568, 
+          "id": "005545872", 
+          "is_domestic": true, 
+          "latitude": 47.139152961706, 
+          "legacy_id": 2568, 
+          "longitude": 17.1828392556453, 
           "name": "Kemenesp\u00e1lfa"
         }, 
         {
-          "id": 2570, 
+          "id": "005512351", 
+          "is_domestic": true, 
+          "latitude": 47.2543043590313, 
+          "legacy_id": 2570, 
+          "longitude": 20.6862383911817, 
           "name": "Kenderes"
         }, 
         {
-          "id": 6760, 
-          "name": "Kendergy\u00e1r [Nagylaki Kendergy\u00e1r]"
+          "id": "005519141_178", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6760, 
+          "longitude": null, 
+          "name": "Kendergy\u00e1r (Nagylaki Kendergy\u00e1r)"
         }, 
         {
-          "id": 2571, 
-          "name": "Kendice"
+          "id": "005504341_179", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2572, 
+          "longitude": null, 
+          "name": "Kenese (Balatonkenese)"
         }, 
         {
-          "id": 2572, 
-          "name": "Kenese [Balatonkenese]"
-        }, 
-        {
-          "id": 2574, 
+          "id": "005518077", 
+          "is_domestic": true, 
+          "latitude": 47.0897911647692, 
+          "legacy_id": 2574, 
+          "longitude": 20.3399239004169, 
           "name": "Kengyel"
         }, 
         {
-          "id": 2575, 
+          "id": "005517756", 
+          "is_domestic": true, 
+          "latitude": 46.9024854811832, 
+          "legacy_id": 2575, 
+          "longitude": 20.0462740367046, 
           "name": "Kerekdomb"
         }, 
         {
-          "id": 2576, 
+          "id": "005504085", 
+          "is_domestic": true, 
+          "latitude": 47.1514430245797, 
+          "legacy_id": 2576, 
+          "longitude": 17.2385085953322, 
           "name": "Kerta"
         }, 
         {
-          "id": 2577, 
-          "name": "Kertekalja [Vecs\u00e9s-Kertekalja]"
+          "id": "005513631_180", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2577, 
+          "longitude": null, 
+          "name": "Kertekalja (Vecs\u00e9s-Kertekalja)"
         }, 
         {
-          "id": 7446, 
-          "name": "Kertv\u00e1ros (Esztergom) [Esztergom-Kertv\u00e1ros]"
+          "id": "005501503_181", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7446, 
+          "longitude": null, 
+          "name": "Kertv\u00e1ros (Esztergom) (Esztergom-Kertv\u00e1ros)"
         }, 
         {
-          "id": 7462, 
-          "name": "Kertv\u00e1ros (R\u00e1kospalota) [R\u00e1kospalota-Kertv\u00e1ros]"
+          "id": "005540915_182", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7462, 
+          "longitude": null, 
+          "name": "Kertv\u00e1ros (R\u00e1kospalota) (R\u00e1kospalota-Kertv\u00e1ros)"
         }, 
         {
-          "id": 2578, 
-          "name": "K\u00e9sm\u00e1rk [Kezmarok]"
-        }, 
-        {
-          "id": 2579, 
+          "id": "005506106", 
+          "is_domestic": true, 
+          "latitude": 46.5972643290681, 
+          "legacy_id": 2579, 
+          "longitude": 18.4265437052056, 
           "name": "Kesz\u0151hidegk\u00fat-Gy\u00f6nk"
         }, 
         {
-          "id": 2580, 
+          "id": "005504747", 
+          "is_domestic": true, 
+          "latitude": 46.7580395549024, 
+          "legacy_id": 2580, 
+          "longitude": 17.2474119202006, 
           "name": "Keszthely"
         }, 
         {
-          "id": 2581, 
+          "id": "005518051", 
+          "is_domestic": true, 
+          "latitude": 46.5326935811954, 
+          "legacy_id": 2581, 
+          "longitude": 21.1721452987455, 
           "name": "K\u00e9tegyh\u00e1za"
         }, 
         {
-          "id": 2582, 
+          "id": "005517822", 
+          "is_domestic": true, 
+          "latitude": 47.0768840980896, 
+          "legacy_id": 2582, 
+          "longitude": 20.4878739583766, 
           "name": "K\u00e9tp\u00f3"
         }, 
         {
-          "id": 2583, 
+          "id": "005544883", 
+          "is_domestic": true, 
+          "latitude": 46.6890628880028, 
+          "legacy_id": 2583, 
+          "longitude": 20.0212303676671, 
           "name": "Kett\u0151shalom"
         }, 
         {
-          "id": 2584, 
+          "id": "005514589", 
+          "is_domestic": true, 
+          "latitude": 47.6941139553227, 
+          "legacy_id": 2584, 
+          "longitude": 20.5649357728128, 
           "name": "K\u00e9t\u00fatk\u00f6z"
         }, 
         {
-          "id": 2585, 
-          "name": "Kezmarok"
+          "id": "005506312_183", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6644, 
+          "longitude": null, 
+          "name": "K.f\u0151 (Kaposf\u0151)"
         }, 
         {
-          "id": 2586, 
-          "name": "Kezmarok Zastavka"
+          "id": "005508425_184", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6739, 
+          "longitude": null, 
+          "name": "K.f\u00fcred (Kaposf\u00fcred)"
         }, 
         {
-          "id": 6644, 
-          "name": "K.f\u0151 [Kaposf\u0151]"
+          "id": "005506254_185", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6828, 
+          "longitude": null, 
+          "name": "K.homok (Kaposhomok)"
         }, 
         {
-          "id": 6739, 
-          "name": "K.f\u00fcred [Kaposf\u00fcred]"
-        }, 
-        {
-          "id": 6828, 
-          "name": "K.homok [Kaposhomok]"
-        }, 
-        {
-          "id": 2587, 
-          "name": "Kidricevo"
-        }, 
-        {
-          "id": 12935, 
-          "name": "KIDRICEVO [Kidricevo]"
-        }, 
-        {
-          "id": 2592, 
+          "id": "002232030", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2592, 
+          "longitude": null, 
           "name": "Kiev-Passajirskii"
         }, 
         {
-          "id": 12669, 
-          "name": "KIEV-PASSAJIRSKII [Kiev-Passajirskii]"
+          "id": "002232030_186", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2593, 
+          "longitude": null, 
+          "name": "Kijev (Kiev-Passajirskii)"
         }, 
         {
-          "id": 2593, 
-          "name": "Kijev [Kiev-Passajirskii]"
-        }, 
-        {
-          "id": 2596, 
-          "name": "Kilovce"
-        }, 
-        {
-          "id": 13024, 
-          "name": "KILOVCE [Kilovce]"
-        }, 
-        {
-          "id": 10070, 
+          "id": "005501339", 
+          "is_domestic": true, 
+          "latitude": 47.804478741028, 
+          "legacy_id": 2597, 
+          "longitude": 17.3419926527165, 
           "name": "Kimle-K\u00e1rolyh\u00e1za"
         }, 
         {
-          "id": 2600, 
-          "name": "Kinor\u00e1ny [Chynorany]"
-        }, 
-        {
-          "id": 2601, 
+          "id": "005507559", 
+          "is_domestic": true, 
+          "latitude": 45.9893623579615, 
+          "legacy_id": 2601, 
+          "longitude": 17.9723202976587, 
           "name": "Kir\u00e1lyegyh\u00e1za-Rig\u00f3puszta"
         }, 
         {
-          "id": 2603, 
-          "name": "Kir\u00e1lyhida [Bruck a.d. Leitha]"
+          "id": "008102974_187", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2603, 
+          "longitude": null, 
+          "name": "Kir\u00e1lyhida (Bruck a.d. Leitha)"
         }, 
         {
-          "id": 2615, 
-          "name": "Kisap\u00e1ti [Nemesgul\u00e1cs-Kisap\u00e1ti]"
+          "id": "005504580_188", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2615, 
+          "longitude": null, 
+          "name": "Kisap\u00e1ti (Nemesgul\u00e1cs-Kisap\u00e1ti)"
         }, 
         {
-          "id": 2616, 
+          "id": "005508284", 
+          "is_domestic": true, 
+          "latitude": 46.6149705595004, 
+          "legacy_id": 2616, 
+          "longitude": 17.8669196025446, 
           "name": "Kisb\u00e1rap\u00e1ti"
         }, 
         {
-          "id": 2617, 
+          "id": "005503764", 
+          "is_domestic": true, 
+          "latitude": 47.4942999921812, 
+          "legacy_id": 2617, 
+          "longitude": 18.0249384830413, 
           "name": "Kisb\u00e9r"
         }, 
         {
-          "id": 2618, 
+          "id": "005518291", 
+          "is_domestic": true, 
+          "latitude": 46.7190554930199, 
+          "legacy_id": 2618, 
+          "longitude": 20.7178486030849, 
           "name": "Kiscs\u00e1k\u00f3"
         }, 
         {
-          "id": 2619, 
+          "id": "005503293", 
+          "is_domestic": true, 
+          "latitude": 47.0480724340022, 
+          "legacy_id": 2619, 
+          "longitude": 18.354786552024, 
           "name": "Kiscs\u00e9ripuszta"
         }, 
         {
-          "id": 2620, 
+          "id": "005505702", 
+          "is_domestic": true, 
+          "latitude": 46.0120241619046, 
+          "legacy_id": 2620, 
+          "longitude": 17.6666745076468, 
           "name": "Kisdobsza"
         }, 
         {
-          "id": 2621, 
+          "id": "005544818", 
+          "is_domestic": true, 
+          "latitude": 46.888344462335, 
+          "legacy_id": 2621, 
+          "longitude": 19.8074817583488, 
           "name": "Kisf\u00e1i"
         }, 
         {
-          "id": 2622, 
+          "id": "005514886", 
+          "is_domestic": true, 
+          "latitude": 47.9890238267986, 
+          "legacy_id": 2622, 
+          "longitude": 21.470004795565, 
           "name": "Kisf\u00e1stanya"
         }, 
         {
-          "id": 2623, 
-          "name": "Kishajm\u00e1s [Szatina-Kishajm\u00e1s]"
+          "id": "005545401_189", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2623, 
+          "longitude": null, 
+          "name": "Kishajm\u00e1s (Szatina-Kishajm\u00e1s)"
         }, 
         {
-          "id": 2625, 
+          "id": "005506320", 
+          "is_domestic": true, 
+          "latitude": 46.3624149658449, 
+          "legacy_id": 2625, 
+          "longitude": 17.60842635557, 
           "name": "Kiskorp\u00e1d"
         }, 
         {
-          "id": 2626, 
+          "id": "005512310", 
+          "is_domestic": true, 
+          "latitude": 47.4954380164649, 
+          "legacy_id": 2626, 
+          "longitude": 20.4817775214976, 
           "name": "Kisk\u00f6re"
         }, 
         {
-          "id": 2627, 
+          "id": "005543802", 
+          "is_domestic": true, 
+          "latitude": 47.4808254477229, 
+          "legacy_id": 2627, 
+          "longitude": 20.5075382031065, 
           "name": "Kisk\u00f6re-Tiszah\u00edd"
         }, 
         {
-          "id": 2628, 
+          "id": "005516261", 
+          "is_domestic": true, 
+          "latitude": 46.6259969243411, 
+          "legacy_id": 2628, 
+          "longitude": 19.297113009217, 
           "name": "Kisk\u0151r\u00f6s"
         }, 
         {
-          "id": 2629, 
+          "id": "005517194", 
+          "is_domestic": true, 
+          "latitude": 46.2707943674236, 
+          "legacy_id": 2629, 
+          "longitude": 20.0911325803671, 
           "name": "Kiskundorozsma"
         }, 
         {
-          "id": 2630, 
+          "id": "005517137", 
+          "is_domestic": true, 
+          "latitude": 46.7067720511326, 
+          "legacy_id": 2630, 
+          "longitude": 19.8348459045057, 
           "name": "Kiskunf\u00e9legyh\u00e1za"
         }, 
         {
-          "id": 2631, 
+          "id": "005516311", 
+          "is_domestic": true, 
+          "latitude": 46.4336438821964, 
+          "legacy_id": 2631, 
+          "longitude": 19.4937914028699, 
           "name": "Kiskunhalas"
         }, 
         {
-          "id": 2632, 
+          "id": "005516188", 
+          "is_domestic": true, 
+          "latitude": 47.184930527727, 
+          "legacy_id": 2632, 
+          "longitude": 19.0438133665753, 
           "name": "Kiskunlach\u00e1za"
         }, 
         {
-          "id": 2633, 
+          "id": "005516758", 
+          "is_domestic": true, 
+          "latitude": 46.5016648466895, 
+          "legacy_id": 2633, 
+          "longitude": 19.7278616648351, 
           "name": "Kiskunmajsa"
         }, 
         {
-          "id": 2634, 
-          "name": "Kisl\u0151d [V\u00e1rosl\u0151d-Kisl\u0151d]"
+          "id": "005503988_190", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2634, 
+          "longitude": null, 
+          "name": "Kisl\u0151d (V\u00e1rosl\u0151d-Kisl\u0151d)"
         }, 
         {
-          "id": 2635, 
+          "id": "005515032", 
+          "is_domestic": true, 
+          "latitude": 47.2439394828179, 
+          "legacy_id": 2635, 
+          "longitude": 21.8139602538432, 
           "name": "Kismarja"
         }, 
         {
-          "id": 2636, 
+          "id": "005510462", 
+          "is_domestic": true, 
+          "latitude": 47.8271727572313, 
+          "legacy_id": 2636, 
+          "longitude": 19.0106368646604, 
           "name": "Kismaros"
         }, 
         {
-          "id": 2639, 
+          "id": "005544784", 
+          "is_domestic": true, 
+          "latitude": 46.753652448441, 
+          "legacy_id": 2639, 
+          "longitude": 19.8879858939762, 
           "name": "Kismindszenti \u00fat"
         }, 
         {
-          "id": 2640, 
+          "id": "005510199", 
+          "is_domestic": true, 
+          "latitude": 47.4478913077352, 
+          "legacy_id": 2640, 
+          "longitude": 19.1575081320059, 
           "name": "Kispest"
         }, 
         {
-          "id": 2641, 
-          "name": "Kissebespatak [Sabisa]"
+          "id": "005341808_191", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2641, 
+          "longitude": null, 
+          "name": "Kissebespatak (Sabisa)"
         }, 
         {
-          "id": 2642, 
-          "name": "Kissik\u00e1rl\u00f3 [Cicarlau]"
+          "id": "005341779_192", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2642, 
+          "longitude": null, 
+          "name": "Kissik\u00e1rl\u00f3 (Cicarlau)"
         }, 
         {
-          "id": 2657, 
-          "name": "Kisszabadka [Mala Subotica]"
-        }, 
-        {
-          "id": 2658, 
+          "id": "005516337", 
+          "is_domestic": true, 
+          "latitude": 46.2786938937487, 
+          "legacy_id": 2658, 
+          "longitude": 19.538562034942, 
           "name": "Kissz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 2659, 
-          "name": "Kisszeben [Sabinov]"
-        }, 
-        {
-          "id": 2660, 
+          "id": "005515792", 
+          "is_domestic": true, 
+          "latitude": 47.9658135162395, 
+          "legacy_id": 2660, 
+          "longitude": 22.6294411480473, 
           "name": "Kisszekeres"
         }, 
         {
-          "id": 2661, 
+          "id": "005518275", 
+          "is_domestic": true, 
+          "latitude": 46.7511706531015, 
+          "legacy_id": 2661, 
+          "longitude": 20.7216597012118, 
           "name": "Kissz\u00e9n\u00e1s"
         }, 
         {
-          "id": 2643, 
+          "id": "005517160", 
+          "is_domestic": true, 
+          "latitude": 46.4669759421654, 
+          "legacy_id": 2643, 
+          "longitude": 19.9671505715804, 
           "name": "Kistelek"
         }, 
         {
-          "id": 2644, 
+          "id": "005544586", 
+          "is_domestic": true, 
+          "latitude": 46.5142171780595, 
+          "legacy_id": 2644, 
+          "longitude": 19.9285776987571, 
           "name": "Kisteleki sz\u0151l\u0151k"
         }, 
         {
-          "id": 2645, 
+          "id": "005511858", 
+          "is_domestic": true, 
+          "latitude": 48.0094839395798, 
+          "legacy_id": 2645, 
+          "longitude": 19.8321041795896, 
           "name": "Kisterenye"
         }, 
         {
-          "id": 2646, 
+          "id": "005511866", 
+          "is_domestic": true, 
+          "latitude": 48.0233905303498, 
+          "legacy_id": 2646, 
+          "longitude": 19.8309289997181, 
           "name": "Kisterenye-B\u00e1nyatelep"
         }, 
         {
-          "id": 2647, 
+          "id": "005507427", 
+          "is_domestic": true, 
+          "latitude": 45.9095504891357, 
+          "legacy_id": 2647, 
+          "longitude": 18.315557517736, 
           "name": "Kist\u00f3tfalu"
         }, 
         {
-          "id": 2648, 
+          "id": "005518168", 
+          "is_domestic": true, 
+          "latitude": 46.7163957959215, 
+          "legacy_id": 2648, 
+          "longitude": 20.281886973474, 
           "name": "Kist\u0151ke"
         }, 
         {
-          "id": 2649, 
-          "name": "Kis\u00fajhely [Slovenske Nove Mesto]"
-        }, 
-        {
-          "id": 2650, 
+          "id": "005513821", 
+          "is_domestic": true, 
+          "latitude": 47.223812455118, 
+          "legacy_id": 2650, 
+          "longitude": 20.7507650665472, 
           "name": "Kis\u00fajsz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 2651, 
+          "id": "005543976", 
+          "is_domestic": true, 
+          "latitude": 47.7950721322776, 
+          "legacy_id": 2651, 
+          "longitude": 19.1142118166474, 
           "name": "Kisv\u00e1c"
         }, 
         {
-          "id": 2652, 
+          "id": "005514118", 
+          "is_domestic": true, 
+          "latitude": 48.2086280041665, 
+          "legacy_id": 2652, 
+          "longitude": 22.0785039753115, 
           "name": "Kisv\u00e1rda"
         }, 
         {
-          "id": 2653, 
+          "id": "005514126", 
+          "is_domestic": true, 
+          "latitude": 48.228080427241, 
+          "legacy_id": 2653, 
+          "longitude": 22.0916970544463, 
           "name": "Kisv\u00e1rda-H\u00e1rmas\u00fat"
         }, 
         {
-          "id": 2654, 
+          "id": "005515925", 
+          "is_domestic": true, 
+          "latitude": 48.1518019807305, 
+          "legacy_id": 2654, 
+          "longitude": 22.2901261245727, 
           "name": "Kisvars\u00e1ny"
         }, 
         {
-          "id": 2655, 
+          "id": "005518986", 
+          "is_domestic": true, 
+          "latitude": 46.1919398840386, 
+          "legacy_id": 2655, 
+          "longitude": 20.4136220057136, 
           "name": "Kiszombor"
         }, 
         {
-          "id": 2656, 
+          "id": "005518994", 
+          "is_domestic": true, 
+          "latitude": 46.1909819812361, 
+          "legacy_id": 2656, 
+          "longitude": 20.4307555789916, 
           "name": "Kiszombor meg\u00e1ll\u00f3"
         }, 
         {
-          "id": 2662, 
-          "name": "Kiszuca\u00fajhely [Kysucke Nove Mesto]"
-        }, 
-        {
-          "id": 2663, 
+          "id": "005542143", 
+          "is_domestic": true, 
+          "latitude": 47.766527932879, 
+          "legacy_id": 2663, 
+          "longitude": 19.9351053491091, 
           "name": "Kit\u00e9r\u0151gy\u00e1r"
         }, 
         {
-          "id": 2664, 
+          "id": "008103002", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2664, 
+          "longitude": null, 
           "name": "Kittsee"
         }, 
         {
-          "id": 2669, 
+          "id": "005516931", 
+          "is_domestic": true, 
+          "latitude": 47.0055740325286, 
+          "legacy_id": 2669, 
+          "longitude": 19.5514719185748, 
           "name": "Kl\u00e1bertelep"
         }, 
         {
-          "id": 2670, 
-          "name": "Klacany"
-        }, 
-        {
-          "id": 2671, 
-          "name": "Klace"
-        }, 
-        {
-          "id": 2672, 
-          "name": "KLAGENFURT*"
-        }, 
-        {
-          "id": 2675, 
-          "name": "Klagenfurt Hbf"
-        }, 
-        {
-          "id": 2682, 
-          "name": "Klastor Pod Znievom"
-        }, 
-        {
-          "id": 2685, 
-          "name": "Klcovany"
-        }, 
-        {
-          "id": 2687, 
-          "name": "Kledering"
-        }, 
-        {
-          "id": 12969, 
-          "name": "Klokocevac"
-        }, 
-        {
-          "id": 13168, 
-          "name": "KLOKOCEVAC [Klokocevac]"
-        }, 
-        {
-          "id": 2697, 
-          "name": "Klostar"
-        }, 
-        {
-          "id": 12737, 
-          "name": "KLOSTAR [Klostar]"
-        }, 
-        {
-          "id": 2700, 
+          "id": "005501446", 
+          "is_domestic": true, 
+          "latitude": 47.6377551328539, 
+          "legacy_id": 2700, 
+          "longitude": 18.8464177441924, 
           "name": "Klotildliget"
         }, 
         {
-          "id": 2701, 
-          "name": "Kluknava"
+          "id": "005506304_193", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6623, 
+          "longitude": null, 
+          "name": "K.m\u00e9r\u0151 (Kaposm\u00e9r\u0151)"
         }, 
         {
-          "id": 2702, 
-          "name": "Klusov"
-        }, 
-        {
-          "id": 6623, 
-          "name": "K.m\u00e9r\u0151 [Kaposm\u00e9r\u0151]"
-        }, 
-        {
-          "id": 2710, 
-          "name": "Kmetovo"
-        }, 
-        {
-          "id": 2711, 
-          "name": "Knin"
-        }, 
-        {
-          "id": 12836, 
-          "name": "KNIN [Knin]"
-        }, 
-        {
-          "id": 2714, 
-          "name": "Kochanovce"
-        }, 
-        {
-          "id": 2715, 
-          "name": "Kociha"
-        }, 
-        {
-          "id": 2716, 
-          "name": "Kocna"
-        }, 
-        {
-          "id": 12755, 
-          "name": "KOCNA [Kocna]"
-        }, 
-        {
-          "id": 2717, 
+          "id": "005515503", 
+          "is_domestic": true, 
+          "latitude": 47.9419054577934, 
+          "legacy_id": 2717, 
+          "longitude": 22.3757412767052, 
           "name": "Kocsord"
         }, 
         {
-          "id": 2718, 
+          "id": "005515511", 
+          "is_domestic": true, 
+          "latitude": 47.9464942781311, 
+          "legacy_id": 2718, 
+          "longitude": 22.4006687143801, 
           "name": "Kocsord als\u00f3"
         }, 
         {
-          "id": 2721, 
-          "name": "Kokava Nad Rimavicou"
-        }, 
-        {
-          "id": 2722, 
-          "name": "Kokava Nad Rimavicou-Liesnica"
-        }, 
-        {
-          "id": 6814, 
-          "name": "Kolasin"
-        }, 
-        {
-          "id": 8244, 
-          "name": "KOLASIN [Kolasin]"
-        }, 
-        {
-          "id": 2726, 
+          "id": "005453414", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2726, 
+          "longitude": null, 
           "name": "Kolin"
         }, 
         {
-          "id": 8152, 
-          "name": "KOLIN [Kolin]"
+          "id": "005332015_194", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2729, 
+          "longitude": null, 
+          "name": "Kolozsv\u00e1r (Cluj Napoca)"
         }, 
         {
-          "id": 2729, 
-          "name": "Kolozsv\u00e1r [Cluj Napoca]"
-        }, 
-        {
-          "id": 8708, 
-          "name": "Komancza"
-        }, 
-        {
-          "id": 8584, 
-          "name": "KOMANCZA [Komancza]"
-        }, 
-        {
-          "id": 8703, 
-          "name": "KOMANCZA [Komancza Letnisko]"
-        }, 
-        {
-          "id": 8704, 
-          "name": "Komancza Letnisko"
-        }, 
-        {
-          "id": 2731, 
-          "name": "Komarany"
-        }, 
-        {
-          "id": 2732, 
-          "name": "Komarno"
-        }, 
-        {
-          "id": 2733, 
+          "id": "005501222", 
+          "is_domestic": true, 
+          "latitude": 47.7497325717358, 
+          "legacy_id": 2733, 
+          "longitude": 18.1139807481575, 
           "name": "Kom\u00e1rom"
         }, 
         {
-          "id": 2734, 
+          "id": "005513037", 
+          "is_domestic": true, 
+          "latitude": 48.546339721009, 
+          "legacy_id": 2734, 
+          "longitude": 20.7569761256206, 
           "name": "Komj\u00e1ti"
         }, 
         {
-          "id": 2735, 
-          "name": "Komjatice"
-        }, 
-        {
-          "id": 2736, 
+          "id": "005507542", 
+          "is_domestic": true, 
+          "latitude": 46.1892181823561, 
+          "legacy_id": 2736, 
+          "longitude": 18.2648768437854, 
           "name": "Koml\u00f3"
         }, 
         {
-          "id": 2737, 
-          "name": "Koml\u00f3sd [P\u00e9terhida-Koml\u00f3sd]"
+          "id": "005505645_195", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2737, 
+          "longitude": null, 
+          "name": "Koml\u00f3sd (P\u00e9terhida-Koml\u00f3sd)"
         }, 
         {
-          "id": 2738, 
+          "id": "005514142", 
+          "is_domestic": true, 
+          "latitude": 48.3051643458525, 
+          "legacy_id": 2738, 
+          "longitude": 22.1180230905754, 
           "name": "Komor\u00f3"
         }, 
         {
-          "id": 2740, 
-          "name": "Kondoros [Debrecen-Kondoros]"
+          "id": "005515131_196", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2740, 
+          "longitude": null, 
+          "name": "Kondoros (Debrecen-Kondoros)"
         }, 
         {
-          "id": 2741, 
-          "name": "Koniarovce"
-        }, 
-        {
-          "id": 2743, 
-          "name": "Konjscina"
-        }, 
-        {
-          "id": 12717, 
-          "name": "KONJSCINA [Konjscina]"
-        }, 
-        {
-          "id": 2745, 
-          "name": "Konska Pri Rajci"
-        }, 
-        {
-          "id": 2747, 
+          "id": "004302543", 
+          "is_domestic": true, 
+          "latitude": 47.6321673821713, 
+          "legacy_id": 2747, 
+          "longitude": 17.3573022899915, 
           "name": "K\u00f3ny"
         }, 
         {
-          "id": 2748, 
+          "id": "005514514", 
+          "is_domestic": true, 
+          "latitude": 47.6008371398097, 
+          "legacy_id": 2748, 
+          "longitude": 21.2381220306724, 
           "name": "K\u00f3nya"
         }, 
         {
-          "id": 2749, 
+          "id": "005514977", 
+          "is_domestic": true, 
+          "latitude": 47.3233990972126, 
+          "legacy_id": 2749, 
+          "longitude": 21.6660944711659, 
           "name": "Kony\u00e1r"
         }, 
         {
-          "id": 2750, 
+          "id": "005514993", 
+          "is_domestic": true, 
+          "latitude": 47.3239569966248, 
+          "legacy_id": 2750, 
+          "longitude": 21.7454490058458, 
           "name": "Kony\u00e1ri S\u00f3st\u00f3f\u00fcrd\u0151"
         }, 
         {
-          "id": 2751, 
+          "id": "005517426", 
+          "is_domestic": true, 
+          "latitude": 46.6950319506395, 
+          "legacy_id": 2751, 
+          "longitude": 20.0596219202745, 
           "name": "K\u00f3nyasz\u00e9k"
         }, 
         {
-          "id": 8474, 
-          "name": "KONZ KREUZ [Kreuz Konz]"
-        }, 
-        {
-          "id": 8460, 
-          "name": "Konz Mitte"
-        }, 
-        {
-          "id": 2752, 
-          "name": "Kopcany"
-        }, 
-        {
-          "id": 2753, 
-          "name": "Koper"
-        }, 
-        {
-          "id": 12634, 
-          "name": "KOPER [Koper]"
-        }, 
-        {
-          "id": 2754, 
+          "id": "004305165", 
+          "is_domestic": true, 
+          "latitude": 47.632691, 
+          "legacy_id": 2754, 
+          "longitude": 16.636881, 
           "name": "K\u00f3ph\u00e1za"
         }, 
         {
-          "id": 2757, 
-          "name": "Kopriva"
-        }, 
-        {
-          "id": 12804, 
-          "name": "KOPRIVA [Kopriva]"
-        }, 
-        {
-          "id": 2758, 
+          "id": "007873160", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2758, 
+          "longitude": null, 
           "name": "Koprivnica"
         }, 
         {
-          "id": 12690, 
-          "name": "KOPRIVNICA [Koprivnica]"
-        }, 
-        {
-          "id": 2760, 
+          "id": "005513342", 
+          "is_domestic": true, 
+          "latitude": 48.3646378259829, 
+          "legacy_id": 2760, 
+          "longitude": 21.2192051902859, 
           "name": "Korl\u00e1t-Vizsoly"
         }, 
         {
-          "id": 2762, 
+          "id": "005544503", 
+          "is_domestic": true, 
+          "latitude": 46.5640471782522, 
+          "legacy_id": 2762, 
+          "longitude": 20.2250820919564, 
           "name": "K\u00f3r\u00f3gyszentgy\u00f6rgy"
         }, 
         {
-          "id": 2763, 
-          "name": "Korompa [Krompachy]"
-        }, 
-        {
-          "id": 2764, 
-          "name": "Kos (SK)"
-        }, 
-        {
-          "id": 2766, 
-          "name": "Kosana"
-        }, 
-        {
-          "id": 10045, 
-          "name": "KOSANA [Kosana]"
-        }, 
-        {
-          "id": 2767, 
-          "name": "Koseca"
-        }, 
-        {
-          "id": 2768, 
+          "id": "005613600", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2768, 
+          "longitude": null, 
           "name": "Kosice"
         }, 
         {
-          "id": 2769, 
-          "name": "Kosice Predmestie"
-        }, 
-        {
-          "id": 6746, 
-          "name": "Kosjeric"
-        }, 
-        {
-          "id": 8226, 
-          "name": "KOSJERIC [Kosjeric]"
-        }, 
-        {
-          "id": 2770, 
-          "name": "Koska"
-        }, 
-        {
-          "id": 12868, 
-          "name": "KOSKA [Koska]"
-        }, 
-        {
-          "id": 2771, 
-          "name": "Koskovce"
-        }, 
-        {
-          "id": 2773, 
-          "name": "Kostany Nad Turcom"
-        }, 
-        {
-          "id": 2777, 
-          "name": "Kostolany Nad Hornadom"
-        }, 
-        {
-          "id": 2778, 
-          "name": "Kostolna-Zariecie"
-        }, 
-        {
-          "id": 2780, 
-          "name": "Kotor [Kotoriba]"
-        }, 
-        {
-          "id": 2781, 
-          "name": "Kotoriba"
-        }, 
-        {
-          "id": 12778, 
-          "name": "KOTORIBA [Kotoriba]"
-        }, 
-        {
-          "id": 2785, 
-          "name": "Kozarovce"
-        }, 
-        {
-          "id": 2786, 
-          "name": "Kozelnik"
-        }, 
-        {
-          "id": 2788, 
+          "id": "005510157", 
+          "is_domestic": true, 
+          "latitude": 47.4829815896114, 
+          "legacy_id": 2788, 
+          "longitude": 19.1274406990349, 
           "name": "K\u0151b\u00e1nya als\u00f3"
         }, 
         {
-          "id": 2789, 
+          "id": "005510066", 
+          "is_domestic": true, 
+          "latitude": 47.4920682154262, 
+          "legacy_id": 2789, 
+          "longitude": 19.1339596652007, 
           "name": "K\u0151b\u00e1nya fels\u0151"
         }, 
         {
-          "id": 2790, 
+          "id": "005510173", 
+          "is_domestic": true, 
+          "latitude": 47.4636291731921, 
+          "legacy_id": 2790, 
+          "longitude": 19.1496258671471, 
           "name": "K\u0151b\u00e1nya-Kispest"
         }, 
         {
-          "id": 2792, 
-          "name": "K\u00f6-Ki [K\u0151b\u00e1nya-Kispest]"
+          "id": "005510173_197", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2792, 
+          "longitude": null, 
+          "name": "K\u00f6-Ki (K\u0151b\u00e1nya-Kispest)"
         }, 
         {
-          "id": 6763, 
-          "name": "K\u00f6ki [K\u0151b\u00e1nya-Kispest]"
+          "id": "005510173_198", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6763, 
+          "longitude": null, 
+          "name": "K\u00f6ki (K\u0151b\u00e1nya-Kispest)"
         }, 
         {
-          "id": 2800, 
-          "name": "K\u00f6pcs\u00e9ny [Kittsee]"
-        }, 
-        {
-          "id": 2801, 
+          "id": "004302287", 
+          "is_domestic": true, 
+          "latitude": 47.0159712249581, 
+          "legacy_id": 2801, 
+          "longitude": 16.5974622123513, 
           "name": "K\u00f6rmend"
         }, 
         {
-          "id": 2802, 
-          "name": "K\u00f6rm\u00f6cb\u00e1nya [Kremnica]"
-        }, 
-        {
-          "id": 2803, 
+          "id": "005501743", 
+          "is_domestic": true, 
+          "latitude": 47.5429412299691, 
+          "legacy_id": 2803, 
+          "longitude": 18.3335156076944, 
           "name": "K\u00f6rnye"
         }, 
         {
-          "id": 2804, 
-          "name": "K\u00f6r\u00f6s [Krizevci]"
+          "id": "007873107_199", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2804, 
+          "longitude": null, 
+          "name": "K\u00f6r\u00f6s (Krizevci)"
         }, 
         {
-          "id": 2805, 
-          "name": "K\u0151r\u00f6shegy [Sz\u00e1nt\u00f3d-K\u0151r\u00f6shegy]"
+          "id": "005503400_200", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2805, 
+          "longitude": null, 
+          "name": "K\u0151r\u00f6shegy (Sz\u00e1nt\u00f3d-K\u0151r\u00f6shegy)"
         }, 
         {
-          "id": 2806, 
+          "id": "005518440", 
+          "is_domestic": true, 
+          "latitude": 46.9699163361525, 
+          "legacy_id": 2806, 
+          "longitude": 21.085877820386, 
           "name": "K\u00f6r\u00f6slad\u00e1ny"
         }, 
         {
-          "id": 2808, 
+          "id": "004305538", 
+          "is_domestic": true, 
+          "latitude": 47.3818001256018, 
+          "legacy_id": 2808, 
+          "longitude": 16.5565145990522, 
           "name": "K\u0151szeg"
         }, 
         {
-          "id": 2809, 
+          "id": "004346003", 
+          "is_domestic": true, 
+          "latitude": 47.3618401251878, 
+          "legacy_id": 2809, 
+          "longitude": 16.5674174059361, 
           "name": "K\u0151szegfalva"
         }, 
         {
-          "id": 2810, 
+          "id": "005518747", 
+          "is_domestic": true, 
+          "latitude": 46.7584102015301, 
+          "legacy_id": 2810, 
+          "longitude": 21.4795553068445, 
           "name": "K\u00f6tegy\u00e1n"
         }, 
         {
-          "id": 2813, 
-          "name": "K\u00f6vesk\u00e1l [Z\u00e1nka-K\u00f6vesk\u00e1l]"
+          "id": "005504473_201", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2813, 
+          "longitude": null, 
+          "name": "K\u00f6vesk\u00e1l (Z\u00e1nka-K\u00f6vesk\u00e1l)"
         }, 
         {
-          "id": 2814, 
+          "id": "005547555", 
+          "is_domestic": true, 
+          "latitude": 45.9959346095325, 
+          "legacy_id": 2814, 
+          "longitude": 18.6692094087494, 
           "name": "K\u00f6z\u00e9pmez\u0151"
         }, 
         {
-          "id": 2815, 
+          "id": "005505686", 
+          "is_domestic": true, 
+          "latitude": 45.9704264197959, 
+          "legacy_id": 2815, 
+          "longitude": 17.5248155320856, 
           "name": "K\u00f6z\u00e9prig\u00f3c"
         }, 
         {
-          "id": 6824, 
-          "name": "K\u00f6zponti F\u0151major [Imremajor]"
+          "id": "005549445_202", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6824, 
+          "longitude": null, 
+          "name": "K\u00f6zponti F\u0151major (Imremajor)"
         }, 
         {
-          "id": 6675, 
-          "name": "K.pula [Kapospula]"
+          "id": "005506205_203", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6675, 
+          "longitude": null, 
+          "name": "K.pula (Kapospula)"
         }, 
         {
-          "id": 2817, 
-          "name": "Krakau [KRAKOW*]"
+          "id": "005108031_204", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2817, 
+          "longitude": null, 
+          "name": "Krakau (KRAKOW*)"
         }, 
         {
-          "id": 2818, 
-          "name": "Krakk\u00f3 [KRAKOW*]"
+          "id": "005108031_205", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2818, 
+          "longitude": null, 
+          "name": "Krakk\u00f3 (KRAKOW*)"
         }, 
         {
-          "id": 2819, 
+          "id": "005108031", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2819, 
+          "longitude": null, 
           "name": "KRAKOW*"
         }, 
         {
-          "id": 2822, 
+          "id": "005108041", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2822, 
+          "longitude": null, 
           "name": "Krakow Glowny"
         }, 
         {
-          "id": 8126, 
-          "name": "KRAKOW [Krakow Glowny]"
-        }, 
-        {
-          "id": 8135, 
-          "name": "KRAKOW [Krakow Plaszow]"
-        }, 
-        {
-          "id": 2826, 
-          "name": "Krakow Plaszow"
-        }, 
-        {
-          "id": 2829, 
-          "name": "Kralova Lehota"
-        }, 
-        {
-          "id": 2830, 
-          "name": "Kralov\u00e1n [Kralovany]"
-        }, 
-        {
-          "id": 2831, 
-          "name": "Kralovany"
-        }, 
-        {
-          "id": 2832, 
-          "name": "Kralovany Zastavka"
-        }, 
-        {
-          "id": 2834, 
-          "name": "Kranj"
-        }, 
-        {
-          "id": 13148, 
-          "name": "KRANJ [Kranj]"
-        }, 
-        {
-          "id": 2835, 
-          "name": "Krasna Horka"
-        }, 
-        {
-          "id": 2836, 
-          "name": "Krasna Nad Hornadom"
-        }, 
-        {
-          "id": 8594, 
-          "name": "KRASNO [Krasno Nad Kysucou]"
-        }, 
-        {
-          "id": 2837, 
-          "name": "Krasno Nad Kysucou"
-        }, 
-        {
-          "id": 2838, 
-          "name": "Krasny Brod"
-        }, 
-        {
-          "id": 8707, 
-          "name": "KRASNY [Krasny Brod]"
-        }, 
-        {
-          "id": 2845, 
-          "name": "Kremnica"
-        }, 
-        {
-          "id": 2846, 
-          "name": "Kremnicke Bane"
-        }, 
-        {
-          "id": 2850, 
-          "name": "Kreplje"
-        }, 
-        {
-          "id": 12854, 
-          "name": "KREPLJE [Kreplje]"
-        }, 
-        {
-          "id": 2851, 
-          "name": "Kresnice"
-        }, 
-        {
-          "id": 13137, 
-          "name": "KRESNICE [Kresnice]"
-        }, 
-        {
-          "id": 8445, 
-          "name": "Kreuz Konz"
-        }, 
-        {
-          "id": 2855, 
-          "name": "Kriva"
-        }, 
-        {
-          "id": 2856, 
-          "name": "Krivan"
-        }, 
-        {
-          "id": 2857, 
-          "name": "Kriv\u00e1n [Krivan]"
-        }, 
-        {
-          "id": 2858, 
-          "name": "Krivany"
-        }, 
-        {
-          "id": 2860, 
+          "id": "007873107", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2860, 
+          "longitude": null, 
           "name": "Krizevci"
         }, 
         {
-          "id": 12677, 
-          "name": "KRIZEVCI [Krizevci]"
+          "id": "005507187_206", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6825, 
+          "longitude": null, 
+          "name": "K.szekcs\u0151 (Kaposszekcs\u0151)"
         }, 
         {
-          "id": 2861, 
-          "name": "Krizovany Nad Dudvahom"
+          "id": "005506270_207", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6753, 
+          "longitude": null, 
+          "name": "K.szentjakab (Kaposszentjakab)"
         }, 
         {
-          "id": 2862, 
-          "name": "Krompachy"
+          "id": "005508417_208", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6684, 
+          "longitude": null, 
+          "name": "K.t\u00fcskev\u00e1r (Kapost\u00fcskev\u00e1r)"
         }, 
         {
-          "id": 9949, 
-          "name": "Kronstadt [Bra\u015fov]"
-        }, 
-        {
-          "id": 8624, 
-          "name": "Krosno"
-        }, 
-        {
-          "id": 8543, 
-          "name": "KROSNO [Krosno]"
-        }, 
-        {
-          "id": 8558, 
-          "name": "KROSNO [Krosno Miasto]"
-        }, 
-        {
-          "id": 8635, 
-          "name": "Krosno Miasto"
-        }, 
-        {
-          "id": 2866, 
-          "name": "Krpelany"
-        }, 
-        {
-          "id": 2867, 
-          "name": "Krsko"
-        }, 
-        {
-          "id": 12736, 
-          "name": "KRSKO [Krsko]"
-        }, 
-        {
-          "id": 2870, 
-          "name": "Krusovce"
-        }, 
-        {
-          "id": 6825, 
-          "name": "K.szekcs\u0151 [Kaposszekcs\u0151]"
-        }, 
-        {
-          "id": 6753, 
-          "name": "K.szentjakab [Kaposszentjakab]"
-        }, 
-        {
-          "id": 6684, 
-          "name": "K.t\u00fcskev\u00e1r [Kapost\u00fcskev\u00e1r]"
-        }, 
-        {
-          "id": 2876, 
+          "id": "008102184", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2876, 
+          "longitude": null, 
           "name": "Kufstein"
         }, 
         {
-          "id": 6686, 
-          "name": "K.\u00fajlak [Kapos\u00fajlak]"
+          "id": "005506296_209", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6686, 
+          "longitude": null, 
+          "name": "K.\u00fajlak (Kapos\u00fajlak)"
         }, 
         {
-          "id": 2877, 
-          "name": "Kuklov"
-        }, 
-        {
-          "id": 2878, 
+          "id": "005506478", 
+          "is_domestic": true, 
+          "latitude": 47.0511252396181, 
+          "legacy_id": 2878, 
+          "longitude": 18.8977424097161, 
           "name": "Kulcs"
         }, 
         {
-          "id": 6669, 
-          "name": "Kumanovo"
-        }, 
-        {
-          "id": 12952, 
-          "name": "KUMANOVO [Kumanovo]"
-        }, 
-        {
-          "id": 2881, 
+          "id": "005516584", 
+          "is_domestic": true, 
+          "latitude": 46.3559549783142, 
+          "legacy_id": 2881, 
+          "longitude": 19.4170487469703, 
           "name": "Kunfeh\u00e9rt\u00f3"
         }, 
         {
-          "id": 2882, 
+          "id": "005518127", 
+          "is_domestic": true, 
+          "latitude": 46.908258860443, 
+          "legacy_id": 2882, 
+          "longitude": 20.2677610311256, 
           "name": "Kungyalu"
         }, 
         {
-          "id": 2883, 
+          "id": "005512344", 
+          "is_domestic": true, 
+          "latitude": 47.3764017070016, 
+          "legacy_id": 2883, 
+          "longitude": 20.6408454145068, 
           "name": "Kunhegyes"
         }, 
         {
-          "id": 2884, 
+          "id": "005514233", 
+          "is_domestic": true, 
+          "latitude": 47.415362355489, 
+          "legacy_id": 2884, 
+          "longitude": 20.7931453742807, 
           "name": "Kunmadaras"
         }, 
         {
-          "id": 2885, 
+          "id": "005544552", 
+          "is_domestic": true, 
+          "latitude": 46.7809323622927, 
+          "legacy_id": 2885, 
+          "longitude": 19.76842817605, 
           "name": "Kunsz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 2886, 
+          "id": "005518135", 
+          "is_domestic": true, 
+          "latitude": 46.848281678634, 
+          "legacy_id": 2886, 
+          "longitude": 20.2931037775884, 
           "name": "Kunszentm\u00e1rton"
         }, 
         {
-          "id": 2887, 
+          "id": "005516204", 
+          "is_domestic": true, 
+          "latitude": 47.0183888041867, 
+          "legacy_id": 2887, 
+          "longitude": 19.1001011931191, 
           "name": "Kunszentmikl\u00f3s-Tass"
         }, 
         {
-          "id": 13018, 
-          "name": "Kupljenovo"
-        }, 
-        {
-          "id": 12981, 
-          "name": "KUPLJENOVO [Kupljenovo]"
-        }, 
-        {
-          "id": 2889, 
+          "id": "005506163", 
+          "is_domestic": true, 
+          "latitude": 46.4502279847909, 
+          "legacy_id": 2889, 
+          "longitude": 18.3182873807495, 
           "name": "Kurd"
         }, 
         {
-          "id": 13114, 
-          "name": "Kustosija"
-        }, 
-        {
-          "id": 13264, 
-          "name": "KUSTOSIJA [Kustosija]"
-        }, 
-        {
-          "id": 2890, 
+          "id": "005506346", 
+          "is_domestic": true, 
+          "latitude": 46.3260354648586, 
+          "legacy_id": 2890, 
+          "longitude": 17.4532117494437, 
           "name": "Kutas"
         }, 
         {
-          "id": 12911, 
-          "name": "Kuti"
-        }, 
-        {
-          "id": 13093, 
-          "name": "KUTI [Kuti]"
-        }, 
-        {
-          "id": 2891, 
-          "name": "Kutina"
-        }, 
-        {
-          "id": 12837, 
-          "name": "KUTINA [Kutina]"
-        }, 
-        {
-          "id": 2893, 
+          "id": "005518580", 
+          "is_domestic": true, 
+          "latitude": 46.4595057297435, 
+          "legacy_id": 2893, 
+          "longitude": 20.4520145801154, 
           "name": "K\u00fatv\u00f6lgy"
         }, 
         {
-          "id": 2894, 
+          "id": "005613016", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2894, 
+          "longitude": null, 
           "name": "Kuty"
         }, 
         {
-          "id": 2895, 
-          "name": "Kuzmice"
-        }, 
-        {
-          "id": 2897, 
+          "id": "005502162", 
+          "is_domestic": true, 
+          "latitude": 47.2801608694869, 
+          "legacy_id": 2897, 
+          "longitude": 17.2217048663003, 
           "name": "K\u00fcls\u0151vat"
         }, 
         {
-          "id": 2898, 
-          "name": "K\u00fcrt\u00f6s [Curtici]"
+          "id": "005321925_210", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2898, 
+          "longitude": null, 
+          "name": "K\u00fcrt\u00f6s (Curtici)"
         }, 
         {
-          "id": 6706, 
-          "name": "K.v\u00e1r [Kaposv\u00e1r]"
+          "id": "005506288_211", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6706, 
+          "longitude": null, 
+          "name": "K.v\u00e1r (Kaposv\u00e1r)"
         }, 
         {
-          "id": 2899, 
-          "name": "Kysak"
-        }, 
-        {
-          "id": 8661, 
-          "name": "KYSUCKE [Kysucke Nove Mesto]"
-        }, 
-        {
-          "id": 2900, 
-          "name": "Kysucke Nove Mesto"
-        }, 
-        {
-          "id": 2905, 
+          "id": "005501578", 
+          "is_domestic": true, 
+          "latitude": 47.7520426860182, 
+          "legacy_id": 2905, 
+          "longitude": 18.5149553705129, 
           "name": "L\u00e1batlan"
         }, 
         {
-          "id": 2906, 
-          "name": "L\u00e1bdihegy [Badacsonyl\u00e1bdihegy]"
+          "id": "005504564_212", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2906, 
+          "longitude": null, 
+          "name": "L\u00e1bdihegy (Badacsonyl\u00e1bdihegy)"
         }, 
         {
-          "id": 2907, 
-          "name": "Laborcradv\u00e1ny [Radvan Nad Laborcom]"
-        }, 
-        {
-          "id": 2908, 
-          "name": "Labske Jazero Zastavka"
-        }, 
-        {
-          "id": 2912, 
-          "name": "Lada"
-        }, 
-        {
-          "id": 2913, 
-          "name": "Ladce"
-        }, 
-        {
-          "id": 6670, 
-          "name": "Lajkovac"
-        }, 
-        {
-          "id": 8246, 
-          "name": "LAJKOVAC [Lajkovac]"
-        }, 
-        {
-          "id": 2924, 
+          "id": "005516915", 
+          "is_domestic": true, 
+          "latitude": 47.0283893979425, 
+          "legacy_id": 2924, 
+          "longitude": 19.5425589188601, 
           "name": "Lajosmizse"
         }, 
         {
-          "id": 2925, 
+          "id": "005516923", 
+          "is_domestic": true, 
+          "latitude": 47.0227789778014, 
+          "legacy_id": 2925, 
+          "longitude": 19.5501611670235, 
           "name": "Lajosmizse als\u00f3"
         }, 
         {
-          "id": 2926, 
-          "name": "Lajtak\u00f6rtv\u00e9lyes [Pama]"
-        }, 
-        {
-          "id": 2927, 
-          "name": "Lajtaszentmikl\u00f3s [Neud\u00f6rfl]"
-        }, 
-        {
-          "id": 2929, 
+          "id": "005517285", 
+          "is_domestic": true, 
+          "latitude": 46.8729659147172, 
+          "legacy_id": 2929, 
+          "longitude": 20.0033740851769, 
           "name": "Lakitelek"
         }, 
         {
-          "id": 2933, 
+          "id": "008101212", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2933, 
+          "longitude": null, 
           "name": "Landeck - Zams"
         }, 
         {
-          "id": 2939, 
-          "name": "Langen Am Arlberg"
-        }, 
-        {
-          "id": 2948, 
-          "name": "Lanzendorf-Rannersdf"
-        }, 
-        {
-          "id": 8730, 
-          "name": "Lanzhot"
-        }, 
-        {
-          "id": 8597, 
-          "name": "LANZHOT [Lanzhot]"
-        }, 
-        {
-          "id": 2949, 
-          "name": "Lapovo"
-        }, 
-        {
-          "id": 2953, 
-          "name": "Lask [Laskovce]"
-        }, 
-        {
-          "id": 2954, 
+          "id": "007943002", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2954, 
+          "longitude": null, 
           "name": "Lasko"
         }, 
         {
-          "id": 12681, 
-          "name": "LASKO [Lasko]"
-        }, 
-        {
-          "id": 2955, 
-          "name": "Laskovce"
-        }, 
-        {
-          "id": 2956, 
+          "id": "008103495", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2956, 
+          "longitude": null, 
           "name": "Lassnitzh\u00f6he"
         }, 
         {
-          "id": 2957, 
+          "id": "008103496", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2957, 
+          "longitude": null, 
           "name": "Lassnitzthal"
         }, 
         {
-          "id": 2958, 
-          "name": "Lastovce"
-        }, 
-        {
-          "id": 13869, 
-          "name": "Lauterbourg"
-        }, 
-        {
-          "id": 6717, 
+          "id": "002238376", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6717, 
+          "longitude": null, 
           "name": "Lavochne"
         }, 
         {
-          "id": 10066, 
-          "name": "LAVOCHNE [Lavochne]"
-        }, 
-        {
-          "id": 6654, 
-          "name": "Lazarevac"
-        }, 
-        {
-          "id": 8162, 
-          "name": "LAZAREVAC [Lazarevac]"
-        }, 
-        {
-          "id": 2971, 
-          "name": "Laze"
-        }, 
-        {
-          "id": 12936, 
-          "name": "LAZE [Laze]"
-        }, 
-        {
-          "id": 2976, 
+          "id": "005501487", 
+          "is_domestic": true, 
+          "latitude": 47.6878745394491, 
+          "legacy_id": 2976, 
+          "longitude": 18.7719493358516, 
           "name": "Le\u00e1nyv\u00e1r"
         }, 
         {
-          "id": 2977, 
+          "id": "005501321", 
+          "is_domestic": true, 
+          "latitude": 47.7556876192783, 
+          "legacy_id": 2977, 
+          "longitude": 17.4252956780891, 
           "name": "L\u00e9b\u00e9ny-Mosonszentmikl\u00f3s"
         }, 
         {
-          "id": 2989, 
-          "name": "Leithak\u00e1ta [Gattendorf]"
+          "id": "005503459_213", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2992, 
+          "longitude": null, 
+          "name": "Lelle (Balatonlelle)"
         }, 
         {
-          "id": 2991, 
-          "name": "Lekenik"
+          "id": "005503442_214", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 2993, 
+          "longitude": null, 
+          "name": "Lelle fels\u0151 (Balatonlelle fels\u0151)"
         }, 
         {
-          "id": 12946, 
-          "name": "LEKENIK [Lekenik]"
+          "id": "002237000_215", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 2994, 
+          "longitude": null, 
+          "name": "Lemberg (Lviv)"
         }, 
         {
-          "id": 2992, 
-          "name": "Lelle [Balatonlelle]"
-        }, 
-        {
-          "id": 2993, 
-          "name": "Lelle fels\u0151 [Balatonlelle fels\u0151]"
-        }, 
-        {
-          "id": 9979, 
-          "name": "Lemberg [Lviv]"
-        }, 
-        {
-          "id": 2995, 
-          "name": "Lenartovce"
-        }, 
-        {
-          "id": 3000, 
+          "id": "005508508", 
+          "is_domestic": true, 
+          "latitude": 46.6607111250743, 
+          "legacy_id": 3000, 
+          "longitude": 17.6133441990529, 
           "name": "Lengyelt\u00f3ti"
         }, 
         {
-          "id": 3001, 
+          "id": "005504986", 
+          "is_domestic": true, 
+          "latitude": 46.6212693161968, 
+          "legacy_id": 3001, 
+          "longitude": 16.5295998327574, 
           "name": "Lenti"
         }, 
         {
-          "id": 3002, 
+          "id": "005545898", 
+          "is_domestic": true, 
+          "latitude": 46.611088414154, 
+          "legacy_id": 3002, 
+          "longitude": 16.572616252148, 
           "name": "Lentiszombathely"
         }, 
         {
-          "id": 3005, 
-          "name": "Leoben Hauptbahnhof"
-        }, 
-        {
-          "id": 3013, 
-          "name": "Leopoldov"
-        }, 
-        {
-          "id": 3014, 
-          "name": "Leopoldov Zastavka"
-        }, 
-        {
-          "id": 3019, 
+          "id": "007873103", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3019, 
+          "longitude": null, 
           "name": "Lepavina"
         }, 
         {
-          "id": 12631, 
-          "name": "LEPAVINA [Lepavina]"
-        }, 
-        {
-          "id": 3020, 
-          "name": "L\u00e9pesfalva-Somfalva [Loipersbach-Schattendorf]"
-        }, 
-        {
-          "id": 3021, 
+          "id": "005503301", 
+          "is_domestic": true, 
+          "latitude": 46.9873576912661, 
+          "legacy_id": 3021, 
+          "longitude": 18.2473300739314, 
           "name": "Leps\u00e9ny"
         }, 
         {
-          "id": 3023, 
+          "id": "005335469", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3023, 
+          "longitude": null, 
           "name": "Les Bihor"
         }, 
         {
-          "id": 8016, 
-          "name": "LES [Les Bihor]"
-        }, 
-        {
-          "id": 3024, 
-          "name": "Lesce Bled"
-        }, 
-        {
-          "id": 12885, 
-          "name": "LESCE [Lesce Bled]"
-        }, 
-        {
-          "id": 6645, 
-          "name": "Leskovac"
-        }, 
-        {
-          "id": 13016, 
-          "name": "LESKOVAC [Leskovac]"
-        }, 
-        {
-          "id": 3029, 
-          "name": "Letanovce"
-        }, 
-        {
-          "id": 9996, 
+          "id": "005434725", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9996, 
+          "longitude": null, 
           "name": "Letovice"
         }, 
         {
-          "id": 10003, 
-          "name": "LETOVICE [Letovice]"
-        }, 
-        {
-          "id": 3036, 
-          "name": "L\u00e9va [Levice]"
-        }, 
-        {
-          "id": 3037, 
+          "id": "005501354", 
+          "is_domestic": true, 
+          "latitude": 47.8898386562261, 
+          "legacy_id": 3037, 
+          "longitude": 17.1921656264746, 
           "name": "Lev\u00e9l"
         }, 
         {
-          "id": 3038, 
+          "id": "005515677", 
+          "is_domestic": true, 
+          "latitude": 47.9479627907175, 
+          "legacy_id": 3038, 
+          "longitude": 21.9936574800341, 
           "name": "Levelek-Magy"
         }, 
         {
-          "id": 3040, 
-          "name": "Levice"
-        }, 
-        {
-          "id": 3041, 
-          "name": "Levoca"
-        }, 
-        {
-          "id": 3044, 
-          "name": "Libna"
-        }, 
-        {
-          "id": 13222, 
-          "name": "LIBNA [Libna]"
-        }, 
-        {
-          "id": 3047, 
-          "name": "Licartovce"
-        }, 
-        {
-          "id": 3050, 
-          "name": "Licko Lesce"
-        }, 
-        {
-          "id": 13068, 
-          "name": "LICKO [Licko Lesce]"
-        }, 
-        {
-          "id": 3058, 
-          "name": "Lietavska Lucka"
-        }, 
-        {
-          "id": 3059, 
-          "name": "Liezen"
-        }, 
-        {
-          "id": 3060, 
+          "id": "005515693", 
+          "is_domestic": true, 
+          "latitude": 47.9516054524724, 
+          "legacy_id": 3060, 
+          "longitude": 22.07124702724, 
           "name": "Ligettanya"
         }, 
         {
-          "id": 3061, 
-          "name": "Likier"
-        }, 
-        {
-          "id": 3068, 
-          "name": "Limbus"
-        }, 
-        {
-          "id": 13184, 
-          "name": "LIMBUS [Limbus]"
-        }, 
-        {
-          "id": 7885, 
-          "name": "LINEC HL.N. [Linz Hbf]"
-        }, 
-        {
-          "id": 3075, 
+          "id": "008101073", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3075, 
+          "longitude": null, 
           "name": "Linz Hbf"
         }, 
         {
-          "id": 7874, 
-          "name": "LINZ/DONAU HBF [Linz Hbf]"
-        }, 
-        {
-          "id": 7873, 
-          "name": "LINZ/DONAU MAIN STAT [Linz Hbf]"
-        }, 
-        {
-          "id": 3080, 
-          "name": "Lipany"
-        }, 
-        {
-          "id": 8591, 
-          "name": "Lipnik Nad Becvou"
-        }, 
-        {
-          "id": 8655, 
-          "name": "LIPNIK/BECV. [Lipnik Nad Becvou]"
-        }, 
-        {
-          "id": 3083, 
-          "name": "Lip\u00f3tv\u00e1r [Leopoldov]"
-        }, 
-        {
-          "id": 3084, 
-          "name": "Lip\u00f3tv\u00e1ralja [Liptovsky Hradok]"
-        }, 
-        {
-          "id": 8631, 
-          "name": "Lipov"
-        }, 
-        {
-          "id": 8666, 
-          "name": "LIPOV [Lipov]"
-        }, 
-        {
-          "id": 3085, 
+          "id": "007943703", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3085, 
+          "longitude": null, 
           "name": "Lipovci"
         }, 
         {
-          "id": 12627, 
-          "name": "LIPOVCI [Lipovci]"
-        }, 
-        {
-          "id": 3086, 
-          "name": "Lipovljani"
-        }, 
-        {
-          "id": 13121, 
-          "name": "LIPOVLJANI [Lipovljani]"
-        }, 
-        {
-          "id": 12655, 
-          "name": "Lipt\u00f3szentmikl\u00f3s [Liptovsky Mikul\u00e1s]"
-        }, 
-        {
-          "id": 3088, 
-          "name": "Liptovska Tepla"
-        }, 
-        {
-          "id": 3089, 
-          "name": "Liptovske Vlachy"
-        }, 
-        {
-          "id": 3090, 
-          "name": "Liptovsky Hradok"
-        }, 
-        {
-          "id": 8555, 
-          "name": "LIPTOVSKY [Liptovsky Hradok]"
-        }, 
-        {
-          "id": 8529, 
-          "name": "LIPTOVSKY [Liptovsky Mikul\u00e1s]"
-        }, 
-        {
-          "id": 6893, 
-          "name": "Liptovsky Mikul\u00e1s"
-        }, 
-        {
-          "id": 3093, 
-          "name": "Liskova"
-        }, 
-        {
-          "id": 8522, 
-          "name": "LISKOVA [Liskova]"
-        }, 
-        {
-          "id": 3096, 
+          "id": "007942207", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3096, 
+          "longitude": null, 
           "name": "Litija"
         }, 
         {
-          "id": 12647, 
-          "name": "LITIJA [Litija]"
-        }, 
-        {
-          "id": 3097, 
+          "id": "005511049", 
+          "is_domestic": true, 
+          "latitude": 48.2158071804881, 
+          "legacy_id": 3097, 
+          "longitude": 19.5988254329071, 
           "name": "Litke"
         }, 
         {
-          "id": 3098, 
-          "name": "Litostroj"
-        }, 
-        {
-          "id": 13048, 
-          "name": "LITOSTROJ [Litostroj]"
-        }, 
-        {
-          "id": 13195, 
-          "name": "LJ [Ljubljana Crnuce]"
-        }, 
-        {
-          "id": 12985, 
-          "name": "LJ [Ljubljana Jezica]"
-        }, 
-        {
-          "id": 13272, 
-          "name": "LJ [Ljubljana Polje]"
-        }, 
-        {
-          "id": 13076, 
-          "name": "LJ [Ljubljana Rakovnik]"
-        }, 
-        {
-          "id": 12712, 
-          "name": "LJ [Ljubljana Stegne]"
-        }, 
-        {
-          "id": 10046, 
-          "name": "LJ [Ljubljana Tivoli]"
-        }, 
-        {
-          "id": 12947, 
-          "name": "LJ [Ljubljana Vizmarje]"
-        }, 
-        {
-          "id": 10059, 
-          "name": "LJ [Ljubljana Zalog]"
-        }, 
-        {
-          "id": 3103, 
+          "id": "007942300", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3103, 
+          "longitude": null, 
           "name": "Ljubljana"
         }, 
         {
-          "id": 3104, 
-          "name": "Ljubljana Brinje"
-        }, 
-        {
-          "id": 3105, 
-          "name": "Ljubljana Crnuce"
-        }, 
-        {
-          "id": 3106, 
-          "name": "Ljubljana Jezica"
-        }, 
-        {
-          "id": 12698, 
-          "name": "LJUBLJANA [Ljubljana]"
-        }, 
-        {
-          "id": 12993, 
-          "name": "LJUBLJANA [Ljubljana Brinje]"
-        }, 
-        {
-          "id": 3107, 
-          "name": "Ljubljana Polje"
-        }, 
-        {
-          "id": 3108, 
-          "name": "Ljubljana Rakovnik"
-        }, 
-        {
-          "id": 3109, 
-          "name": "Ljubljana Stegne"
-        }, 
-        {
-          "id": 3110, 
-          "name": "Ljubljana Tivoli"
-        }, 
-        {
-          "id": 3111, 
-          "name": "Ljubljana Vizmarje"
-        }, 
-        {
-          "id": 3112, 
-          "name": "Ljubljana Vodmat"
-        }, 
-        {
-          "id": 3113, 
-          "name": "Ljubljana Zalog"
-        }, 
-        {
-          "id": 3115, 
-          "name": "Ljutomer"
-        }, 
-        {
-          "id": 13150, 
-          "name": "LJUTOMER [Ljutomer]"
-        }, 
-        {
-          "id": 12653, 
-          "name": "LJUTOMER [Ljutomer Mesto]"
-        }, 
-        {
-          "id": 3116, 
+          "id": "007943605", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3116, 
+          "longitude": null, 
           "name": "Ljutomer Mesto"
         }, 
         {
-          "id": 3122, 
-          "name": "Logatec"
-        }, 
-        {
-          "id": 12694, 
-          "name": "LOGATEC [Logatec]"
-        }, 
-        {
-          "id": 3123, 
-          "name": "Loipersbach-Schattendorf"
-        }, 
-        {
-          "id": 3124, 
-          "name": "Lok"
-        }, 
-        {
-          "id": 3125, 
-          "name": "Loka"
-        }, 
-        {
-          "id": 13029, 
-          "name": "LOKA [Loka]"
-        }, 
-        {
-          "id": 3127, 
-          "name": "Lokve"
-        }, 
-        {
-          "id": 12903, 
-          "name": "LOKVE [Lokve]"
-        }, 
-        {
-          "id": 3129, 
-          "name": "Lopej"
-        }, 
-        {
-          "id": 6880, 
-          "name": "Losonc [Lu\u010denec]"
-        }, 
-        {
-          "id": 8606, 
-          "name": "LOUKA [Louka U Ostrohu]"
-        }, 
-        {
-          "id": 8537, 
-          "name": "Louka U Ostrohu"
-        }, 
-        {
-          "id": 8642, 
-          "name": "LOUKY [Louky Nad Olsi]"
-        }, 
-        {
-          "id": 8604, 
-          "name": "Louky Nad Olsi"
-        }, 
-        {
-          "id": 3136, 
-          "name": "Lovinac"
-        }, 
-        {
-          "id": 12759, 
-          "name": "LOVINAC [Lovinac]"
-        }, 
-        {
-          "id": 3137, 
-          "name": "Lovinobana"
-        }, 
-        {
-          "id": 3138, 
-          "name": "Lovinobana Zastavka"
-        }, 
-        {
-          "id": 3141, 
+          "id": "008103504", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3141, 
+          "longitude": null, 
           "name": "L\u00f6dersdorf"
         }, 
         {
-          "id": 3142, 
+          "id": "005518069", 
+          "is_domestic": true, 
+          "latitude": 46.4319320700542, 
+          "legacy_id": 3142, 
+          "longitude": 21.2377899813585, 
           "name": "L\u0151k\u00f6sh\u00e1za"
         }, 
         {
-          "id": 3143, 
+          "id": "005511742", 
+          "is_domestic": true, 
+          "latitude": 47.7373870622591, 
+          "legacy_id": 3143, 
+          "longitude": 19.6740507595957, 
           "name": "L\u0151rinci"
         }, 
         {
-          "id": 3144, 
+          "id": "004305207", 
+          "is_domestic": true, 
+          "latitude": 47.5095728484267, 
+          "legacy_id": 3144, 
+          "longitude": 16.7771549947982, 
           "name": "L\u00f6v\u0151"
         }, 
         {
-          "id": 3145, 
-          "name": "Lubisa"
-        }, 
-        {
-          "id": 3147, 
-          "name": "Lubochna"
-        }, 
-        {
-          "id": 3148, 
-          "name": "Lubotin"
-        }, 
-        {
-          "id": 3150, 
-          "name": "Lucatin"
-        }, 
-        {
-          "id": 6889, 
-          "name": "Lu\u010denec"
-        }, 
-        {
-          "id": 3152, 
-          "name": "Lucivna"
-        }, 
-        {
-          "id": 3153, 
-          "name": "Lucnica Nad Zitavou"
-        }, 
-        {
-          "id": 3154, 
-          "name": "Ludanice"
-        }, 
-        {
-          "id": 3155, 
+          "id": "005511015", 
+          "is_domestic": true, 
+          "latitude": 48.1324502979466, 
+          "legacy_id": 3155, 
+          "longitude": 19.5293533491729, 
           "name": "Lud\u00e1nyhal\u00e1szi"
         }, 
         {
-          "id": 3156, 
+          "id": "005511262", 
+          "is_domestic": true, 
+          "latitude": 47.7241431894983, 
+          "legacy_id": 3156, 
+          "longitude": 20.0957128470473, 
           "name": "Ludas"
         }, 
         {
-          "id": 3157, 
-          "name": "Ludbreg"
-        }, 
-        {
-          "id": 13159, 
-          "name": "LUDBREG [Ludbreg]"
-        }, 
-        {
-          "id": 12771, 
-          "name": "Ludina"
-        }, 
-        {
-          "id": 12895, 
-          "name": "LUDINA [Ludina]"
-        }, 
-        {
-          "id": 3159, 
-          "name": "Ludovitov"
-        }, 
-        {
-          "id": 3160, 
+          "id": "005342814", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3160, 
+          "longitude": null, 
           "name": "Ludus"
         }, 
         {
-          "id": 8247, 
-          "name": "LUDUS [Ludus]"
-        }, 
-        {
-          "id": 3163, 
+          "id": "008027327", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3163, 
+          "longitude": null, 
           "name": "Ludwigslust"
         }, 
         {
-          "id": 12964, 
-          "name": "Luka"
+          "id": "005311695", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3164, 
+          "longitude": null, 
+          "name": "Lugoj"
         }, 
         {
-          "id": 13149, 
-          "name": "LUKA [Luka]"
-        }, 
-        {
-          "id": 3167, 
+          "id": "004305520", 
+          "is_domestic": true, 
+          "latitude": 47.3407381187378, 
+          "legacy_id": 3167, 
+          "longitude": 16.5803734960516, 
           "name": "Luk\u00e1csh\u00e1za"
         }, 
         {
-          "id": 3168, 
+          "id": "004345997", 
+          "is_domestic": true, 
+          "latitude": 47.3266294707054, 
+          "legacy_id": 3168, 
+          "longitude": 16.5852179260434, 
           "name": "Luk\u00e1csh\u00e1za als\u00f3"
         }, 
         {
-          "id": 8575, 
-          "name": "LUKY [Luky Pod Makytou]"
-        }, 
-        {
-          "id": 3170, 
-          "name": "Luky Pod Makytou"
-        }, 
-        {
-          "id": 8592, 
-          "name": "Lupkow"
-        }, 
-        {
-          "id": 8508, 
-          "name": "LUPKOW [Lupkow]"
-        }, 
-        {
-          "id": 3186, 
-          "name": "Lupoglav"
-        }, 
-        {
-          "id": 12666, 
-          "name": "LUPOGLAV [Lupoglav]"
-        }, 
-        {
-          "id": 12925, 
-          "name": "LUZANI-MAL. [Luzani-Malino]"
-        }, 
-        {
-          "id": 13201, 
-          "name": "Luzani-Malino"
-        }, 
-        {
-          "id": 3192, 
-          "name": "Luzianky"
-        }, 
-        {
-          "id": 9978, 
+          "id": "002237000", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3197, 
+          "longitude": null, 
           "name": "Lviv"
         }, 
         {
-          "id": 12635, 
-          "name": "LVOV [Lviv]"
-        }, 
-        {
-          "id": 8443, 
-          "name": "LWL [Ludwigslust]"
-        }, 
-        {
-          "id": 3202, 
-          "name": "Lysa Pod Makytou"
-        }, 
-        {
-          "id": 8465, 
-          "name": "M [M\u00fcnchen Hbf.]"
-        }, 
-        {
-          "id": 8455, 
-          "name": "MA [Mannheim Hbf]"
-        }, 
-        {
-          "id": 3206, 
+          "id": "007943774", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3206, 
+          "longitude": null, 
           "name": "Mackovci"
         }, 
         {
-          "id": 10054, 
-          "name": "MACKOVCI [Mackovci]"
-        }, 
-        {
-          "id": 3209, 
+          "id": "005513268", 
+          "is_domestic": true, 
+          "latitude": 48.1900231751954, 
+          "legacy_id": 3209, 
+          "longitude": 21.2689007277708, 
           "name": "M\u00e1d"
         }, 
         {
-          "id": 3212, 
-          "name": "Mad\u00e9falva [Siculeni]"
+          "id": "005340402_216", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3212, 
+          "longitude": null, 
+          "name": "Mad\u00e9falva (Siculeni)"
         }, 
         {
-          "id": 3213, 
-          "name": "Madunice"
-        }, 
-        {
-          "id": 3216, 
+          "id": "005501457", 
+          "is_domestic": true, 
+          "latitude": 47.6478262616051, 
+          "legacy_id": 3216, 
+          "longitude": 18.8184219064027, 
           "name": "Magdolnav\u00f6lgy"
         }, 
         {
-          "id": 3220, 
+          "id": "005511551", 
+          "is_domestic": true, 
+          "latitude": 47.4389588131176, 
+          "legacy_id": 3220, 
+          "longitude": 19.3407159930456, 
           "name": "Magl\u00f3d"
         }, 
         {
-          "id": 3221, 
+          "id": "005511569", 
+          "is_domestic": true, 
+          "latitude": 47.4342492872503, 
+          "legacy_id": 3221, 
+          "longitude": 19.3634899644815, 
           "name": "Magl\u00f3di nyaral\u00f3"
         }, 
         {
-          "id": 3222, 
+          "id": "005507021", 
+          "is_domestic": true, 
+          "latitude": 46.3103747377495, 
+          "legacy_id": 3222, 
+          "longitude": 18.2223298008154, 
           "name": "M\u00e1gocs-Als\u00f3mocsol\u00e1d"
         }, 
         {
-          "id": 3224, 
-          "name": "Magy [Levelek-Magy]"
+          "id": "005515677_217", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3224, 
+          "longitude": null, 
+          "name": "Magy (Levelek-Magy)"
         }, 
         {
-          "id": 3225, 
+          "id": "005519273", 
+          "is_domestic": true, 
+          "latitude": 46.4509665635031, 
+          "legacy_id": 3225, 
+          "longitude": 20.9691833264553, 
           "name": "Magyarb\u00e1nhegyes"
         }, 
         {
-          "id": 3226, 
+          "id": "005507476", 
+          "is_domestic": true, 
+          "latitude": 45.8348214500412, 
+          "legacy_id": 3226, 
+          "longitude": 18.4910133937697, 
           "name": "Magyarb\u00f3ly"
         }, 
         {
-          "id": 3227, 
+          "id": "005519125", 
+          "is_domestic": true, 
+          "latitude": 46.1744844181683, 
+          "legacy_id": 3227, 
+          "longitude": 20.6104818265243, 
           "name": "Magyarcsan\u00e1d"
         }, 
         {
-          "id": 3228, 
+          "id": "005507492", 
+          "is_domestic": true, 
+          "latitude": 46.193004719875, 
+          "legacy_id": 3228, 
+          "longitude": 18.1565282493986, 
           "name": "Magyarhertelend"
         }, 
         {
-          "id": 3229, 
+          "id": "004302386", 
+          "is_domestic": true, 
+          "latitude": 47.5143636697224, 
+          "legacy_id": 3229, 
+          "longitude": 17.1760614576948, 
           "name": "Magyarkereszt\u00far-Zsebeh\u00e1za"
         }, 
         {
-          "id": 3230, 
+          "id": "005541186", 
+          "is_domestic": true, 
+          "latitude": 47.8489774373371, 
+          "legacy_id": 3230, 
+          "longitude": 19.0467600375691, 
           "name": "Magyark\u00fat"
         }, 
         {
-          "id": 3231, 
+          "id": "005510603", 
+          "is_domestic": true, 
+          "latitude": 47.8311935660399, 
+          "legacy_id": 3231, 
+          "longitude": 19.0401586718069, 
           "name": "Magyark\u00fat-Ver\u0151ce"
         }, 
         {
-          "id": 3232, 
-          "name": "Magyarmecske [Gy\u00f6ngyfa-Magyarmecske]"
+          "id": "005545534_218", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3232, 
+          "longitude": null, 
+          "name": "Magyarmecske (Gy\u00f6ngyfa-Magyarmecske)"
         }, 
         {
-          "id": 3233, 
+          "id": "005510934", 
+          "is_domestic": true, 
+          "latitude": 47.9707865921295, 
+          "legacy_id": 3233, 
+          "longitude": 19.3567370989051, 
           "name": "Magyarn\u00e1ndor"
         }, 
         {
-          "id": 3234, 
+          "id": "005507500", 
+          "is_domestic": true, 
+          "latitude": 46.210340697341, 
+          "legacy_id": 3234, 
+          "longitude": 18.1860047677256, 
           "name": "Magyarsz\u00e9k"
         }, 
         {
-          "id": 13045, 
-          "name": "Mahicno"
-        }, 
-        {
-          "id": 12719, 
-          "name": "MAHICNO [Mahicno]"
-        }, 
-        {
-          "id": 3238, 
+          "id": "007873106", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3238, 
+          "longitude": null, 
           "name": "Majurec"
         }, 
         {
-          "id": 10067, 
-          "name": "MAJUREC [Majurec]"
-        }, 
-        {
-          "id": 3239, 
+          "id": "005512377", 
+          "is_domestic": true, 
+          "latitude": 47.8078473816443, 
+          "legacy_id": 3239, 
+          "longitude": 20.4048897298989, 
           "name": "Makl\u00e1r"
         }, 
         {
-          "id": 3240, 
+          "id": "005519109", 
+          "is_domestic": true, 
+          "latitude": 46.2047363310448, 
+          "legacy_id": 3240, 
+          "longitude": 20.4745526399743, 
           "name": "Mak\u00f3"
         }, 
         {
-          "id": 3243, 
-          "name": "Makov"
-        }, 
-        {
-          "id": 3245, 
+          "id": "007872405", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3245, 
+          "longitude": null, 
           "name": "Maksimir"
         }, 
         {
-          "id": 10032, 
-          "name": "MAKSIMIR [Maksimir]"
-        }, 
-        {
-          "id": 3247, 
-          "name": "Mala Lodina"
-        }, 
-        {
-          "id": 12768, 
-          "name": "MALA [Mala Subotica]"
-        }, 
-        {
-          "id": 3248, 
-          "name": "Mala Mana"
-        }, 
-        {
-          "id": 3249, 
-          "name": "Mala Subotica"
-        }, 
-        {
-          "id": 3250, 
-          "name": "Malacka [Malacky]"
-        }, 
-        {
-          "id": 3251, 
-          "name": "Malacky"
-        }, 
-        {
-          "id": 3255, 
-          "name": "Mallnitz-Obervellach"
-        }, 
-        {
-          "id": 3261, 
-          "name": "Maly Cepcin"
-        }, 
-        {
-          "id": 3262, 
-          "name": "Mana"
-        }, 
-        {
-          "id": 3263, 
-          "name": "Mana Zastavka"
-        }, 
-        {
-          "id": 3269, 
+          "id": "005515875", 
+          "is_domestic": true, 
+          "latitude": 48.327165534434, 
+          "legacy_id": 3269, 
+          "longitude": 22.1961780167518, 
           "name": "M\u00e1ndok"
         }, 
         {
-          "id": 3272, 
+          "id": "008014008", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3272, 
+          "longitude": null, 
           "name": "Mannheim Hbf"
         }, 
         {
-          "id": 3279, 
+          "id": "005503061", 
+          "is_domestic": true, 
+          "latitude": 47.427778004074, 
+          "legacy_id": 3279, 
+          "longitude": 17.3490453439532, 
           "name": "Marcalt\u0151"
         }, 
         {
-          "id": 3280, 
-          "name": "M\u00e1rcfalva-Frakn\u00f3n\u00e1dasd [Marz-Rohrbach]"
-        }, 
-        {
-          "id": 3281, 
-          "name": "Marchegg"
-        }, 
-        {
-          "id": 3285, 
-          "name": "Margecany"
-        }, 
-        {
-          "id": 3286, 
-          "name": "Margecany Zastavka"
-        }, 
-        {
-          "id": 3288, 
-          "name": "Margitfalva [Margecany]"
-        }, 
-        {
-          "id": 3295, 
+          "id": "005511148", 
+          "is_domestic": true, 
+          "latitude": 47.5957629293082, 
+          "legacy_id": 3295, 
+          "longitude": 19.3895046114301, 
           "name": "M\u00e1riabesny\u0151"
         }, 
         {
-          "id": 10037, 
-          "name": "M\u00e1riaf\u00fcrd\u0151 als\u00f3 [M\u00e1riahull\u00e1mtelep]"
+          "id": "005503541_219", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3296, 
+          "longitude": null, 
+          "name": "M\u00e1riaf\u00fcrd\u0151 (Balatonm\u00e1riaf\u00fcrd\u0151)"
         }, 
         {
-          "id": 3296, 
-          "name": "M\u00e1riaf\u00fcrd\u0151 [Balatonm\u00e1riaf\u00fcrd\u0151]"
+          "id": "005503533_220", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3297, 
+          "longitude": null, 
+          "name": "M\u00e1riaf\u00fcrd\u0151 als\u00f3 (M\u00e1riahull\u00e1mtelep)"
         }, 
         {
-          "id": 10035, 
+          "id": "005503533", 
+          "is_domestic": true, 
+          "latitude": 46.7048426413086, 
+          "legacy_id": 343, 
+          "longitude": 17.4349465470636, 
           "name": "M\u00e1riahull\u00e1mtelep"
         }, 
         {
-          "id": 3299, 
+          "id": "005515446", 
+          "is_domestic": true, 
+          "latitude": 47.8527556881984, 
+          "legacy_id": 3299, 
+          "longitude": 22.0191287668011, 
           "name": "M\u00e1riap\u00f3cs"
         }, 
         {
-          "id": 3300, 
-          "name": "M\u00e1riaradna [Radna]"
+          "id": "005321705_221", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3300, 
+          "longitude": null, 
+          "name": "M\u00e1riaradna (Radna)"
         }, 
         {
-          "id": 13852, 
+          "id": "005503534", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 13852, 
+          "longitude": null, 
           "name": "M\u00e1riasz\u0151l\u0151telep"
         }, 
         {
-          "id": 3301, 
-          "name": "M\u00e1riat\u00f6lgyes [Dubnica Nad Vahom]"
-        }, 
-        {
-          "id": 3302, 
+          "id": "005541012", 
+          "is_domestic": true, 
+          "latitude": 47.7527125784669, 
+          "legacy_id": 3302, 
+          "longitude": 19.1635610966241, 
           "name": "M\u00e1riaudvar"
         }, 
         {
-          "id": 6752, 
-          "name": "M\u00e1riav\u00e1ros [Kecskem\u00e9t-M\u00e1riav\u00e1ros]"
+          "id": "005516964_222", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6752, 
+          "longitude": null, 
+          "name": "M\u00e1riav\u00e1ros (Kecskem\u00e9t-M\u00e1riav\u00e1ros)"
         }, 
         {
-          "id": 3303, 
-          "name": "Maribor"
-        }, 
-        {
-          "id": 12684, 
-          "name": "MARIBOR [Maribor]"
-        }, 
-        {
-          "id": 13047, 
-          "name": "MARIBOR [Maribor Tezno]"
-        }, 
-        {
-          "id": 3304, 
-          "name": "Maribor Sokolska"
-        }, 
-        {
-          "id": 3305, 
-          "name": "Maribor Studenci"
-        }, 
-        {
-          "id": 3306, 
-          "name": "Maribor Tabor"
-        }, 
-        {
-          "id": 3307, 
-          "name": "Maribor Tezno"
-        }, 
-        {
-          "id": 3310, 
-          "name": "M\u00e1rkcsemernye [Puste Cemerne]"
-        }, 
-        {
-          "id": 3312, 
+          "id": "005545781", 
+          "is_domestic": true, 
+          "latitude": 47.1268952009423, 
+          "legacy_id": 3312, 
+          "longitude": 17.8107057700847, 
           "name": "M\u00e1rk\u00f3"
         }, 
         {
-          "id": 3316, 
-          "name": "Markusovce"
-        }, 
-        {
-          "id": 3317, 
-          "name": "Marles"
-        }, 
-        {
-          "id": 12746, 
-          "name": "MARLES [Marles]"
-        }, 
-        {
-          "id": 3319, 
+          "id": "005345294", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3319, 
+          "longitude": null, 
           "name": "Marna"
         }, 
         {
-          "id": 8018, 
-          "name": "MARNA [Marna]"
-        }, 
-        {
-          "id": 3321, 
+          "id": "005545435", 
+          "is_domestic": true, 
+          "latitude": 45.8866438246356, 
+          "legacy_id": 3321, 
+          "longitude": 18.4992330494334, 
           "name": "M\u00e1rok"
         }, 
         {
-          "id": 3322, 
-          "name": "Marosh\u00e9v\u00edz [Toplita]"
+          "id": "005340684_223", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3322, 
+          "longitude": null, 
+          "name": "Marosh\u00e9v\u00edz (Toplita)"
         }, 
         {
-          "id": 3323, 
-          "name": "Marosillye [Ilia]"
+          "id": "005321406_224", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3323, 
+          "longitude": null, 
+          "name": "Marosillye (Ilia)"
         }, 
         {
-          "id": 3324, 
-          "name": "Marosludas [Ludus]"
+          "id": "005342814_225", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3324, 
+          "longitude": null, 
+          "name": "Marosludas (Ludus)"
         }, 
         {
-          "id": 6830, 
-          "name": "Marosv\u00e1s\u00e1rhely [T\u00e2rgu Mure\u015f]"
+          "id": "005342606_226", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6830, 
+          "longitude": null, 
+          "name": "Marosv\u00e1s\u00e1rhely (T\u00e2rgu Mure\u015f)"
         }, 
         {
-          "id": 3328, 
+          "id": "005518226", 
+          "is_domestic": true, 
+          "latitude": 46.4733400853708, 
+          "legacy_id": 3328, 
+          "longitude": 20.2359069246006, 
           "name": "M\u00e1rt\u00e9ly"
         }, 
         {
-          "id": 3329, 
+          "id": "005518093", 
+          "is_domestic": true, 
+          "latitude": 47.0209504137488, 
+          "legacy_id": 3329, 
+          "longitude": 20.2918364777377, 
           "name": "Martf\u0171"
         }, 
         {
-          "id": 3331, 
-          "name": "Martin"
-        }, 
-        {
-          "id": 3332, 
-          "name": "Martinova"
-        }, 
-        {
-          "id": 3333, 
+          "id": "005503178", 
+          "is_domestic": true, 
+          "latitude": 47.3205685532869, 
+          "legacy_id": 3333, 
+          "longitude": 18.7813338908372, 
           "name": "Martonv\u00e1s\u00e1r"
         }, 
         {
-          "id": 3334, 
-          "name": "Marz-Rohrbach"
-        }, 
-        {
-          "id": 3338, 
-          "name": "Matejovce Nad Hornadom"
-        }, 
-        {
-          "id": 3339, 
-          "name": "Matejovce Pri Poprade"
-        }, 
-        {
-          "id": 3340, 
+          "id": "005515495", 
+          "is_domestic": true, 
+          "latitude": 47.9517283672977, 
+          "legacy_id": 3340, 
+          "longitude": 22.3129760817213, 
           "name": "M\u00e1t\u00e9szalka"
         }, 
         {
-          "id": 3341, 
+          "id": "005511817", 
+          "is_domestic": true, 
+          "latitude": 47.9389867302915, 
+          "legacy_id": 3341, 
+          "longitude": 19.7067933174046, 
           "name": "M\u00e1trasz\u0151l\u0151s-Hasznos"
         }, 
         {
-          "id": 3342, 
+          "id": "005511833", 
+          "is_domestic": true, 
+          "latitude": 47.9685244080236, 
+          "legacy_id": 3342, 
+          "longitude": 19.7808716959776, 
           "name": "M\u00e1travereb\u00e9ly"
         }, 
         {
-          "id": 3343, 
+          "id": "005511734", 
+          "is_domestic": true, 
+          "latitude": 47.7196632254449, 
+          "legacy_id": 3343, 
+          "longitude": 19.6741446167369, 
           "name": "M\u00e1travid\u00e9ki Er\u0151m\u0171"
         }, 
         {
-          "id": 3345, 
-          "name": "Mattersburg"
+          "id": "007943774_227", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3350, 
+          "longitude": null, 
+          "name": "M\u00e1ty\u00e1sdomb (Mackovci)"
         }, 
         {
-          "id": 3346, 
-          "name": "Mattersburg Nord"
-        }, 
-        {
-          "id": 3350, 
-          "name": "M\u00e1ty\u00e1sdomb [Mackovci]"
-        }, 
-        {
-          "id": 3356, 
+          "id": "005507054", 
+          "is_domestic": true, 
+          "latitude": 46.2791952348593, 
+          "legacy_id": 3356, 
+          "longitude": 18.4087002855226, 
           "name": "M\u00e1za-Sz\u00e1szv\u00e1r"
         }, 
         {
-          "id": 13027, 
-          "name": "MB [Maribor Sokolska]"
-        }, 
-        {
-          "id": 13028, 
-          "name": "MB [Maribor Studenci]"
-        }, 
-        {
-          "id": 12898, 
-          "name": "MB [Maribor Tabor]"
-        }, 
-        {
-          "id": 3358, 
+          "id": "005507286", 
+          "is_domestic": true, 
+          "latitude": 46.0600732666595, 
+          "legacy_id": 3358, 
+          "longitude": 18.152088053948, 
           "name": "Mecsekalja-Cserk\u00fat"
         }, 
         {
-          "id": 3359, 
+          "id": "005507526", 
+          "is_domestic": true, 
+          "latitude": 46.2163546373444, 
+          "legacy_id": 3359, 
+          "longitude": 18.2420910097723, 
           "name": "Mecsekj\u00e1nosi"
         }, 
         {
-          "id": 3360, 
+          "id": "005507518", 
+          "is_domestic": true, 
+          "latitude": 46.2242677052992, 
+          "legacy_id": 3360, 
+          "longitude": 18.2134771790036, 
           "name": "Mecsekp\u00f6l\u00f6ske"
         }, 
         {
-          "id": 3363, 
+          "id": "005519281", 
+          "is_domestic": true, 
+          "latitude": 46.4964040895577, 
+          "legacy_id": 3363, 
+          "longitude": 21.0307241450559, 
           "name": "Medgyesegyh\u00e1za"
         }, 
         {
-          "id": 3365, 
+          "id": "005331334", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6722, 
+          "longitude": null, 
+          "name": "Media\u015f"
+        }, 
+        {
+          "id": "005341860", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3365, 
+          "longitude": null, 
           "name": "Mediesu Aurit"
         }, 
         {
-          "id": 8045, 
-          "name": "MEDIESU [Mediesu Aurit]"
+          "id": "005518994_228", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6844, 
+          "longitude": null, 
+          "name": "Meg\u00e1ll\u00f3 (Kiszombor meg\u00e1ll\u00f3)"
         }, 
         {
-          "id": 3367, 
-          "name": "Medno"
-        }, 
-        {
-          "id": 12726, 
-          "name": "MEDNO [Medno]"
-        }, 
-        {
-          "id": 3368, 
-          "name": "Medvode"
-        }, 
-        {
-          "id": 13138, 
-          "name": "MEDVODE [Medvode]"
-        }, 
-        {
-          "id": 3369, 
-          "name": "Medzibrod"
-        }, 
-        {
-          "id": 3370, 
-          "name": "Medzibrodie Nad Oravou"
-        }, 
-        {
-          "id": 3371, 
-          "name": "Medzilaborce"
-        }, 
-        {
-          "id": 3372, 
-          "name": "Medzilaborce Mesto"
-        }, 
-        {
-          "id": 6844, 
-          "name": "Meg\u00e1ll\u00f3 [Kiszombor meg\u00e1ll\u00f3]"
-        }, 
-        {
-          "id": 3373, 
+          "id": "005511965", 
+          "is_domestic": true, 
+          "latitude": 47.4412389653058, 
+          "legacy_id": 3373, 
+          "longitude": 19.9394621995197, 
           "name": "Meggyespele"
         }, 
         {
-          "id": 6619, 
-          "name": "Megyer [Rig\u00e1cs]"
+          "id": "005545864_229", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6619, 
+          "longitude": null, 
+          "name": "Megyer (Rig\u00e1cs)"
         }, 
         {
-          "id": 3376, 
+          "id": "005518762", 
+          "is_domestic": true, 
+          "latitude": 46.7742971621553, 
+          "legacy_id": 3376, 
+          "longitude": 21.4554554945912, 
           "name": "M\u00e9hker\u00e9k"
         }, 
         {
-          "id": 7937, 
-          "name": "Meja"
-        }, 
-        {
-          "id": 12798, 
-          "name": "MEJA [Meja]"
-        }, 
-        {
-          "id": 3378, 
-          "name": "Mekotnjak"
-        }, 
-        {
-          "id": 13230, 
-          "name": "MEKOTNJAK [Mekotnjak]"
-        }, 
-        {
-          "id": 3379, 
-          "name": "Melcice"
-        }, 
-        {
-          "id": 3381, 
+          "id": "005516626", 
+          "is_domestic": true, 
+          "latitude": 46.2128445024799, 
+          "legacy_id": 3381, 
+          "longitude": 19.3707145128071, 
           "name": "M\u00e9lyk\u00fat"
         }, 
         {
-          "id": 3383, 
+          "id": "005511585", 
+          "is_domestic": true, 
+          "latitude": 47.4268629444427, 
+          "legacy_id": 3383, 
+          "longitude": 19.4399236055551, 
           "name": "Mende"
         }, 
         {
-          "id": 3384, 
+          "id": "005502048", 
+          "is_domestic": true, 
+          "latitude": 47.6217055213778, 
+          "legacy_id": 3384, 
+          "longitude": 17.5990560520667, 
           "name": "M\u00e9nf\u0151csanak"
         }, 
         {
-          "id": 3385, 
+          "id": "005502030", 
+          "is_domestic": true, 
+          "latitude": 47.6375842300553, 
+          "legacy_id": 3385, 
+          "longitude": 17.6142202366921, 
           "name": "M\u00e9nf\u0151csanak fels\u0151"
         }, 
         {
-          "id": 3386, 
+          "id": "005516949", 
+          "is_domestic": true, 
+          "latitude": 46.9787145963465, 
+          "legacy_id": 3386, 
+          "longitude": 19.5706800645208, 
           "name": "M\u00e9ntelek"
         }, 
         {
-          "id": 3391, 
+          "id": "005513201", 
+          "is_domestic": true, 
+          "latitude": 48.3631052240168, 
+          "legacy_id": 3391, 
+          "longitude": 21.1403045707588, 
           "name": "M\u00e9ra"
         }, 
         {
-          "id": 3395, 
+          "id": "005508268", 
+          "is_domestic": true, 
+          "latitude": 46.5094860568168, 
+          "legacy_id": 3395, 
+          "longitude": 17.8320217974534, 
           "name": "Mernye"
         }, 
         {
-          "id": 3397, 
-          "name": "Mestinje"
-        }, 
-        {
-          "id": 12862, 
-          "name": "MESTINJE [Mestinje]"
-        }, 
-        {
-          "id": 3398, 
-          "name": "Metlika"
-        }, 
-        {
-          "id": 12958, 
-          "name": "METLIKA [Metlika]"
-        }, 
-        {
-          "id": 3404, 
+          "id": "005517889", 
+          "is_domestic": true, 
+          "latitude": 46.814815113318, 
+          "legacy_id": 3404, 
+          "longitude": 21.0130809927502, 
           "name": "Mez\u0151ber\u00e9ny"
         }, 
         {
-          "id": 3405, 
+          "id": "005506536", 
+          "is_domestic": true, 
+          "latitude": 46.9054193131997, 
+          "legacy_id": 3405, 
+          "longitude": 18.8103488709639, 
           "name": "Mez\u0151falva"
         }, 
         {
-          "id": 3406, 
+          "id": "005519166", 
+          "is_domestic": true, 
+          "latitude": 46.3109763991387, 
+          "legacy_id": 3406, 
+          "longitude": 20.816030743767, 
           "name": "Mez\u0151hegyes"
         }, 
         {
-          "id": 3407, 
+          "id": "005511338", 
+          "is_domestic": true, 
+          "latitude": 47.8455920557888, 
+          "legacy_id": 3407, 
+          "longitude": 20.6702479612738, 
           "name": "Mez\u0151keresztes-Mez\u0151ny\u00e1r\u00e1d"
         }, 
         {
-          "id": 3408, 
+          "id": "005519182", 
+          "is_domestic": true, 
+          "latitude": 46.4079043408505, 
+          "legacy_id": 3408, 
+          "longitude": 20.8999841729774, 
           "name": "Mez\u0151kov\u00e1csh\u00e1za"
         }, 
         {
-          "id": 3409, 
+          "id": "005519208", 
+          "is_domestic": true, 
+          "latitude": 46.4157441799367, 
+          "legacy_id": 3409, 
+          "longitude": 20.9192387992021, 
           "name": "Mez\u0151kov\u00e1csh\u00e1za fels\u0151"
         }, 
         {
-          "id": 3410, 
+          "id": "005511312", 
+          "is_domestic": true, 
+          "latitude": 47.7971508963955, 
+          "legacy_id": 3410, 
+          "longitude": 20.5670289631969, 
           "name": "Mez\u0151k\u00f6vesd"
         }, 
         {
-          "id": 3411, 
+          "id": "005511320", 
+          "is_domestic": true, 
+          "latitude": 47.8063772849997, 
+          "legacy_id": 3411, 
+          "longitude": 20.5898704674258, 
           "name": "Mez\u0151k\u00f6vesd fels\u0151"
         }, 
         {
-          "id": 3412, 
-          "name": "Mez\u0151laborc [Medzilaborce]"
-        }, 
-        {
-          "id": 3413, 
+          "id": "005502139", 
+          "is_domestic": true, 
+          "latitude": 47.3236787041274, 
+          "legacy_id": 3413, 
+          "longitude": 17.3641607072015, 
           "name": "Mez\u0151lak"
         }, 
         {
-          "id": 3414, 
-          "name": "Mez\u0151ny\u00e1r\u00e1d [Mez\u0151keresztes-Mez\u0151ny\u00e1r\u00e1d]"
+          "id": "005511338_230", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3414, 
+          "longitude": null, 
+          "name": "Mez\u0151ny\u00e1r\u00e1d (Mez\u0151keresztes-Mez\u0151ny\u00e1r\u00e1d)"
         }, 
         {
-          "id": 3415, 
+          "id": "005514431", 
+          "is_domestic": true, 
+          "latitude": 47.1760108783343, 
+          "legacy_id": 3415, 
+          "longitude": 21.6257653253836, 
           "name": "Mez\u0151peterd"
         }, 
         {
-          "id": 3416, 
+          "id": "005514605", 
+          "is_domestic": true, 
+          "latitude": 47.7249138602266, 
+          "legacy_id": 3416, 
+          "longitude": 20.4804526428943, 
           "name": "Mez\u0151t\u00e1rk\u00e1ny"
         }, 
         {
-          "id": 3417, 
+          "id": "005517848", 
+          "is_domestic": true, 
+          "latitude": 47.0133719960847, 
+          "legacy_id": 3417, 
+          "longitude": 20.6191673950061, 
           "name": "Mez\u0151t\u00far"
         }, 
         {
-          "id": 3418, 
+          "id": "005511452", 
+          "is_domestic": true, 
+          "latitude": 48.15681344208, 
+          "legacy_id": 3418, 
+          "longitude": 21.2673221357123, 
           "name": "Mez\u0151zombor"
         }, 
         {
-          "id": 12973, 
-          "name": "M.GRACENICA [Moslavacka Gracenica]"
+          "id": "005107946", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3432, 
+          "longitude": null, 
+          "name": "Miechow"
         }, 
         {
-          "id": 3420, 
-          "name": "Miava [Myjava]"
-        }, 
-        {
-          "id": 13972, 
-          "name": "MICHAEL ST [St.Michael]"
-        }, 
-        {
-          "id": 3422, 
-          "name": "Michal Nad Zitavou"
-        }, 
-        {
-          "id": 3423, 
-          "name": "Michalany"
-        }, 
-        {
-          "id": 3424, 
-          "name": "Michalova"
-        }, 
-        {
-          "id": 3425, 
-          "name": "Michalova Zastavka"
-        }, 
-        {
-          "id": 3426, 
-          "name": "Michalovce"
-        }, 
-        {
-          "id": 3427, 
-          "name": "Michalovce Zastavka"
-        }, 
-        {
-          "id": 3434, 
+          "id": "005340373", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3434, 
+          "longitude": null, 
           "name": "Miercurea Ciuc"
         }, 
         {
-          "id": 8168, 
-          "name": "MIERCUREA [Miercurea Ciuc]"
-        }, 
-        {
-          "id": 3442, 
+          "id": "005502147", 
+          "is_domestic": true, 
+          "latitude": 47.3184094101483, 
+          "legacy_id": 3442, 
+          "longitude": 17.3292744616266, 
           "name": "Mih\u00e1lyh\u00e1za"
         }, 
         {
-          "id": 12896, 
-          "name": "Mikleus"
+          "id": "008102979_231", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3444, 
+          "longitude": null, 
+          "name": "Mikl\u00f3shalma (Nickelsdorf)"
         }, 
         {
-          "id": 13129, 
-          "name": "MIKLEUS [Mikleus]"
-        }, 
-        {
-          "id": 3444, 
-          "name": "Mikl\u00f3shalma [Nickelsdorf]"
-        }, 
-        {
-          "id": 3445, 
+          "id": "005544719", 
+          "is_domestic": true, 
+          "latitude": 46.9132999713061, 
+          "legacy_id": 3445, 
+          "longitude": 19.6308579666786, 
           "name": "Mikl\u00f3stelep"
         }, 
         {
-          "id": 3451, 
-          "name": "Milochov"
-        }, 
-        {
-          "id": 3455, 
+          "id": "005518218", 
+          "is_domestic": true, 
+          "latitude": 46.523933782189, 
+          "legacy_id": 3455, 
+          "longitude": 20.1938379586876, 
           "name": "Mindszent"
         }, 
         {
-          "id": 13143, 
-          "name": "Mirkovci"
-        }, 
-        {
-          "id": 13210, 
-          "name": "MIRKOVCI [Mirkovci]"
-        }, 
-        {
-          "id": 3468, 
-          "name": "Mirna"
-        }, 
-        {
-          "id": 13253, 
-          "name": "MIRNA [Mirna]"
-        }, 
-        {
-          "id": 13083, 
-          "name": "MIRNA [Mirna Pec]"
-        }, 
-        {
-          "id": 3469, 
-          "name": "Mirna Pec"
-        }, 
-        {
-          "id": 3471, 
+          "id": "005590998", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3471, 
+          "longitude": null, 
           "name": "MISKOLC*"
         }, 
         {
-          "id": 3472, 
+          "id": "005512674", 
+          "is_domestic": true, 
+          "latitude": 48.1062044153132, 
+          "legacy_id": 3472, 
+          "longitude": 20.8003292097991, 
           "name": "Miskolc-G\u00f6m\u00f6ri"
         }, 
         {
-          "id": 3473, 
+          "id": "005511387", 
+          "is_domestic": true, 
+          "latitude": 48.0986960330878, 
+          "legacy_id": 3473, 
+          "longitude": 20.8090989702611, 
           "name": "Miskolc-Tiszai"
         }, 
         {
-          "id": 13102, 
-          "name": "Misulinovac"
-        }, 
-        {
-          "id": 13056, 
-          "name": "MISULINOVAC [Misulinovac]"
-        }, 
-        {
-          "id": 3477, 
-          "name": "Mitrovica [Sremska Mitrovica]"
-        }, 
-        {
-          "id": 3487, 
-          "name": "Mlacevo"
-        }, 
-        {
-          "id": 13110, 
-          "name": "MLACEVO [Mlacevo]"
-        }, 
-        {
-          "id": 3488, 
-          "name": "Mladenovac"
-        }, 
-        {
-          "id": 13160, 
-          "name": "MLADENOVAC [Mladenovac]"
-        }, 
-        {
-          "id": 3489, 
-          "name": "Mlynarce"
-        }, 
-        {
-          "id": 3490, 
-          "name": "Mlynky"
-        }, 
-        {
-          "id": 3491, 
-          "name": "Mlynky Zastavka"
-        }, 
-        {
-          "id": 3492, 
-          "name": "Mnichova Lehota"
-        }, 
-        {
-          "id": 3493, 
-          "name": "Mnisek Nad Hnilcom"
-        }, 
-        {
-          "id": 3495, 
-          "name": "Modra Nad Cirochou"
-        }, 
-        {
-          "id": 3496, 
+          "id": "005345361", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3496, 
+          "longitude": null, 
           "name": "Moftin"
         }, 
         {
-          "id": 8051, 
-          "name": "MOFTIN [Moftin]"
-        }, 
-        {
-          "id": 3501, 
+          "id": "005507781", 
+          "is_domestic": true, 
+          "latitude": 46.0024027911826, 
+          "legacy_id": 3501, 
+          "longitude": 18.6841669812885, 
           "name": "Moh\u00e1cs"
         }, 
         {
-          "id": 8605, 
-          "name": "Mohelnice"
-        }, 
-        {
-          "id": 8678, 
-          "name": "MOHELNICE [Mohelnice]"
-        }, 
-        {
-          "id": 3502, 
+          "id": "005510942", 
+          "is_domestic": true, 
+          "latitude": 47.9967124235661, 
+          "legacy_id": 3502, 
+          "longitude": 19.3463527754167, 
           "name": "Mohora"
         }, 
         {
-          "id": 6741, 
-          "name": "Mojkovac"
-        }, 
-        {
-          "id": 8204, 
-          "name": "MOJKOVAC [Mojkovac]"
-        }, 
-        {
-          "id": 3504, 
-          "name": "Mokrad"
-        }, 
-        {
-          "id": 3505, 
-          "name": "Mokrance"
-        }, 
-        {
-          "id": 8623, 
-          "name": "Mokre Malopolskie"
-        }, 
-        {
-          "id": 8487, 
-          "name": "MOKRE [Mokre Malopolskie]"
-        }, 
-        {
-          "id": 3506, 
-          "name": "Mokronog"
-        }, 
-        {
-          "id": 12733, 
-          "name": "MOKRONOG [Mokronog]"
-        }, 
-        {
-          "id": 8504, 
-          "name": "MOLDAVA [Moldava Nad Bodvou]"
-        }, 
-        {
-          "id": 3507, 
-          "name": "Moldava Nad Bodvou"
-        }, 
-        {
-          "id": 8518, 
-          "name": "Moldava Nad Bodvou Mesto"
-        }, 
-        {
-          "id": 3510, 
+          "id": "005505728", 
+          "is_domestic": true, 
+          "latitude": 46.035081384779, 
+          "legacy_id": 3510, 
+          "longitude": 17.7480177985612, 
           "name": "Molv\u00e1ny"
         }, 
         {
-          "id": 8461, 
-          "name": "MONACO DI BAVIERA [M\u00fcnchen Hbf.]"
-        }, 
-        {
-          "id": 3512, 
-          "name": "Monastyr"
-        }, 
-        {
-          "id": 3513, 
+          "id": "005513664", 
+          "is_domestic": true, 
+          "latitude": 47.3454243287785, 
+          "legacy_id": 3513, 
+          "longitude": 19.4371961009638, 
           "name": "Monor"
         }, 
         {
-          "id": 3515, 
+          "id": "005541277", 
+          "is_domestic": true, 
+          "latitude": 47.3084775404263, 
+          "legacy_id": 3515, 
+          "longitude": 19.4996670740157, 
           "name": "Monorierd\u0151"
         }, 
         {
-          "id": 3516, 
+          "id": "005512450", 
+          "is_domestic": true, 
+          "latitude": 48.0320091969392, 
+          "legacy_id": 3516, 
+          "longitude": 20.32999314425, 
           "name": "M\u00f3nosb\u00e9l"
         }, 
         {
-          "id": 12652, 
-          "name": "Monthey"
-        }, 
-        {
-          "id": 12693, 
-          "name": "Monthey-Ville"
-        }, 
-        {
-          "id": 3522, 
+          "id": "005503731", 
+          "is_domestic": true, 
+          "latitude": 47.3695519867337, 
+          "legacy_id": 3522, 
+          "longitude": 18.1888137182889, 
           "name": "M\u00f3r"
         }, 
         {
-          "id": 3524, 
-          "name": "Moravice"
-        }, 
-        {
-          "id": 13190, 
-          "name": "MORAVICE [Moravice]"
-        }, 
-        {
-          "id": 3525, 
-          "name": "Moravsky Jan"
-        }, 
-        {
-          "id": 8573, 
-          "name": "MORAVSKYJAN [Moravsky Jan]"
-        }, 
-        {
-          "id": 8695, 
-          "name": "Morochow"
-        }, 
-        {
-          "id": 8593, 
-          "name": "MOROCHOW [Morochow]"
-        }, 
-        {
-          "id": 3530, 
-          "name": "Morvaszentj\u00e1nos [Moravsky Jan]"
-        }, 
-        {
-          "id": 3532, 
-          "name": "Moskanjci"
-        }, 
-        {
-          "id": 12833, 
-          "name": "MOSKANJCI [Moskanjci]"
-        }, 
-        {
-          "id": 12767, 
-          "name": "Moslavacka Gracenica"
-        }, 
-        {
-          "id": 3538, 
+          "id": "005501347", 
+          "is_domestic": true, 
+          "latitude": 47.8506539658098, 
+          "legacy_id": 3538, 
+          "longitude": 17.266313003256, 
           "name": "Mosonmagyar\u00f3v\u00e1r"
         }, 
         {
-          "id": 7329, 
-          "name": "Mosonszentandr\u00e1s [St. Andr\u00e4 am Zicksee]"
+          "id": "008103026_232", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7329, 
+          "longitude": null, 
+          "name": "Mosonszentandr\u00e1s (St. Andr\u00e4 am Zicksee)"
         }, 
         {
-          "id": 3540, 
-          "name": "Mosonszentmikl\u00f3s [L\u00e9b\u00e9ny-Mosonszentmikl\u00f3s]"
+          "id": "005501321_233", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3540, 
+          "longitude": null, 
+          "name": "Mosonszentmikl\u00f3s (L\u00e9b\u00e9ny-Mosonszentmikl\u00f3s)"
         }, 
         {
-          "id": 3541, 
+          "id": "004302337", 
+          "is_domestic": true, 
+          "latitude": 47.8525902461672, 
+          "legacy_id": 3541, 
+          "longitude": 17.1607516075184, 
           "name": "Mosonszolnok"
         }, 
         {
-          "id": 12763, 
-          "name": "MOST [Most Na Soci]"
-        }, 
-        {
-          "id": 3542, 
-          "name": "Most Na Soci"
-        }, 
-        {
-          "id": 3544, 
-          "name": "Mosty U Jablunkova"
-        }, 
-        {
-          "id": 3545, 
-          "name": "Mosty U Jablunkova Zastavka"
-        }, 
-        {
-          "id": 8579, 
-          "name": "MOSTY Z [Mosty U Jablunkova Zastavka]"
-        }, 
-        {
-          "id": 3553, 
+          "id": "005507104", 
+          "is_domestic": true, 
+          "latitude": 46.2571260173233, 
+          "legacy_id": 3553, 
+          "longitude": 18.5945805211372, 
           "name": "M\u0151cs\u00e9ny"
         }, 
         {
-          "id": 7328, 
+          "id": "008103024", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7328, 
+          "longitude": null, 
           "name": "M\u00f6nchhof-Halbturn [\u00d6BB]"
         }, 
         {
-          "id": 3561, 
-          "name": "M\u00f6zs [Tolna-M\u00f6zs]"
+          "id": "005506742_234", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3561, 
+          "longitude": null, 
+          "name": "M\u00f6zs (Tolna-M\u00f6zs)"
         }, 
         {
-          "id": 8453, 
-          "name": "MPAS [M\u00fcnchen-Pasing]"
-        }, 
-        {
-          "id": 13191, 
-          "name": "MRZLO [Mrzlo Polje]"
-        }, 
-        {
-          "id": 13128, 
-          "name": "Mrzlo Polje"
-        }, 
-        {
-          "id": 12660, 
-          "name": "MUCNA [Mucna Reka]"
-        }, 
-        {
-          "id": 3563, 
+          "id": "007873101", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3563, 
+          "longitude": null, 
           "name": "Mucna Reka"
         }, 
         {
-          "id": 3565, 
+          "id": "002238000", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3565, 
+          "longitude": null, 
           "name": "Mukachevo"
         }, 
         {
-          "id": 12688, 
-          "name": "MUKACHEVO [Mukachevo]"
+          "id": "002238000_235", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3570, 
+          "longitude": null, 
+          "name": "Munk\u00e1cs (Mukachevo)"
         }, 
         {
-          "id": 8457, 
-          "name": "MUNICH (MUENCHEN) [M\u00fcnchen Hbf.]"
-        }, 
-        {
-          "id": 3570, 
-          "name": "Munk\u00e1cs [Mukachevo]"
-        }, 
-        {
-          "id": 3573, 
+          "id": "005503640", 
+          "is_domestic": true, 
+          "latitude": 46.3636940140233, 
+          "legacy_id": 3573, 
+          "longitude": 16.8768059508942, 
           "name": "Murakereszt\u00far"
         }, 
         {
-          "id": 3574, 
-          "name": "Murakir\u00e1ly [Donji Kraljevec]"
+          "id": "007943704_236", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3575, 
+          "longitude": null, 
+          "name": "Muraszombat (Murska Sobota)"
         }, 
         {
-          "id": 13200, 
-          "name": "Muraszerdahely [Mursko Sredisce]"
-        }, 
-        {
-          "id": 3575, 
-          "name": "Muraszombat [Murska Sobota]"
-        }, 
-        {
-          "id": 3583, 
+          "id": "005517897", 
+          "is_domestic": true, 
+          "latitude": 46.7570358764351, 
+          "legacy_id": 3583, 
+          "longitude": 21.0378745118735, 
           "name": "Murony"
         }, 
         {
-          "id": 12659, 
-          "name": "MURSKA [Murska Sobota]"
-        }, 
-        {
-          "id": 3584, 
+          "id": "007943704", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3584, 
+          "longitude": null, 
           "name": "Murska Sobota"
         }, 
         {
-          "id": 13203, 
-          "name": "MURSKO [Mursko Sredisce]"
+          "id": "004333213", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3597, 
+          "longitude": null, 
+          "name": "M\u00fcllendorf"
         }, 
         {
-          "id": 12803, 
-          "name": "Mursko Sredisce"
-        }, 
-        {
-          "id": 8547, 
-          "name": "Muzla"
-        }, 
-        {
-          "id": 8595, 
-          "name": "M\u00fcllendorf 004333213"
-        }, 
-        {
-          "id": 3599, 
+          "id": "008020350", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3599, 
+          "longitude": null, 
           "name": "M\u00dcNCHEN*"
         }, 
         {
-          "id": 7598, 
+          "id": "008020347", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7598, 
+          "longitude": null, 
           "name": "M\u00fcnchen Hbf."
         }, 
         {
-          "id": 3602, 
-          "name": "M\u00fcnchen Hbf Gl.5-10"
-        }, 
-        {
-          "id": 3603, 
+          "id": "008020234", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3603, 
+          "longitude": null, 
           "name": "M\u00fcnchen Ost"
         }, 
         {
-          "id": 3605, 
+          "id": "008020286", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3605, 
+          "longitude": null, 
           "name": "M\u00fcnchen-Pasing"
         }, 
         {
-          "id": 3610, 
-          "name": "Myjava"
-        }, 
-        {
-          "id": 3611, 
-          "name": "Mytna"
-        }, 
-        {
-          "id": 3612, 
-          "name": "Mytna Nova Ves"
-        }, 
-        {
-          "id": 13867, 
-          "name": "NA GARIBALDI [Napoli P.Garibaldi]"
-        }, 
-        {
-          "id": 3613, 
-          "name": "Nacina Ves"
-        }, 
-        {
-          "id": 3621, 
+          "id": "005508631", 
+          "is_domestic": true, 
+          "latitude": 46.2284689658564, 
+          "legacy_id": 3621, 
+          "longitude": 17.3542488095909, 
           "name": "Nagyat\u00e1d"
         }, 
         {
-          "id": 3622, 
-          "name": "Nagybajom [J\u00e1k\u00f3-Nagybajom]"
+          "id": "005506338_237", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3622, 
+          "longitude": null, 
+          "name": "Nagybajom (J\u00e1k\u00f3-Nagybajom)"
         }, 
         {
-          "id": 3623, 
-          "name": "Nagyb\u00e1nya [Baia Mare]"
+          "id": "005341638_238", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3623, 
+          "longitude": null, 
+          "name": "Nagyb\u00e1nya (Baia Mare)"
         }, 
         {
-          "id": 3624, 
+          "id": "005511841", 
+          "is_domestic": true, 
+          "latitude": 47.9798826151248, 
+          "legacy_id": 3624, 
+          "longitude": 19.8190806655746, 
           "name": "Nagyb\u00e1tony"
         }, 
         {
-          "id": 3625, 
-          "name": "Nagyber\u00e9ny [Som-Nagyber\u00e9ny]"
+          "id": "005508375_239", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3625, 
+          "longitude": null, 
+          "name": "Nagyber\u00e9ny (Som-Nagyber\u00e9ny)"
         }, 
         {
-          "id": 3626, 
+          "id": "005506239", 
+          "is_domestic": true, 
+          "latitude": 46.3562033656316, 
+          "legacy_id": 3626, 
+          "longitude": 18.0077443788925, 
           "name": "Nagyberki"
         }, 
         {
-          "id": 3627, 
-          "name": "Nagybiccse [Bytca]"
-        }, 
-        {
-          "id": 3628, 
+          "id": "004305173", 
+          "is_domestic": true, 
+          "latitude": 47.6012456810746, 
+          "legacy_id": 3628, 
+          "longitude": 16.6902016677284, 
           "name": "Nagycenk"
         }, 
         {
-          "id": 3630, 
+          "id": "005515149", 
+          "is_domestic": true, 
+          "latitude": 47.523957052283, 
+          "legacy_id": 3630, 
+          "longitude": 21.7633505344445, 
           "name": "Nagycsere"
         }, 
         {
-          "id": 3631, 
+          "id": "005515958", 
+          "is_domestic": true, 
+          "latitude": 48.0541541115658, 
+          "legacy_id": 3631, 
+          "longitude": 22.3112107652681, 
           "name": "Nagydobos"
         }, 
         {
-          "id": 3632, 
+          "id": "005506684", 
+          "is_domestic": true, 
+          "latitude": 46.6153599212889, 
+          "legacy_id": 3632, 
+          "longitude": 18.6500868266645, 
           "name": "Nagydorog"
         }, 
         {
-          "id": 3633, 
+          "id": "005515982", 
+          "is_domestic": true, 
+          "latitude": 47.8648917635595, 
+          "legacy_id": 3633, 
+          "longitude": 22.3856523440457, 
           "name": "Nagyecsed"
         }, 
         {
-          "id": 3635, 
+          "id": "005518382", 
+          "is_domestic": true, 
+          "latitude": 46.3704411009306, 
+          "legacy_id": 3635, 
+          "longitude": 20.7374918318068, 
           "name": "Nagy\u00e9r"
         }, 
         {
-          "id": 3636, 
-          "name": "Nagyerd\u0151 [Hans\u00e1g-Nagyerd\u0151]"
+          "id": "004302352_240", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3636, 
+          "longitude": null, 
+          "name": "Nagyerd\u0151 (Hans\u00e1g-Nagyerd\u0151)"
         }, 
         {
-          "id": 3637, 
+          "id": "005514498", 
+          "is_domestic": true, 
+          "latitude": 47.5812524055609, 
+          "legacy_id": 3637, 
+          "longitude": 21.4456488381174, 
           "name": "Nagyh\u00e1t"
         }, 
         {
-          "id": 3638, 
+          "id": "005503798", 
+          "is_domestic": true, 
+          "latitude": 47.6308250195239, 
+          "legacy_id": 3638, 
+          "longitude": 18.0508514305354, 
           "name": "Nagyigm\u00e1nd-B\u00e1bolna"
         }, 
         {
-          "id": 3639, 
+          "id": "005515420", 
+          "is_domestic": true, 
+          "latitude": 47.8709177299462, 
+          "legacy_id": 3639, 
+          "longitude": 21.8258072741437, 
           "name": "Nagyk\u00e1ll\u00f3"
         }, 
         {
-          "id": 3640, 
+          "id": "005503624", 
+          "is_domestic": true, 
+          "latitude": 46.4408430291126, 
+          "legacy_id": 3640, 
+          "longitude": 16.9867243039445, 
           "name": "Nagykanizsa"
         }, 
         {
-          "id": 3641, 
+          "id": "005505397", 
+          "is_domestic": true, 
+          "latitude": 46.832168573867, 
+          "legacy_id": 3641, 
+          "longitude": 16.9349911781856, 
           "name": "Nagykapornak"
         }, 
         {
-          "id": 3642, 
+          "id": "005506627", 
+          "is_domestic": true, 
+          "latitude": 46.8486051472224, 
+          "legacy_id": 3642, 
+          "longitude": 18.7652549222981, 
           "name": "Nagykar\u00e1csony"
         }, 
         {
-          "id": 3643, 
+          "id": "005506619", 
+          "is_domestic": true, 
+          "latitude": 46.865892483881, 
+          "legacy_id": 3643, 
+          "longitude": 18.7830197734601, 
           "name": "Nagykar\u00e1csony fels\u0151"
         }, 
         {
-          "id": 3644, 
-          "name": "Nagyk\u00e1roly [Carei]"
+          "id": "005345323_241", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3644, 
+          "longitude": null, 
+          "name": "Nagyk\u00e1roly (Carei)"
         }, 
         {
-          "id": 3645, 
+          "id": "005511643", 
+          "is_domestic": true, 
+          "latitude": 47.4098743664065, 
+          "legacy_id": 3645, 
+          "longitude": 19.7376435267565, 
           "name": "Nagyk\u00e1ta"
         }, 
         {
-          "id": 3646, 
+          "id": "005515040", 
+          "is_domestic": true, 
+          "latitude": 47.1906143848052, 
+          "legacy_id": 3646, 
+          "longitude": 21.8003749972408, 
           "name": "Nagykereki"
         }, 
         {
-          "id": 3648, 
+          "id": "005517095", 
+          "is_domestic": true, 
+          "latitude": 47.0383872451442, 
+          "legacy_id": 3648, 
+          "longitude": 19.760390857032, 
           "name": "Nagyk\u0151r\u00f6s"
         }, 
         {
-          "id": 3649, 
+          "id": "005519133", 
+          "is_domestic": true, 
+          "latitude": 46.1700431353353, 
+          "legacy_id": 3649, 
+          "longitude": 20.7082639364372, 
           "name": "Nagylak"
         }, 
         {
-          "id": 3650, 
+          "id": "005519141", 
+          "is_domestic": true, 
+          "latitude": 46.1890389422177, 
+          "legacy_id": 3650, 
+          "longitude": 20.7175841138801, 
           "name": "Nagylaki Kendergy\u00e1r"
         }, 
         {
-          "id": 3651, 
+          "id": "005517855", 
+          "is_domestic": true, 
+          "latitude": 46.9747584662043, 
+          "legacy_id": 3651, 
+          "longitude": 20.7500211969467, 
           "name": "Nagylapos"
         }, 
         {
-          "id": 3652, 
-          "name": "Nagyl\u00e9v\u00e1rd [Velke Levare]"
-        }, 
-        {
-          "id": 3653, 
+          "id": "005505918", 
+          "is_domestic": true, 
+          "latitude": 46.9793600485355, 
+          "legacy_id": 3653, 
+          "longitude": 18.6355747134101, 
           "name": "Nagyl\u00f3k"
         }, 
         {
-          "id": 3654, 
+          "id": "005507070", 
+          "is_domestic": true, 
+          "latitude": 46.2796409941384, 
+          "legacy_id": 3654, 
+          "longitude": 18.457032105217, 
           "name": "Nagym\u00e1nyok"
         }, 
         {
-          "id": 3655, 
+          "id": "005510488", 
+          "is_domestic": true, 
+          "latitude": 47.7801703781927, 
+          "legacy_id": 3655, 
+          "longitude": 18.9518602819633, 
           "name": "Nagymaros"
         }, 
         {
-          "id": 3656, 
+          "id": "005510470", 
+          "is_domestic": true, 
+          "latitude": 47.7910053523233, 
+          "legacy_id": 3656, 
+          "longitude": 18.9589464335162, 
           "name": "Nagymaros-Visegr\u00e1d"
         }, 
         {
-          "id": 3657, 
-          "name": "Nagym\u00e1rton [Mattersburg]"
-        }, 
-        {
-          "id": 3658, 
-          "name": "Nagymih\u00e1ly [Michalovce]"
-        }, 
-        {
-          "id": 3659, 
+          "id": "005545443", 
+          "is_domestic": true, 
+          "latitude": 45.9533568526039, 
+          "legacy_id": 3659, 
+          "longitude": 18.5650257902033, 
           "name": "Nagyny\u00e1r\u00e1d"
         }, 
         {
-          "id": 3660, 
+          "id": "005510660", 
+          "is_domestic": true, 
+          "latitude": 47.99391345196, 
+          "legacy_id": 3660, 
+          "longitude": 19.1007594334645, 
           "name": "Nagyoroszi"
         }, 
         {
-          "id": 3661, 
+          "id": "005505751", 
+          "is_domestic": true, 
+          "latitude": 46.0381558828162, 
+          "legacy_id": 3661, 
+          "longitude": 17.8979298503273, 
           "name": "Nagypeterd"
         }, 
         {
-          "id": 3662, 
+          "id": "005505066", 
+          "is_domestic": true, 
+          "latitude": 46.8271426586746, 
+          "legacy_id": 3662, 
+          "longitude": 16.4557075549784, 
           "name": "Nagyr\u00e1kos"
         }, 
         {
-          "id": 3663, 
+          "id": "005503616", 
+          "is_domestic": true, 
+          "latitude": 46.4637347663484, 
+          "legacy_id": 3663, 
+          "longitude": 17.0436906803765, 
           "name": "Nagyr\u00e9cse"
         }, 
         {
-          "id": 3664, 
-          "name": "Nagys\u00e1ros [Velky Saris]"
-        }, 
-        {
-          "id": 3666, 
+          "id": "005502196", 
+          "is_domestic": true, 
+          "latitude": 47.2656777533748, 
+          "legacy_id": 3666, 
+          "longitude": 17.0575693084223, 
           "name": "Nagysimonyi"
         }, 
         {
-          "id": 3667, 
-          "name": "Nagysur\u00e1ny [Surany]"
+          "id": "005335407_242", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3668, 
+          "longitude": null, 
+          "name": "Nagyszalonta (Salonta)"
         }, 
         {
-          "id": 3668, 
-          "name": "Nagyszalonta [Salonta]"
+          "id": "005320658_243", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3669, 
+          "longitude": null, 
+          "name": "Nagyszeben (Sibiu)"
         }, 
         {
-          "id": 3669, 
-          "name": "Nagyszeben [Sibiu]"
-        }, 
-        {
-          "id": 3670, 
+          "id": "005515784", 
+          "is_domestic": true, 
+          "latitude": 47.9757959050982, 
+          "legacy_id": 3670, 
+          "longitude": 22.6131352389633, 
           "name": "Nagyszekeres"
         }, 
         {
-          "id": 3671, 
+          "id": "005518317", 
+          "is_domestic": true, 
+          "latitude": 46.6728085226384, 
+          "legacy_id": 3671, 
+          "longitude": 20.674217686807, 
           "name": "Nagysz\u00e9n\u00e1s"
         }, 
         {
-          "id": 3672, 
+          "id": "005501248", 
+          "is_domestic": true, 
+          "latitude": 47.7056841812137, 
+          "legacy_id": 3672, 
+          "longitude": 17.8718979339421, 
           "name": "Nagyszentj\u00e1nos"
         }, 
         {
-          "id": 3673, 
-          "name": "Nagyszombat [Trnava (Slo)]"
-        }, 
-        {
-          "id": 3675, 
-          "name": "Nagytapolcs\u00e1ny [Topolcany]"
-        }, 
-        {
-          "id": 3676, 
+          "id": "005505793", 
+          "is_domestic": true, 
+          "latitude": 47.3981294808629, 
+          "legacy_id": 3676, 
+          "longitude": 18.973519744425, 
           "name": "Nagyt\u00e9t\u00e9ny-Di\u00f3sd"
         }, 
         {
-          "id": 3677, 
-          "name": "Nagyt\u00e9t\u00e9ny-\u00c9rdliget [T\u00e9t\u00e9nyliget]"
+          "id": "005503145_244", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3677, 
+          "longitude": null, 
+          "name": "Nagyt\u00e9t\u00e9ny-\u00c9rdliget (T\u00e9t\u00e9nyliget)"
         }, 
         {
-          "id": 3678, 
+          "id": "005518150", 
+          "is_domestic": true, 
+          "latitude": 46.7633446541132, 
+          "legacy_id": 3678, 
+          "longitude": 20.2915598319272, 
           "name": "Nagyt\u0151ke"
         }, 
         {
-          "id": 3679, 
-          "name": "Nagytur\u00e1ny [Turany]"
-        }, 
-        {
-          "id": 3680, 
+          "id": "005511270", 
+          "is_domestic": true, 
+          "latitude": 47.7264469869278, 
+          "legacy_id": 3680, 
+          "longitude": 20.1621385071768, 
           "name": "Nagy\u00fat"
         }, 
         {
-          "id": 3681, 
-          "name": "Nagyv\u00e1rad [Oradea]"
+          "id": "005332663_245", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3681, 
+          "longitude": null, 
+          "name": "Nagyv\u00e1rad (Oradea)"
         }, 
         {
-          "id": 3683, 
-          "name": "Nalepkovo"
-        }, 
-        {
-          "id": 3684, 
-          "name": "Nalepkovo-Peklisko"
-        }, 
-        {
-          "id": 3688, 
+          "id": "005515651", 
+          "is_domestic": true, 
+          "latitude": 47.9485335689012, 
+          "legacy_id": 3688, 
+          "longitude": 21.8732819532206, 
           "name": "Napkor"
         }, 
         {
-          "id": 12672, 
-          "name": "Naples Gare Centrale [Napoli Centrale]"
-        }, 
-        {
-          "id": 10057, 
-          "name": "NAPLES [NAPOLI*]"
-        }, 
-        {
-          "id": 3689, 
-          "name": "NAPOLI*"
-        }, 
-        {
-          "id": 3690, 
-          "name": "Napoli Centrale"
-        }, 
-        {
-          "id": 12661, 
-          "name": "NAPOLI [Napoli Centrale]"
-        }, 
-        {
-          "id": 12656, 
-          "name": "NAPOLI [Napoli P.Garibaldi]"
-        }, 
-        {
-          "id": 3691, 
-          "name": "Napoli P.Garibaldi"
-        }, 
-        {
-          "id": 3692, 
-          "name": "Narin"
-        }, 
-        {
-          "id": 13172, 
-          "name": "NARIN [Narin]"
-        }, 
-        {
-          "id": 3695, 
-          "name": "Nasic [Nasice]"
-        }, 
-        {
-          "id": 3696, 
-          "name": "Nasice"
-        }, 
-        {
-          "id": 13084, 
-          "name": "NASICE [Nasice]"
-        }, 
-        {
-          "id": 12975, 
-          "name": "Nasicka Breznica"
-        }, 
-        {
-          "id": 13057, 
-          "name": "NASICKA [Nasicka Breznica]"
-        }, 
-        {
-          "id": 3697, 
-          "name": "N\u00e1tafalva [Nacina Ves]"
-        }, 
-        {
-          "id": 7472, 
-          "name": "Navsi (Nawsie)"
-        }, 
-        {
-          "id": 12793, 
-          "name": "N.BUKOVICA [Nova Bukovica]"
-        }, 
-        {
-          "id": 12630, 
-          "name": "Neapel Hauptbahnhof [Napoli Centrale]"
-        }, 
-        {
-          "id": 10069, 
-          "name": "NEAPEL [NAPOLI*]"
-        }, 
-        {
-          "id": 10042, 
-          "name": "NEAPLES [NAPOLI*]"
-        }, 
-        {
-          "id": 12789, 
-          "name": "NEGOTINO [Negotino Vardar]"
-        }, 
-        {
-          "id": 6635, 
-          "name": "Negotino Vardar"
-        }, 
-        {
-          "id": 3702, 
-          "name": "Nemcovce"
-        }, 
-        {
-          "id": 3703, 
-          "name": "Nemecka"
-        }, 
-        {
-          "id": 3705, 
+          "id": "005545732", 
+          "is_domestic": true, 
+          "latitude": 47.4029448823889, 
+          "legacy_id": 3705, 
+          "longitude": 17.3763050854254, 
           "name": "Nemesg\u00f6rzs\u00f6ny"
         }, 
         {
-          "id": 3706, 
+          "id": "005504580", 
+          "is_domestic": true, 
+          "latitude": 46.8369179011441, 
+          "legacy_id": 3706, 
+          "longitude": 17.4764829343241, 
           "name": "Nemesgul\u00e1cs-Kisap\u00e1ti"
         }, 
         {
-          "id": 3707, 
+          "id": "005505710", 
+          "is_domestic": true, 
+          "latitude": 46.0235219855538, 
+          "legacy_id": 3707, 
+          "longitude": 17.707353755594, 
           "name": "Nemeske"
         }, 
         {
-          "id": 3708, 
+          "id": "005504697", 
+          "is_domestic": true, 
+          "latitude": 47.0937412783773, 
+          "legacy_id": 3708, 
+          "longitude": 17.1834714272565, 
           "name": "Nemeskereszt\u00far"
         }, 
         {
-          "id": 3709, 
+          "id": "005545807", 
+          "is_domestic": true, 
+          "latitude": 47.2038298746735, 
+          "legacy_id": 3709, 
+          "longitude": 17.1886334797718, 
           "name": "Nemeskocs"
         }, 
         {
-          "id": 3710, 
-          "name": "Nems\u00f3 [Nemsova]"
-        }, 
-        {
-          "id": 3711, 
-          "name": "Nemsova"
-        }, 
-        {
-          "id": 3718, 
+          "id": "005501545", 
+          "is_domestic": true, 
+          "latitude": 47.7343069018169, 
+          "legacy_id": 3718, 
+          "longitude": 18.3452127846251, 
           "name": "Neszm\u00e9ly"
         }, 
         {
-          "id": 3721, 
+          "id": "008103005", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3721, 
+          "longitude": null, 
           "name": "Neudorf(B. Parndorf)"
         }, 
         {
-          "id": 3722, 
-          "name": "Neud\u00f6rfl"
-        }, 
-        {
-          "id": 3725, 
+          "id": "008133212", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3725, 
+          "longitude": null, 
           "name": "Neufeld A.D.Leitha (Roeee)"
         }, 
         {
-          "id": 3746, 
+          "id": "008103006", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3746, 
+          "longitude": null, 
           "name": "Neusiedl am See"
         }, 
         {
-          "id": 9981, 
-          "name": "NEUSIEDL AM SEE BAD [Bad Neusiedl Am See]"
+          "id": "008103006_246", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3756, 
+          "longitude": null, 
+          "name": "Nezsider (Neusiedl am See)"
         }, 
         {
-          "id": 3756, 
-          "name": "Nezsider [Neusiedl am See]"
+          "id": "008133020_247", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3757, 
+          "longitude": null, 
+          "name": "Nezsiderf\u00fcrd\u0151 (Bad Neusiedl Am See )"
         }, 
         {
-          "id": 9982, 
-          "name": "Nezsiderf\u00fcrd\u0151 [Bad Neusiedl Am See]"
-        }, 
-        {
-          "id": 3762, 
+          "id": "008102979", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3762, 
+          "longitude": null, 
           "name": "Nickelsdorf"
         }, 
         {
-          "id": 7915, 
-          "name": "Ni\u0161"
-        }, 
-        {
-          "id": 13116, 
-          "name": "NIS [Ni\u0161]"
-        }, 
-        {
-          "id": 3781, 
-          "name": "Nitra"
-        }, 
-        {
-          "id": 3782, 
-          "name": "Nitra Zastavka"
-        }, 
-        {
-          "id": 12794, 
-          "name": "Niza"
-        }, 
-        {
-          "id": 12886, 
-          "name": "NIZA [Niza]"
-        }, 
-        {
-          "id": 3783, 
-          "name": "Nizna"
-        }, 
-        {
-          "id": 3784, 
-          "name": "Nizna Mysla"
-        }, 
-        {
-          "id": 8637, 
-          "name": "NIZNA [Nizna Mysla]"
-        }, 
-        {
-          "id": 3785, 
-          "name": "Nizne Cabiny"
-        }, 
-        {
-          "id": 8601, 
-          "name": "NIZNE [Nizne Cabiny]"
-        }, 
-        {
-          "id": 3786, 
-          "name": "Nizne Ruzbachy"
-        }, 
-        {
-          "id": 3787, 
-          "name": "Nizny Hrabovec"
-        }, 
-        {
-          "id": 3788, 
-          "name": "Nizny Kelcov"
-        }, 
-        {
-          "id": 3789, 
-          "name": "Nizny Skalnik"
-        }, 
-        {
-          "id": 3790, 
-          "name": "Nizsna [Nizna]"
-        }, 
-        {
-          "id": 12938, 
-          "name": "N.KAPELA-B [Nova Kapela-Batrina]"
-        }, 
-        {
-          "id": 13273, 
-          "name": "NM [Novo Mesto Center]"
-        }, 
-        {
-          "id": 13247, 
-          "name": "NM [Novo Mesto Kandija]"
-        }, 
-        {
-          "id": 3791, 
+          "id": "005510637", 
+          "is_domestic": true, 
+          "latitude": 47.902253564326, 
+          "legacy_id": 3791, 
+          "longitude": 19.0471484617408, 
           "name": "N\u00f3gr\u00e1d"
         }, 
         {
-          "id": 3792, 
+          "id": "005510918", 
+          "is_domestic": true, 
+          "latitude": 47.8794472077558, 
+          "legacy_id": 3792, 
+          "longitude": 19.3710553006482, 
           "name": "N\u00f3gr\u00e1dk\u00f6vesd"
         }, 
         {
-          "id": 3793, 
+          "id": "005511023", 
+          "is_domestic": true, 
+          "latitude": 48.178165318305, 
+          "legacy_id": 3793, 
+          "longitude": 19.5218098867142, 
           "name": "N\u00f3gr\u00e1dszak\u00e1l"
         }, 
         {
-          "id": 3794, 
-          "name": "Nomenj"
-        }, 
-        {
-          "id": 13117, 
-          "name": "NOMENJ [Nomenj]"
-        }, 
-        {
-          "id": 12933, 
-          "name": "Normanci"
-        }, 
-        {
-          "id": 12827, 
-          "name": "NORMANCI [Normanci]"
-        }, 
-        {
-          "id": 3800, 
-          "name": "Nosice"
-        }, 
-        {
-          "id": 13136, 
-          "name": "NOT [Notranje Gorice]"
-        }, 
-        {
-          "id": 3801, 
-          "name": "Notranje Gorice"
-        }, 
-        {
-          "id": 3802, 
-          "name": "Nova Bana"
-        }, 
-        {
-          "id": 13163, 
-          "name": "Nova Bukovica"
-        }, 
-        {
-          "id": 3803, 
-          "name": "Nova Gorica"
-        }, 
-        {
-          "id": 3804, 
-          "name": "Nova Gradiska"
-        }, 
-        {
-          "id": 3805, 
-          "name": "Nova Kapela-Batrina"
-        }, 
-        {
-          "id": 3806, 
-          "name": "Nova Lesna"
-        }, 
-        {
-          "id": 3807, 
-          "name": "Nova Masa"
-        }, 
-        {
-          "id": 8569, 
-          "name": "NOVA [Nova Bana]"
-        }, 
-        {
-          "id": 13271, 
-          "name": "NOVA [Nova Gorica]"
-        }, 
-        {
-          "id": 13157, 
-          "name": "NOVA [Nova Gradiska]"
-        }, 
-        {
-          "id": 8536, 
-          "name": "NOVA [Nova Lesna]"
-        }, 
-        {
-          "id": 8698, 
-          "name": "NOVA [Nova Masa]"
-        }, 
-        {
-          "id": 8234, 
-          "name": "NOVA [Nova Pazova]"
-        }, 
-        {
-          "id": 8726, 
-          "name": "NOVA [Nova Vieska (SK)]"
-        }, 
-        {
-          "id": 3808, 
+          "id": "007216501", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3808, 
+          "longitude": null, 
           "name": "Nova Pazova"
         }, 
         {
-          "id": 3809, 
-          "name": "Nova Polianka"
-        }, 
-        {
-          "id": 3811, 
-          "name": "Nova Ves Nad Zitavou"
-        }, 
-        {
-          "id": 8484, 
-          "name": "Nova Vieska (SK)"
-        }, 
-        {
-          "id": 3814, 
+          "id": "005513219", 
+          "is_domestic": true, 
+          "latitude": 48.4037733695784, 
+          "legacy_id": 3814, 
+          "longitude": 21.1703682278674, 
           "name": "Novajidr\u00e1ny"
         }, 
         {
-          "id": 3815, 
-          "name": "Novaky"
-        }, 
-        {
-          "id": 3816, 
-          "name": "Nove Mesto Nad Vahom"
-        }, 
-        {
-          "id": 8607, 
-          "name": "NOVE [Nove Mesto Nad Vahom]"
-        }, 
-        {
-          "id": 6786, 
+          "id": "005613436", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6786, 
+          "longitude": null, 
           "name": "Nov\u00e9 Z\u00e1mky"
         }, 
         {
-          "id": 3818, 
+          "id": "007216003", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3818, 
+          "longitude": null, 
           "name": "Novi Beograd"
         }, 
         {
-          "id": 12757, 
-          "name": "Novi Dvori"
-        }, 
-        {
-          "id": 12703, 
-          "name": "Novi Marof"
-        }, 
-        {
-          "id": 8165, 
-          "name": "NOVI [Novi Beograd]"
-        }, 
-        {
-          "id": 12930, 
-          "name": "NOVI [Novi Dvori]"
-        }, 
-        {
-          "id": 13146, 
-          "name": "NOVI [Novi Marof]"
-        }, 
-        {
-          "id": 8201, 
-          "name": "NOVI [Novi Sad]"
-        }, 
-        {
-          "id": 3820, 
+          "id": "007216808", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3820, 
+          "longitude": null, 
           "name": "Novi Sad"
         }, 
         {
-          "id": 12786, 
-          "name": "NOVIGRAD [Novigrad Podravski]"
-        }, 
-        {
-          "id": 12725, 
-          "name": "Novigrad Podravski"
-        }, 
-        {
-          "id": 3821, 
-          "name": "Novo Mesto"
-        }, 
-        {
-          "id": 3822, 
-          "name": "Novo Mesto Center"
-        }, 
-        {
-          "id": 3823, 
-          "name": "Novo Mesto Kandija"
-        }, 
-        {
-          "id": 12855, 
-          "name": "NOVO [Novo Mesto]"
-        }, 
-        {
-          "id": 13188, 
-          "name": "Novo Selo Rok"
-        }, 
-        {
-          "id": 3824, 
-          "name": "Novoselec"
-        }, 
-        {
-          "id": 13073, 
-          "name": "NOVOSELEC [Novoselec]"
-        }, 
-        {
-          "id": 3825, 
-          "name": "Novska"
-        }, 
-        {
-          "id": 12922, 
-          "name": "NOVSKA [Novska]"
-        }, 
-        {
-          "id": 3826, 
-          "name": "Novy Smokovec"
-        }, 
-        {
-          "id": 8718, 
-          "name": "Nowy Lupkow Po"
-        }, 
-        {
-          "id": 8681, 
-          "name": "NOWY [Nowy Lupkow Po]"
-        }, 
-        {
-          "id": 8611, 
-          "name": "NOWY [Nowy Zagorz]"
-        }, 
-        {
-          "id": 8490, 
-          "name": "Nowy Zagorz"
-        }, 
-        {
-          "id": 12800, 
-          "name": "N.SELO [Novo Selo Rok]"
-        }, 
-        {
-          "id": 3836, 
+          "id": "005543059", 
+          "is_domestic": true, 
+          "latitude": 46.8575757229827, 
+          "legacy_id": 3836, 
+          "longitude": 19.9227972765211, 
           "name": "Ny\u00e1rjas"
         }, 
         {
-          "id": 3837, 
+          "id": "005517251", 
+          "is_domestic": true, 
+          "latitude": 46.8701996318369, 
+          "legacy_id": 3837, 
+          "longitude": 19.8514604323525, 
           "name": "Ny\u00e1rl\u0151rinc"
         }, 
         {
-          "id": 3838, 
+          "id": "005544834", 
+          "is_domestic": true, 
+          "latitude": 46.8639286142097, 
+          "legacy_id": 3838, 
+          "longitude": 19.8785678588262, 
           "name": "Ny\u00e1rl\u0151rinc als\u00f3"
         }, 
         {
-          "id": 3839, 
+          "id": "005544826", 
+          "is_domestic": true, 
+          "latitude": 46.877653850186, 
+          "legacy_id": 3839, 
+          "longitude": 19.8280120409671, 
           "name": "Ny\u00e1rl\u0151rinci sz\u0151l\u0151k"
         }, 
         {
-          "id": 3840, 
+          "id": "005517087", 
+          "is_domestic": true, 
+          "latitude": 47.1003896995036, 
+          "legacy_id": 3840, 
+          "longitude": 19.7925919183347, 
           "name": "Ny\u00e1rsap\u00e1t"
         }, 
         {
-          "id": 3841, 
+          "id": "005511361", 
+          "is_domestic": true, 
+          "latitude": 47.9929349211441, 
+          "legacy_id": 3841, 
+          "longitude": 20.8402875504123, 
           "name": "Ny\u00e9kl\u00e1dh\u00e1za"
         }, 
         {
-          "id": 3842, 
+          "id": "005501602", 
+          "is_domestic": true, 
+          "latitude": 47.7610898924621, 
+          "legacy_id": 3842, 
+          "longitude": 18.5614842198194, 
           "name": "Nyerges\u00fajfalu"
         }, 
         {
-          "id": 3843, 
+          "id": "005501594", 
+          "is_domestic": true, 
+          "latitude": 47.7623579772618, 
+          "legacy_id": 3843, 
+          "longitude": 18.540663981833, 
           "name": "Nyerges\u00fajfalu fels\u0151"
         }, 
         {
-          "id": 3844, 
+          "id": "005515180", 
+          "is_domestic": true, 
+          "latitude": 47.5237718490414, 
+          "legacy_id": 3844, 
+          "longitude": 22.0165785000244, 
           "name": "Ny\u00edr\u00e1br\u00e1ny"
         }, 
         {
-          "id": 3845, 
+          "id": "005515370", 
+          "is_domestic": true, 
+          "latitude": 47.6989172828995, 
+          "legacy_id": 3845, 
+          "longitude": 21.9026834496572, 
           "name": "Ny\u00edradony"
         }, 
         {
-          "id": 3846, 
+          "id": "005515453", 
+          "is_domestic": true, 
+          "latitude": 47.8423936324432, 
+          "legacy_id": 3846, 
+          "longitude": 22.1311567057726, 
           "name": "Ny\u00edrb\u00e1tor"
         }, 
         {
-          "id": 3847, 
+          "id": "005515404", 
+          "is_domestic": true, 
+          "latitude": 47.7932745425452, 
+          "legacy_id": 3847, 
+          "longitude": 22.0672918625943, 
           "name": "Ny\u00edrbog\u00e1t"
         }, 
         {
-          "id": 3848, 
+          "id": "005514050", 
+          "is_domestic": true, 
+          "latitude": 48.0822547417357, 
+          "legacy_id": 3848, 
+          "longitude": 21.8553616826291, 
           "name": "Ny\u00edrbogd\u00e1ny"
         }, 
         {
-          "id": 3849, 
+          "id": "005515974", 
+          "is_domestic": true, 
+          "latitude": 47.9081286391682, 
+          "legacy_id": 3849, 
+          "longitude": 22.3481857234845, 
           "name": "Ny\u00edrcsaholy"
         }, 
         {
-          "id": 3850, 
+          "id": "005515461", 
+          "is_domestic": true, 
+          "latitude": 47.8655841908648, 
+          "legacy_id": 3850, 
+          "longitude": 22.1792312710839, 
           "name": "Ny\u00edrcs\u00e1sz\u00e1ri"
         }, 
         {
-          "id": 3851, 
+          "id": "005514019", 
+          "is_domestic": true, 
+          "latitude": 47.9467582639252, 
+          "legacy_id": 3851, 
+          "longitude": 21.7056095647794, 
           "name": "Ny\u00edregyh\u00e1za"
         }, 
         {
-          "id": 3852, 
+          "id": "005515636", 
+          "is_domestic": true, 
+          "latitude": 47.9430132608693, 
+          "legacy_id": 3852, 
+          "longitude": 21.7403331512916, 
           "name": "Ny\u00edregyh\u00e1za k\u00fcls\u0151"
         }, 
         {
-          "id": 3853, 
-          "name": "Ny\u00edressz\u0151l\u0151telep [Viczi\u00e1ntelep]"
+          "id": "005540980_248", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3853, 
+          "longitude": null, 
+          "name": "Ny\u00edressz\u0151l\u0151telep (Viczi\u00e1ntelep)"
         }, 
         {
-          "id": 3854, 
+          "id": "005515396", 
+          "is_domestic": true, 
+          "latitude": 47.7508568917771, 
+          "legacy_id": 3854, 
+          "longitude": 21.9878197296683, 
           "name": "Ny\u00edrgelse"
         }, 
         {
-          "id": 3855, 
+          "id": "005545849", 
+          "is_domestic": true, 
+          "latitude": 46.9975970295384, 
+          "legacy_id": 3855, 
+          "longitude": 17.2474733087488, 
           "name": "Ny\u00edrlak"
         }, 
         {
-          "id": 3856, 
+          "id": "005515735", 
+          "is_domestic": true, 
+          "latitude": 48.0592009499895, 
+          "legacy_id": 3856, 
+          "longitude": 22.2030915471497, 
           "name": "Ny\u00edrmada"
         }, 
         {
-          "id": 3857, 
+          "id": "005515487", 
+          "is_domestic": true, 
+          "latitude": 47.923037345814, 
+          "legacy_id": 3857, 
+          "longitude": 22.257435183984, 
           "name": "Ny\u00edrmeggyes"
         }, 
         {
-          "id": 3858, 
+          "id": "005515388", 
+          "is_domestic": true, 
+          "latitude": 47.7373169586498, 
+          "legacy_id": 3858, 
+          "longitude": 21.9588415224445, 
           "name": "Ny\u00edrmih\u00e1lydi"
         }, 
         {
-          "id": 3859, 
+          "id": "005511502", 
+          "is_domestic": true, 
+          "latitude": 48.0051960596314, 
+          "legacy_id": 3859, 
+          "longitude": 21.6156509144755, 
           "name": "Ny\u00edrtelek"
         }, 
         {
-          "id": 3860, 
-          "name": "Nyitra [Nitra]"
+          "id": "005510033_249", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 3864, 
+          "longitude": null, 
+          "name": "Nyugati (Budapest-Nyugati)"
         }, 
         {
-          "id": 3861, 
-          "name": "Nyitrab\u00e1nya [Handlova]"
-        }, 
-        {
-          "id": 3862, 
-          "name": "Nyitranov\u00e1k [Novaky]"
-        }, 
-        {
-          "id": 3864, 
-          "name": "Nyugati [Budapest-Nyugati]"
-        }, 
-        {
-          "id": 3866, 
+          "id": "005502915", 
+          "is_domestic": true, 
+          "latitude": 47.587649480603, 
+          "legacy_id": 3866, 
+          "longitude": 17.6981471983708, 
           "name": "Ny\u00fal"
         }, 
         {
-          "id": 3897, 
-          "name": "Obisovce"
-        }, 
-        {
-          "id": 3898, 
+          "id": "005544735", 
+          "is_domestic": true, 
+          "latitude": 46.9870836022165, 
+          "legacy_id": 3898, 
+          "longitude": 20.1108947303474, 
           "name": "\u00d3b\u00f6g"
         }, 
         {
-          "id": 3899, 
-          "name": "Obrez"
-        }, 
-        {
-          "id": 12928, 
-          "name": "OBREZ [Obrez]"
-        }, 
-        {
-          "id": 7313, 
+          "id": "005501404", 
+          "is_domestic": true, 
+          "latitude": 47.5692330221584, 
+          "legacy_id": 7313, 
+          "longitude": 19.031750474362, 
           "name": "\u00d3buda"
         }, 
         {
-          "id": 3901, 
-          "name": "Ochodnica"
-        }, 
-        {
-          "id": 3903, 
+          "id": "005516824", 
+          "is_domestic": true, 
+          "latitude": 47.3012609189986, 
+          "legacy_id": 3903, 
+          "longitude": 19.2324582641012, 
           "name": "\u00d3csa"
         }, 
         {
-          "id": 3906, 
+          "id": "005341884", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3906, 
+          "longitude": null, 
           "name": "Odoreu"
         }, 
         {
-          "id": 8028, 
-          "name": "ODOREU [Odoreu]"
-        }, 
-        {
-          "id": 8441, 
-          "name": "OEYN [Bad Oeynhausen]"
-        }, 
-        {
-          "id": 8452, 
-          "name": "OEYNHAUSEN BAD [Bad Oeynhausen]"
-        }, 
-        {
-          "id": 8468, 
-          "name": "OEYNHAUSEN SUED BAD [Bad Oeynhausen S\u00fcd]"
-        }, 
-        {
-          "id": 3907, 
+          "id": "005515685", 
+          "is_domestic": true, 
+          "latitude": 47.9404695186576, 
+          "legacy_id": 3907, 
+          "longitude": 22.0413097793688, 
           "name": "\u00d3feh\u00e9rt\u00f3"
         }, 
         {
-          "id": 13080, 
-          "name": "OG.HRELJIN [Ogulinski Hreljin]"
-        }, 
-        {
-          "id": 3914, 
-          "name": "Ogulin"
-        }, 
-        {
-          "id": 12758, 
-          "name": "OGULIN [Ogulin]"
-        }, 
-        {
-          "id": 3915, 
-          "name": "Ogulinski Hreljin"
-        }, 
-        {
-          "id": 3918, 
+          "id": "005514548", 
+          "is_domestic": true, 
+          "latitude": 47.6232234007234, 
+          "legacy_id": 3918, 
+          "longitude": 20.9511381409819, 
           "name": "Ohat-Pusztak\u00f3cs"
         }, 
         {
-          "id": 3920, 
+          "id": "005518796", 
+          "is_domestic": true, 
+          "latitude": 46.8925018555943, 
+          "legacy_id": 3920, 
+          "longitude": 21.33917233995, 
           "name": "Ok\u00e1ny"
         }, 
         {
-          "id": 6709, 
-          "name": "\u00d3k\u00e9r [Zmajevo]"
-        }, 
-        {
-          "id": 3921, 
-          "name": "Okolicne"
-        }, 
-        {
-          "id": 3922, 
+          "id": "005507575", 
+          "is_domestic": true, 
+          "latitude": 45.9340454007696, 
+          "legacy_id": 3922, 
+          "longitude": 17.8650939748683, 
           "name": "Okor\u00e1g-K\u00e1r\u00e1szpuszta"
         }, 
         {
-          "id": 3923, 
-          "name": "Okroglica"
-        }, 
-        {
-          "id": 13100, 
-          "name": "OKROGLICA [Okroglica]"
-        }, 
-        {
-          "id": 3924, 
-          "name": "Okucani"
-        }, 
-        {
-          "id": 12974, 
-          "name": "OKUCANI [Okucani]"
-        }, 
-        {
-          "id": 3925, 
+          "id": "005513441", 
+          "is_domestic": true, 
+          "latitude": 48.2582824311937, 
+          "legacy_id": 3925, 
+          "longitude": 21.448276400545, 
           "name": "Olaszliszka-Tolcsva"
         }, 
         {
-          "id": 3926, 
-          "name": "Olcnava"
-        }, 
-        {
-          "id": 7465, 
-          "name": "Olm\u00fctz [Olomouc hl. n.]"
-        }, 
-        {
-          "id": 7466, 
-          "name": "Olomouc hl. n."
-        }, 
-        {
-          "id": 8648, 
-          "name": "OLOMOUC [Olomouc hl. n.]"
-        }, 
-        {
-          "id": 3935, 
-          "name": "\u00d3lubl\u00f3 [Stara Lubovna]"
-        }, 
-        {
-          "id": 3938, 
-          "name": "Ondrochov"
-        }, 
-        {
-          "id": 3940, 
+          "id": "005513110", 
+          "is_domestic": true, 
+          "latitude": 48.1218766586743, 
+          "legacy_id": 3940, 
+          "longitude": 20.9071528805463, 
           "name": "Onga"
         }, 
         {
-          "id": 3941, 
+          "id": "005515966", 
+          "is_domestic": true, 
+          "latitude": 47.9979366004894, 
+          "legacy_id": 3941, 
+          "longitude": 22.3183949947667, 
           "name": "\u00d3p\u00e1lyi"
         }, 
         {
-          "id": 3942, 
-          "name": "Opatija-Matulji"
+          "id": "007216503_250", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6599, 
+          "longitude": null, 
+          "name": "\u00d3p\u00e1zova (Stara Pazova)"
         }, 
         {
-          "id": 12685, 
-          "name": "OPATIJA-MATULJI [Opatija-Matulji]"
-        }, 
-        {
-          "id": 3943, 
-          "name": "Opatova Nad Vahom"
-        }, 
-        {
-          "id": 3944, 
-          "name": "Opatova Pri Lucenci"
-        }, 
-        {
-          "id": 6599, 
-          "name": "\u00d3p\u00e1zova [Stara Pazova]"
-        }, 
-        {
-          "id": 9973, 
-          "name": "OPOCZNO PLD. [Opoczno Poludnie]"
-        }, 
-        {
-          "id": 9972, 
+          "id": "005104895", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9972, 
+          "longitude": null, 
           "name": "Opoczno Poludnie"
         }, 
         {
-          "id": 3945, 
+          "id": "005106060", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Opole Glowne"
+        }, 
+        {
+          "id": "005332663", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3945, 
+          "longitude": null, 
           "name": "Oradea"
         }, 
         {
-          "id": 8212, 
-          "name": "ORADEA [Oradea]"
-        }, 
-        {
-          "id": 8004, 
-          "name": "ORADEA [Oradea Vest]"
-        }, 
-        {
-          "id": 3948, 
+          "id": "005332704", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3948, 
+          "longitude": null, 
           "name": "Oradea Vest"
         }, 
         {
-          "id": 8495, 
-          "name": "ORAVSKY [Oravsky Podzamok]"
+          "id": "007943600_251", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3962, 
+          "longitude": null, 
+          "name": "Ormosd (Ormoz)"
         }, 
         {
-          "id": 3951, 
-          "name": "Oravsky Podzamok"
-        }, 
-        {
-          "id": 3952, 
-          "name": "Oravsky Podzamok Zastavka"
-        }, 
-        {
-          "id": 12834, 
-          "name": "OREHOVA [Orehova Vas]"
-        }, 
-        {
-          "id": 3954, 
-          "name": "Orehova Vas"
-        }, 
-        {
-          "id": 3956, 
-          "name": "Oriovac"
-        }, 
-        {
-          "id": 13226, 
-          "name": "ORIOVAC [Oriovac]"
-        }, 
-        {
-          "id": 3958, 
-          "name": "Orkucany"
-        }, 
-        {
-          "id": 3962, 
-          "name": "Ormosd [Ormoz]"
-        }, 
-        {
-          "id": 3963, 
+          "id": "007943600", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3963, 
+          "longitude": null, 
           "name": "Ormoz"
         }, 
         {
-          "id": 12650, 
-          "name": "ORMOZ [Ormoz]"
-        }, 
-        {
-          "id": 13202, 
-          "name": "Orolik"
-        }, 
-        {
-          "id": 13211, 
-          "name": "OROLIK [Orolik]"
-        }, 
-        {
-          "id": 3964, 
+          "id": "005515644", 
+          "is_domestic": true, 
+          "latitude": 47.945813317645, 
+          "legacy_id": 3964, 
+          "longitude": 21.8064361185889, 
           "name": "Oros"
         }, 
         {
-          "id": 3965, 
+          "id": "005518614", 
+          "is_domestic": true, 
+          "latitude": 46.5660958384179, 
+          "legacy_id": 3965, 
+          "longitude": 20.6644356392198, 
           "name": "Orosh\u00e1za"
         }, 
         {
-          "id": 3966, 
+          "id": "005544339", 
+          "is_domestic": true, 
+          "latitude": 46.5537241262124, 
+          "legacy_id": 3966, 
+          "longitude": 20.6557510917675, 
           "name": "Orosh\u00e1za fels\u0151"
         }, 
         {
-          "id": 3967, 
+          "id": "005544438", 
+          "is_domestic": true, 
+          "latitude": 46.5799673002771, 
+          "legacy_id": 3967, 
+          "longitude": 20.6836372637914, 
           "name": "Orosh\u00e1za-\u00dcveggy\u00e1r"
         }, 
         {
-          "id": 3968, 
+          "id": "005518622", 
+          "is_domestic": true, 
+          "latitude": 46.5970844152744, 
+          "legacy_id": 3968, 
+          "longitude": 20.7604471603216, 
           "name": "Orosh\u00e1zi tany\u00e1k"
         }, 
         {
-          "id": 3969, 
+          "id": "005501768", 
+          "is_domestic": true, 
+          "latitude": 47.4870427748437, 
+          "legacy_id": 3969, 
+          "longitude": 18.309069187854, 
           "name": "Oroszl\u00e1ny"
         }, 
         {
-          "id": 9994, 
-          "name": "Oroszv\u00e1r [Rusovce]"
+          "id": "005614586_252", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Oroszv\u00e1r (Rusovce)"
         }, 
         {
-          "id": 3972, 
+          "id": "005311231", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6808, 
+          "longitude": null, 
+          "name": "Or\u015fova"
+        }, 
+        {
+          "id": "005545906", 
+          "is_domestic": true, 
+          "latitude": 46.6265250980471, 
+          "legacy_id": 3972, 
+          "longitude": 16.6851572627192, 
           "name": "Ortah\u00e1za"
         }, 
         {
-          "id": 3976, 
-          "name": "Oscadnica"
-        }, 
-        {
-          "id": 3977, 
-          "name": "Osijek"
-        }, 
-        {
-          "id": 12954, 
-          "name": "Osijek Donji Grad"
-        }, 
-        {
-          "id": 12796, 
-          "name": "Osijek Luka"
-        }, 
-        {
-          "id": 12741, 
-          "name": "Osijek Olt"
-        }, 
-        {
-          "id": 13215, 
-          "name": "OSIJEK [Osijek]"
-        }, 
-        {
-          "id": 12839, 
-          "name": "OSIJEK [Osijek Donji Grad]"
-        }, 
-        {
-          "id": 13180, 
-          "name": "OSIJEK [Osijek Luka]"
-        }, 
-        {
-          "id": 12715, 
-          "name": "OSIJEK [Osijek Olt]"
-        }, 
-        {
-          "id": 3978, 
-          "name": "Oslany"
-        }, 
-        {
-          "id": 8686, 
-          "name": "Oslawica"
-        }, 
-        {
-          "id": 8700, 
-          "name": "OSLAWICA [Oslawica]"
-        }, 
-        {
-          "id": 3979, 
-          "name": "Oslusevci"
-        }, 
-        {
-          "id": 12847, 
-          "name": "OSLUSEVCI [Oslusevci]"
-        }, 
-        {
-          "id": 3983, 
-          "name": "Ostarije"
-        }, 
-        {
-          "id": 13183, 
-          "name": "OSTARIJE [Ostarije]"
-        }, 
-        {
-          "id": 3986, 
+          "id": "005502204", 
+          "is_domestic": true, 
+          "latitude": 47.2840579515464, 
+          "legacy_id": 3986, 
+          "longitude": 17.0242319670264, 
           "name": "Ostffyasszonyfa"
         }, 
         {
-          "id": 3987, 
-          "name": "Ostratice"
-        }, 
-        {
-          "id": 8716, 
-          "name": "Ostrava - Stodolni"
-        }, 
-        {
-          "id": 3988, 
+          "id": "005434364", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3988, 
+          "longitude": null, 
           "name": "Ostrava Hl. N."
         }, 
         {
-          "id": 8141, 
-          "name": "OSTRAVA [Ostrava Hl. N.]"
-        }, 
-        {
-          "id": 10036, 
-          "name": "Ostrava-Marianske Hory"
-        }, 
-        {
-          "id": 10053, 
-          "name": "OSTRAVA-M.H. [Ostrava-Marianske Hory]"
-        }, 
-        {
-          "id": 3989, 
+          "id": "005434434", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3989, 
+          "longitude": null, 
           "name": "Ostrava-Svinov"
         }, 
         {
-          "id": 8120, 
-          "name": "OSTRAVA-SVINOV [Ostrava-Svinov]"
-        }, 
-        {
-          "id": 12716, 
-          "name": "Ostrna"
-        }, 
-        {
-          "id": 12709, 
-          "name": "OSTRNA [Ostrna]"
-        }, 
-        {
-          "id": 3991, 
-          "name": "Ostrozno"
-        }, 
-        {
-          "id": 13233, 
-          "name": "OSTROZNO [Ostrozno]"
-        }, 
-        {
-          "id": 3993, 
+          "id": "005107710", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3993, 
+          "longitude": null, 
           "name": "Oswiecim"
         }, 
         {
-          "id": 8136, 
-          "name": "OSWIECIM [Oswiecim]"
-        }, 
-        {
-          "id": 3994, 
+          "id": "005508458", 
+          "is_domestic": true, 
+          "latitude": 46.5144392625887, 
+          "legacy_id": 3994, 
+          "longitude": 17.6572322030794, 
           "name": "Osztop\u00e1n"
         }, 
         {
-          "id": 3995, 
-          "name": "Otoce"
-        }, 
-        {
-          "id": 13241, 
-          "name": "OTOCE [Otoce]"
-        }, 
-        {
-          "id": 3996, 
-          "name": "Otovec"
-        }, 
-        {
-          "id": 13101, 
-          "name": "OTOVEC [Otovec]"
-        }, 
-        {
-          "id": 3997, 
+          "id": "005435575", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 3997, 
+          "longitude": null, 
           "name": "Otrokovice"
         }, 
         {
-          "id": 8153, 
-          "name": "OTROKOVICE [Otrokovice]"
+          "id": "005501347_253", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4004, 
+          "longitude": null, 
+          "name": "\u00d3v\u00e1r (Mosonmagyar\u00f3v\u00e1r)"
         }, 
         {
-          "id": 4003, 
-          "name": "\u00d3tura [Stara Tura]"
-        }, 
-        {
-          "id": 4004, 
-          "name": "\u00d3v\u00e1r [Mosonmagyar\u00f3v\u00e1r]"
-        }, 
-        {
-          "id": 12908, 
-          "name": "Ozalj"
-        }, 
-        {
-          "id": 12816, 
-          "name": "OZALJ [Ozalj]"
-        }, 
-        {
-          "id": 4007, 
-          "name": "Ozbalt"
-        }, 
-        {
-          "id": 12924, 
-          "name": "OZBALT [Ozbalt]"
-        }, 
-        {
-          "id": 4008, 
+          "id": "005512880", 
+          "is_domestic": true, 
+          "latitude": 48.2225549768428, 
+          "legacy_id": 4008, 
+          "longitude": 20.2944045576558, 
           "name": "\u00d3zd"
         }, 
         {
-          "id": 4009, 
+          "id": "005512872", 
+          "is_domestic": true, 
+          "latitude": 48.234658016408, 
+          "legacy_id": 4009, 
+          "longitude": 20.3191959346225, 
           "name": "\u00d3zd als\u00f3"
         }, 
         {
-          "id": 4012, 
+          "id": "005506775", 
+          "is_domestic": true, 
+          "latitude": 46.3187667781169, 
+          "legacy_id": 4012, 
+          "longitude": 18.7424230931492, 
           "name": "\u0150cs\u00e9ny"
         }, 
         {
-          "id": 4014, 
-          "name": "\u00d6denburg [Sopron]"
-        }, 
-        {
-          "id": 4015, 
+          "id": "005515545", 
+          "is_domestic": true, 
+          "latitude": 47.911111749877, 
+          "legacy_id": 4015, 
+          "longitude": 22.4956848269485, 
           "name": "\u00d6k\u00f6rit\u00f3f\u00fclp\u00f6s"
         }, 
         {
-          "id": 4016, 
+          "id": "004302485", 
+          "is_domestic": true, 
+          "latitude": 47.3005915192797, 
+          "legacy_id": 4016, 
+          "longitude": 16.843051328956, 
           "name": "\u00d6lb\u0151-Als\u00f3szeleste"
         }, 
         {
-          "id": 4018, 
+          "id": "005510587", 
+          "is_domestic": true, 
+          "latitude": 47.6855852488068, 
+          "legacy_id": 4018, 
+          "longitude": 19.2838562830987, 
           "name": "\u0150rbotty\u00e1n"
         }, 
         {
-          "id": 4019, 
+          "id": "005508482", 
+          "is_domestic": true, 
+          "latitude": 46.6088445316666, 
+          "legacy_id": 4019, 
+          "longitude": 17.632735276594, 
           "name": "\u00d6reglak"
         }, 
         {
-          "id": 4020, 
+          "id": "005510975", 
+          "is_domestic": true, 
+          "latitude": 48.0787095605259, 
+          "legacy_id": 4020, 
+          "longitude": 19.4038975639861, 
           "name": "\u0150rhalom"
         }, 
         {
-          "id": 7920, 
-          "name": "\u0150rih\u00f3dos [Hodo\u0161]"
+          "id": "007943777_254", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7920, 
+          "longitude": null, 
+          "name": "\u0150rih\u00f3dos (Hodo\u0161)"
         }, 
         {
-          "id": 4022, 
+          "id": "005505074", 
+          "is_domestic": true, 
+          "latitude": 46.8292655559887, 
+          "legacy_id": 4022, 
+          "longitude": 16.4163000434852, 
           "name": "\u0150riszentp\u00e9ter"
         }, 
         {
-          "id": 4023, 
+          "id": "005516873", 
+          "is_domestic": true, 
+          "latitude": 47.132877991691, 
+          "legacy_id": 4023, 
+          "longitude": 19.4470646585607, 
           "name": "\u00d6rk\u00e9ny"
         }, 
         {
-          "id": 4024, 
-          "name": "\u00d6rm\u00e9nyes [Fegyvernek-\u00d6rm\u00e9nyes]"
+          "id": "005513805_255", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4024, 
+          "longitude": null, 
+          "name": "\u00d6rm\u00e9nyes (Fegyvernek-\u00d6rm\u00e9nyes)"
         }, 
         {
-          "id": 4025, 
-          "name": "\u0150rmez\u0151 [Strazske]"
-        }, 
-        {
-          "id": 4026, 
+          "id": "005505561", 
+          "is_domestic": true, 
+          "latitude": 46.2978507555394, 
+          "legacy_id": 4026, 
+          "longitude": 16.8878393334289, 
           "name": "\u0150rtilos"
         }, 
         {
-          "id": 4027, 
+          "id": "005504432", 
+          "is_domestic": true, 
+          "latitude": 46.9124553148011, 
+          "legacy_id": 4027, 
+          "longitude": 17.8181357202523, 
           "name": "\u00d6rv\u00e9nyes"
         }, 
         {
-          "id": 4028, 
+          "id": "005545757", 
+          "is_domestic": true, 
+          "latitude": 47.1598202723737, 
+          "legacy_id": 4028, 
+          "longitude": 18.0747114218359, 
           "name": "\u00d6sk\u00fc"
         }, 
         {
-          "id": 4029, 
-          "name": "\u00d6sv\u00e9nyes [Ochodnica]"
-        }, 
-        {
-          "id": 4030, 
+          "id": "005544602", 
+          "is_domestic": true, 
+          "latitude": 46.390360722906, 
+          "legacy_id": 4030, 
+          "longitude": 20.0157922270628, 
           "name": "\u0150szesz\u00e9k"
         }, 
         {
-          "id": 4031, 
+          "id": "005501313", 
+          "is_domestic": true, 
+          "latitude": 47.7199147251543, 
+          "legacy_id": 4031, 
+          "longitude": 17.4892697679728, 
           "name": "\u00d6ttev\u00e9ny"
         }, 
         {
-          "id": 4032, 
+          "id": "005506361", 
+          "is_domestic": true, 
+          "latitude": 46.2927427722262, 
+          "legacy_id": 4032, 
+          "longitude": 17.35770561723, 
           "name": "\u00d6tv\u00f6sk\u00f3nyi"
         }, 
         {
-          "id": 4033, 
+          "id": "008101204", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4033, 
+          "longitude": null, 
           "name": "\u00d6tztal"
         }, 
         {
-          "id": 13023, 
-          "name": "P. [Ponikve Na Dolenjskem]"
+          "id": "005505413_256", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4037, 
+          "longitude": null, 
+          "name": "Pacsa (Zalaszentmih\u00e1ly-Pacsa)"
         }, 
         {
-          "id": 4037, 
-          "name": "Pacsa [Zalaszentmih\u00e1ly-Pacsa]"
-        }, 
-        {
-          "id": 4038, 
+          "id": "004305330", 
+          "is_domestic": true, 
+          "latitude": 47.0106773071586, 
+          "legacy_id": 4038, 
+          "longitude": 16.8343332892125, 
           "name": "P\u00e1csony"
         }, 
         {
-          "id": 4045, 
-          "name": "P\u00e1ka [Cs\u00f6m\u00f6d\u00e9r-P\u00e1ka]"
+          "id": "005504960_257", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4045, 
+          "longitude": null, 
+          "name": "P\u00e1ka (Cs\u00f6m\u00f6d\u00e9r-P\u00e1ka)"
         }, 
         {
-          "id": 4046, 
+          "id": "005504853", 
+          "is_domestic": true, 
+          "latitude": 46.9590221038361, 
+          "legacy_id": 4046, 
+          "longitude": 16.9968939040044, 
           "name": "Pakod"
         }, 
         {
-          "id": 4048, 
-          "name": "Pal\u00e1nk [Szeksz\u00e1rd-Pal\u00e1nk]"
+          "id": "005506759_258", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4048, 
+          "longitude": null, 
+          "name": "Pal\u00e1nk (Szeksz\u00e1rd-Pal\u00e1nk)"
         }, 
         {
-          "id": 4049, 
-          "name": "Palanka"
-        }, 
-        {
-          "id": 12866, 
-          "name": "PALANKA [Palanka]"
-        }, 
-        {
-          "id": 4050, 
-          "name": "Palarikovo"
-        }, 
-        {
-          "id": 4054, 
+          "id": "004302394", 
+          "is_domestic": true, 
+          "latitude": 47.4921671647306, 
+          "legacy_id": 4054, 
+          "longitude": 17.1374003479017, 
           "name": "P\u00e1li-Vadosfa"
         }, 
         {
-          "id": 4055, 
+          "id": "005507443", 
+          "is_domestic": true, 
+          "latitude": 45.8913004152234, 
+          "legacy_id": 4055, 
+          "longitude": 18.3940459709269, 
           "name": "Palkonya"
         }, 
         {
-          "id": 6798, 
+          "id": "005549411", 
+          "is_domestic": true, 
+          "latitude": 46.6628237359469, 
+          "legacy_id": 4056, 
+          "longitude": 17.4574524237226, 
           "name": "P\u00e1lmajor"
         }, 
         {
-          "id": 8588, 
-          "name": "Palocsa [Plave\u010d]"
-        }, 
-        {
-          "id": 4061, 
+          "id": "008103003", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4061, 
+          "longitude": null, 
           "name": "Pama"
         }, 
         {
-          "id": 4062, 
+          "id": "008133028", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4062, 
+          "longitude": null, 
           "name": "Pamhagen-Pomogy"
         }, 
         {
-          "id": 4063, 
+          "id": "005508466", 
+          "is_domestic": true, 
+          "latitude": 46.5571425634024, 
+          "legacy_id": 4063, 
+          "longitude": 17.633733090978, 
           "name": "Pamuk"
         }, 
         {
-          "id": 4065, 
-          "name": "P\u00e1ndorfalu meg\u00e1ll\u00f3 [Parndorf Ort]"
+          "id": "008102976_259", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4064, 
+          "longitude": null, 
+          "name": "P\u00e1ndorfalu (Parndorf)"
         }, 
         {
-          "id": 4064, 
-          "name": "P\u00e1ndorfalu [Parndorf]"
+          "id": "008102975_260", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4065, 
+          "longitude": null, 
+          "name": "P\u00e1ndorfalu meg\u00e1ll\u00f3 (Parndorf Ort)"
         }, 
         {
-          "id": 4067, 
+          "id": "005505058", 
+          "is_domestic": true, 
+          "latitude": 46.836191933562, 
+          "legacy_id": 4067, 
+          "longitude": 16.4974975397445, 
           "name": "Pankasz"
         }, 
         {
-          "id": 4068, 
+          "id": "005502931", 
+          "is_domestic": true, 
+          "latitude": 47.5476081298858, 
+          "legacy_id": 4068, 
+          "longitude": 17.7406735439882, 
           "name": "Pannonhalma"
         }, 
         {
-          "id": 4071, 
+          "id": "005502121", 
+          "is_domestic": true, 
+          "latitude": 47.3400999523249, 
+          "legacy_id": 4071, 
+          "longitude": 17.4586989472787, 
           "name": "P\u00e1pa"
         }, 
         {
-          "id": 4073, 
-          "name": "Paprad"
-        }, 
-        {
-          "id": 4074, 
-          "name": "Paracin"
-        }, 
-        {
-          "id": 12880, 
-          "name": "PARACIN [Paracin]"
-        }, 
-        {
-          "id": 4076, 
+          "id": "005453613", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4076, 
+          "longitude": null, 
           "name": "Pardubice hl. n."
         }, 
         {
-          "id": 8127, 
-          "name": "PARDUBICE [Pardubice hl. n.]"
+          "id": "005542903_261", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6665, 
+          "longitude": null, 
+          "name": "Park (V\u00e1rosi park)"
         }, 
         {
-          "id": 6665, 
-          "name": "Park [V\u00e1rosi park]"
+          "id": "005613526_262", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7906, 
+          "longitude": null, 
+          "name": "P\u00e1rk\u00e1ny (\u0160t\u00farovo)"
         }, 
         {
-          "id": 7906, 
-          "name": "P\u00e1rk\u00e1ny [\u0160t\u00farovo]"
-        }, 
-        {
-          "id": 4086, 
+          "id": "008102976", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4086, 
+          "longitude": null, 
           "name": "Parndorf"
         }, 
         {
-          "id": 4087, 
+          "id": "008102975", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4087, 
+          "longitude": null, 
           "name": "Parndorf Ort"
         }, 
         {
-          "id": 4088, 
-          "name": "Parnica"
-        }, 
-        {
-          "id": 4090, 
-          "name": "Partizanske"
-        }, 
-        {
-          "id": 4091, 
-          "name": "Partizanske Zastavka"
-        }, 
-        {
-          "id": 13240, 
-          "name": "PASKA [Paska Vas]"
-        }, 
-        {
-          "id": 4100, 
-          "name": "Paska Vas"
-        }, 
-        {
-          "id": 4103, 
-          "name": "Pastovce"
-        }, 
-        {
-          "id": 4104, 
+          "id": "005511809", 
+          "is_domestic": true, 
+          "latitude": 47.9191149782614, 
+          "legacy_id": 4104, 
+          "longitude": 19.6890956630287, 
           "name": "P\u00e1szt\u00f3"
         }, 
         {
-          "id": 4107, 
+          "id": "005514092", 
+          "is_domestic": true, 
+          "latitude": 48.1587429422351, 
+          "legacy_id": 4107, 
+          "longitude": 21.9966257832972, 
           "name": "P\u00e1troha"
         }, 
         {
-          "id": 13099, 
-          "name": "Paulovac"
-        }, 
-        {
-          "id": 13256, 
-          "name": "PAULOVAC [Paulovac]"
-        }, 
-        {
-          "id": 4116, 
-          "name": "Pavlovce"
-        }, 
-        {
-          "id": 4117, 
-          "name": "Pavlovci"
-        }, 
-        {
-          "id": 13217, 
-          "name": "PAVLOVCI [Pavlovci]"
-        }, 
-        {
-          "id": 4120, 
-          "name": "Pazin"
-        }, 
-        {
-          "id": 12662, 
-          "name": "PAZIN [Pazin]"
-        }, 
-        {
-          "id": 4121, 
+          "id": "005541509", 
+          "is_domestic": true, 
+          "latitude": 47.6301627128327, 
+          "legacy_id": 4121, 
+          "longitude": 18.8524475732477, 
           "name": "P\u00e1zm\u00e1neum"
         }, 
         {
-          "id": 12905, 
-          "name": "P.BISTRICA [Podravska Bistrica]"
-        }, 
-        {
-          "id": 13267, 
-          "name": "Pcelic"
-        }, 
-        {
-          "id": 13107, 
-          "name": "PCELIC [Pcelic]"
-        }, 
-        {
-          "id": 4122, 
+          "id": "005511114", 
+          "is_domestic": true, 
+          "latitude": 47.4935808553582, 
+          "legacy_id": 4122, 
+          "longitude": 19.3384194611115, 
           "name": "P\u00e9cel"
         }, 
         {
-          "id": 4123, 
-          "name": "Pecovska Nova Ves"
-        }, 
-        {
-          "id": 4124, 
+          "id": "005507294", 
+          "is_domestic": true, 
+          "latitude": 46.0666585971766, 
+          "legacy_id": 4124, 
+          "longitude": 18.2259601508975, 
           "name": "P\u00e9cs"
         }, 
         {
-          "id": 4125, 
+          "id": "005507385", 
+          "is_domestic": true, 
+          "latitude": 46.0640241079864, 
+          "legacy_id": 4125, 
+          "longitude": 18.2698536833037, 
           "name": "P\u00e9csb\u00e1nya-Rendez\u0151"
         }, 
         {
-          "id": 4126, 
+          "id": "005507377", 
+          "is_domestic": true, 
+          "latitude": 46.0718625266969, 
+          "legacy_id": 4126, 
+          "longitude": 18.2401895712001, 
           "name": "P\u00e9cs-K\u00fclv\u00e1ros"
         }, 
         {
-          "id": 4127, 
+          "id": "005507393", 
+          "is_domestic": true, 
+          "latitude": 46.0092648829769, 
+          "legacy_id": 4127, 
+          "longitude": 18.2755520279786, 
           "name": "P\u00e9csudvard"
         }, 
         {
-          "id": 4130, 
-          "name": "Pekna Vyhliadka"
-        }, 
-        {
-          "id": 4131, 
-          "name": "Pels\u0151c [Plesivec]"
-        }, 
-        {
-          "id": 4134, 
+          "id": "005515776", 
+          "is_domestic": true, 
+          "latitude": 47.9953045870252, 
+          "legacy_id": 4134, 
+          "longitude": 22.5669895793086, 
           "name": "Penyige"
         }, 
         {
-          "id": 4135, 
-          "name": "Perbenyik [Pribenik]"
-        }, 
-        {
-          "id": 13104, 
-          "name": "Perkovci"
-        }, 
-        {
-          "id": 12730, 
-          "name": "PERKOVCI [Perkovci]"
-        }, 
-        {
-          "id": 4144, 
-          "name": "Perkovic"
-        }, 
-        {
-          "id": 12956, 
-          "name": "PERKOVIC [Perkovic]"
-        }, 
-        {
-          "id": 4145, 
+          "id": "005512997", 
+          "is_domestic": true, 
+          "latitude": 48.4716569548084, 
+          "legacy_id": 4145, 
+          "longitude": 20.6911852862476, 
           "name": "Perkupa"
         }, 
         {
-          "id": 4152, 
-          "name": "Perusic"
-        }, 
-        {
-          "id": 13036, 
-          "name": "PERUSIC [Perusic]"
-        }, 
-        {
-          "id": 4155, 
-          "name": "Pesnica"
-        }, 
-        {
-          "id": 13141, 
-          "name": "PESNICA [Pesnica]"
-        }, 
-        {
-          "id": 4159, 
+          "id": "005510314", 
+          "is_domestic": true, 
+          "latitude": 47.4338509103194, 
+          "legacy_id": 4159, 
+          "longitude": 19.0971124379001, 
           "name": "Pesterzs\u00e9bet"
         }, 
         {
-          "id": 4160, 
+          "id": "005516782", 
+          "is_domestic": true, 
+          "latitude": 47.4031053385378, 
+          "legacy_id": 4160, 
+          "longitude": 19.1875095554566, 
           "name": "Pestszentimre"
         }, 
         {
-          "id": 4161, 
+          "id": "005510355", 
+          "is_domestic": true, 
+          "latitude": 47.4140682316287, 
+          "legacy_id": 4161, 
+          "longitude": 19.172955088873, 
           "name": "Pestszentimre fels\u0151"
         }, 
         {
-          "id": 4162, 
+          "id": "005510181", 
+          "is_domestic": true, 
+          "latitude": 47.4547220708019, 
+          "legacy_id": 4162, 
+          "longitude": 19.182686267417, 
           "name": "Pestszentl\u0151rinc"
         }, 
         {
-          "id": 4166, 
+          "id": "005505645", 
+          "is_domestic": true, 
+          "latitude": 46.0066910129283, 
+          "legacy_id": 4166, 
+          "longitude": 17.3579569411579, 
           "name": "P\u00e9terhida-Koml\u00f3sd"
         }, 
         {
-          "id": 4167, 
-          "name": "P\u00e9teri [Hossz\u00faberek-P\u00e9teri]"
+          "id": "005541269_263", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4167, 
+          "longitude": null, 
+          "name": "P\u00e9teri (Hossz\u00faberek-P\u00e9teri)"
         }, 
         {
-          "id": 4170, 
+          "id": "005503921", 
+          "is_domestic": true, 
+          "latitude": 47.1670843673547, 
+          "legacy_id": 4170, 
+          "longitude": 18.122342884216, 
           "name": "P\u00e9tf\u00fcrd\u0151"
         }, 
         {
-          "id": 4172, 
+          "id": "005517145", 
+          "is_domestic": true, 
+          "latitude": 46.6173035574375, 
+          "legacy_id": 4172, 
+          "longitude": 19.8651220887065, 
           "name": "Pet\u0151fisz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 4173, 
+          "id": "005544578", 
+          "is_domestic": true, 
+          "latitude": 46.5880306329126, 
+          "legacy_id": 4173, 
+          "longitude": 19.8744066452851, 
           "name": "Pet\u0151fisz\u00e1ll\u00e1si tany\u00e1k"
         }, 
         {
-          "id": 4174, 
+          "id": "005544792", 
+          "is_domestic": true, 
+          "latitude": 46.7252428687703, 
+          "legacy_id": 4174, 
+          "longitude": 19.8468971298466, 
           "name": "Pet\u0151fiv\u00e1ros"
         }, 
         {
-          "id": 4175, 
+          "id": "004302659", 
+          "is_domestic": true, 
+          "latitude": 47.5948156470013, 
+          "legacy_id": 4175, 
+          "longitude": 16.8947495447865, 
           "name": "Pet\u0151h\u00e1za"
         }, 
         {
-          "id": 4177, 
-          "name": "Petr\u00f3c [Petrovce Nad Laborcom]"
-        }, 
-        {
-          "id": 8485, 
-          "name": "PETROV [Petrov U Straznice]"
-        }, 
-        {
-          "id": 8717, 
-          "name": "Petrov U Straznice"
-        }, 
-        {
-          "id": 4183, 
-          "name": "Petrovce"
-        }, 
-        {
-          "id": 4184, 
-          "name": "Petrovce Nad Laborcom"
-        }, 
-        {
-          "id": 13061, 
-          "name": "PETROVCE [Petrovce]"
-        }, 
-        {
-          "id": 4186, 
+          "id": "005503194", 
+          "is_domestic": true, 
+          "latitude": 47.2622829832746, 
+          "legacy_id": 4186, 
+          "longitude": 18.7127034624191, 
           "name": "Pettend"
         }, 
         {
-          "id": 4189, 
-          "name": "Pezinok"
+          "id": "005512732_264", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6758, 
+          "longitude": null, 
+          "name": "Piact\u00e9r (Saj\u00f3szentp\u00e9ter-Piact\u00e9r)"
         }, 
         {
-          "id": 4190, 
-          "name": "Pezinok Zastavka"
-        }, 
-        {
-          "id": 6758, 
-          "name": "Piact\u00e9r [Saj\u00f3szentp\u00e9ter-Piact\u00e9r]"
-        }, 
-        {
-          "id": 7911, 
-          "name": "Pie\u0161\u0165any"
-        }, 
-        {
-          "id": 13223, 
-          "name": "PIJAVCE [Pijavice]"
-        }, 
-        {
-          "id": 4217, 
-          "name": "Pijavice"
-        }, 
-        {
-          "id": 4218, 
-          "name": "Pila"
-        }, 
-        {
-          "id": 4220, 
+          "id": "005513680", 
+          "is_domestic": true, 
+          "latitude": 47.2793595559625, 
+          "legacy_id": 4220, 
+          "longitude": 19.5372442870675, 
           "name": "Pilis"
         }, 
         {
-          "id": 4221, 
+          "id": "005501453", 
+          "is_domestic": true, 
+          "latitude": 47.6382314204988, 
+          "legacy_id": 4221, 
+          "longitude": 18.8294549616963, 
           "name": "Piliscsaba"
         }, 
         {
-          "id": 4223, 
+          "id": "005540261", 
+          "is_domestic": true, 
+          "latitude": 47.6739220314104, 
+          "legacy_id": 4223, 
+          "longitude": 18.7912749525637, 
           "name": "Piliscs\u00e9v"
         }, 
         {
-          "id": 4224, 
+          "id": "005501461", 
+          "is_domestic": true, 
+          "latitude": 47.6560756389768, 
+          "legacy_id": 4224, 
+          "longitude": 18.7965433120839, 
           "name": "Pilisj\u00e1szfalu"
         }, 
         {
-          "id": 4225, 
+          "id": "005501438", 
+          "is_domestic": true, 
+          "latitude": 47.614357592603, 
+          "legacy_id": 4225, 
+          "longitude": 18.9023167033487, 
           "name": "Pilisv\u00f6r\u00f6sv\u00e1r"
         }, 
         {
-          "id": 4232, 
+          "id": "005505983", 
+          "is_domestic": true, 
+          "latitude": 46.6813039911795, 
+          "legacy_id": 4232, 
+          "longitude": 18.4302483517126, 
           "name": "Pincehely"
         }, 
         {
-          "id": 4235, 
+          "id": "004302683", 
+          "is_domestic": true, 
+          "latitude": 47.6003302640955, 
+          "legacy_id": 4235, 
+          "longitude": 16.7683194922281, 
           "name": "Pinnye"
         }, 
         {
-          "id": 4239, 
+          "id": "005547340", 
+          "is_domestic": true, 
+          "latitude": 47.1465806164115, 
+          "legacy_id": 4239, 
+          "longitude": 20.1282016831471, 
           "name": "Piroska"
         }, 
         {
-          "id": 4240, 
-          "name": "Pirot"
-        }, 
-        {
-          "id": 12728, 
-          "name": "PIROT [Pirot]"
-        }, 
-        {
-          "id": 4242, 
+          "id": "005516303", 
+          "is_domestic": true, 
+          "latitude": 46.4987977946633, 
+          "legacy_id": 4242, 
+          "longitude": 19.4499452514497, 
           "name": "Pirt\u00f3"
         }, 
         {
-          "id": 4243, 
+          "id": "005516295", 
+          "is_domestic": true, 
+          "latitude": 46.5213817621379, 
+          "legacy_id": 4243, 
+          "longitude": 19.4344504545351, 
           "name": "Pirt\u00f3i sz\u0151l\u0151k"
         }, 
         {
-          "id": 4245, 
-          "name": "Piski [Simeria]"
+          "id": "005321236_265", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4245, 
+          "longitude": null, 
+          "name": "Piski (Simeria)"
         }, 
         {
-          "id": 4246, 
+          "id": "005501560", 
+          "is_domestic": true, 
+          "latitude": 47.7530895810198, 
+          "legacy_id": 4246, 
+          "longitude": 18.477839713584, 
           "name": "Piszke"
         }, 
         {
-          "id": 4248, 
-          "name": "Pitomaca"
-        }, 
-        {
-          "id": 13140, 
-          "name": "PITOMACA [Pitomaca]"
-        }, 
-        {
-          "id": 4250, 
+          "id": "005518390", 
+          "is_domestic": true, 
+          "latitude": 46.3234075878345, 
+          "legacy_id": 4250, 
+          "longitude": 20.7535228573428, 
           "name": "Pitvaros"
         }, 
         {
-          "id": 4251, 
-          "name": "Pivka"
-        }, 
-        {
-          "id": 12644, 
-          "name": "PIVKA [Pivka]"
-        }, 
-        {
-          "id": 4255, 
-          "name": "Planina"
-        }, 
-        {
-          "id": 12792, 
-          "name": "PLANINA [Planina]"
-        }, 
-        {
-          "id": 4257, 
-          "name": "Plase"
-        }, 
-        {
-          "id": 13250, 
-          "name": "PLASE [Plase]"
-        }, 
-        {
-          "id": 4258, 
-          "name": "Plaski"
-        }, 
-        {
-          "id": 13011, 
-          "name": "PLASKI [Plaski]"
-        }, 
-        {
-          "id": 4262, 
-          "name": "Plave"
-        }, 
-        {
-          "id": 13111, 
-          "name": "PLAVE [Plave]"
-        }, 
-        {
-          "id": 8510, 
-          "name": "Plave\u010d"
-        }, 
-        {
-          "id": 8646, 
-          "name": "PLAVECKY [Plavecky Stvrtok]"
-        }, 
-        {
-          "id": 4264, 
-          "name": "Plavecky Stvrtok"
-        }, 
-        {
-          "id": 4265, 
-          "name": "Plavnica"
-        }, 
-        {
-          "id": 4266, 
-          "name": "Plesivec"
-        }, 
-        {
-          "id": 4268, 
-          "name": "Plevnik-Drienove"
-        }, 
-        {
-          "id": 8175, 
-          "name": "PLOIESTI [Ploie\u015fti Vest]"
-        }, 
-        {
-          "id": 6733, 
+          "id": "005330304", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6733, 
+          "longitude": null, 
           "name": "Ploie\u015fti Vest"
         }, 
         {
-          "id": 4282, 
+          "id": "005515024", 
+          "is_domestic": true, 
+          "latitude": 47.2883354843295, 
+          "legacy_id": 4282, 
+          "longitude": 21.7929585582979, 
           "name": "Pocsaj-Eszt\u00e1r"
         }, 
         {
-          "id": 4283, 
-          "name": "Pod Lesom"
-        }, 
-        {
-          "id": 8567, 
-          "name": "POD [Pod Lesom]"
-        }, 
-        {
-          "id": 12859, 
-          "name": "POD [Podcetrtek Toplice]"
-        }, 
-        {
-          "id": 4285, 
-          "name": "Podbiel"
-        }, 
-        {
-          "id": 4286, 
-          "name": "Podbrdo"
-        }, 
-        {
-          "id": 12931, 
-          "name": "PODBRDO [Podbrdo]"
-        }, 
-        {
-          "id": 4287, 
-          "name": "Podbrezova"
-        }, 
-        {
-          "id": 4288, 
-          "name": "Podcetrtek"
-        }, 
-        {
-          "id": 12914, 
-          "name": "PODCETRTEK [Podcetrtek]"
-        }, 
-        {
-          "id": 4289, 
-          "name": "Podcetrtek Toplice"
-        }, 
-        {
-          "id": 6700, 
-          "name": "Podgorica"
-        }, 
-        {
-          "id": 8252, 
-          "name": "PODGORICA [Podgorica]"
-        }, 
-        {
-          "id": 4291, 
-          "name": "Podgorje"
-        }, 
-        {
-          "id": 12638, 
-          "name": "PODGORJE [Podgorje]"
-        }, 
-        {
-          "id": 4292, 
-          "name": "Podhajska"
-        }, 
-        {
-          "id": 4293, 
-          "name": "Podhom"
-        }, 
-        {
-          "id": 12819, 
-          "name": "PODHOM [Podhom]"
-        }, 
-        {
-          "id": 4294, 
-          "name": "Podhorany Pri Kezmarku"
-        }, 
-        {
-          "id": 4295, 
-          "name": "Podklanc"
-        }, 
-        {
-          "id": 13004, 
-          "name": "PODKLANC [Podklanc]"
-        }, 
-        {
-          "id": 4296, 
-          "name": "Podkrivan"
-        }, 
-        {
-          "id": 4298, 
-          "name": "Podmelec"
-        }, 
-        {
-          "id": 12790, 
-          "name": "PODMELEC [Podmelec]"
-        }, 
-        {
-          "id": 4299, 
-          "name": "Podnart"
-        }, 
-        {
-          "id": 13087, 
-          "name": "PODNART [Podnart]"
-        }, 
-        {
-          "id": 4301, 
-          "name": "Podolin [Podolinec]"
-        }, 
-        {
-          "id": 4302, 
-          "name": "Podolinec"
-        }, 
-        {
-          "id": 4303, 
-          "name": "Podplat"
-        }, 
-        {
-          "id": 12850, 
-          "name": "PODPLAT [Podplat]"
-        }, 
-        {
-          "id": 12754, 
-          "name": "Podravska Bistrica"
-        }, 
-        {
-          "id": 4304, 
-          "name": "Podrecany"
-        }, 
-        {
-          "id": 13077, 
-          "name": "Podrute"
-        }, 
-        {
-          "id": 13218, 
-          "name": "PODRUTE [Podrute]"
-        }, 
-        {
-          "id": 12810, 
-          "name": "PODSUSED [Podsused Stajaliste]"
-        }, 
-        {
-          "id": 13126, 
-          "name": "Podsused Stajaliste"
-        }, 
-        {
-          "id": 4305, 
-          "name": "Podturen"
-        }, 
-        {
-          "id": 4310, 
-          "name": "Podvelka"
-        }, 
-        {
-          "id": 13044, 
-          "name": "PODVELKA [Podvelka]"
-        }, 
-        {
-          "id": 4312, 
-          "name": "Podvysoka"
-        }, 
-        {
-          "id": 7876, 
-          "name": "POELTEN HBF ST [St.P\u00f6lten Hbf]"
-        }, 
-        {
-          "id": 4314, 
+          "id": "005543158", 
+          "is_domestic": true, 
+          "latitude": 48.2961875711648, 
+          "legacy_id": 4314, 
+          "longitude": 20.3827577564033, 
           "name": "Pogonyipuszta"
         }, 
         {
-          "id": 4315, 
-          "name": "Pohorela"
-        }, 
-        {
-          "id": 4316, 
-          "name": "Pohorelska Masa"
-        }, 
-        {
-          "id": 4317, 
-          "name": "Pohronska Polhora"
-        }, 
-        {
-          "id": 4318, 
-          "name": "Pohronsky Ruskov"
-        }, 
-        {
-          "id": 12817, 
-          "name": "Pojatno"
-        }, 
-        {
-          "id": 13074, 
-          "name": "POJATNO [Pojatno]"
-        }, 
-        {
-          "id": 4325, 
+          "id": "005504861", 
+          "is_domestic": true, 
+          "latitude": 46.9245272326797, 
+          "legacy_id": 4325, 
+          "longitude": 16.9718324000488, 
           "name": "P\u00f3kaszepetk"
         }, 
         {
-          "id": 4326, 
-          "name": "P\u00f3la [Pula]"
-        }, 
-        {
-          "id": 4327, 
+          "id": "005504283", 
+          "is_domestic": true, 
+          "latitude": 47.0696058920061, 
+          "legacy_id": 4327, 
+          "longitude": 18.2838704311005, 
           "name": "Polg\u00e1rdi"
         }, 
         {
-          "id": 4328, 
+          "id": "005504275", 
+          "is_domestic": true, 
+          "latitude": 47.0792104150443, 
+          "legacy_id": 4328, 
+          "longitude": 18.3143013100726, 
           "name": "Polg\u00e1rdi-Ipartelepek"
         }, 
         {
-          "id": 4329, 
+          "id": "005545369", 
+          "is_domestic": true, 
+          "latitude": 47.018910606135, 
+          "legacy_id": 4329, 
+          "longitude": 18.3004391000083, 
           "name": "Polg\u00e1rdi-Tekerespuszta"
         }, 
         {
-          "id": 12909, 
-          "name": "Poljanka"
-        }, 
-        {
-          "id": 12943, 
-          "name": "POLJANKA [Poljanka]"
-        }, 
-        {
-          "id": 4330, 
+          "id": "007943203", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4330, 
+          "longitude": null, 
           "name": "Poljcane"
         }, 
         {
-          "id": 12651, 
-          "name": "POLJCANE [Poljcane]"
+          "id": "008133028_266", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4338, 
+          "longitude": null, 
+          "name": "Pomogy (Pamhagen-Pomogy)"
         }, 
         {
-          "id": 4331, 
-          "name": "Polomka"
-        }, 
-        {
-          "id": 4334, 
-          "name": "Poltar"
-        }, 
-        {
-          "id": 4335, 
-          "name": "Poluvsie"
-        }, 
-        {
-          "id": 4336, 
-          "name": "Polzela"
-        }, 
-        {
-          "id": 12998, 
-          "name": "POLZELA [Polzela]"
-        }, 
-        {
-          "id": 4337, 
-          "name": "Polzevo"
-        }, 
-        {
-          "id": 13006, 
-          "name": "POLZEVO [Polzevo]"
-        }, 
-        {
-          "id": 4338, 
-          "name": "Pomogy [Pamhagen-Pomogy]"
-        }, 
-        {
-          "id": 4339, 
-          "name": "Ponikva"
-        }, 
-        {
-          "id": 13125, 
-          "name": "PONIKVA [Ponikva]"
-        }, 
-        {
-          "id": 4340, 
-          "name": "Ponikve Na Dolenjskem"
-        }, 
-        {
-          "id": 4345, 
-          "name": "Popovaca"
-        }, 
-        {
-          "id": 13049, 
-          "name": "POPOVACA [Popovaca]"
-        }, 
-        {
-          "id": 4347, 
-          "name": "Popr\u00e1d [Poprad-Tatry]"
-        }, 
-        {
-          "id": 4348, 
-          "name": "Popradske Pleso"
-        }, 
-        {
-          "id": 4349, 
-          "name": "Poprad-Spisska Sobota"
-        }, 
-        {
-          "id": 4350, 
-          "name": "Poprad-Tatry"
-        }, 
-        {
-          "id": 4352, 
+          "id": "005515552", 
+          "is_domestic": true, 
+          "latitude": 47.8680436250245, 
+          "legacy_id": 4352, 
+          "longitude": 22.5682770375842, 
           "name": "Porcsalma-Tyukod"
         }, 
         {
-          "id": 4355, 
-          "name": "Poriadie"
-        }, 
-        {
-          "id": 4357, 
+          "id": "005514571", 
+          "is_domestic": true, 
+          "latitude": 47.6577603660937, 
+          "legacy_id": 4357, 
+          "longitude": 20.6544879437406, 
           "name": "Poroszl\u00f3"
         }, 
         {
-          "id": 4358, 
+          "id": "005502220", 
+          "is_domestic": true, 
+          "latitude": 47.238901260689, 
+          "legacy_id": 4358, 
+          "longitude": 16.8331838990968, 
           "name": "Porp\u00e1c"
         }, 
         {
-          "id": 4359, 
+          "id": "005506429", 
+          "is_domestic": true, 
+          "latitude": 46.25311708424, 
+          "legacy_id": 4359, 
+          "longitude": 17.0210914321776, 
           "name": "Porrogszentkir\u00e1ly"
         }, 
         {
-          "id": 4361, 
+          "id": "005511973", 
+          "is_domestic": true, 
+          "latitude": 47.4180146265985, 
+          "legacy_id": 4361, 
+          "longitude": 19.958517025562, 
           "name": "Portelek"
         }, 
         {
-          "id": 4362, 
-          "name": "Porubka"
-        }, 
-        {
-          "id": 4365, 
+          "id": "005502980", 
+          "is_domestic": true, 
+          "latitude": 47.3269668659116, 
+          "legacy_id": 4365, 
+          "longitude": 17.8414752698532, 
           "name": "Porva-Csesznek"
         }, 
         {
-          "id": 4367, 
+          "id": "004302477", 
+          "is_domestic": true, 
+          "latitude": 47.3268576915498, 
+          "legacy_id": 4367, 
+          "longitude": 16.8557251965534, 
           "name": "P\u00f3sfa"
         }, 
         {
-          "id": 4368, 
-          "name": "Postojna"
+          "id": "005620000_267", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4384, 
+          "longitude": null, 
+          "name": "Pozsony (BRATISLAVA*)"
         }, 
         {
-          "id": 12636, 
-          "name": "POSTOJNA [Postojna]"
+          "id": "005614576_268", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4385, 
+          "longitude": null, 
+          "name": "Pozsonyligetfalu (Bratislava-Petrzalka)"
         }, 
         {
-          "id": 4377, 
-          "name": "Povazany"
-        }, 
-        {
-          "id": 4378, 
-          "name": "Povazska Bystrica"
-        }, 
-        {
-          "id": 8664, 
-          "name": "POVAZSKA [Povazska Bystrica]"
-        }, 
-        {
-          "id": 4379, 
-          "name": "Povazska Tepla"
-        }, 
-        {
-          "id": 4381, 
-          "name": "Povir"
-        }, 
-        {
-          "id": 13079, 
-          "name": "POVIR [Povir]"
-        }, 
-        {
-          "id": 4382, 
-          "name": "Pozba"
-        }, 
-        {
-          "id": 8179, 
-          "name": "POZEGA [Pozega [SZ]]"
-        }, 
-        {
-          "id": 6687, 
-          "name": "Pozega [SZ]"
-        }, 
-        {
-          "id": 4384, 
-          "name": "Pozsony [BRATISLAVA*]"
-        }, 
-        {
-          "id": 4385, 
-          "name": "Pozsonyligetfalu [Bratislava-Petrzalka]"
-        }, 
-        {
-          "id": 4386, 
-          "name": "Pozsony-Sz\u0151l\u0151hegy [Bratislava-Vinohrady]"
-        }, 
-        {
-          "id": 8496, 
-          "name": "Pozsonysz\u0151l\u0151s [Bratislava-Vajnory]"
-        }, 
-        {
-          "id": 4387, 
-          "name": "Pozsony\u00fajv\u00e1ros [Bratislava-N. M.]"
-        }, 
-        {
-          "id": 4392, 
+          "id": "005507153", 
+          "is_domestic": true, 
+          "latitude": 46.1990102523525, 
+          "legacy_id": 4392, 
+          "longitude": 18.8283733644566, 
           "name": "P\u00f6rb\u00f6ly"
         }, 
         {
-          "id": 7914, 
-          "name": "P\u00f6sty\u00e9n [Pie\u0161\u0165any]"
-        }, 
-        {
-          "id": 4395, 
+          "id": "005505421", 
+          "is_domestic": true, 
+          "latitude": 46.6820013570627, 
+          "legacy_id": 4395, 
+          "longitude": 16.9582313372847, 
           "name": "P\u00f6tr\u00e9te"
         }, 
         {
-          "id": 4397, 
-          "name": "Prag [PRAHA*]"
+          "id": "005408991_269", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4397, 
+          "longitude": null, 
+          "name": "Prag (PRAHA*)"
         }, 
         {
-          "id": 4398, 
-          "name": "Pr\u00e1ga [PRAHA*]"
+          "id": "005408991_270", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4398, 
+          "longitude": null, 
+          "name": "Pr\u00e1ga (PRAHA*)"
         }, 
         {
-          "id": 4399, 
+          "id": "007943300", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4399, 
+          "longitude": null, 
           "name": "Pragersko"
         }, 
         {
-          "id": 12642, 
-          "name": "PRAGERSKO [Pragersko]"
+          "id": "005408991_271", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4400, 
+          "longitude": null, 
+          "name": "Prague (PRAHA*)"
         }, 
         {
-          "id": 4400, 
-          "name": "Prague [PRAHA*]"
-        }, 
-        {
-          "id": 4401, 
+          "id": "005408991", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4401, 
+          "longitude": null, 
           "name": "PRAHA*"
         }, 
         {
-          "id": 4402, 
+          "id": "005457076", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4402, 
+          "longitude": null, 
           "name": "Praha hl. n."
         }, 
         {
-          "id": 12691, 
-          "name": "PRAHA [Praha hl. n.]"
-        }, 
-        {
-          "id": 4404, 
+          "id": "005457256", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4404, 
+          "longitude": null, 
           "name": "Praha-Holesovice"
         }, 
         {
-          "id": 8155, 
-          "name": "PRAHA-HOLESOVICE [Praha-Holesovice]"
-        }, 
-        {
-          "id": 4406, 
+          "id": "005457176", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4406, 
+          "longitude": null, 
           "name": "Praha-Liben"
         }, 
         {
-          "id": 8122, 
-          "name": "PRAHA-LIBEN [Praha-Liben]"
-        }, 
-        {
-          "id": 4409, 
-          "name": "Prakovce"
-        }, 
-        {
-          "id": 4410, 
-          "name": "Prakovce Zastavka"
-        }, 
-        {
-          "id": 13164, 
-          "name": "PRECEC [Precec Stajaliste]"
-        }, 
-        {
-          "id": 13065, 
-          "name": "Precec Stajaliste"
-        }, 
-        {
-          "id": 4418, 
-          "name": "Predajna"
-        }, 
-        {
-          "id": 4419, 
+          "id": "005330615", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4419, 
+          "longitude": null, 
           "name": "Predeal"
         }, 
         {
-          "id": 8195, 
-          "name": "PREDEAL [Predeal]"
+          "id": "005330615_272", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4420, 
+          "longitude": null, 
+          "name": "Prede\u00e1l (Predeal)"
         }, 
         {
-          "id": 4420, 
-          "name": "Prede\u00e1l [Predeal]"
-        }, 
-        {
-          "id": 4421, 
-          "name": "Predmier"
-        }, 
-        {
-          "id": 4424, 
+          "id": "005453513", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4424, 
+          "longitude": null, 
           "name": "Prelouc"
         }, 
         {
-          "id": 8137, 
-          "name": "PRELOUC [Prelouc]"
-        }, 
-        {
-          "id": 4426, 
+          "id": "005434662", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4426, 
+          "longitude": null, 
           "name": "Prerov"
         }, 
         {
-          "id": 8157, 
-          "name": "PREROV [Prerov]"
-        }, 
-        {
-          "id": 4427, 
-          "name": "Preselany Nad Nitrou Zastavka"
-        }, 
-        {
-          "id": 4428, 
-          "name": "Preserje"
-        }, 
-        {
-          "id": 13173, 
-          "name": "PRESERJE [Preserje]"
-        }, 
-        {
-          "id": 6630, 
-          "name": "Presevo"
-        }, 
-        {
-          "id": 13236, 
-          "name": "PRESEVO [Presevo]"
-        }, 
-        {
-          "id": 4429, 
-          "name": "Presnica"
-        }, 
-        {
-          "id": 12729, 
-          "name": "PRESNICA [Presnica]"
-        }, 
-        {
-          "id": 7909, 
-          "name": "Pre\u0161ov"
-        }, 
-        {
-          "id": 4431, 
-          "name": "Presov Mesto"
-        }, 
-        {
-          "id": 4434, 
-          "name": "Prestranek"
-        }, 
-        {
-          "id": 12999, 
-          "name": "PRESTRANEK [Prestranek]"
-        }, 
-        {
-          "id": 4435, 
-          "name": "Prevalje"
-        }, 
-        {
-          "id": 13206, 
-          "name": "PREVALJE [Prevalje]"
-        }, 
-        {
-          "id": 4436, 
-          "name": "Pribenik"
-        }, 
-        {
-          "id": 4437, 
-          "name": "Pribeta"
-        }, 
-        {
-          "id": 6628, 
-          "name": "Priboj"
-        }, 
-        {
-          "id": 8242, 
-          "name": "PRIBOJ [Priboj]"
-        }, 
-        {
-          "id": 4438, 
-          "name": "Pribovce"
-        }, 
-        {
-          "id": 8659, 
-          "name": "PRIBOVCE [Pribovce]"
-        }, 
-        {
-          "id": 4440, 
-          "name": "Priekopa"
-        }, 
-        {
-          "id": 4443, 
-          "name": "Prievidza"
-        }, 
-        {
-          "id": 6728, 
-          "name": "Prijepolje"
-        }, 
-        {
-          "id": 8221, 
-          "name": "PRIJEPOLJE [Prijepolje]"
-        }, 
-        {
-          "id": 8185, 
-          "name": "PRIJEPOLJE [Prijepolje Teretn]"
-        }, 
-        {
-          "id": 6666, 
-          "name": "Prijepolje Teretn"
-        }, 
-        {
-          "id": 4447, 
-          "name": "Pristava"
-        }, 
-        {
-          "id": 13133, 
-          "name": "PRISTAVA [Pristava]"
-        }, 
-        {
-          "id": 4449, 
-          "name": "Privigye [Prievidza]"
-        }, 
-        {
-          "id": 4455, 
-          "name": "Prsa"
-        }, 
-        {
-          "id": 4458, 
-          "name": "Prvacina"
-        }, 
-        {
-          "id": 12722, 
-          "name": "PRVACINA [Prvacina]"
-        }, 
-        {
-          "id": 4460, 
-          "name": "Psiare"
-        }, 
-        {
-          "id": 4461, 
-          "name": "Pstrusa"
-        }, 
-        {
-          "id": 4462, 
+          "id": "007943355", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4462, 
+          "longitude": null, 
           "name": "Ptuj"
         }, 
         {
-          "id": 12629, 
-          "name": "PTUJ [Ptuj]"
-        }, 
-        {
-          "id": 4469, 
-          "name": "Puchov"
-        }, 
-        {
-          "id": 4470, 
-          "name": "Puchov Zastavka"
-        }, 
-        {
-          "id": 4471, 
-          "name": "Puchov Zavody"
-        }, 
-        {
-          "id": 4472, 
-          "name": "Puconci"
-        }, 
-        {
-          "id": 13109, 
-          "name": "PUCONCI [Puconci]"
-        }, 
-        {
-          "id": 4476, 
-          "name": "Puh\u00f3 [Puchov]"
-        }, 
-        {
-          "id": 4478, 
-          "name": "Pula"
-        }, 
-        {
-          "id": 12676, 
-          "name": "PULA [Pula]"
-        }, 
-        {
-          "id": 4489, 
-          "name": "Pusenci"
-        }, 
-        {
-          "id": 13185, 
-          "name": "PUSENCI [Pusenci]"
-        }, 
-        {
-          "id": 4490, 
-          "name": "Puste Cemerne"
-        }, 
-        {
-          "id": 4491, 
-          "name": "Puste Pole"
-        }, 
-        {
-          "id": 8618, 
-          "name": "PUSTE [Puste Pole]"
-        }, 
-        {
-          "id": 8665, 
-          "name": "PUSTE [Puste Ulany]"
-        }, 
-        {
-          "id": 4492, 
-          "name": "Puste Ulany"
-        }, 
-        {
-          "id": 4493, 
+          "id": "005518242", 
+          "is_domestic": true, 
+          "latitude": 46.9398777017093, 
+          "legacy_id": 4493, 
+          "longitude": 20.5566694042525, 
           "name": "Pusztab\u00e1nr\u00e9ve"
         }, 
         {
-          "id": 4494, 
+          "id": "005508516", 
+          "is_domestic": true, 
+          "latitude": 46.6866850727608, 
+          "legacy_id": 4494, 
+          "longitude": 17.5945607764997, 
           "name": "Pusztaber\u00e9ny"
         }, 
         {
-          "id": 4495, 
+          "id": "005543968", 
+          "is_domestic": true, 
+          "latitude": 47.4535243024269, 
+          "legacy_id": 4495, 
+          "longitude": 20.7498012196622, 
           "name": "Pusztakett\u0151s"
         }, 
         {
-          "id": 4496, 
-          "name": "Pusztak\u00f3cs [Ohat-Pusztak\u00f3cs]"
+          "id": "005514548_273", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4496, 
+          "longitude": null, 
+          "name": "Pusztak\u00f3cs (Ohat-Pusztak\u00f3cs)"
         }, 
         {
-          "id": 4497, 
+          "id": "005511940", 
+          "is_domestic": true, 
+          "latitude": 47.564239601245, 
+          "legacy_id": 4497, 
+          "longitude": 19.794225462667, 
           "name": "Pusztamonostor"
         }, 
         {
-          "id": 4498, 
+          "id": "005517814", 
+          "is_domestic": true, 
+          "latitude": 47.0928348437011, 
+          "legacy_id": 4498, 
+          "longitude": 20.4557387298872, 
           "name": "Pusztap\u00f3"
         }, 
         {
-          "id": 4499, 
+          "id": "005505876", 
+          "is_domestic": true, 
+          "latitude": 47.1396806170993, 
+          "legacy_id": 4499, 
+          "longitude": 18.7616331132752, 
           "name": "Pusztaszabolcs"
         }, 
         {
-          "id": 4500, 
+          "id": "005511536", 
+          "is_domestic": true, 
+          "latitude": 47.4399555607145, 
+          "legacy_id": 4500, 
+          "longitude": 19.4707547302853, 
           "name": "Pusztaszentistv\u00e1n"
         }, 
         {
-          "id": 4501, 
+          "id": "005544933", 
+          "is_domestic": true, 
+          "latitude": 46.6765229342196, 
+          "legacy_id": 4501, 
+          "longitude": 20.4073417216693, 
           "name": "Pusztatemplom"
         }, 
         {
-          "id": 4503, 
+          "id": "005512823", 
+          "is_domestic": true, 
+          "latitude": 48.2865816273339, 
+          "legacy_id": 4503, 
+          "longitude": 20.4373179464323, 
           "name": "Putnok"
         }, 
         {
-          "id": 4505, 
+          "id": "005510876", 
+          "is_domestic": true, 
+          "latitude": 47.7728801470579, 
+          "legacy_id": 4505, 
+          "longitude": 19.3686183174332, 
           "name": "P\u00fcsp\u00f6khatvan"
         }, 
         {
-          "id": 4506, 
+          "id": "005513862", 
+          "is_domestic": true, 
+          "latitude": 47.3277115473379, 
+          "legacy_id": 4506, 
+          "longitude": 21.1286097514001, 
           "name": "P\u00fcsp\u00f6klad\u00e1ny"
         }, 
         {
-          "id": 4507, 
+          "id": "005544305", 
+          "is_domestic": true, 
+          "latitude": 47.3190854521512, 
+          "legacy_id": 4507, 
+          "longitude": 21.095938747764, 
           "name": "P\u00fcsp\u00f6klad\u00e1ny-V\u00e1s\u00e1rt\u00e9r"
         }, 
         {
-          "id": 4508, 
+          "id": "004305306", 
+          "is_domestic": true, 
+          "latitude": 47.0848659920452, 
+          "legacy_id": 4508, 
+          "longitude": 16.7684347872593, 
           "name": "P\u00fcsp\u00f6kmoln\u00e1ri"
         }, 
         {
-          "id": 4512, 
+          "id": "008103492", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4512, 
+          "longitude": null, 
           "name": "Raaba"
         }, 
         {
-          "id": 4513, 
-          "name": "Raasdorf"
+          "id": "005503087_274", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4514, 
+          "longitude": null, 
+          "name": "R\u00e1bacsanak (Egyed-R\u00e1bacsanak)"
         }, 
         {
-          "id": 4514, 
-          "name": "R\u00e1bacsanak [Egyed-R\u00e1bacsanak]"
-        }, 
-        {
-          "id": 7357, 
+          "id": "005545740", 
+          "is_domestic": true, 
+          "latitude": 47.4387026985076, 
+          "legacy_id": 7357, 
+          "longitude": 17.3374191703581, 
           "name": "R\u00e1bah\u00edd"
         }, 
         {
-          "id": 4515, 
+          "id": "004302527", 
+          "is_domestic": true, 
+          "latitude": 47.648991, 
+          "legacy_id": 4515, 
+          "longitude": 17.462478, 
           "name": "R\u00e1bapatona"
         }, 
         {
-          "id": 4516, 
+          "id": "005503095", 
+          "is_domestic": true, 
+          "latitude": 47.5572988896109, 
+          "legacy_id": 4516, 
+          "longitude": 17.3153726672726, 
           "name": "R\u00e1bapord\u00e1ny"
         }, 
         {
-          "id": 4517, 
-          "name": "R\u00e1baszentandr\u00e1s [Szany-R\u00e1baszentandr\u00e1s]"
+          "id": "005503079_275", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4517, 
+          "longitude": null, 
+          "name": "R\u00e1baszentandr\u00e1s (Szany-R\u00e1baszentandr\u00e1s)"
         }, 
         {
-          "id": 4518, 
+          "id": "004302592", 
+          "is_domestic": true, 
+          "latitude": 47.5925429396379, 
+          "legacy_id": 4518, 
+          "longitude": 17.1590318043462, 
           "name": "R\u00e1batam\u00e1si"
         }, 
         {
-          "id": 4521, 
+          "id": "005506486", 
+          "is_domestic": true, 
+          "latitude": 47.02418452846, 
+          "legacy_id": 4521, 
+          "longitude": 18.9101577443059, 
           "name": "R\u00e1calm\u00e1s"
         }, 
         {
-          "id": 4523, 
-          "name": "Race"
+          "id": "005106870", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Raciborz"
         }, 
         {
-          "id": 12949, 
-          "name": "RACE [Race]"
-        }, 
-        {
-          "id": 4530, 
-          "name": "Radava"
-        }, 
-        {
-          "id": 4531, 
-          "name": "Radece"
-        }, 
-        {
-          "id": 12979, 
-          "name": "RADECE [Radece]"
-        }, 
-        {
-          "id": 4532, 
+          "id": "005545914", 
+          "is_domestic": true, 
+          "latitude": 46.6550191295727, 
+          "legacy_id": 4532, 
+          "longitude": 16.7664265420615, 
           "name": "R\u00e1dih\u00e1za"
         }, 
         {
-          "id": 4534, 
+          "id": "005321705", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4534, 
+          "longitude": null, 
           "name": "Radna"
         }, 
         {
-          "id": 8228, 
-          "name": "RADNA [Radna]"
+          "id": "005342747_276", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4535, 
+          "longitude": null, 
+          "name": "Radn\u00f3t (Iernut)"
         }, 
         {
-          "id": 4535, 
-          "name": "Radn\u00f3t [Iernut]"
-        }, 
-        {
-          "id": 13113, 
-          "name": "RADOHOVA [Radohova Vas]"
-        }, 
-        {
-          "id": 4536, 
-          "name": "Radohova Vas"
-        }, 
-        {
-          "id": 4543, 
-          "name": "Radovljica"
-        }, 
-        {
-          "id": 13228, 
-          "name": "RADOVLJICA [Radovljica]"
-        }, 
-        {
-          "id": 4547, 
-          "name": "Radvan"
-        }, 
-        {
-          "id": 4548, 
-          "name": "Radvan Nad Laborcom"
-        }, 
-        {
-          "id": 8643, 
-          "name": "RADVAN [Radvan Nad Laborcom]"
-        }, 
-        {
-          "id": 4550, 
-          "name": "Raggendorf"
-        }, 
-        {
-          "id": 4551, 
-          "name": "Raggendorf Markt"
-        }, 
-        {
-          "id": 4554, 
-          "name": "Rajec"
-        }, 
-        {
-          "id": 4555, 
-          "name": "Rajecf\u00fcrd\u0151 [Rajecke Teplice]"
-        }, 
-        {
-          "id": 8500, 
-          "name": "RAJECKE [Rajecke Teplice]"
-        }, 
-        {
-          "id": 4556, 
-          "name": "Rajecke Teplice"
-        }, 
-        {
-          "id": 13139, 
-          "name": "Rajic"
-        }, 
-        {
-          "id": 12918, 
-          "name": "RAJIC [Rajic]"
-        }, 
-        {
-          "id": 4557, 
+          "id": "004301974", 
+          "is_domestic": true, 
+          "latitude": 47.9942853844678, 
+          "legacy_id": 4557, 
+          "longitude": 17.1928771726864, 
           "name": "Rajka"
         }, 
         {
-          "id": 4558, 
+          "id": "005511486", 
+          "is_domestic": true, 
+          "latitude": 48.1200676110284, 
+          "legacy_id": 4558, 
+          "longitude": 21.4747192201833, 
           "name": "Rakamaz"
         }, 
         {
-          "id": 4559, 
-          "name": "Rakek"
-        }, 
-        {
-          "id": 12678, 
-          "name": "RAKEK [Rakek]"
-        }, 
-        {
-          "id": 4561, 
-          "name": "Rakitovec"
-        }, 
-        {
-          "id": 12646, 
-          "name": "RAKITOVEC [Rakitovec]"
-        }, 
-        {
-          "id": 4562, 
+          "id": "005515727", 
+          "is_domestic": true, 
+          "latitude": 48.0218331611161, 
+          "legacy_id": 4562, 
+          "longitude": 22.1778715992427, 
           "name": "R\u00e1k\u00f3czitanya"
         }, 
         {
-          "id": 4563, 
+          "id": "005510074", 
+          "is_domestic": true, 
+          "latitude": 47.4885838393847, 
+          "legacy_id": 4563, 
+          "longitude": 19.1733547268448, 
           "name": "R\u00e1kos"
         }, 
         {
-          "id": 4564, 
+          "id": "005511106", 
+          "is_domestic": true, 
+          "latitude": 47.4923750551865, 
+          "legacy_id": 4564, 
+          "longitude": 19.2856876497156, 
           "name": "R\u00e1koscsaba"
         }, 
         {
-          "id": 4565, 
+          "id": "005511098", 
+          "is_domestic": true, 
+          "latitude": 47.4872246299918, 
+          "legacy_id": 4565, 
+          "longitude": 19.2712940507464, 
           "name": "R\u00e1koscsaba-\u00dajtelep"
         }, 
         {
-          "id": 4566, 
+          "id": "005511528", 
+          "is_domestic": true, 
+          "latitude": 47.4685892764544, 
+          "legacy_id": 4566, 
+          "longitude": 19.2449367553457, 
           "name": "R\u00e1koshegy"
         }, 
         {
-          "id": 4567, 
+          "id": "005541640", 
+          "is_domestic": true, 
+          "latitude": 47.4568091834791, 
+          "legacy_id": 4567, 
+          "longitude": 19.2957698501576, 
           "name": "R\u00e1koskert"
         }, 
         {
-          "id": 4568, 
+          "id": "005511080", 
+          "is_domestic": true, 
+          "latitude": 47.485966304226, 
+          "legacy_id": 4568, 
+          "longitude": 19.258186279569, 
           "name": "R\u00e1kosliget"
         }, 
         {
-          "id": 4569, 
+          "id": "005540915", 
+          "is_domestic": true, 
+          "latitude": 47.5783264162087, 
+          "legacy_id": 4569, 
+          "longitude": 19.1227133120759, 
           "name": "R\u00e1kospalota-Kertv\u00e1ros"
         }, 
         {
-          "id": 4570, 
+          "id": "005510140", 
+          "is_domestic": true, 
+          "latitude": 47.5656171674538, 
+          "legacy_id": 4570, 
+          "longitude": 19.1120298916529, 
           "name": "R\u00e1kospalota-\u00dajpest"
         }, 
         {
-          "id": 4571, 
+          "id": "005510082", 
+          "is_domestic": true, 
+          "latitude": 47.5255162517382, 
+          "legacy_id": 4571, 
+          "longitude": 19.0895025284298, 
           "name": "R\u00e1kosrendez\u0151"
         }, 
         {
-          "id": 4572, 
-          "name": "Rakova"
-        }, 
-        {
-          "id": 4573, 
-          "name": "Rakovec"
-        }, 
-        {
-          "id": 4574, 
-          "name": "Rakovica"
-        }, 
-        {
-          "id": 8189, 
-          "name": "RAKOVICA [Rakovica]"
-        }, 
-        {
-          "id": 4585, 
+          "id": "005546193", 
+          "is_domestic": true, 
+          "latitude": 46.8508645802641, 
+          "legacy_id": 4585, 
+          "longitude": 17.4124520125878, 
           "name": "Raposka"
         }, 
         {
-          "id": 4586, 
+          "id": "005511031", 
+          "is_domestic": true, 
+          "latitude": 48.207221440636, 
+          "legacy_id": 4586, 
+          "longitude": 19.5412155162554, 
           "name": "R\u00e1r\u00f3spuszta"
         }, 
         {
-          "id": 4588, 
-          "name": "Raslavice"
-        }, 
-        {
-          "id": 4595, 
+          "id": "005513276", 
+          "is_domestic": true, 
+          "latitude": 48.2144103493131, 
+          "legacy_id": 4595, 
+          "longitude": 21.2300948802129, 
           "name": "R\u00e1tka"
         }, 
         {
-          "id": 4596, 
+          "id": "004302303", 
+          "is_domestic": true, 
+          "latitude": 46.9673747093292, 
+          "legacy_id": 4596, 
+          "longitude": 16.4331081264047, 
           "name": "R\u00e1t\u00f3t"
         }, 
         {
-          "id": 4605, 
-          "name": "Ravne Na Koroskem"
-        }, 
-        {
-          "id": 13170, 
-          "name": "RAVNE [Ravne Na Koroskem]"
-        }, 
-        {
-          "id": 6631, 
+          "id": "005331774", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6631, 
+          "longitude": null, 
           "name": "R\u0103zboieni"
         }, 
         {
-          "id": 8169, 
-          "name": "RAZBOIENI [R\u0103zboieni]"
-        }, 
-        {
-          "id": 4609, 
-          "name": "Raztocno"
-        }, 
-        {
-          "id": 4612, 
-          "name": "Reca"
-        }, 
-        {
-          "id": 4617, 
+          "id": "005504994", 
+          "is_domestic": true, 
+          "latitude": 46.6180844199808, 
+          "legacy_id": 4617, 
+          "longitude": 16.4710432447672, 
           "name": "R\u00e9dics"
         }, 
         {
-          "id": 4623, 
+          "id": "005342474", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4623, 
+          "longitude": null, 
           "name": "Reghin"
         }, 
         {
-          "id": 8345, 
-          "name": "REGHIN [Reghin]"
-        }, 
-        {
-          "id": 4624, 
+          "id": "005506122", 
+          "is_domestic": true, 
+          "latitude": 46.5687730469891, 
+          "legacy_id": 4624, 
+          "longitude": 18.3958272422344, 
           "name": "Reg\u00f6ly"
         }, 
         {
-          "id": 4630, 
-          "name": "Remata"
+          "id": "005504515_277", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4634, 
+          "longitude": null, 
+          "name": "Rendes (Balatonrendes)"
         }, 
         {
-          "id": 4634, 
-          "name": "Rendes [Balatonrendes]"
-        }, 
-        {
-          "id": 4638, 
+          "id": "005543562", 
+          "is_domestic": true, 
+          "latitude": 46.430135141307, 
+          "legacy_id": 4638, 
+          "longitude": 17.847413007325, 
           "name": "R\u00e9p\u00e1spuszta"
         }, 
         {
-          "id": 4639, 
+          "id": "004302436", 
+          "is_domestic": true, 
+          "latitude": 47.4189947945525, 
+          "legacy_id": 4639, 
+          "longitude": 17.0092496494399, 
           "name": "R\u00e9pcelak"
         }, 
         {
-          "id": 4640, 
+          "id": "007873108", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4640, 
+          "longitude": null, 
           "name": "Repinec"
         }, 
         {
-          "id": 10047, 
-          "name": "REPINEC [Repinec]"
+          "id": "005541095_278", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6674, 
+          "longitude": null, 
+          "name": "Rep\u00fcl\u0151t\u00e9r (Sz\u00e9kesfeh\u00e9rv\u00e1r-Rep\u00fcl\u0151t\u00e9r)"
         }, 
         {
-          "id": 13249, 
-          "name": "Repusnica"
-        }, 
-        {
-          "id": 12982, 
-          "name": "REPUSNICA [Repusnica]"
-        }, 
-        {
-          "id": 6674, 
-          "name": "Rep\u00fcl\u0151t\u00e9r [Sz\u00e9kesfeh\u00e9rv\u00e1r-Rep\u00fcl\u0151t\u00e9r]"
-        }, 
-        {
-          "id": 4642, 
+          "id": "005345256", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4642, 
+          "longitude": null, 
           "name": "Resighea"
         }, 
         {
-          "id": 8037, 
-          "name": "RESIGHEA [Resighea]"
-        }, 
-        {
-          "id": 4646, 
-          "name": "Retece"
-        }, 
-        {
-          "id": 13000, 
-          "name": "RETECE [Retece]"
-        }, 
-        {
-          "id": 4647, 
-          "name": "R\u00e9tfalu-Sikl\u00f3sd [Wiesen-Sigless]"
-        }, 
-        {
-          "id": 4648, 
+          "id": "005505942", 
+          "is_domestic": true, 
+          "latitude": 46.8140789555941, 
+          "legacy_id": 4648, 
+          "longitude": 18.6016424792718, 
           "name": "R\u00e9tszilas"
         }, 
         {
-          "id": 4649, 
+          "id": "005506676", 
+          "is_domestic": true, 
+          "latitude": 46.8289505036111, 
+          "legacy_id": 4649, 
+          "longitude": 18.6369241686592, 
           "name": "R\u00e9tszilas als\u00f3"
         }, 
         {
-          "id": 4655, 
+          "id": "005504507", 
+          "is_domestic": true, 
+          "latitude": 46.8291445955741, 
+          "legacy_id": 4655, 
+          "longitude": 17.6322362174254, 
           "name": "R\u00e9vf\u00fcl\u00f6p"
         }, 
         {
-          "id": 4656, 
-          "name": "R\u00e9vkom\u00e1rom [Komarno]"
-        }, 
-        {
-          "id": 4662, 
-          "name": "Richnava"
-        }, 
-        {
-          "id": 4668, 
+          "id": "005545864", 
+          "is_domestic": true, 
+          "latitude": 47.0603871661226, 
+          "legacy_id": 4668, 
+          "longitude": 17.1996179519356, 
           "name": "Rig\u00e1cs"
         }, 
         {
-          "id": 4669, 
-          "name": "Rig\u00f3puszta [Kir\u00e1lyegyh\u00e1za-Rig\u00f3puszta]"
+          "id": "005507559_279", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4669, 
+          "longitude": null, 
+          "name": "Rig\u00f3puszta (Kir\u00e1lyegyh\u00e1za-Rig\u00f3puszta)"
         }, 
         {
-          "id": 4670, 
-          "name": "Rijeka"
-        }, 
-        {
-          "id": 12657, 
-          "name": "RIJEKA [Rijeka]"
-        }, 
-        {
-          "id": 4671, 
-          "name": "Rimaszombat [Rimavska Sobota]"
-        }, 
-        {
-          "id": 4672, 
-          "name": "Rimavska Bana"
-        }, 
-        {
-          "id": 4673, 
-          "name": "Rimavska Pila"
-        }, 
-        {
-          "id": 8625, 
-          "name": "RIMAVSKA [Rimavska Sobota]"
-        }, 
-        {
-          "id": 4674, 
-          "name": "Rimavska Sobota"
-        }, 
-        {
-          "id": 4675, 
-          "name": "Rimavske Brezovo"
-        }, 
-        {
-          "id": 4676, 
-          "name": "Rimavske Janovce"
-        }, 
-        {
-          "id": 4677, 
-          "name": "Rimavske Janovce Obec"
-        }, 
-        {
-          "id": 4678, 
-          "name": "Rimavske Zaluzany"
-        }, 
-        {
-          "id": 12743, 
-          "name": "RIMSKE [Rimske Toplice]"
-        }, 
-        {
-          "id": 4680, 
+          "id": "007943001", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4680, 
+          "longitude": null, 
           "name": "Rimske Toplice"
         }, 
         {
-          "id": 4681, 
-          "name": "Risnovce"
+          "id": "005515719_280", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4693, 
+          "longitude": null, 
+          "name": "Rohod (Vaja-Rohod)"
         }, 
         {
-          "id": 4682, 
-          "name": "Rjavica"
-        }, 
-        {
-          "id": 12916, 
-          "name": "RJAVICA [Rjavica]"
-        }, 
-        {
-          "id": 8447, 
-          "name": "RO [Rosenheim]"
-        }, 
-        {
-          "id": 4685, 
-          "name": "Rodica"
-        }, 
-        {
-          "id": 12782, 
-          "name": "RODICA [Rodica]"
-        }, 
-        {
-          "id": 4686, 
-          "name": "Rodik"
-        }, 
-        {
-          "id": 12749, 
-          "name": "RODIK [Rodik]"
-        }, 
-        {
-          "id": 12724, 
-          "name": "ROGASKA [Rogaska Slatina]"
-        }, 
-        {
-          "id": 4689, 
-          "name": "Rogaska Slatina"
-        }, 
-        {
-          "id": 4690, 
-          "name": "Rogatec"
-        }, 
-        {
-          "id": 13090, 
-          "name": "ROGATEC [Rogatec]"
-        }, 
-        {
-          "id": 8615, 
-          "name": "Rohatec"
-        }, 
-        {
-          "id": 8502, 
-          "name": "Rohatec Kolonie"
-        }, 
-        {
-          "id": 8644, 
-          "name": "ROHATEC [Rohatec]"
-        }, 
-        {
-          "id": 8706, 
-          "name": "ROHATEC [Rohatec Kolonie]"
-        }, 
-        {
-          "id": 8546, 
-          "name": "ROHATEC [Rohatec Zastavka]"
-        }, 
-        {
-          "id": 8534, 
-          "name": "Rohatec Zastavka"
-        }, 
-        {
-          "id": 4693, 
-          "name": "Rohod [Vaja-Rohod]"
-        }, 
-        {
-          "id": 4694, 
+          "id": "008105321", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4694, 
+          "longitude": null, 
           "name": "Rohr Haltestelle"
         }, 
         {
-          "id": 6667, 
-          "name": "R\u00f3kus [Szeged-R\u00f3kus]"
+          "id": "005518531_281", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6667, 
+          "longitude": null, 
+          "name": "R\u00f3kus (Szeged-R\u00f3kus)"
         }, 
         {
-          "id": 12679, 
-          "name": "Rom Termini [Roma Termini]"
-        }, 
-        {
-          "id": 12683, 
-          "name": "Rom Tiburtina [Roma Tiburtina]"
-        }, 
-        {
-          "id": 12687, 
-          "name": "ROMA [Roma Termini]"
-        }, 
-        {
-          "id": 12641, 
-          "name": "ROMA [Roma Tiburtina]"
-        }, 
-        {
-          "id": 4701, 
-          "name": "Roma Termini"
-        }, 
-        {
-          "id": 4702, 
-          "name": "Roma Tiburtina"
-        }, 
-        {
-          "id": 12663, 
-          "name": "Rome Termini [Roma Termini]"
-        }, 
-        {
-          "id": 12689, 
-          "name": "Rome Tiburtina [Roma Tiburtina]"
-        }, 
-        {
-          "id": 8652, 
-          "name": "ROPICE [Ropice Zastavka]"
-        }, 
-        {
-          "id": 8541, 
-          "name": "Ropice Zastavka"
-        }, 
-        {
-          "id": 4710, 
-          "name": "Rosalnice"
-        }, 
-        {
-          "id": 12835, 
-          "name": "ROSALNICE [Rosalnice]"
-        }, 
-        {
-          "id": 4714, 
+          "id": "008020174", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4714, 
+          "longitude": null, 
           "name": "Rosenheim"
         }, 
         {
-          "id": 4720, 
+          "id": "005345024", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4720, 
+          "longitude": null, 
           "name": "Rosiori Bihor"
         }, 
         {
-          "id": 8030, 
-          "name": "ROSIORI [Rosiori Bihor]"
+          "id": "005310445", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4721, 
+          "longitude": null, 
+          "name": "Rosiori Nord"
         }, 
         {
-          "id": 13186, 
-          "name": "Rovisce"
-        }, 
-        {
-          "id": 12875, 
-          "name": "ROVISCE [Rovisce]"
-        }, 
-        {
-          "id": 4739, 
-          "name": "Rozkovany"
-        }, 
-        {
-          "id": 4740, 
-          "name": "Roznava"
-        }, 
-        {
-          "id": 4741, 
-          "name": "Rozni Dol"
-        }, 
-        {
-          "id": 13046, 
-          "name": "ROZNI [Rozni Dol]"
-        }, 
-        {
-          "id": 7910, 
-          "name": "R\u00f3zsahegy [Ru\u017eomberok]"
-        }, 
-        {
-          "id": 4744, 
+          "id": "005543950", 
+          "is_domestic": true, 
+          "latitude": 47.9128423877267, 
+          "legacy_id": 4744, 
+          "longitude": 22.7823994218502, 
           "name": "Rozs\u00e1ly"
         }, 
         {
-          "id": 4745, 
-          "name": "Rozsny\u00f3 [Roznava]"
-        }, 
-        {
-          "id": 4748, 
-          "name": "Rudina"
-        }, 
-        {
-          "id": 4749, 
+          "id": "005541087", 
+          "is_domestic": true, 
+          "latitude": 47.7175181926303, 
+          "legacy_id": 4749, 
+          "longitude": 19.2580946459902, 
           "name": "Rudnaykert"
         }, 
         {
-          "id": 4750, 
-          "name": "Rudno Nad Hronom"
-        }, 
-        {
-          "id": 4754, 
-          "name": "Ruma"
-        }, 
-        {
-          "id": 13131, 
-          "name": "RUMA [Ruma]"
-        }, 
-        {
-          "id": 12822, 
-          "name": "RUSE [Ruse [Slo]]"
-        }, 
-        {
-          "id": 12706, 
-          "name": "RUSE [Ruse Tovarna]"
-        }, 
-        {
-          "id": 4757, 
-          "name": "Ruse [Slo]"
-        }, 
-        {
-          "id": 4759, 
-          "name": "Ruse Tovarna"
-        }, 
-        {
-          "id": 4765, 
-          "name": "Ruskov"
-        }, 
-        {
-          "id": 4766, 
-          "name": "Ruskovce"
-        }, 
-        {
-          "id": 9998, 
+          "id": "005614586", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
           "name": "Rusovce"
         }, 
         {
-          "id": 4769, 
-          "name": "Ruta"
-        }, 
-        {
-          "id": 13208, 
-          "name": "RUTA [Ruta]"
-        }, 
-        {
-          "id": 4770, 
-          "name": "Ruttka [Vrutky]"
-        }, 
-        {
-          "id": 4771, 
-          "name": "Ruzin"
-        }, 
-        {
-          "id": 7912, 
-          "name": "Ru\u017eomberok"
-        }, 
-        {
-          "id": 4773, 
-          "name": "Ruzomberok-Rybarpole"
-        }, 
-        {
-          "id": 4777, 
-          "name": "Rybany"
-        }, 
-        {
-          "id": 9992, 
+          "id": "005106820", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
           "name": "Rybnik [PKP]"
         }, 
         {
-          "id": 9997, 
-          "name": "RYBNIK [Rybnik [PKP]]"
+          "id": "005102580", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4779, 
+          "longitude": null, 
+          "name": "Rzepin"
         }, 
         {
-          "id": 8622, 
-          "name": "Rzepedz"
-        }, 
-        {
-          "id": 8710, 
-          "name": "RZEPEDZ [Rzepedz]"
-        }, 
-        {
-          "id": 8530, 
-          "name": "Rzeszow Glowny"
-        }, 
-        {
-          "id": 8582, 
-          "name": "RZESZOW [Rzeszow Glowny]"
-        }, 
-        {
-          "id": 12744, 
-          "name": "S [Sentvid Pri Grobelnem]"
-        }, 
-        {
-          "id": 8469, 
-          "name": "S [Stuttgart Hbf]"
-        }, 
-        {
-          "id": 4787, 
-          "name": "Sabinov"
-        }, 
-        {
-          "id": 4788, 
+          "id": "005341808", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4788, 
+          "longitude": null, 
           "name": "Sabisa"
         }, 
         {
-          "id": 8049, 
-          "name": "SABISA [Sabisa]"
-        }, 
-        {
-          "id": 4799, 
+          "id": "005345086", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4799, 
+          "longitude": null, 
           "name": "Sacuieni Bihor"
         }, 
         {
-          "id": 8207, 
-          "name": "SACUIENI [Sacuieni Bihor]"
-        }, 
-        {
-          "id": 4803, 
+          "id": "005544180", 
+          "is_domestic": true, 
+          "latitude": 48.0286814796523, 
+          "legacy_id": 4803, 
+          "longitude": 19.0442586058679, 
           "name": "S\u00e1ferk\u00fat"
         }, 
         {
-          "id": 4807, 
-          "name": "Sahy"
-        }, 
-        {
-          "id": 4808, 
-          "name": "Sajdikove Humence"
-        }, 
-        {
-          "id": 4809, 
+          "id": "005512716", 
+          "is_domestic": true, 
+          "latitude": 48.1857054494016, 
+          "legacy_id": 4809, 
+          "longitude": 20.7666514224237, 
           "name": "Saj\u00f3ecseg"
         }, 
         {
-          "id": 4810, 
+          "id": "005512799", 
+          "is_domestic": true, 
+          "latitude": 48.2726770666064, 
+          "legacy_id": 4810, 
+          "longitude": 20.5821142232118, 
           "name": "Saj\u00f3kaza"
         }, 
         {
-          "id": 4811, 
+          "id": "005512708", 
+          "is_domestic": true, 
+          "latitude": 48.1665430289999, 
+          "legacy_id": 4811, 
+          "longitude": 20.7748591087783, 
           "name": "Saj\u00f3kereszt\u00far"
         }, 
         {
-          "id": 4812, 
-          "name": "Saj\u00f3l\u00e9n\u00e1rtfalva [Lenartovce]"
-        }, 
-        {
-          "id": 4813, 
+          "id": "005512856", 
+          "is_domestic": true, 
+          "latitude": 48.2698473796284, 
+          "legacy_id": 4813, 
+          "longitude": 20.3670368029547, 
           "name": "Saj\u00f3n\u00e9meti"
         }, 
         {
-          "id": 4814, 
+          "id": "005512740", 
+          "is_domestic": true, 
+          "latitude": 48.2219448715092, 
+          "legacy_id": 4814, 
+          "longitude": 20.7084509054769, 
           "name": "Saj\u00f3szentp\u00e9ter"
         }, 
         {
-          "id": 4815, 
+          "id": "005512732", 
+          "is_domestic": true, 
+          "latitude": 48.2197784886718, 
+          "legacy_id": 4815, 
+          "longitude": 20.7261028451595, 
           "name": "Saj\u00f3szentp\u00e9ter-Piact\u00e9r"
         }, 
         {
-          "id": 8531, 
-          "name": "Sa\u013ea"
-        }, 
-        {
-          "id": 4819, 
+          "id": "005511916", 
+          "is_domestic": true, 
+          "latitude": 48.1049381517236, 
+          "legacy_id": 4819, 
+          "longitude": 19.8064170979499, 
           "name": "Salg\u00f3tarj\u00e1n"
         }, 
         {
-          "id": 4820, 
+          "id": "005511874", 
+          "is_domestic": true, 
+          "latitude": 48.0892100669529, 
+          "legacy_id": 4820, 
+          "longitude": 19.791110005266, 
           "name": "Salg\u00f3tarj\u00e1n k\u00fcls\u0151"
         }, 
         {
-          "id": 7865, 
-          "name": "SALISBURGO CENTRALE [Salzburg Hbf]"
-        }, 
-        {
-          "id": 4824, 
-          "name": "Salkova"
-        }, 
-        {
-          "id": 4825, 
+          "id": "004305264", 
+          "is_domestic": true, 
+          "latitude": 47.291438, 
+          "legacy_id": 4825, 
+          "longitude": 16.704183, 
           "name": "Salk\u00f6vesk\u00fat-Vassur\u00e1ny"
         }, 
         {
-          "id": 4826, 
-          "name": "Salomv\u00e1r [Zalacs\u00e9b-Salomv\u00e1r]"
+          "id": "005505132_282", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4826, 
+          "longitude": null, 
+          "name": "Salomv\u00e1r (Zalacs\u00e9b-Salomv\u00e1r)"
         }, 
         {
-          "id": 4827, 
+          "id": "005335407", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4827, 
+          "longitude": null, 
           "name": "Salonta"
         }, 
         {
-          "id": 8233, 
-          "name": "SALONTA [Salonta]"
-        }, 
-        {
-          "id": 4828, 
-          "name": "Salovci"
-        }, 
-        {
-          "id": 13085, 
-          "name": "SALOVCI [Salovci]"
-        }, 
-        {
-          "id": 4830, 
+          "id": "008101115", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4830, 
+          "longitude": null, 
           "name": "SALZBURG*"
         }, 
         {
-          "id": 4835, 
+          "id": "008101114", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4835, 
+          "longitude": null, 
           "name": "Salzburg Hbf"
         }, 
         {
-          "id": 12762, 
-          "name": "Samatovci"
-        }, 
-        {
-          "id": 13063, 
-          "name": "SAMATOVCI [Samatovci]"
-        }, 
-        {
-          "id": 4849, 
+          "id": "005345270", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4849, 
+          "longitude": null, 
           "name": "Sanislau"
         }, 
         {
-          "id": 8029, 
-          "name": "SANISLAU [Sanislau]"
-        }, 
-        {
-          "id": 8715, 
-          "name": "Sanok"
-        }, 
-        {
-          "id": 8649, 
-          "name": "Sanok Miasto"
-        }, 
-        {
-          "id": 8550, 
-          "name": "SANOK [Sanok]"
-        }, 
-        {
-          "id": 8654, 
-          "name": "SANOK [Sanok Miasto]"
-        }, 
-        {
-          "id": 4858, 
+          "id": "005514415", 
+          "is_domestic": true, 
+          "latitude": 47.2596265575189, 
+          "legacy_id": 4858, 
+          "longitude": 21.3607671584623, 
           "name": "S\u00e1p"
         }, 
         {
-          "id": 4859, 
-          "name": "Sapjane"
-        }, 
-        {
-          "id": 12628, 
-          "name": "SAPJANE [Sapjane]"
-        }, 
-        {
-          "id": 4861, 
+          "id": "005514944", 
+          "is_domestic": true, 
+          "latitude": 47.4152483232341, 
+          "legacy_id": 4861, 
+          "longitude": 21.6250348023842, 
           "name": "S\u00e1r\u00e1nd"
         }, 
         {
-          "id": 4863, 
-          "name": "Sarasdorf"
-        }, 
-        {
-          "id": 4866, 
+          "id": "005340971", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4866, 
+          "longitude": null, 
           "name": "Saratel"
         }, 
         {
-          "id": 8230, 
-          "name": "SARATEL [Saratel]"
-        }, 
-        {
-          "id": 4869, 
+          "id": "005505926", 
+          "is_domestic": true, 
+          "latitude": 46.8965349564082, 
+          "legacy_id": 4869, 
+          "longitude": 18.6120709620991, 
           "name": "S\u00e1rbog\u00e1rd"
         }, 
         {
-          "id": 4872, 
+          "id": "005505959", 
+          "is_domestic": true, 
+          "latitude": 46.7827668446469, 
+          "legacy_id": 4872, 
+          "longitude": 18.5890711495511, 
           "name": "S\u00e1regres"
         }, 
         {
-          "id": 4873, 
+          "id": "008509411", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4873, 
+          "longitude": null, 
           "name": "Sargans"
         }, 
         {
-          "id": 4874, 
+          "id": "005504929", 
+          "is_domestic": true, 
+          "latitude": 46.7552049116134, 
+          "legacy_id": 4874, 
+          "longitude": 16.8511881159706, 
           "name": "S\u00e1rhida"
         }, 
         {
-          "id": 4875, 
-          "name": "Sarisske Luky"
-        }, 
-        {
-          "id": 4876, 
-          "name": "Sarisske Michalany"
-        }, 
-        {
-          "id": 8641, 
-          "name": "SARISSKE [Sarisske Michalany]"
-        }, 
-        {
-          "id": 4877, 
+          "id": "005518739", 
+          "is_domestic": true, 
+          "latitude": 46.7367998044559, 
+          "legacy_id": 4877, 
+          "longitude": 21.4025305650761, 
           "name": "Sarkad"
         }, 
         {
-          "id": 4878, 
+          "id": "005518721", 
+          "is_domestic": true, 
+          "latitude": 46.7300260377397, 
+          "legacy_id": 4878, 
+          "longitude": 21.3836770968795, 
           "name": "Sarkadi Cukorgy\u00e1r"
         }, 
         {
-          "id": 4879, 
+          "id": "005518770", 
+          "is_domestic": true, 
+          "latitude": 46.8235536430042, 
+          "legacy_id": 4879, 
+          "longitude": 21.4173999042038, 
           "name": "Sarkadkereszt\u00far"
         }, 
         {
-          "id": 4880, 
-          "name": "S\u00e1rkereszt\u00far [Aba-S\u00e1rkereszt\u00far]"
+          "id": "005504135_283", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 4880, 
+          "longitude": null, 
+          "name": "S\u00e1rkereszt\u00far (Aba-S\u00e1rkereszt\u00far)"
         }, 
         {
-          "id": 4884, 
-          "name": "Sarl\u00f3kajsza [Luzianky]"
-        }, 
-        {
-          "id": 4889, 
+          "id": "005505892", 
+          "is_domestic": true, 
+          "latitude": 47.0396630582494, 
+          "legacy_id": 4889, 
+          "longitude": 18.660106869818, 
           "name": "S\u00e1rosd"
         }, 
         {
-          "id": 7916, 
-          "name": "S\u00e1roseperjes [Pre\u0161ov]"
-        }, 
-        {
-          "id": 4891, 
-          "name": "S\u00e1rosk\u0151szeg [Kysak]"
-        }, 
-        {
-          "id": 4892, 
+          "id": "005513466", 
+          "is_domestic": true, 
+          "latitude": 48.3255323423745, 
+          "legacy_id": 4892, 
+          "longitude": 21.5660061835143, 
           "name": "S\u00e1rospatak"
         }, 
         {
-          "id": 4894, 
+          "id": "005514316", 
+          "is_domestic": true, 
+          "latitude": 47.2315524333359, 
+          "legacy_id": 4894, 
+          "longitude": 21.1807173320128, 
           "name": "S\u00e1rr\u00e9tudvari"
         }, 
         {
-          "id": 4896, 
+          "id": "005502212", 
+          "is_domestic": true, 
+          "latitude": 47.2588547965583, 
+          "legacy_id": 4896, 
+          "longitude": 16.9292877335461, 
           "name": "S\u00e1rv\u00e1r"
         }, 
         {
-          "id": 12849, 
-          "name": "Sarvas"
-        }, 
-        {
-          "id": 12901, 
-          "name": "SARVAS [Sarvas]"
-        }, 
-        {
-          "id": 4899, 
+          "id": "005507203", 
+          "is_domestic": true, 
+          "latitude": 46.2572285673376, 
+          "legacy_id": 4899, 
+          "longitude": 18.1047062105299, 
           "name": "S\u00e1sd"
         }, 
         {
-          "id": 4901, 
-          "name": "Sasovske Podhradie"
-        }, 
-        {
-          "id": 4902, 
-          "name": "Sastin-Straze"
-        }, 
-        {
-          "id": 4903, 
+          "id": "005345397", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4903, 
+          "longitude": null, 
           "name": "Satmarel"
         }, 
         {
-          "id": 8023, 
-          "name": "SATMAREL [Satmarel]"
-        }, 
-        {
-          "id": 4904, 
+          "id": "005513482", 
+          "is_domestic": true, 
+          "latitude": 48.3861151861339, 
+          "legacy_id": 4904, 
+          "longitude": 21.6577956580788, 
           "name": "S\u00e1toralja\u00fajhely"
         }, 
         {
-          "id": 4908, 
+          "id": "005345452", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4908, 
+          "longitude": null, 
           "name": "Satu Mare"
         }, 
         {
-          "id": 4909, 
+          "id": "005345438", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4909, 
+          "longitude": null, 
           "name": "Satu Mare Sud"
         }, 
         {
-          "id": 8209, 
-          "name": "SATU [Satu Mare]"
-        }, 
-        {
-          "id": 8039, 
-          "name": "SATU [Satu Mare Sud]"
-        }, 
-        {
-          "id": 13939, 
-          "name": "SAUERBRUNN BAD [Bad Sauerbrunn]"
-        }, 
-        {
-          "id": 4914, 
-          "name": "Sava"
-        }, 
-        {
-          "id": 12780, 
-          "name": "SAVA [Sava]"
-        }, 
-        {
-          "id": 4915, 
-          "name": "Savany\u00fak\u00fat [Bad Sauerbrunn]"
-        }, 
-        {
-          "id": 4918, 
+          "id": "005321559", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4918, 
+          "longitude": null, 
           "name": "Savirsin"
         }, 
         {
-          "id": 8034, 
-          "name": "SAVIRSIN [Savirsin]"
-        }, 
-        {
-          "id": 4919, 
+          "id": "005503582", 
+          "is_domestic": true, 
+          "latitude": 46.609223524143, 
+          "legacy_id": 4919, 
+          "longitude": 17.2349741740019, 
           "name": "S\u00e1voly"
         }, 
         {
-          "id": 13002, 
-          "name": "S.BANOVCI [Sidski Banovci]"
-        }, 
-        {
-          "id": 8446, 
-          "name": "SCHANDAU BAD [Bad Schandau]"
-        }, 
-        {
-          "id": 4940, 
-          "name": "Schladming"
-        }, 
-        {
-          "id": 4959, 
-          "name": "Sch\u00f6nfeld-Lassee"
-        }, 
-        {
-          "id": 4970, 
-          "name": "Schwarzach-St.Veit"
-        }, 
-        {
-          "id": 4982, 
+          "id": "005320971", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4982, 
+          "longitude": null, 
           "name": "Sebes Alba"
         }, 
         {
-          "id": 8191, 
-          "name": "SEBES [Sebes Alba]"
-        }, 
-        {
-          "id": 4985, 
-          "name": "Sedliacka Dubova"
-        }, 
-        {
-          "id": 4997, 
+          "id": "005341822", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 4997, 
+          "longitude": null, 
           "name": "Seini"
         }, 
         {
-          "id": 8173, 
-          "name": "SEINI [Seini]"
-        }, 
-        {
-          "id": 4998, 
-          "name": "Sekule"
-        }, 
-        {
-          "id": 5003, 
+          "id": "005508078", 
+          "is_domestic": true, 
+          "latitude": 45.8730429625597, 
+          "legacy_id": 5003, 
+          "longitude": 17.8590252336872, 
           "name": "Sellye"
         }, 
         {
-          "id": 5000, 
-          "name": "Selmecb\u00e1nya [Banska Stiavnica]"
-        }, 
-        {
-          "id": 5001, 
-          "name": "Selpice"
-        }, 
-        {
-          "id": 5004, 
+          "id": "005544560", 
+          "is_domestic": true, 
+          "latitude": 46.6554770912955, 
+          "legacy_id": 5004, 
+          "longitude": 19.8532535864671, 
           "name": "Selymes"
         }, 
         {
-          "id": 5005, 
+          "id": "005511759", 
+          "is_domestic": true, 
+          "latitude": 47.7587662904844, 
+          "legacy_id": 5005, 
+          "longitude": 19.6710940986065, 
           "name": "Selyp"
         }, 
         {
-          "id": 5002, 
-          "name": "Selzthal"
+          "id": "005340139_284", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6809, 
+          "longitude": null, 
+          "name": "Sepsiszentgy\u00f6rgy (Sf\u0103ntu Gheorghe)"
         }, 
         {
-          "id": 13237, 
-          "name": "SEM [Sempeter Pri Gorici]"
-        }, 
-        {
-          "id": 12812, 
-          "name": "SEM [Sempeter V Savinjski Dolini]"
-        }, 
-        {
-          "id": 5007, 
-          "name": "Semic"
-        }, 
-        {
-          "id": 12734, 
-          "name": "SEMIC [Semic]"
-        }, 
-        {
-          "id": 5010, 
-          "name": "Sempeter Pri Gorici"
-        }, 
-        {
-          "id": 5011, 
-          "name": "Sempeter V Savinjski Dolini"
-        }, 
-        {
-          "id": 12962, 
-          "name": "SEN [Sentvid Pri Sticni]"
-        }, 
-        {
-          "id": 5013, 
-          "name": "Senec"
-        }, 
-        {
-          "id": 5014, 
-          "name": "Senica"
-        }, 
-        {
-          "id": 8587, 
-          "name": "SENICANMYJAV [Senica]"
-        }, 
-        {
-          "id": 5016, 
-          "name": "Senkvice"
-        }, 
-        {
-          "id": 5018, 
-          "name": "Sentilj"
-        }, 
-        {
-          "id": 12787, 
-          "name": "SENTILJ [Sentilj]"
-        }, 
-        {
-          "id": 5019, 
-          "name": "Sentjur"
-        }, 
-        {
-          "id": 10044, 
-          "name": "SENTJUR [Sentjur]"
-        }, 
-        {
-          "id": 5020, 
-          "name": "Sentlovrenc"
-        }, 
-        {
-          "id": 13265, 
-          "name": "SENTLOVRENC [Sentlovrenc]"
-        }, 
-        {
-          "id": 5021, 
-          "name": "Sentrupert"
-        }, 
-        {
-          "id": 12961, 
-          "name": "SENTRUPERT [Sentrupert]"
-        }, 
-        {
-          "id": 5022, 
-          "name": "Sentvid Pri Grobelnem"
-        }, 
-        {
-          "id": 5023, 
-          "name": "Sentvid Pri Sticni"
-        }, 
-        {
-          "id": 6809, 
-          "name": "Sepsiszentgy\u00f6rgy [Sf\u0103ntu Gheorghe]"
-        }, 
-        {
-          "id": 5033, 
-          "name": "Sered"
-        }, 
-        {
-          "id": 5034, 
+          "id": "005504267", 
+          "is_domestic": true, 
+          "latitude": 47.1208792223829, 
+          "legacy_id": 5034, 
+          "longitude": 18.5815587699332, 
           "name": "Sereg\u00e9lyes"
         }, 
         {
-          "id": 5035, 
+          "id": "005540550", 
+          "is_domestic": true, 
+          "latitude": 47.1193020166059, 
+          "legacy_id": 5035, 
+          "longitude": 18.6127180065149, 
           "name": "Sereg\u00e9lyes-Sz\u0151l\u0151hegy"
         }, 
         {
-          "id": 5036, 
+          "id": "007872402", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5036, 
+          "longitude": null, 
           "name": "Sesvete"
         }, 
         {
-          "id": 12670, 
-          "name": "SESVETE [Sesvete]"
-        }, 
-        {
-          "id": 5037, 
+          "id": "007872401", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5037, 
+          "longitude": null, 
           "name": "Sesvetski Kraljevec"
         }, 
         {
-          "id": 5038, 
-          "name": "Sevnica"
-        }, 
-        {
-          "id": 12865, 
-          "name": "SEVNICA [Sevnica]"
-        }, 
-        {
-          "id": 8079, 
-          "name": "Se\u017eana"
-        }, 
-        {
-          "id": 12990, 
-          "name": "SEZANA [Se\u017eana]"
-        }, 
-        {
-          "id": 6779, 
+          "id": "005340139", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6779, 
+          "longitude": null, 
           "name": "Sf\u0103ntu Gheorghe"
         }, 
         {
-          "id": 8192, 
-          "name": "SFANTU [Sf\u0103ntu Gheorghe]"
-        }, 
-        {
-          "id": 5044, 
-          "name": "Siba"
-        }, 
-        {
-          "id": 5046, 
-          "name": "Sibinj"
-        }, 
-        {
-          "id": 12948, 
-          "name": "SIBINJ [Sibinj]"
-        }, 
-        {
-          "id": 5047, 
-          "name": "Sibir"
-        }, 
-        {
-          "id": 5048, 
+          "id": "005320658", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5048, 
+          "longitude": null, 
           "name": "Sibiu"
         }, 
         {
-          "id": 8198, 
-          "name": "SIBIU [Sibiu]"
-        }, 
-        {
-          "id": 5052, 
+          "id": "005321092", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5052, 
+          "longitude": null, 
           "name": "Sibot"
         }, 
         {
-          "id": 8255, 
-          "name": "SIBOT [Sibot]"
-        }, 
-        {
-          "id": 5053, 
+          "id": "005340402", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5053, 
+          "longitude": null, 
           "name": "Siculeni"
         }, 
         {
-          "id": 8213, 
-          "name": "SICULENI [Siculeni]"
+          "id": "005331217", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6750, 
+          "longitude": null, 
+          "name": "Sighi\u015foara"
         }, 
         {
-          "id": 12815, 
-          "name": "SID [Sid [SZ]]"
-        }, 
-        {
-          "id": 5054, 
-          "name": "Sid [SZ]"
-        }, 
-        {
-          "id": 5055, 
-          "name": "Sid [ZSR]"
-        }, 
-        {
-          "id": 13258, 
-          "name": "Sidski Banovci"
-        }, 
-        {
-          "id": 5056, 
-          "name": "Siebenbrunn-Leopdorf"
-        }, 
-        {
-          "id": 5072, 
-          "name": "Sikole"
-        }, 
-        {
-          "id": 12906, 
-          "name": "SIKOLE [Sikole]"
-        }, 
-        {
-          "id": 5075, 
+          "id": "005345103", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5075, 
+          "longitude": null, 
           "name": "Silindru"
         }, 
         {
-          "id": 8040, 
-          "name": "SILINDRU [Silindru]"
-        }, 
-        {
-          "id": 5082, 
+          "id": "005321236", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5082, 
+          "longitude": null, 
           "name": "Simeria"
         }, 
         {
-          "id": 8248, 
-          "name": "SIMERIA [Simeria]"
-        }, 
-        {
-          "id": 10029, 
-          "name": "SIMIAN [Simion]"
-        }, 
-        {
-          "id": 5085, 
+          "id": "005345127", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5085, 
+          "longitude": null, 
           "name": "Simion"
         }, 
         {
-          "id": 8013, 
-          "name": "SIMION [Simion]"
-        }, 
-        {
-          "id": 5086, 
+          "id": "005505967", 
+          "is_domestic": true, 
+          "latitude": 46.756620278428, 
+          "legacy_id": 5086, 
+          "longitude": 18.5410624643509, 
           "name": "Simontornya"
         }, 
         {
-          "id": 5087, 
-          "name": "Simony [Partizanske]"
-        }, 
-        {
-          "id": 5088, 
+          "id": "005330524", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5088, 
+          "longitude": null, 
           "name": "Sinaia"
         }, 
         {
-          "id": 8202, 
-          "name": "SINAIA [Sinaia]"
-        }, 
-        {
-          "id": 5096, 
+          "id": "005503350", 
+          "is_domestic": true, 
+          "latitude": 46.9075741547291, 
+          "legacy_id": 5096, 
+          "longitude": 18.0535692457889, 
           "name": "Si\u00f3fok"
         }, 
         {
-          "id": 5097, 
+          "id": "005508391", 
+          "is_domestic": true, 
+          "latitude": 46.8805126120703, 
+          "legacy_id": 5097, 
+          "longitude": 18.1256985804925, 
           "name": "Si\u00f3jut"
         }, 
         {
-          "id": 5099, 
+          "id": "005543240", 
+          "is_domestic": true, 
+          "latitude": 46.911122188652, 
+          "legacy_id": 5099, 
+          "longitude": 18.0769212074694, 
           "name": "Si\u00f3v\u00f6lgy"
         }, 
         {
-          "id": 5100, 
+          "id": "005544404", 
+          "is_domestic": true, 
+          "latitude": 46.8406863085053, 
+          "legacy_id": 5100, 
+          "longitude": 20.6098979374545, 
           "name": "Sirat\u00f3"
         }, 
         {
-          "id": 13052, 
-          "name": "Sirinec"
-        }, 
-        {
-          "id": 13012, 
-          "name": "SIRINEC [Sirinec]"
-        }, 
-        {
-          "id": 10061, 
-          "name": "SIRKECI [Istanbul]"
-        }, 
-        {
-          "id": 12776, 
-          "name": "Sirova Katalena"
-        }, 
-        {
-          "id": 5102, 
-          "name": "Sisak"
-        }, 
-        {
-          "id": 5103, 
-          "name": "Sisak Caprag"
-        }, 
-        {
-          "id": 12997, 
-          "name": "SISAK [Sisak]"
-        }, 
-        {
-          "id": 12881, 
-          "name": "SISAK-C [Sisak Caprag]"
-        }, 
-        {
-          "id": 12891, 
-          "name": "S.IVAN Z [Sveti Ivan Zabno]"
-        }, 
-        {
-          "id": 5108, 
-          "name": "Skalica Na Slovensku"
-        }, 
-        {
-          "id": 8562, 
-          "name": "SKALICA [Skalica Na Slovensku]"
-        }, 
-        {
-          "id": 5109, 
-          "name": "Skalite"
-        }, 
-        {
-          "id": 5110, 
-          "name": "Skalite Pod Polanou"
-        }, 
-        {
-          "id": 5111, 
-          "name": "Skalite Zastavka"
-        }, 
-        {
-          "id": 8596, 
-          "name": "SKALITEKUDL [Skalite-Kudlov]"
-        }, 
-        {
-          "id": 5112, 
-          "name": "Skalite-Kudlov"
-        }, 
-        {
-          "id": 8690, 
-          "name": "SKALITESERA [Skalite-Serafinov]"
-        }, 
-        {
-          "id": 5113, 
-          "name": "Skalite-Serafinov"
-        }, 
-        {
-          "id": 12941, 
-          "name": "S.KATALENA [Sirova Katalena]"
-        }, 
-        {
-          "id": 5116, 
-          "name": "Sklene Pri Handlovej"
-        }, 
-        {
-          "id": 5117, 
-          "name": "Skofja Loka"
-        }, 
-        {
-          "id": 13071, 
-          "name": "SKOFJA [Skofja Loka]"
-        }, 
-        {
-          "id": 5118, 
-          "name": "Skofljica"
-        }, 
-        {
-          "id": 12883, 
-          "name": "SKOFLJICA [Skofljica]"
-        }, 
-        {
-          "id": 5119, 
+          "id": "002237690", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5119, 
+          "longitude": null, 
           "name": "Skole"
         }, 
         {
-          "id": 10065, 
-          "name": "SKOLE [Skole]"
-        }, 
-        {
-          "id": 6834, 
-          "name": "Skopje"
-        }, 
-        {
-          "id": 13161, 
-          "name": "SKOPJE [Skopje]"
-        }, 
-        {
-          "id": 5121, 
-          "name": "Skrad"
-        }, 
-        {
-          "id": 12806, 
-          "name": "SKRAD [Skrad]"
-        }, 
-        {
-          "id": 10051, 
-          "name": "S.KRALJEVEC [Sesvetski Kraljevec]"
-        }, 
-        {
-          "id": 12761, 
-          "name": "Skrinjari"
-        }, 
-        {
-          "id": 12890, 
-          "name": "SKRINJARI [Skrinjari]"
-        }, 
-        {
-          "id": 5122, 
-          "name": "Skrljevo"
-        }, 
-        {
-          "id": 12707, 
-          "name": "SKRLJEVO [Skrljevo]"
-        }, 
-        {
-          "id": 5123, 
-          "name": "Sladkovicovo"
-        }, 
-        {
-          "id": 12942, 
-          "name": "Sladojevci"
-        }, 
-        {
-          "id": 13082, 
-          "name": "SLADOJEVCI [Sladojevci]"
-        }, 
-        {
-          "id": 13041, 
-          "name": "Slakovci"
-        }, 
-        {
-          "id": 13003, 
-          "name": "SLAKOVCI [Slakovci]"
-        }, 
-        {
-          "id": 5124, 
-          "name": "Slana Lehota"
-        }, 
-        {
-          "id": 5125, 
-          "name": "Slanec"
-        }, 
-        {
-          "id": 5126, 
-          "name": "Slapany"
-        }, 
-        {
-          "id": 5127, 
-          "name": "Slatina (Hr)"
-        }, 
-        {
-          "id": 12992, 
-          "name": "SLATINA [Slatina (Hr)]"
-        }, 
-        {
-          "id": 5132, 
-          "name": "Slavonski Brod"
-        }, 
-        {
-          "id": 12944, 
-          "name": "SLAVONSKI [Slavonski Brod]"
-        }, 
-        {
-          "id": 6714, 
+          "id": "002237671", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6714, 
+          "longitude": null, 
           "name": "Slavsko"
         }, 
         {
-          "id": 10038, 
-          "name": "SLAVSKO [Slavsko]"
-        }, 
-        {
-          "id": 5135, 
-          "name": "Slepcany"
-        }, 
-        {
-          "id": 5136, 
-          "name": "Sliac"
-        }, 
-        {
-          "id": 12718, 
-          "name": "Slobodnica"
-        }, 
-        {
-          "id": 12988, 
-          "name": "SLOBODNICA [Slobodnica]"
-        }, 
-        {
-          "id": 13013, 
-          "name": "SLOV [Slovenska Bistrica]"
-        }, 
-        {
-          "id": 13059, 
-          "name": "SLOV. [Slovenski Javornik]"
-        }, 
-        {
-          "id": 5142, 
-          "name": "Slovenska Bistrica"
-        }, 
-        {
-          "id": 5143, 
-          "name": "Slovenska Lupca"
-        }, 
-        {
-          "id": 5144, 
-          "name": "Slovenska Lupca - Priboj"
-        }, 
-        {
-          "id": 5145, 
-          "name": "Slovenske Nove Mesto"
-        }, 
-        {
-          "id": 5146, 
-          "name": "Slovenski Javornik"
-        }, 
-        {
-          "id": 8676, 
-          "name": "SLOVLUPCAPRI [Slovenska Lupca - Priboj]"
-        }, 
-        {
-          "id": 8486, 
-          "name": "SLOV.NOVE [Slovenske Nove Mesto]"
-        }, 
-        {
-          "id": 5149, 
-          "name": "Smarca"
-        }, 
-        {
-          "id": 13220, 
-          "name": "SMARCA [Smarca]"
-        }, 
-        {
-          "id": 5150, 
-          "name": "Smarje Pri Jelsah"
-        }, 
-        {
-          "id": 5151, 
-          "name": "Smarje Sap"
-        }, 
-        {
-          "id": 12711, 
-          "name": "SMARJE [Smarje Pri Jelsah]"
-        }, 
-        {
-          "id": 13096, 
-          "name": "SMARJE [Smarje Sap]"
-        }, 
-        {
-          "id": 5152, 
-          "name": "Smartno Ob Paki"
-        }, 
-        {
-          "id": 13055, 
-          "name": "SMARTNO [Smartno Ob Paki]"
-        }, 
-        {
-          "id": 5153, 
-          "name": "Smizany"
-        }, 
-        {
-          "id": 5154, 
-          "name": "Smolenice"
-        }, 
-        {
-          "id": 5156, 
-          "name": "Snina"
-        }, 
-        {
-          "id": 5157, 
-          "name": "Snina Mesto"
-        }, 
-        {
-          "id": 5158, 
-          "name": "Snina Predmestie"
-        }, 
-        {
-          "id": 8657, 
-          "name": "SNINA [Snina Mesto]"
-        }, 
-        {
-          "id": 5160, 
-          "name": "Soblahov"
-        }, 
-        {
-          "id": 13216, 
-          "name": "SODNA [Sodna Vas]"
-        }, 
-        {
-          "id": 5162, 
-          "name": "Sodna Vas"
-        }, 
-        {
-          "id": 5164, 
-          "name": "Sofia"
-        }, 
-        {
-          "id": 7650, 
-          "name": "SOFIA [Sofia]"
-        }, 
-        {
-          "id": 5167, 
+          "id": "007873102", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5167, 
+          "longitude": null, 
           "name": "Sokolovac"
         }, 
         {
-          "id": 10072, 
-          "name": "SOKOLOVAC [Sokolovac]"
-        }, 
-        {
-          "id": 5168, 
-          "name": "Sol (Slo)"
-        }, 
-        {
-          "id": 5170, 
-          "name": "Solkan"
-        }, 
-        {
-          "id": 13175, 
-          "name": "SOLKAN [Solkan]"
-        }, 
-        {
-          "id": 5173, 
+          "id": "005516246", 
+          "is_domestic": true, 
+          "latitude": 46.7685586893785, 
+          "legacy_id": 5173, 
+          "longitude": 19.2634381234169, 
           "name": "Soltszentimre"
         }, 
         {
-          "id": 5174, 
+          "id": "005516287", 
+          "is_domestic": true, 
+          "latitude": 46.5698544055105, 
+          "legacy_id": 5174, 
+          "longitude": 19.3955174342635, 
           "name": "Soltvadkert"
         }, 
         {
-          "id": 7310, 
+          "id": "005501420", 
+          "is_domestic": true, 
+          "latitude": 47.5961863150414, 
+          "legacy_id": 7310, 
+          "longitude": 18.9494691914389, 
           "name": "Solym\u00e1r"
         }, 
         {
-          "id": 12912, 
-          "name": "Sombor"
-        }, 
-        {
-          "id": 13269, 
-          "name": "SOMBOR [Sombor]"
-        }, 
-        {
-          "id": 5180, 
-          "name": "Somfalva [Loipersbach-Schattendorf]"
-        }, 
-        {
-          "id": 5181, 
+          "id": "005504051", 
+          "is_domestic": true, 
+          "latitude": 47.124287918945, 
+          "legacy_id": 5181, 
+          "longitude": 17.3690384142406, 
           "name": "Soml\u00f3v\u00e1s\u00e1rhely"
         }, 
         {
-          "id": 5183, 
+          "id": "005508375", 
+          "is_domestic": true, 
+          "latitude": 46.8029484284314, 
+          "legacy_id": 5183, 
+          "longitude": 18.1494029909892, 
           "name": "Som-Nagyber\u00e9ny"
         }, 
         {
-          "id": 5184, 
+          "id": "005547514", 
+          "is_domestic": true, 
+          "latitude": 46.4724344267609, 
+          "legacy_id": 5184, 
+          "longitude": 17.8367205152544, 
           "name": "Somodor"
         }, 
         {
-          "id": 5185, 
+          "id": "005508250", 
+          "is_domestic": true, 
+          "latitude": 46.4536885355168, 
+          "legacy_id": 5185, 
+          "longitude": 17.840468503704, 
           "name": "Somogyaszal\u00f3"
         }, 
         {
-          "id": 5186, 
+          "id": "005508441", 
+          "is_domestic": true, 
+          "latitude": 46.4907059910338, 
+          "legacy_id": 5186, 
+          "longitude": 17.6945153361362, 
           "name": "Somogyj\u00e1d"
         }, 
         {
-          "id": 5187, 
+          "id": "005508326", 
+          "is_domestic": true, 
+          "latitude": 46.7205344647712, 
+          "legacy_id": 5187, 
+          "longitude": 17.9207004369614, 
           "name": "Somogymeggyes"
         }, 
         {
-          "id": 6658, 
+          "id": "005549437", 
+          "is_domestic": true, 
+          "latitude": 46.6390506951733, 
+          "legacy_id": 5189, 
+          "longitude": 17.4783947217259, 
           "name": "Somogyszentp\u00e1l"
         }, 
         {
-          "id": 6816, 
+          "id": "005549429", 
+          "is_domestic": true, 
+          "latitude": 46.6490585629639, 
+          "legacy_id": 5188, 
+          "longitude": 17.4727850024355, 
           "name": "Somogyszentp\u00e1l fels\u0151"
         }, 
         {
-          "id": 5190, 
+          "id": "005506379", 
+          "is_domestic": true, 
+          "latitude": 46.2892825337923, 
+          "legacy_id": 5190, 
+          "longitude": 17.3069342611866, 
           "name": "Somogyszob"
         }, 
         {
-          "id": 5191, 
+          "id": "005505603", 
+          "is_domestic": true, 
+          "latitude": 46.1632337546227, 
+          "legacy_id": 5191, 
+          "longitude": 17.1794190925821, 
           "name": "Somogyudvarhely"
         }, 
         {
-          "id": 5192, 
+          "id": "005508474", 
+          "is_domestic": true, 
+          "latitude": 46.5805211774884, 
+          "legacy_id": 5192, 
+          "longitude": 17.6344945582709, 
           "name": "Somogyv\u00e1r"
         }, 
         {
-          "id": 5193, 
+          "id": "005511924", 
+          "is_domestic": true, 
+          "latitude": 48.1551911870954, 
+          "legacy_id": 5193, 
+          "longitude": 19.8158862407504, 
           "name": "Somosk\u0151\u00fajfalu"
         }, 
         {
-          "id": 5194, 
-          "name": "Somotor"
-        }, 
-        {
-          "id": 5200, 
+          "id": "004302725", 
+          "is_domestic": true, 
+          "latitude": 47.6781433935374, 
+          "legacy_id": 5200, 
+          "longitude": 16.586719414139, 
           "name": "Sopron"
         }, 
         {
-          "id": 13911, 
-          "name": "Sopron (\u00d6BB)"
-        }, 
-        {
-          "id": 5202, 
-          "name": "Sopronkereszt\u00far [Deutschkreutz]"
-        }, 
-        {
-          "id": 5203, 
-          "name": "Sopronkertes [Baumgarten]"
-        }, 
-        {
-          "id": 5204, 
+          "id": "004305199", 
+          "is_domestic": true, 
+          "latitude": 47.547344, 
+          "legacy_id": 5204, 
+          "longitude": 16.748813, 
           "name": "Sopronk\u00f6vesd"
         }, 
         {
-          "id": 5205, 
-          "name": "Sopronn\u00e9meti [Szil-Sopronn\u00e9meti]"
+          "id": "004302378_285", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5205, 
+          "longitude": null, 
+          "name": "Sopronn\u00e9meti (Szil-Sopronn\u00e9meti)"
         }, 
         {
-          "id": 5206, 
+          "id": "004305280", 
+          "is_domestic": true, 
+          "latitude": 47.1367219707989, 
+          "legacy_id": 5206, 
+          "longitude": 16.7200303439638, 
           "name": "Sorkifalud"
         }, 
         {
-          "id": 5207, 
+          "id": "005510322", 
+          "is_domestic": true, 
+          "latitude": 47.4022282827635, 
+          "legacy_id": 5207, 
+          "longitude": 19.1231723351807, 
           "name": "Soroks\u00e1r"
         }, 
         {
-          "id": 5208, 
+          "id": "005510116", 
+          "is_domestic": true, 
+          "latitude": 47.4584501421865, 
+          "legacy_id": 5208, 
+          "longitude": 19.0824768748454, 
           "name": "Soroks\u00e1ri \u00fat"
         }, 
         {
-          "id": 5210, 
+          "id": "005107465", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5210, 
+          "longitude": null, 
           "name": "Sosnowiec Glowny"
         }, 
         {
-          "id": 8148, 
-          "name": "SOSNOWIEC [Sosnowiec Glowny]"
-        }, 
-        {
-          "id": 5214, 
-          "name": "Sostanj"
-        }, 
-        {
-          "id": 12976, 
-          "name": "SOSTANJ [Sostanj]"
-        }, 
-        {
-          "id": 5215, 
+          "id": "005514027", 
+          "is_domestic": true, 
+          "latitude": 47.9966299339921, 
+          "legacy_id": 5215, 
+          "longitude": 21.7283749976186, 
           "name": "S\u00f3st\u00f3"
         }, 
         {
-          "id": 6640, 
-          "name": "S\u00f3st\u00f3f\u00fcrd\u0151 [Kony\u00e1ri S\u00f3st\u00f3f\u00fcrd\u0151]"
+          "id": "005514993_286", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6640, 
+          "longitude": null, 
+          "name": "S\u00f3st\u00f3f\u00fcrd\u0151 (Kony\u00e1ri S\u00f3st\u00f3f\u00fcrd\u0151)"
         }, 
         {
-          "id": 5216, 
+          "id": "005514035", 
+          "is_domestic": true, 
+          "latitude": 48.0122988030193, 
+          "legacy_id": 5216, 
+          "longitude": 21.7426979051931, 
           "name": "S\u00f3st\u00f3hegy"
         }, 
         {
-          "id": 13266, 
-          "name": "Spisic-Bukovica"
-        }, 
-        {
-          "id": 12820, 
-          "name": "SPISIC-BUKOVICA [Spisic-Bukovica]"
-        }, 
-        {
-          "id": 5226, 
-          "name": "Spisska Bela Zastavka"
-        }, 
-        {
-          "id": 7905, 
-          "name": "Spi\u0161sk\u00e1 Nov\u00e1 Ves"
-        }, 
-        {
-          "id": 8725, 
-          "name": "SPISSKA [Spi\u0161sk\u00e1 Nov\u00e1 Ves]"
-        }, 
-        {
-          "id": 8503, 
-          "name": "SPISSKE [Spisske Vlachy]"
-        }, 
-        {
-          "id": 5228, 
-          "name": "Spisske Tomasovce"
-        }, 
-        {
-          "id": 5229, 
-          "name": "Spisske Vlachy"
-        }, 
-        {
-          "id": 5230, 
-          "name": "Spissky Stiavnik"
-        }, 
-        {
-          "id": 5233, 
-          "name": "Spittal-Millst\u00e4ttersee"
-        }, 
-        {
-          "id": 5235, 
-          "name": "Split"
-        }, 
-        {
-          "id": 13040, 
-          "name": "SPLIT [Split]"
-        }, 
-        {
-          "id": 5239, 
-          "name": "Sredisce"
-        }, 
-        {
-          "id": 13091, 
-          "name": "SREDISCE [Sredisce]"
-        }, 
-        {
-          "id": 5240, 
-          "name": "Sremska Mitrovica"
-        }, 
-        {
-          "id": 12934, 
-          "name": "SREMSKA [Sremska Mitrovica]"
-        }, 
-        {
-          "id": 13243, 
-          "name": "Sremske Laze"
-        }, 
-        {
-          "id": 13262, 
-          "name": "SREMSKE [Sremske Laze]"
-        }, 
-        {
-          "id": 7330, 
+          "id": "008103026", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7330, 
+          "longitude": null, 
           "name": "St. Andr\u00e4 am Zicksee"
         }, 
         {
-          "id": 7872, 
-          "name": "ST RSK  HRADEC HL.N. [Graz Hbf]"
-        }, 
-        {
-          "id": 13025, 
-          "name": "ST. [Staro Petrovo Selo]"
-        }, 
-        {
-          "id": 12708, 
-          "name": "ST [Sveti Danijel]"
-        }, 
-        {
-          "id": 13167, 
-          "name": "ST [Sveti Rok Ob Sotli]"
-        }, 
-        {
-          "id": 5302, 
-          "name": "Stainach-Irdning"
-        }, 
-        {
-          "id": 5303, 
-          "name": "Stakcin"
-        }, 
-        {
-          "id": 5304, 
-          "name": "Stalac"
-        }, 
-        {
-          "id": 13246, 
-          "name": "STALAC [Stalac]"
-        }, 
-        {
-          "id": 5311, 
-          "name": "Stanca"
-        }, 
-        {
-          "id": 12923, 
-          "name": "Standard"
-        }, 
-        {
-          "id": 12791, 
-          "name": "STANDARD [Standard]"
-        }, 
-        {
-          "id": 5318, 
-          "name": "Stanjel"
-        }, 
-        {
-          "id": 12959, 
-          "name": "STANJEL [Stanjel]"
-        }, 
-        {
-          "id": 5319, 
-          "name": "Stankovany"
-        }, 
-        {
-          "id": 5245, 
+          "id": "008101222", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5245, 
+          "longitude": null, 
           "name": "St.Anton Am Arlberg"
         }, 
         {
-          "id": 5321, 
-          "name": "Stara Lesna"
-        }, 
-        {
-          "id": 5322, 
-          "name": "Stara Lubovna"
-        }, 
-        {
-          "id": 6609, 
+          "id": "007216503", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6609, 
+          "longitude": null, 
           "name": "Stara Pazova"
         }, 
         {
-          "id": 8560, 
-          "name": "STARA [Stara Lubovna]"
-        }, 
-        {
-          "id": 8238, 
-          "name": "STARA [Stara Pazova]"
-        }, 
-        {
-          "id": 8620, 
-          "name": "STARA [Stara Voda]"
-        }, 
-        {
-          "id": 12742, 
-          "name": "Stara Subocka"
-        }, 
-        {
-          "id": 5324, 
-          "name": "Stara Tura"
-        }, 
-        {
-          "id": 5325, 
-          "name": "Stara Voda"
-        }, 
-        {
-          "id": 5327, 
+          "id": "005436145", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5327, 
+          "longitude": null, 
           "name": "Stare Mesto U Uher. Hradiste"
         }, 
         {
-          "id": 12807, 
-          "name": "Stare Plavnice"
-        }, 
-        {
-          "id": 5328, 
-          "name": "Stari Mikanovci"
-        }, 
-        {
-          "id": 13043, 
-          "name": "Stari Slatnik"
-        }, 
-        {
-          "id": 13142, 
-          "name": "STARI [Stari Mikanovci]"
-        }, 
-        {
-          "id": 5330, 
-          "name": "Staro Petrovo Selo"
-        }, 
-        {
-          "id": 13086, 
-          "name": "Staro Topolje"
-        }, 
-        {
-          "id": 5331, 
-          "name": "Stary Smokovec"
-        }, 
-        {
-          "id": 5332, 
-          "name": "Staskov"
-        }, 
-        {
-          "id": 5333, 
-          "name": "Staskov Zastavka"
-        }, 
-        {
-          "id": 5336, 
-          "name": "Stefan"
-        }, 
-        {
-          "id": 12830, 
-          "name": "STEFAN [Stefan]"
-        }, 
-        {
-          "id": 5355, 
-          "name": "Steske"
-        }, 
-        {
-          "id": 13108, 
-          "name": "STESKE [Steske]"
-        }, 
-        {
-          "id": 8132, 
-          "name": "ST.MESTO [Stare Mesto U Uher. Hradiste]"
-        }, 
-        {
-          "id": 5264, 
-          "name": "St.Michael"
-        }, 
-        {
-          "id": 8471, 
-          "name": "STOCCARDA [Stuttgart Hbf]"
-        }, 
-        {
-          "id": 5367, 
-          "name": "Store"
-        }, 
-        {
-          "id": 12864, 
-          "name": "STORE [Store]"
-        }, 
-        {
-          "id": 5368, 
-          "name": "Stozok"
-        }, 
-        {
-          "id": 12971, 
-          "name": "ST.PLAVNICE [Stare Plavnice]"
-        }, 
-        {
-          "id": 7884, 
-          "name": "ST.POELTEN MAIN STAT [St.P\u00f6lten Hbf]"
-        }, 
-        {
-          "id": 5271, 
+          "id": "008101032", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5271, 
+          "longitude": null, 
           "name": "St.P\u00f6lten Hbf"
         }, 
         {
-          "id": 5374, 
-          "name": "Stranje"
-        }, 
-        {
-          "id": 13275, 
-          "name": "STRANJE [Stranje]"
-        }, 
-        {
-          "id": 5383, 
-          "name": "Stratena"
-        }, 
-        {
-          "id": 5385, 
-          "name": "Strazky"
-        }, 
-        {
-          "id": 8551, 
-          "name": "STRAZKY [Strazky Zastavka]"
-        }, 
-        {
-          "id": 5386, 
-          "name": "Strazky Zastavka"
-        }, 
-        {
-          "id": 8507, 
-          "name": "Straznice"
-        }, 
-        {
-          "id": 8514, 
-          "name": "STRAZNICE [Straznice]"
-        }, 
-        {
-          "id": 5387, 
-          "name": "Strazske"
-        }, 
-        {
-          "id": 5388, 
-          "name": "Strba"
-        }, 
-        {
-          "id": 8570, 
-          "name": "STRBA [Strba Zastavka]"
-        }, 
-        {
-          "id": 5389, 
-          "name": "Strba Zastavka"
-        }, 
-        {
-          "id": 5390, 
-          "name": "Strbske Pleso"
-        }, 
-        {
-          "id": 5392, 
-          "name": "Strecno"
-        }, 
-        {
-          "id": 5393, 
-          "name": "Streda Nad Bodrogom"
-        }, 
-        {
-          "id": 8630, 
-          "name": "STREDA [Streda Nad Bodrogom]"
-        }, 
-        {
-          "id": 8599, 
-          "name": "Strekov (SK)"
-        }, 
-        {
-          "id": 5398, 
-          "name": "Strelenka"
-        }, 
-        {
-          "id": 8636, 
-          "name": "Strelna"
-        }, 
-        {
-          "id": 8682, 
-          "name": "STRELNA [Strelna]"
-        }, 
-        {
-          "id": 13276, 
-          "name": "STRIZIVOJNA [Strizivojna-Vrpolje]"
-        }, 
-        {
-          "id": 5401, 
-          "name": "Strizivojna-Vrpolje"
-        }, 
-        {
-          "id": 5402, 
-          "name": "Strnisce"
-        }, 
-        {
-          "id": 12926, 
-          "name": "STRNISCE [Strnisce]"
-        }, 
-        {
-          "id": 5405, 
+          "id": "002237740", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5405, 
+          "longitude": null, 
           "name": "Stryi"
         }, 
         {
-          "id": 12696, 
-          "name": "STRYI [Stryi]"
-        }, 
-        {
-          "id": 8539, 
-          "name": "Strzyzow Nad Wislokiem"
-        }, 
-        {
-          "id": 8621, 
-          "name": "STRZYZOW [Strzyzow Nad Wislokiem]"
-        }, 
-        {
-          "id": 12848, 
-          "name": "ST.SLATINIK [Stari Slatnik]"
-        }, 
-        {
-          "id": 12779, 
-          "name": "ST.SUBOCKA [Stara Subocka]"
-        }, 
-        {
-          "id": 13171, 
-          "name": "ST.TOPOLJE [Staro Topolje]"
-        }, 
-        {
-          "id": 5406, 
-          "name": "Stubnaf\u00fcrd\u0151 [Turcianske Teplice]"
-        }, 
-        {
-          "id": 7474, 
-          "name": "Studenka"
-        }, 
-        {
-          "id": 8683, 
-          "name": "STUDENKA [Studenka]"
-        }, 
-        {
-          "id": 5408, 
-          "name": "Studeny Potok"
-        }, 
-        {
-          "id": 8574, 
-          "name": "STUDENY [Studeny Potok]"
-        }, 
-        {
-          "id": 5407, 
+          "id": "008103500", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5407, 
+          "longitude": null, 
           "name": "Studenzen-Fladnitz"
         }, 
         {
-          "id": 7913, 
+          "id": "005613526", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7913, 
+          "longitude": null, 
           "name": "\u0160t\u00farovo"
         }, 
         {
-          "id": 5413, 
+          "id": "008029034", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5413, 
+          "longitude": null, 
           "name": "Stuttgart Hbf"
         }, 
         {
-          "id": 5417, 
+          "id": "007223450", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5417, 
+          "longitude": null, 
           "name": "Subotica"
         }, 
         {
-          "id": 8259, 
-          "name": "SUBOTICA [Subotica]"
-        }, 
-        {
-          "id": 5419, 
-          "name": "Sucany"
-        }, 
-        {
-          "id": 7471, 
-          "name": "Suchdol Nad Odrou"
-        }, 
-        {
-          "id": 8634, 
-          "name": "SUCHDOL [Suchdol Nad Odrou]"
-        }, 
-        {
-          "id": 8524, 
-          "name": "Sudomerice Nad Moravou"
-        }, 
-        {
-          "id": 8544, 
-          "name": "SUDOMERICE [Sudomerice Nad Moravou]"
-        }, 
-        {
-          "id": 5428, 
-          "name": "Suhopolje"
-        }, 
-        {
-          "id": 12894, 
-          "name": "SUHOPOLJE [Suhopolje]"
-        }, 
-        {
-          "id": 5429, 
-          "name": "Sukov"
-        }, 
-        {
-          "id": 5434, 
+          "id": "005507567", 
+          "is_domestic": true, 
+          "latitude": 45.9607230825262, 
+          "legacy_id": 5434, 
+          "longitude": 17.9117382058939, 
           "name": "Sumony"
         }, 
         {
-          "id": 5435, 
+          "id": "005332405", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5435, 
+          "longitude": null, 
           "name": "Suncuius"
         }, 
         {
-          "id": 8047, 
-          "name": "SUNCUIUS [Suncuius]"
-        }, 
-        {
-          "id": 5439, 
-          "name": "Surany"
-        }, 
-        {
-          "id": 5440, 
-          "name": "Surany Zastavka"
-        }, 
-        {
-          "id": 13062, 
-          "name": "SUSAK [Susak-Pecine]"
-        }, 
-        {
-          "id": 5444, 
-          "name": "Susak-Pecine"
-        }, 
-        {
-          "id": 6637, 
-          "name": "Sutomore"
-        }, 
-        {
-          "id": 8164, 
-          "name": "SUTOMORE [Sutomore]"
-        }, 
-        {
-          "id": 5448, 
-          "name": "Sutovo"
-        }, 
-        {
-          "id": 5449, 
+          "id": "005511601", 
+          "is_domestic": true, 
+          "latitude": 47.4518922873214, 
+          "legacy_id": 5449, 
+          "longitude": 19.5271068763932, 
           "name": "S\u00fclys\u00e1p"
         }, 
         {
-          "id": 5450, 
+          "id": "005504663", 
+          "is_domestic": true, 
+          "latitude": 46.9811529632833, 
+          "legacy_id": 5450, 
+          "longitude": 17.2709008096934, 
           "name": "S\u00fcmeg"
         }, 
         {
-          "id": 5451, 
+          "id": "005504655", 
+          "is_domestic": true, 
+          "latitude": 46.9522248787187, 
+          "legacy_id": 5451, 
+          "longitude": 17.2923718944161, 
           "name": "S\u00fcmegi Bazaltb\u00e1nya"
         }, 
         {
-          "id": 5452, 
+          "id": "005501552", 
+          "is_domestic": true, 
+          "latitude": 47.7611737686381, 
+          "legacy_id": 5452, 
+          "longitude": 18.4548812341833, 
           "name": "S\u00fctt\u0151"
         }, 
         {
-          "id": 5453, 
+          "id": "005540295", 
+          "is_domestic": true, 
+          "latitude": 47.7568154380448, 
+          "legacy_id": 5453, 
+          "longitude": 18.4373713553847, 
           "name": "S\u00fctt\u0151 fels\u0151"
         }, 
         {
-          "id": 12640, 
-          "name": "SV. [Sveti Petar U Sumi]"
-        }, 
-        {
-          "id": 5454, 
+          "id": "002238360", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5454, 
+          "longitude": null, 
           "name": "Svaliava"
         }, 
         {
-          "id": 12692, 
-          "name": "SVALIAVA [Svaliava]"
-        }, 
-        {
-          "id": 5455, 
-          "name": "Svaty Jur"
-        }, 
-        {
-          "id": 8602, 
-          "name": "SVATY [Svaty Jur]"
-        }, 
-        {
-          "id": 5456, 
-          "name": "Svedlar"
-        }, 
-        {
-          "id": 5457, 
-          "name": "Svedlar Zastavka"
-        }, 
-        {
-          "id": 5458, 
-          "name": "Sveti Danijel"
-        }, 
-        {
-          "id": 12940, 
-          "name": "Sveti Ivan Zabno"
-        }, 
-        {
-          "id": 5459, 
-          "name": "Sveti Petar U Sumi"
-        }, 
-        {
-          "id": 5460, 
-          "name": "Sveti Rok Ob Sotli"
-        }, 
-        {
-          "id": 12751, 
-          "name": "SVETI [Sveti Vid]"
-        }, 
-        {
-          "id": 5461, 
-          "name": "Sveti Vid"
-        }, 
-        {
-          "id": 5463, 
-          "name": "Svinna"
-        }, 
-        {
-          "id": 5464, 
-          "name": "Svit"
-        }, 
-        {
-          "id": 9993, 
+          "id": "005454333", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 9993, 
+          "longitude": null, 
           "name": "Svitavy"
         }, 
         {
-          "id": 10005, 
-          "name": "SVITAVY [Svitavy]"
-        }, 
-        {
-          "id": 5467, 
-          "name": "Svosov"
-        }, 
-        {
-          "id": 5468, 
-          "name": "Svrcinovec"
-        }, 
-        {
-          "id": 5469, 
-          "name": "Svrcinovec Zastavka"
-        }, 
-        {
-          "id": 5471, 
-          "name": "Sykavka"
-        }, 
-        {
-          "id": 5472, 
+          "id": "005503285", 
+          "is_domestic": true, 
+          "latitude": 47.1055650743047, 
+          "legacy_id": 5472, 
+          "longitude": 18.3878737240969, 
           "name": "Szabadbatty\u00e1n"
         }, 
         {
-          "id": 5473, 
+          "id": "005505884", 
+          "is_domestic": true, 
+          "latitude": 47.0828266462381, 
+          "legacy_id": 5473, 
+          "longitude": 18.7044557071587, 
           "name": "Szabadegyh\u00e1za"
         }, 
         {
-          "id": 5474, 
-          "name": "Szabadi [Csoma-Szabadi]"
+          "id": "005506221_287", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5474, 
+          "longitude": null, 
+          "name": "Szabadi (Csoma-Szabadi)"
         }, 
         {
-          "id": 5475, 
+          "id": "005503343", 
+          "is_domestic": true, 
+          "latitude": 46.9246101354649, 
+          "legacy_id": 5475, 
+          "longitude": 18.1004674260173, 
           "name": "Szabadif\u00fcrd\u0151"
         }, 
         {
-          "id": 5476, 
+          "id": "005503335", 
+          "is_domestic": true, 
+          "latitude": 46.9339542210376, 
+          "legacy_id": 5476, 
+          "longitude": 18.1182205805467, 
           "name": "Szabadis\u00f3st\u00f3"
         }, 
         {
-          "id": 5477, 
-          "name": "Szabadka [Subotica]"
+          "id": "007223450_288", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5477, 
+          "longitude": null, 
+          "name": "Szabadka (Subotica)"
         }, 
         {
-          "id": 5478, 
+          "id": "005546052", 
+          "is_domestic": true, 
+          "latitude": 47.6258808160536, 
+          "legacy_id": 5478, 
+          "longitude": 18.8940495993663, 
           "name": "Szabads\u00e1gliget"
         }, 
         {
-          "id": 5479, 
-          "name": "Szabads\u00e1gtelep [Debrecen-Szabads\u00e1gtelep]"
+          "id": "005515123_289", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5479, 
+          "longitude": null, 
+          "name": "Szabads\u00e1gtelep (Debrecen-Szabads\u00e1gtelep)"
         }, 
         {
-          "id": 5480, 
+          "id": "005516220", 
+          "is_domestic": true, 
+          "latitude": 46.8705189240629, 
+          "legacy_id": 5480, 
+          "longitude": 19.2104010818818, 
           "name": "Szabadsz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 5481, 
+          "id": "005513771", 
+          "is_domestic": true, 
+          "latitude": 47.1705713046196, 
+          "legacy_id": 5481, 
+          "longitude": 20.2952622923217, 
           "name": "Szajol"
         }, 
         {
-          "id": 5482, 
+          "id": "005506130", 
+          "is_domestic": true, 
+          "latitude": 46.5238543284929, 
+          "legacy_id": 5482, 
+          "longitude": 18.3894379167156, 
           "name": "Szak\u00e1ly-H\u0151gy\u00e9sz"
         }, 
         {
-          "id": 5483, 
-          "name": "Szakolca [Skalica Na Slovensku]"
+          "id": "005542507_290", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5484, 
+          "longitude": null, 
+          "name": "Szalajkav\u00f6lgy (Szilv\u00e1sv\u00e1rad-Szalajkav\u00f6lgy)"
         }, 
         {
-          "id": 5484, 
-          "name": "Szalajkav\u00f6lgy [Szilv\u00e1sv\u00e1rad-Szalajkav\u00f6lgy]"
-        }, 
-        {
-          "id": 5485, 
+          "id": "005507039", 
+          "is_domestic": true, 
+          "latitude": 46.284463069817, 
+          "legacy_id": 5485, 
+          "longitude": 18.2887437665813, 
           "name": "Szalatnak"
         }, 
         {
-          "id": 6737, 
-          "name": "Sz\u00e1ll\u00e1sok [Cegl\u00e9di sz\u00e1ll\u00e1sok]"
+          "id": "005546102_291", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6737, 
+          "longitude": null, 
+          "name": "Sz\u00e1ll\u00e1sok (Cegl\u00e9di sz\u00e1ll\u00e1sok)"
         }, 
         {
-          "id": 6826, 
-          "name": "Szaloniki [Thessaloniki Gare Centrale]"
-        }, 
-        {
-          "id": 5486, 
+          "id": "005512989", 
+          "is_domestic": true, 
+          "latitude": 48.4487856187983, 
+          "legacy_id": 5486, 
+          "longitude": 20.7223997252447, 
           "name": "Szalonna"
         }, 
         {
-          "id": 5487, 
-          "name": "Szamos\u00fajv\u00e1r [Gherla]"
+          "id": "005344094_292", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5487, 
+          "longitude": null, 
+          "name": "Szamos\u00fajv\u00e1r (Gherla)"
         }, 
         {
-          "id": 6791, 
-          "name": "Szanat\u00f3rium [J\u00f3zsef Szanat\u00f3rium]"
+          "id": "005518713_293", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6791, 
+          "longitude": null, 
+          "name": "Szanat\u00f3rium (J\u00f3zsef Szanat\u00f3rium)"
         }, 
         {
-          "id": 5488, 
-          "name": "Szaniszl\u00f3 [Sanislau]"
+          "id": "005345270_294", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5488, 
+          "longitude": null, 
+          "name": "Szaniszl\u00f3 (Sanislau)"
         }, 
         {
-          "id": 5489, 
+          "id": "005503400", 
+          "is_domestic": true, 
+          "latitude": 46.8621633387734, 
+          "legacy_id": 5489, 
+          "longitude": 17.8995547193287, 
           "name": "Sz\u00e1nt\u00f3d-K\u0151r\u00f6shegy"
         }, 
         {
-          "id": 5490, 
+          "id": "005503079", 
+          "is_domestic": true, 
+          "latitude": 47.4606611695501, 
+          "legacy_id": 5490, 
+          "longitude": 17.3150884689917, 
           "name": "Szany-R\u00e1baszentandr\u00e1s"
         }, 
         {
-          "id": 5491, 
+          "id": "005501099", 
+          "is_domestic": true, 
+          "latitude": 47.4852553058468, 
+          "legacy_id": 5491, 
+          "longitude": 18.5272957043609, 
           "name": "Sz\u00e1r"
         }, 
         {
-          "id": 5493, 
+          "id": "005506114", 
+          "is_domestic": true, 
+          "latitude": 46.5753900228279, 
+          "legacy_id": 5493, 
+          "longitude": 18.4203184655605, 
           "name": "Sz\u00e1razd"
         }, 
         {
-          "id": 5494, 
+          "id": "004302600", 
+          "is_domestic": true, 
+          "latitude": 47.589272, 
+          "legacy_id": 5494, 
+          "longitude": 17.123527, 
           "name": "Sz\u00e1rf\u00f6ld"
         }, 
         {
-          "id": 5495, 
+          "id": "005501107", 
+          "is_domestic": true, 
+          "latitude": 47.5181344173424, 
+          "legacy_id": 5495, 
+          "longitude": 18.4963098520984, 
           "name": "Sz\u00e1rliget"
         }, 
         {
-          "id": 5497, 
-          "name": "Sz\u00e1rsz\u00f3 [Balatonsz\u00e1rsz\u00f3]"
+          "id": "005503426_295", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5497, 
+          "longitude": null, 
+          "name": "Sz\u00e1rsz\u00f3 (Balatonsz\u00e1rsz\u00f3)"
         }, 
         {
-          "id": 5498, 
+          "id": "005518259", 
+          "is_domestic": true, 
+          "latitude": 46.8605845401364, 
+          "legacy_id": 5498, 
+          "longitude": 20.5665388014256, 
           "name": "Szarvas"
         }, 
         {
-          "id": 5499, 
+          "id": "005512443", 
+          "is_domestic": true, 
+          "latitude": 47.9884258763279, 
+          "legacy_id": 5499, 
+          "longitude": 20.3325223423493, 
           "name": "Szarvask\u0151"
         }, 
         {
-          "id": 5500, 
+          "id": "005512070", 
+          "is_domestic": true, 
+          "latitude": 47.320806451175, 
+          "legacy_id": 5500, 
+          "longitude": 20.0913557532655, 
           "name": "Sz\u00e1szberek"
         }, 
         {
-          "id": 5501, 
-          "name": "Sz\u00e1szr\u00e9gen [Reghin]"
+          "id": "005342474_296", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5501, 
+          "longitude": null, 
+          "name": "Sz\u00e1szr\u00e9gen (Reghin)"
         }, 
         {
-          "id": 5502, 
-          "name": "Sz\u00e1szsebes [Sebes Alba]"
+          "id": "005320971_297", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5502, 
+          "longitude": null, 
+          "name": "Sz\u00e1szsebes (Sebes Alba)"
         }, 
         {
-          "id": 5503, 
+          "id": "005545476", 
+          "is_domestic": true, 
+          "latitude": 46.2872953590257, 
+          "legacy_id": 5503, 
+          "longitude": 18.3702721690753, 
           "name": "Sz\u00e1szv\u00e1r"
         }, 
         {
-          "id": 5504, 
-          "name": "Sz\u00e1szv\u00e1r [M\u00e1za-Sz\u00e1szv\u00e1r]"
+          "id": "005507054_298", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5504, 
+          "longitude": null, 
+          "name": "Sz\u00e1szv\u00e1r (M\u00e1za-Sz\u00e1szv\u00e1r)"
         }, 
         {
-          "id": 5505, 
+          "id": "005545401", 
+          "is_domestic": true, 
+          "latitude": 46.2026520338256, 
+          "legacy_id": 5505, 
+          "longitude": 18.0836914632008, 
           "name": "Szatina-Kishajm\u00e1s"
         }, 
         {
-          "id": 5506, 
-          "name": "Szatm\u00e1rm\u00e9neti S\u00fcd [Satu Mare Sud]"
+          "id": "005345438_299", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5506, 
+          "longitude": null, 
+          "name": "Szatm\u00e1rm\u00e9neti S\u00fcd (Satu Mare Sud)"
         }, 
         {
-          "id": 5507, 
-          "name": "Szatm\u00e1rn\u00e9meti [Satu Mare]"
+          "id": "005345452_300", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5507, 
+          "longitude": null, 
+          "name": "Szatm\u00e1rn\u00e9meti (Satu Mare)"
         }, 
         {
-          "id": 5508, 
-          "name": "Szatm\u00e1rudvari [Odoreu]"
+          "id": "005341884_301", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5508, 
+          "longitude": null, 
+          "name": "Szatm\u00e1rudvari (Odoreu)"
         }, 
         {
-          "id": 5509, 
+          "id": "005517186", 
+          "is_domestic": true, 
+          "latitude": 46.345648157436, 
+          "legacy_id": 5509, 
+          "longitude": 20.0437905844487, 
           "name": "Szatymaz"
         }, 
         {
-          "id": 5510, 
+          "id": "005505835", 
+          "is_domestic": true, 
+          "latitude": 47.3225793323929, 
+          "legacy_id": 5510, 
+          "longitude": 18.8993151054088, 
           "name": "Sz\u00e1zhalombatta"
         }, 
         {
-          "id": 8576, 
-          "name": "Szczawne Kulaszne"
-        }, 
-        {
-          "id": 8523, 
-          "name": "SZCZAWNE [Szczawne Kulaszne]"
-        }, 
-        {
-          "id": 5513, 
+          "id": "005510991", 
+          "is_domestic": true, 
+          "latitude": 48.0925864115002, 
+          "legacy_id": 5513, 
+          "longitude": 19.5213732156316, 
           "name": "Sz\u00e9cs\u00e9ny"
         }, 
         {
-          "id": 5514, 
+          "id": "005590997", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5514, 
+          "longitude": null, 
           "name": "SZEGED*"
         }, 
         {
-          "id": 5515, 
+          "id": "005517228", 
+          "is_domestic": true, 
+          "latitude": 46.2402952465951, 
+          "legacy_id": 5515, 
+          "longitude": 20.1435523928416, 
           "name": "Szeged"
         }, 
         {
-          "id": 5516, 
+          "id": "005518531", 
+          "is_domestic": true, 
+          "latitude": 46.2665137120582, 
+          "legacy_id": 5516, 
+          "longitude": 20.1255031392257, 
           "name": "Szeged-R\u00f3kus"
         }, 
         {
-          "id": 5517, 
+          "id": "005518457", 
+          "is_domestic": true, 
+          "latitude": 47.0151309243488, 
+          "legacy_id": 5517, 
+          "longitude": 21.1483750055067, 
           "name": "Szeghalom"
         }, 
         {
-          "id": 5518, 
+          "id": "005513425", 
+          "is_domestic": true, 
+          "latitude": 48.2011349343544, 
+          "legacy_id": 5518, 
+          "longitude": 21.3866008090167, 
           "name": "Szegi"
         }, 
         {
-          "id": 6615, 
-          "name": "Szegilong [Erd\u0151b\u00e9nye]"
+          "id": "005513433_302", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6615, 
+          "longitude": null, 
+          "name": "Szegilong (Erd\u0151b\u00e9nye)"
         }, 
         {
-          "id": 5519, 
+          "id": "005518200", 
+          "is_domestic": true, 
+          "latitude": 46.5884583940295, 
+          "legacy_id": 5519, 
+          "longitude": 20.2493116288855, 
           "name": "Szegv\u00e1r"
         }, 
         {
-          "id": 5520, 
-          "name": "Sz\u00e9kelyfalva [Sekule]"
+          "id": "005345086_303", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5521, 
+          "longitude": null, 
+          "name": "Sz\u00e9kelyh\u00edd (Sacuieni Bihor)"
         }, 
         {
-          "id": 5521, 
-          "name": "Sz\u00e9kelyh\u00edd [Sacuieni Bihor]"
+          "id": "005331774_304", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6742, 
+          "longitude": null, 
+          "name": "Sz\u00e9kelykocs\u00e1rd (R\u0103zboieni)"
         }, 
         {
-          "id": 6742, 
-          "name": "Sz\u00e9kelykocs\u00e1rd [R\u0103zboieni]"
-        }, 
-        {
-          "id": 5524, 
+          "id": "005503269", 
+          "is_domestic": true, 
+          "latitude": 47.183081876378, 
+          "legacy_id": 5524, 
+          "longitude": 18.4239956396851, 
           "name": "Sz\u00e9kesfeh\u00e9rv\u00e1r"
         }, 
         {
-          "id": 5525, 
+          "id": "005541095", 
+          "is_domestic": true, 
+          "latitude": 47.1586651628496, 
+          "legacy_id": 5525, 
+          "longitude": 18.4065816323946, 
           "name": "Sz\u00e9kesfeh\u00e9rv\u00e1r-Rep\u00fcl\u0151t\u00e9r"
         }, 
         {
-          "id": 5526, 
+          "id": "005518598", 
+          "is_domestic": true, 
+          "latitude": 46.5040410616713, 
+          "legacy_id": 5526, 
+          "longitude": 20.54113078936, 
           "name": "Sz\u00e9kkutas"
         }, 
         {
-          "id": 5527, 
+          "id": "005506767", 
+          "is_domestic": true, 
+          "latitude": 46.3494486168939, 
+          "legacy_id": 5527, 
+          "longitude": 18.7125527882088, 
           "name": "Szeksz\u00e1rd"
         }, 
         {
-          "id": 5528, 
+          "id": "005506759", 
+          "is_domestic": true, 
+          "latitude": 46.3809321556559, 
+          "legacy_id": 5528, 
+          "longitude": 18.7287040839604, 
           "name": "Szeksz\u00e1rd-Pal\u00e1nk"
         }, 
         {
-          "id": 5529, 
+          "id": "005517392", 
+          "is_domestic": true, 
+          "latitude": 46.8115779867556, 
+          "legacy_id": 5529, 
+          "longitude": 20.1958343757504, 
           "name": "Szelev\u00e9ny"
         }, 
         {
-          "id": 7325, 
+          "id": "005501428", 
+          "is_domestic": true, 
+          "latitude": 47.6014128950448, 
+          "legacy_id": 7325, 
+          "longitude": 18.9282391764308, 
           "name": "Sz\u00e9lhegy"
         }, 
         {
-          "id": 5530, 
+          "id": "005542440", 
+          "is_domestic": true, 
+          "latitude": 47.425881606801, 
+          "legacy_id": 5530, 
+          "longitude": 20.1894043049128, 
           "name": "Szell\u0151h\u00e1t"
         }, 
         {
-          "id": 5531, 
+          "id": "005513003", 
+          "is_domestic": true, 
+          "latitude": 47.4440605600989, 
+          "legacy_id": 5531, 
+          "longitude": 19.2126409608067, 
           "name": "Szemeretelep"
         }, 
         {
-          "id": 5532, 
-          "name": "Szemes [Balatonszemes]"
+          "id": "005503434_305", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5532, 
+          "longitude": null, 
+          "name": "Szemes (Balatonszemes)"
         }, 
         {
-          "id": 5533, 
-          "name": "Szenc [Senec]"
-        }, 
-        {
-          "id": 5534, 
-          "name": "Szencse [Podhajska]"
-        }, 
-        {
-          "id": 5535, 
+          "id": "005512963", 
+          "is_domestic": true, 
+          "latitude": 48.4002428047069, 
+          "legacy_id": 5535, 
+          "longitude": 20.7215704988326, 
           "name": "Szendr\u0151"
         }, 
         {
-          "id": 5536, 
+          "id": "005512971", 
+          "is_domestic": true, 
+          "latitude": 48.4099106958543, 
+          "legacy_id": 5536, 
+          "longitude": 20.7200684894002, 
           "name": "Szendr\u0151 fels\u0151"
         }, 
         {
-          "id": 5537, 
+          "id": "005512955", 
+          "is_domestic": true, 
+          "latitude": 48.3343695433595, 
+          "legacy_id": 5537, 
+          "longitude": 20.731858629257, 
           "name": "Szendr\u0151l\u00e1d"
         }, 
         {
-          "id": 5538, 
-          "name": "Szenice [Senica]"
-        }, 
-        {
-          "id": 5539, 
+          "id": "005506395", 
+          "is_domestic": true, 
+          "latitude": 46.2734885865062, 
+          "legacy_id": 5539, 
+          "longitude": 17.1807669421449, 
           "name": "Szenta"
         }, 
         {
-          "id": 5540, 
+          "id": "005515172", 
+          "is_domestic": true, 
+          "latitude": 47.5199053611314, 
+          "legacy_id": 5540, 
+          "longitude": 21.9658774225479, 
           "name": "Szentannapuszta"
         }, 
         {
-          "id": 5541, 
+          "id": "005505769", 
+          "is_domestic": true, 
+          "latitude": 46.0366167991025, 
+          "legacy_id": 5541, 
+          "longitude": 17.9270765792637, 
           "name": "Szentd\u00e9nes"
         }, 
         {
-          "id": 5542, 
+          "id": "005518184", 
+          "is_domestic": true, 
+          "latitude": 46.6573850850127, 
+          "legacy_id": 5542, 
+          "longitude": 20.2723598087549, 
           "name": "Szentes"
         }, 
         {
-          "id": 5543, 
+          "id": "005517491", 
+          "is_domestic": true, 
+          "latitude": 46.5909585740781, 
+          "legacy_id": 5543, 
+          "longitude": 20.6281875890361, 
           "name": "Szentetornya"
         }, 
         {
-          "id": 5544, 
+          "id": "005503962", 
+          "is_domestic": true, 
+          "latitude": 47.1364277688605, 
+          "legacy_id": 5544, 
+          "longitude": 17.7072238471456, 
           "name": "Szentg\u00e1l"
         }, 
         {
-          "id": 5545, 
+          "id": "004302329", 
+          "is_domestic": true, 
+          "latitude": 46.9577028644945, 
+          "legacy_id": 5545, 
+          "longitude": 16.2645947214201, 
           "name": "Szentgotth\u00e1rd"
         }, 
         {
-          "id": 5546, 
+          "id": "004305298", 
+          "is_domestic": true, 
+          "latitude": 47.1217640691063, 
+          "legacy_id": 5546, 
+          "longitude": 16.7337543665887, 
           "name": "Szentl\u00e9r\u00e1nt"
         }, 
         {
-          "id": 5547, 
+          "id": "005507260", 
+          "is_domestic": true, 
+          "latitude": 46.033191005971, 
+          "legacy_id": 5547, 
+          "longitude": 17.9905370507974, 
           "name": "Szentl\u0151rinc"
         }, 
         {
-          "id": 5548, 
+          "id": "005511635", 
+          "is_domestic": true, 
+          "latitude": 47.4321631898683, 
+          "legacy_id": 5548, 
+          "longitude": 19.6805613681455, 
           "name": "Szentm\u00e1rtonk\u00e1ta"
         }, 
         {
-          "id": 5549, 
-          "name": "Szepesolaszi [Spisske Vlachy]"
+          "id": "005504481_306", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5550, 
+          "longitude": null, 
+          "name": "Szepezd (Balatonszepezd)"
         }, 
         {
-          "id": 5550, 
-          "name": "Szepezd [Balatonszepezd]"
-        }, 
-        {
-          "id": 5551, 
+          "id": "005504499", 
+          "is_domestic": true, 
+          "latitude": 46.8397515951928, 
+          "legacy_id": 5551, 
+          "longitude": 17.6496342490535, 
           "name": "Szepezdf\u00fcrd\u0151"
         }, 
         {
-          "id": 5552, 
-          "name": "Sz\u00e9plak als\u00f3 [Balatonsz\u00e9plak als\u00f3]"
+          "id": "005503376_307", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5552, 
+          "longitude": null, 
+          "name": "Sz\u00e9plak als\u00f3 (Balatonsz\u00e9plak als\u00f3)"
         }, 
         {
-          "id": 5553, 
-          "name": "Sz\u00e9plak fels\u0151 [Balatonsz\u00e9plak fels\u0151]"
+          "id": "005503368_308", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5553, 
+          "longitude": null, 
+          "name": "Sz\u00e9plak fels\u0151 (Balatonsz\u00e9plak fels\u0151)"
         }, 
         {
-          "id": 5554, 
-          "name": "Szepsi [Moldava Nad Bodvou]"
-        }, 
-        {
-          "id": 5555, 
+          "id": "005502097", 
+          "is_domestic": true, 
+          "latitude": 47.4691094159466, 
+          "legacy_id": 5555, 
+          "longitude": 17.5474783111091, 
           "name": "Szerecseny"
         }, 
         {
-          "id": 5556, 
-          "name": "Szered [Sered]"
-        }, 
-        {
-          "id": 5557, 
+          "id": "005511445", 
+          "is_domestic": true, 
+          "latitude": 48.1561502004423, 
+          "legacy_id": 5557, 
+          "longitude": 21.2149946849223, 
           "name": "Szerencs"
         }, 
         {
-          "id": 5558, 
+          "id": "005514308", 
+          "is_domestic": true, 
+          "latitude": 47.2344503212892, 
+          "legacy_id": 5558, 
+          "longitude": 21.1456564448468, 
           "name": "Szerep"
         }, 
         {
-          "id": 5559, 
-          "name": "Szeretfalva [Saratel]"
+          "id": "005340971_309", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5559, 
+          "longitude": null, 
+          "name": "Szeretfalva (Saratel)"
         }, 
         {
-          "id": 5560, 
+          "id": "005505736", 
+          "is_domestic": true, 
+          "latitude": 46.0431603218422, 
+          "legacy_id": 5560, 
+          "longitude": 17.8024449843215, 
           "name": "Szigetv\u00e1r"
         }, 
         {
-          "id": 5561, 
-          "name": "Szigliget [Badacsonyt\u00f6rdemic-Szigliget]"
+          "id": "005504572_310", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5561, 
+          "longitude": null, 
+          "name": "Szigliget (Badacsonyt\u00f6rdemic-Szigliget)"
         }, 
         {
-          "id": 5562, 
+          "id": "005511304", 
+          "is_domestic": true, 
+          "latitude": 47.7673779686485, 
+          "legacy_id": 5562, 
+          "longitude": 20.4927396359884, 
           "name": "Szihalom"
         }, 
         {
-          "id": 5563, 
-          "name": "Sziklaszoros [Skalite]"
-        }, 
-        {
-          "id": 5564, 
+          "id": "005517277", 
+          "is_domestic": true, 
+          "latitude": 46.8582618004974, 
+          "legacy_id": 5564, 
+          "longitude": 19.9751962492574, 
           "name": "Szikra"
         }, 
         {
-          "id": 5565, 
+          "id": "005513144", 
+          "is_domestic": true, 
+          "latitude": 48.2017853621827, 
+          "legacy_id": 5565, 
+          "longitude": 20.9415541658847, 
           "name": "Sziksz\u00f3"
         }, 
         {
-          "id": 5566, 
+          "id": "005513136", 
+          "is_domestic": true, 
+          "latitude": 48.1930151463871, 
+          "legacy_id": 5566, 
+          "longitude": 20.9347482333737, 
           "name": "Sziksz\u00f3-V\u00e1s\u00e1rt\u00e9r"
         }, 
         {
-          "id": 5567, 
+          "id": "004302378", 
+          "is_domestic": true, 
+          "latitude": 47.533536793977, 
+          "legacy_id": 5567, 
+          "longitude": 17.2094915652819, 
           "name": "Szil-Sopronn\u00e9meti"
         }, 
         {
-          "id": 5568, 
+          "id": "005512492", 
+          "is_domestic": true, 
+          "latitude": 48.1134736130216, 
+          "legacy_id": 5568, 
+          "longitude": 20.3791280341977, 
           "name": "Szilv\u00e1sv\u00e1rad"
         }, 
         {
-          "id": 5569, 
+          "id": "005542507", 
+          "is_domestic": true, 
+          "latitude": 48.095574903427, 
+          "legacy_id": 5569, 
+          "longitude": 20.382659902954, 
           "name": "Szilv\u00e1sv\u00e1rad-Szalajkav\u00f6lgy"
         }, 
         {
-          "id": 6678, 
-          "name": "Sz\u00edn [J\u00f3svaf\u0151-Aggtelek]"
+          "id": "005513011_311", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6678, 
+          "longitude": null, 
+          "name": "Sz\u00edn (J\u00f3svaf\u0151-Aggtelek)"
         }, 
         {
-          "id": 5570, 
-          "name": "Szin\u00e9rv\u00e1ralja [Seini]"
+          "id": "005341822_312", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5570, 
+          "longitude": null, 
+          "name": "Szin\u00e9rv\u00e1ralja (Seini)"
         }, 
         {
-          "id": 5571, 
-          "name": "Szinna [Snina]"
-        }, 
-        {
-          "id": 5572, 
+          "id": "005541764", 
+          "is_domestic": true, 
+          "latitude": 48.1492051927975, 
+          "legacy_id": 5572, 
+          "longitude": 20.7824254435536, 
           "name": "Szirmabeseny\u0151"
         }, 
         {
-          "id": 5573, 
-          "name": "Sziszek [Sisak]"
-        }, 
-        {
-          "id": 6704, 
-          "name": "Szkopje [Skopje]"
-        }, 
-        {
-          "id": 5574, 
-          "name": "Szlatina [Slatina (Hr)]"
-        }, 
-        {
-          "id": 5575, 
-          "name": "Szli\u00e1csf\u00fcrd\u0151 [Sliac]"
-        }, 
-        {
-          "id": 5576, 
+          "id": "005510504", 
+          "is_domestic": true, 
+          "latitude": 47.8212285878518, 
+          "legacy_id": 5576, 
+          "longitude": 18.862139618007, 
           "name": "Szob"
         }, 
         {
-          "id": 5577, 
+          "id": "005540865", 
+          "is_domestic": true, 
+          "latitude": 47.8166461988118, 
+          "legacy_id": 5577, 
+          "longitude": 18.8723532020081, 
           "name": "Szob als\u00f3"
         }, 
         {
-          "id": 5578, 
-          "name": "Sz\u00f3fia [Sofia]"
-        }, 
-        {
-          "id": 5579, 
+          "id": "005510611", 
+          "is_domestic": true, 
+          "latitude": 47.8710390251209, 
+          "legacy_id": 5579, 
+          "longitude": 19.0305100274915, 
           "name": "Szokolya"
         }, 
         {
-          "id": 5580, 
+          "id": "005513748", 
+          "is_domestic": true, 
+          "latitude": 47.1781948726285, 
+          "legacy_id": 5580, 
+          "longitude": 20.1747674582124, 
           "name": "Szolnok"
         }, 
         {
-          "id": 5581, 
+          "id": "004302246", 
+          "is_domestic": true, 
+          "latitude": 47.2380330559316, 
+          "legacy_id": 5581, 
+          "longitude": 16.6321709937139, 
           "name": "Szombathely"
         }, 
         {
-          "id": 5582, 
+          "id": "004302253", 
+          "is_domestic": true, 
+          "latitude": 47.206379, 
+          "legacy_id": 5582, 
+          "longitude": 16.641889, 
           "name": "Szombathely-Sz\u0151l\u0151s"
         }, 
         {
-          "id": 5583, 
-          "name": "Szomol\u00e1ny [Smolenice]"
-        }, 
-        {
-          "id": 5584, 
+          "id": "005546367", 
+          "is_domestic": true, 
+          "latitude": 47.9876424226277, 
+          "legacy_id": 5584, 
+          "longitude": 21.3668390752677, 
           "name": "Szorgalmatos"
         }, 
         {
-          "id": 5585, 
-          "name": "Sz\u0151dliget [Sz\u0151d-Sz\u0151dliget]"
+          "id": "005510439_313", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5585, 
+          "longitude": null, 
+          "name": "Sz\u0151dliget (Sz\u0151d-Sz\u0151dliget)"
         }, 
         {
-          "id": 5586, 
+          "id": "005510439", 
+          "is_domestic": true, 
+          "latitude": 47.7279829158654, 
+          "legacy_id": 5586, 
+          "longitude": 19.1550058033247, 
           "name": "Sz\u0151d-Sz\u0151dliget"
         }, 
         {
-          "id": 5587, 
+          "id": "005507401", 
+          "is_domestic": true, 
+          "latitude": 45.9669084427906, 
+          "legacy_id": 5587, 
+          "longitude": 18.2905872519508, 
           "name": "Sz\u0151k\u00e9d"
         }, 
         {
-          "id": 6775, 
-          "name": "Sz\u0151l\u0151hegy [Sereg\u00e9lyes-Sz\u0151l\u0151hegy]"
+          "id": "005540550_314", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6775, 
+          "longitude": null, 
+          "name": "Sz\u0151l\u0151hegy (Sereg\u00e9lyes-Sz\u0151l\u0151hegy)"
         }, 
         {
-          "id": 7455, 
-          "name": "Sz\u0151l\u0151k (Kisteleki) [Kisteleki sz\u0151l\u0151k]"
+          "id": "004302253_315", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6703, 
+          "longitude": null, 
+          "name": "Sz\u0151l\u0151k (Szombathely-Sz\u0151l\u0151s)"
         }, 
         {
-          "id": 7459, 
-          "name": "Sz\u0151l\u0151k (Ny\u00e1rl\u0151rinci) [Ny\u00e1rl\u0151rinci sz\u0151l\u0151k]"
+          "id": "005544586_316", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7455, 
+          "longitude": null, 
+          "name": "Sz\u0151l\u0151k (Kisteleki) (Kisteleki sz\u0151l\u0151k)"
         }, 
         {
-          "id": 7461, 
-          "name": "Sz\u0151l\u0151k (Pirt\u00f3i) [Pirt\u00f3i sz\u0151l\u0151k]"
+          "id": "005544826_317", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7459, 
+          "longitude": null, 
+          "name": "Sz\u0151l\u0151k (Ny\u00e1rl\u0151rinci) (Ny\u00e1rl\u0151rinci sz\u0151l\u0151k)"
         }, 
         {
-          "id": 6703, 
-          "name": "Sz\u0151l\u0151k [Szombathely-Sz\u0151l\u0151s]"
+          "id": "005516295_318", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7461, 
+          "longitude": null, 
+          "name": "Sz\u0151l\u0151k (Pirt\u00f3i) (Pirt\u00f3i sz\u0151l\u0151k)"
         }, 
         {
-          "id": 5588, 
+          "id": "005511593", 
+          "is_domestic": true, 
+          "latitude": 47.4507697002386, 
+          "legacy_id": 5588, 
+          "longitude": 19.5594859138864, 
           "name": "Sz\u0151l\u0151snyaral\u00f3"
         }, 
         {
-          "id": 5589, 
-          "name": "Sz\u0151l\u0151telep [Sz\u0151l\u0151snyaral\u00f3]"
+          "id": "005511593_319", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5589, 
+          "longitude": null, 
+          "name": "Sz\u0151l\u0151telep (Sz\u0151l\u0151snyaral\u00f3)"
         }, 
         {
-          "id": 5590, 
+          "id": "005501198", 
+          "is_domestic": true, 
+          "latitude": 47.7355970775159, 
+          "legacy_id": 5590, 
+          "longitude": 18.1771131555462, 
           "name": "Sz\u0151ny"
         }, 
         {
-          "id": 5591, 
+          "id": "005503814", 
+          "is_domestic": true, 
+          "latitude": 47.7367042181144, 
+          "legacy_id": 5591, 
+          "longitude": 18.1430862487897, 
           "name": "Sz\u0151ny-D\u00e9li"
         }, 
         {
-          "id": 5592, 
+          "id": "005518952", 
+          "is_domestic": true, 
+          "latitude": 46.2109913751918, 
+          "legacy_id": 5592, 
+          "longitude": 20.1829237405109, 
           "name": "Sz\u0151reg"
         }, 
         {
-          "id": 5594, 
+          "id": "005511700", 
+          "is_domestic": true, 
+          "latitude": 47.8515108556224, 
+          "legacy_id": 5594, 
+          "longitude": 19.6903815796104, 
           "name": "Szurdokp\u00fcsp\u00f6ki"
         }, 
         {
-          "id": 5595, 
+          "id": "005510959", 
+          "is_domestic": true, 
+          "latitude": 48.0363081313741, 
+          "legacy_id": 5595, 
+          "longitude": 19.3329696352178, 
           "name": "Sz\u00fcgy"
         }, 
         {
-          "id": 5596, 
+          "id": "005508342", 
+          "is_domestic": true, 
+          "latitude": 46.7341569856434, 
+          "legacy_id": 5596, 
+          "longitude": 18.0412125323599, 
           "name": "Tab"
         }, 
         {
-          "id": 6787, 
-          "name": "Tabanovci"
-        }, 
-        {
-          "id": 12740, 
-          "name": "TABANOVCI [Tabanovci]"
-        }, 
-        {
-          "id": 5599, 
+          "id": "005544958", 
+          "is_domestic": true, 
+          "latitude": 46.6797824990904, 
+          "legacy_id": 5599, 
+          "longitude": 19.2824156531821, 
           "name": "Tabdi"
         }, 
         {
-          "id": 5600, 
+          "id": "005516881", 
+          "is_domestic": true, 
+          "latitude": 47.0985656985683, 
+          "legacy_id": 5600, 
+          "longitude": 19.4793382282726, 
           "name": "T\u00e1borfalva"
         }, 
         {
-          "id": 5601, 
-          "name": "Tahanovce"
-        }, 
-        {
-          "id": 5603, 
+          "id": "005516741", 
+          "is_domestic": true, 
+          "latitude": 46.4725528403256, 
+          "legacy_id": 5603, 
+          "longitude": 19.6500750369628, 
           "name": "Taj\u00f3"
         }, 
         {
-          "id": 5604, 
-          "name": "Takcs\u00e1ny [Stakcin]"
-        }, 
-        {
-          "id": 5605, 
+          "id": "008103498", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5605, 
+          "longitude": null, 
           "name": "Takern-St.Margareth."
         }, 
         {
-          "id": 5606, 
+          "id": "005516147", 
+          "is_domestic": true, 
+          "latitude": 47.3205267252572, 
+          "legacy_id": 5606, 
+          "longitude": 19.0767515869702, 
           "name": "Taksony"
         }, 
         {
-          "id": 5607, 
+          "id": "005511429", 
+          "is_domestic": true, 
+          "latitude": 48.0918619441442, 
+          "legacy_id": 5607, 
+          "longitude": 21.1293172263527, 
           "name": "Taktahark\u00e1ny"
         }, 
         {
-          "id": 5608, 
+          "id": "005511437", 
+          "is_domestic": true, 
+          "latitude": 48.112437324215, 
+          "legacy_id": 5608, 
+          "longitude": 21.149569772141, 
           "name": "Taktaszada"
         }, 
         {
-          "id": 5611, 
+          "id": "005513284", 
+          "is_domestic": true, 
+          "latitude": 48.2282561975482, 
+          "legacy_id": 5611, 
+          "longitude": 21.2231965411873, 
           "name": "T\u00e1llya"
         }, 
         {
-          "id": 6688, 
-          "name": "T.alp\u00e1r als\u00f3 [Tiszaalp\u00e1r als\u00f3]"
+          "id": "005517764_320", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6710, 
+          "longitude": null, 
+          "name": "T.alp\u00e1r (Tiszaalp\u00e1r)"
         }, 
         {
-          "id": 6668, 
-          "name": "T.alp\u00e1r fels\u0151 [Tiszaalp\u00e1r fels\u0151]"
+          "id": "005517772_321", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6688, 
+          "longitude": null, 
+          "name": "T.alp\u00e1r als\u00f3 (Tiszaalp\u00e1r als\u00f3)"
         }, 
         {
-          "id": 6710, 
-          "name": "T.alp\u00e1r [Tiszaalp\u00e1r]"
+          "id": "005544768_322", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6668, 
+          "longitude": null, 
+          "name": "T.alp\u00e1r fels\u0151 (Tiszaalp\u00e1r fels\u0151)"
         }, 
         {
-          "id": 5613, 
+          "id": "005345000", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5613, 
+          "longitude": null, 
           "name": "Tamaseu"
         }, 
         {
-          "id": 8005, 
-          "name": "TAMASEU [Tamaseu]"
-        }, 
-        {
-          "id": 5614, 
+          "id": "005515354", 
+          "is_domestic": true, 
+          "latitude": 47.6327295074306, 
+          "legacy_id": 5614, 
+          "longitude": 21.7960199615992, 
           "name": "Tam\u00e1sipuszta"
         }, 
         {
-          "id": 7448, 
-          "name": "Tany\u00e1k (Csongr\u00e1di \u00fati) [Csongr\u00e1di \u00fati tany\u00e1k]"
+          "id": "005544875_323", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7448, 
+          "longitude": null, 
+          "name": "Tany\u00e1k (Csongr\u00e1di \u00fati) (Csongr\u00e1di \u00fati tany\u00e1k)"
         }, 
         {
-          "id": 7454, 
-          "name": "Tany\u00e1k (Orosh\u00e1zi) [Orosh\u00e1zi tany\u00e1k]"
+          "id": "005518622_324", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7454, 
+          "longitude": null, 
+          "name": "Tany\u00e1k (Orosh\u00e1zi) (Orosh\u00e1zi tany\u00e1k)"
         }, 
         {
-          "id": 7445, 
-          "name": "Tany\u00e1k (Pet\u0151fisz\u00e1ll\u00e1si) [Pet\u0151fisz\u00e1ll\u00e1si tany\u00e1k]"
+          "id": "005544578_325", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7445, 
+          "longitude": null, 
+          "name": "Tany\u00e1k (Pet\u0151fisz\u00e1ll\u00e1si) (Pet\u0151fisz\u00e1ll\u00e1si tany\u00e1k)"
         }, 
         {
-          "id": 5618, 
+          "id": "005511684", 
+          "is_domestic": true, 
+          "latitude": 47.3248409009454, 
+          "legacy_id": 5618, 
+          "longitude": 19.9501242516116, 
           "name": "T\u00e1pi\u00f3gy\u00f6rgye"
         }, 
         {
-          "id": 5619, 
+          "id": "005511627", 
+          "is_domestic": true, 
+          "latitude": 47.4432221028793, 
+          "legacy_id": 5619, 
+          "longitude": 19.6142958258736, 
           "name": "T\u00e1pi\u00f3szecs\u0151"
         }, 
         {
-          "id": 5620, 
+          "id": "005511676", 
+          "is_domestic": true, 
+          "latitude": 47.3460935567057, 
+          "legacy_id": 5620, 
+          "longitude": 19.8736878803058, 
           "name": "T\u00e1pi\u00f3szele"
         }, 
         {
-          "id": 5621, 
+          "id": "005542234", 
+          "is_domestic": true, 
+          "latitude": 47.3733848457019, 
+          "legacy_id": 5621, 
+          "longitude": 19.7979601630995, 
           "name": "T\u00e1pi\u00f3szentm\u00e1rton"
         }, 
         {
-          "id": 5622, 
+          "id": "005504598", 
+          "is_domestic": true, 
+          "latitude": 46.8768357006952, 
+          "legacy_id": 5622, 
+          "longitude": 17.4292106388961, 
           "name": "Tapolca"
         }, 
         {
-          "id": 5623, 
+          "id": "005511825", 
+          "is_domestic": true, 
+          "latitude": 47.9564028937129, 
+          "legacy_id": 5623, 
+          "longitude": 19.7471586334212, 
           "name": "Tar"
         }, 
         {
-          "id": 5624, 
+          "id": "005511460", 
+          "is_domestic": true, 
+          "latitude": 48.1252215653099, 
+          "legacy_id": 5624, 
+          "longitude": 21.3400064491565, 
           "name": "Tarcal"
         }, 
         {
-          "id": 8586, 
-          "name": "Targowiska"
-        }, 
-        {
-          "id": 8491, 
-          "name": "TARGOWISKA [Targowiska]"
-        }, 
-        {
-          "id": 6794, 
+          "id": "005342606", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6794, 
+          "longitude": null, 
           "name": "T\u00e2rgu Mure\u015f"
         }, 
         {
-          "id": 8190, 
-          "name": "TARGU [T\u00e2rgu Mure\u015f]"
-        }, 
-        {
-          "id": 5636, 
+          "id": "005502949", 
+          "is_domestic": true, 
+          "latitude": 47.504720333323, 
+          "legacy_id": 5636, 
+          "longitude": 17.7888799156872, 
           "name": "Tarj\u00e1npuszta"
         }, 
         {
-          "id": 5638, 
+          "id": "005512302", 
+          "is_domestic": true, 
+          "latitude": 47.547102275744, 
+          "legacy_id": 5638, 
+          "longitude": 20.3900317657898, 
           "name": "Tarnaszentmikl\u00f3s"
         }, 
         {
-          "id": 8711, 
-          "name": "Tarnawa Dolna"
-        }, 
-        {
-          "id": 8669, 
-          "name": "TARNAWADOLNA [Tarnawa Dolna]"
-        }, 
-        {
-          "id": 5641, 
+          "id": "005503160", 
+          "is_domestic": true, 
+          "latitude": 47.365685806968, 
+          "legacy_id": 5641, 
+          "longitude": 18.8737827274947, 
           "name": "T\u00e1rnok"
         }, 
         {
-          "id": 8516, 
-          "name": "Tarnowiec"
+          "id": "005516204_326", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5648, 
+          "longitude": null, 
+          "name": "Tass (Kunszentmikl\u00f3s-Tass)"
         }, 
         {
-          "id": 8687, 
-          "name": "TARNOWIEC [Tarnowiec]"
-        }, 
-        {
-          "id": 5644, 
-          "name": "Tarpatak [Studeny Potok]"
-        }, 
-        {
-          "id": 5648, 
-          "name": "Tass [Kunszentmikl\u00f3s-Tass]"
-        }, 
-        {
-          "id": 5650, 
+          "id": "005506262", 
+          "is_domestic": true, 
+          "latitude": 46.3636781931445, 
+          "legacy_id": 5650, 
+          "longitude": 17.8937122207205, 
           "name": "Tasz\u00e1r"
         }, 
         {
-          "id": 5651, 
+          "id": "005540279", 
+          "is_domestic": true, 
+          "latitude": 47.7413995810778, 
+          "legacy_id": 5651, 
+          "longitude": 18.6474330545995, 
           "name": "T\u00e1t"
         }, 
         {
-          "id": 5652, 
+          "id": "005501164", 
+          "is_domestic": true, 
+          "latitude": 47.6636856714797, 
+          "legacy_id": 5652, 
+          "longitude": 18.3275717751993, 
           "name": "Tata"
         }, 
         {
-          "id": 5653, 
+          "id": "005501131", 
+          "is_domestic": true, 
+          "latitude": 47.5866354198856, 
+          "legacy_id": 5653, 
+          "longitude": 18.3922146039013, 
           "name": "Tatab\u00e1nya"
         }, 
         {
-          "id": 5655, 
+          "id": "005508490", 
+          "is_domestic": true, 
+          "latitude": 46.6365929460346, 
+          "legacy_id": 5655, 
+          "longitude": 17.6209667217933, 
           "name": "Tat\u00e1rv\u00e1r"
         }, 
         {
-          "id": 5656, 
-          "name": "T\u00e1tralomnic [Tatranska Lomnica]"
+          "id": "005514167_327", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6764, 
+          "longitude": null, 
+          "name": "T.bezd\u00e9d (Tiszabezd\u00e9d)"
         }, 
         {
-          "id": 5657, 
-          "name": "Tatranska Lesna"
-        }, 
-        {
-          "id": 5658, 
-          "name": "Tatranska Lomnica"
-        }, 
-        {
-          "id": 5659, 
-          "name": "Tatranska Lomnica Zastavka"
-        }, 
-        {
-          "id": 5660, 
-          "name": "Tatranska Polianka"
-        }, 
-        {
-          "id": 8714, 
-          "name": "TATRANSKA [Tatranska Lomnica]"
-        }, 
-        {
-          "id": 5661, 
-          "name": "Tatranske Zruby"
-        }, 
-        {
-          "id": 5662, 
-          "name": "Tatransky Lieskovec"
-        }, 
-        {
-          "id": 8554, 
-          "name": "TATRANSKY [Tatransky Lieskovec]"
-        }, 
-        {
-          "id": 6764, 
-          "name": "T.bezd\u00e9d [Tiszabezd\u00e9d]"
-        }, 
-        {
-          "id": 5673, 
+          "id": "005514720", 
+          "is_domestic": true, 
+          "latitude": 47.9033378840123, 
+          "legacy_id": 5673, 
+          "longitude": 21.4041389105228, 
           "name": "Tedej"
         }, 
         {
-          "id": 5675, 
+          "id": "005513961", 
+          "is_domestic": true, 
+          "latitude": 47.7146205202579, 
+          "legacy_id": 5675, 
+          "longitude": 21.6846016403559, 
           "name": "T\u00e9gl\u00e1s"
         }, 
         {
-          "id": 5679, 
-          "name": "Tekacevo"
+          "id": "005545369_328", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5680, 
+          "longitude": null, 
+          "name": "Tekerespuszta (Polg\u00e1rdi-Tekerespuszta)"
         }, 
         {
-          "id": 12857, 
-          "name": "TEKACEVO [Tekacevo]"
-        }, 
-        {
-          "id": 5680, 
-          "name": "Tekerespuszta [Polg\u00e1rdi-Tekerespuszta]"
-        }, 
-        {
-          "id": 5681, 
-          "name": "Tekovska Breznica"
-        }, 
-        {
-          "id": 5682, 
-          "name": "Tekovske Luzany"
-        }, 
-        {
-          "id": 5683, 
-          "name": "Tekovsky Hradok"
-        }, 
-        {
-          "id": 5686, 
+          "id": "005518655", 
+          "is_domestic": true, 
+          "latitude": 46.6560161427389, 
+          "legacy_id": 5686, 
+          "longitude": 20.9639705196524, 
           "name": "Telekgerend\u00e1s"
         }, 
         {
-          "id": 5689, 
-          "name": "Telgart Penzion"
+          "id": "005311906_329", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6627, 
+          "longitude": null, 
+          "name": "Temesv\u00e1r (Timi\u015foara Nord)"
         }, 
         {
-          "id": 6627, 
-          "name": "Temesv\u00e1r [Timi\u015foara Nord]"
-        }, 
-        {
-          "id": 5693, 
+          "id": "005506718", 
+          "is_domestic": true, 
+          "latitude": 46.515846358108, 
+          "legacy_id": 5693, 
+          "longitude": 18.6954158696848, 
           "name": "Tengelic"
         }, 
         {
-          "id": 5695, 
-          "name": "Teplicka Nad Hornadom"
+          "id": "005514894_330", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6642, 
+          "longitude": null, 
+          "name": "T.eszl\u00e1r (Tiszaeszl\u00e1r)"
         }, 
         {
-          "id": 5702, 
-          "name": "Ternopol"
+          "id": "005502071_331", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5704, 
+          "longitude": null, 
+          "name": "T\u00e9t (Gy\u00f6m\u00f6re-T\u00e9t)"
         }, 
         {
-          "id": 12649, 
-          "name": "TERNOPOL [Ternopol]"
-        }, 
-        {
-          "id": 5703, 
-          "name": "Tesarske Mlynany"
-        }, 
-        {
-          "id": 6642, 
-          "name": "T.eszl\u00e1r [Tiszaeszl\u00e1r]"
-        }, 
-        {
-          "id": 5704, 
-          "name": "T\u00e9t [Gy\u00f6m\u00f6re-T\u00e9t]"
-        }, 
-        {
-          "id": 5706, 
+          "id": "005503145", 
+          "is_domestic": true, 
+          "latitude": 47.3848146945634, 
+          "legacy_id": 5706, 
+          "longitude": 18.9545349756584, 
           "name": "T\u00e9t\u00e9nyliget"
         }, 
         {
-          "id": 6716, 
-          "name": "T.f\u00f6ldv\u00e1r [Tiszaf\u00f6ldv\u00e1r]"
+          "id": "005518101_332", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6716, 
+          "longitude": null, 
+          "name": "T.f\u00f6ldv\u00e1r (Tiszaf\u00f6ldv\u00e1r)"
         }, 
         {
-          "id": 6652, 
-          "name": "T.f\u00fcred [Tiszaf\u00fcred]"
+          "id": "005514563_333", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6652, 
+          "longitude": null, 
+          "name": "T.f\u00fcred (Tiszaf\u00fcred)"
         }, 
         {
-          "id": 6838, 
-          "name": "Thessaloniki Gare Centrale"
-        }, 
-        {
-          "id": 5719, 
+          "id": "005515990", 
+          "is_domestic": true, 
+          "latitude": 47.8151814246871, 
+          "legacy_id": 5719, 
+          "longitude": 22.4030201994399, 
           "name": "Tiborsz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 5723, 
-          "name": "Tihany [Balatonf\u00fcred]"
+          "id": "005504416_334", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5723, 
+          "longitude": null, 
+          "name": "Tihany (Balatonf\u00fcred)"
         }, 
         {
-          "id": 6689, 
+          "id": "005311906", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6689, 
+          "longitude": null, 
           "name": "Timi\u015foara Nord"
         }, 
         {
-          "id": 8237, 
-          "name": "TIMISOARA [Timi\u015foara Nord]"
+          "id": "005342606_335", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6797, 
+          "longitude": null, 
+          "name": "Tirgu Mures (T\u00e2rgu Mure\u015f)"
         }, 
         {
-          "id": 6797, 
-          "name": "Tirgu Mures [T\u00e2rgu Mure\u015f]"
-        }, 
-        {
-          "id": 5742, 
-          "name": "Tisovec"
-        }, 
-        {
-          "id": 5743, 
-          "name": "Tisovec Mesto"
-        }, 
-        {
-          "id": 5744, 
-          "name": "Tisovec Zavody"
-        }, 
-        {
-          "id": 5745, 
-          "name": "Tisovec-Banovo"
-        }, 
-        {
-          "id": 5746, 
+          "id": "005517764", 
+          "is_domestic": true, 
+          "latitude": 46.8185980754882, 
+          "legacy_id": 5746, 
+          "longitude": 19.9824985263068, 
           "name": "Tiszaalp\u00e1r"
         }, 
         {
-          "id": 5747, 
+          "id": "005517772", 
+          "is_domestic": true, 
+          "latitude": 46.7908744888187, 
+          "legacy_id": 5747, 
+          "longitude": 19.9514267814546, 
           "name": "Tiszaalp\u00e1r als\u00f3"
         }, 
         {
-          "id": 5748, 
+          "id": "005544768", 
+          "is_domestic": true, 
+          "latitude": 46.8362376872961, 
+          "legacy_id": 5748, 
+          "longitude": 19.9766667492061, 
           "name": "Tiszaalp\u00e1r fels\u0151"
         }, 
         {
-          "id": 5749, 
+          "id": "005514167", 
+          "is_domestic": true, 
+          "latitude": 48.3711470048626, 
+          "legacy_id": 5749, 
+          "longitude": 22.1452705122808, 
           "name": "Tiszabezd\u00e9d"
         }, 
         {
-          "id": 5750, 
-          "name": "Tiszacserny\u0151 [Cierna Nad Tisou]"
-        }, 
-        {
-          "id": 5751, 
+          "id": "005514894", 
+          "is_domestic": true, 
+          "latitude": 48.0106639863749, 
+          "legacy_id": 5751, 
+          "longitude": 21.4921039683185, 
           "name": "Tiszaeszl\u00e1r"
         }, 
         {
-          "id": 5752, 
+          "id": "005518101", 
+          "is_domestic": true, 
+          "latitude": 46.9756749894644, 
+          "legacy_id": 5752, 
+          "longitude": 20.276498704268, 
           "name": "Tiszaf\u00f6ldv\u00e1r"
         }, 
         {
-          "id": 5753, 
+          "id": "005514563", 
+          "is_domestic": true, 
+          "latitude": 47.6277789025994, 
+          "legacy_id": 5753, 
+          "longitude": 20.7559992109878, 
           "name": "Tiszaf\u00fcred"
         }, 
         {
-          "id": 5754, 
+          "id": "005543984", 
+          "is_domestic": true, 
+          "latitude": 47.6160617055977, 
+          "legacy_id": 5754, 
+          "longitude": 20.7370903302081, 
           "name": "Tiszaf\u00fcred-Gy\u00e1rtelep"
         }, 
         {
-          "id": 6784, 
-          "name": "Tiszah\u00edd [Kisk\u00f6re-Tiszah\u00edd]"
+          "id": "005544859_336", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6788, 
+          "longitude": null, 
+          "name": "Tiszah\u00eddf\u0151 (Tiszaug-Tiszah\u00eddf\u0151)"
         }, 
         {
-          "id": 6788, 
-          "name": "Tiszah\u00eddf\u0151 [Tiszaug-Tiszah\u00eddf\u0151]"
+          "id": "005511387_337", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6720, 
+          "longitude": null, 
+          "name": "Tiszai (Miskolc-Tiszai)"
         }, 
         {
-          "id": 6720, 
-          "name": "Tiszai [Miskolc-Tiszai]"
-        }, 
-        {
-          "id": 5755, 
+          "id": "005544727", 
+          "is_domestic": true, 
+          "latitude": 47.0166846319245, 
+          "legacy_id": 5755, 
+          "longitude": 20.1343044502239, 
           "name": "Tiszajen\u0151 als\u00f3"
         }, 
         {
-          "id": 5756, 
+          "id": "005517723", 
+          "is_domestic": true, 
+          "latitude": 47.0362827408868, 
+          "legacy_id": 5756, 
+          "longitude": 20.1425002933255, 
           "name": "Tiszajen\u0151-Vezseny"
         }, 
         {
-          "id": 5757, 
+          "id": "005517749", 
+          "is_domestic": true, 
+          "latitude": 46.9374524379146, 
+          "legacy_id": 5757, 
+          "longitude": 20.0819416432353, 
           "name": "Tiszak\u00e9cske"
         }, 
         {
-          "id": 5758, 
+          "id": "005514860", 
+          "is_domestic": true, 
+          "latitude": 48.0130149965017, 
+          "legacy_id": 5758, 
+          "longitude": 21.3695352497113, 
           "name": "Tiszal\u00f6k"
         }, 
         {
-          "id": 5759, 
+          "id": "005511411", 
+          "is_domestic": true, 
+          "latitude": 48.0394386155354, 
+          "legacy_id": 5759, 
+          "longitude": 21.0563868694128, 
           "name": "Tiszal\u00fac"
         }, 
         {
-          "id": 5760, 
+          "id": "005517376", 
+          "is_domestic": true, 
+          "latitude": 46.8258108080647, 
+          "legacy_id": 5760, 
+          "longitude": 20.0894326921058, 
           "name": "Tiszasas"
         }, 
         {
-          "id": 5761, 
+          "id": "005514241", 
+          "is_domestic": true, 
+          "latitude": 47.4908974323472, 
+          "legacy_id": 5761, 
+          "longitude": 20.7331635868146, 
           "name": "Tiszaszentimre"
         }, 
         {
-          "id": 5762, 
+          "id": "005514258", 
+          "is_domestic": true, 
+          "latitude": 47.5552907976871, 
+          "legacy_id": 5762, 
+          "longitude": 20.7280474402012, 
           "name": "Tiszasz\u0151l\u0151s"
         }, 
         {
-          "id": 5763, 
+          "id": "005517806", 
+          "is_domestic": true, 
+          "latitude": 47.1355190617286, 
+          "legacy_id": 5763, 
+          "longitude": 20.3695748290742, 
           "name": "Tiszateny\u0151"
         }, 
         {
-          "id": 5764, 
+          "id": "005517293", 
+          "is_domestic": true, 
+          "latitude": 46.8504899547547, 
+          "legacy_id": 5764, 
+          "longitude": 20.0737086504097, 
           "name": "Tiszaug"
         }, 
         {
-          "id": 5765, 
+          "id": "005544859", 
+          "is_domestic": true, 
+          "latitude": 46.8661524675669, 
+          "legacy_id": 5765, 
+          "longitude": 20.05218320906, 
           "name": "Tiszaug-Tiszah\u00eddf\u0151"
         }, 
         {
-          "id": 5766, 
+          "id": "005512567", 
+          "is_domestic": true, 
+          "latitude": 47.9259784735213, 
+          "legacy_id": 5766, 
+          "longitude": 21.0304237083922, 
           "name": "Tisza\u00fajv\u00e1ros"
         }, 
         {
-          "id": 6620, 
+          "id": "005517715", 
+          "is_domestic": true, 
+          "latitude": 47.0593705401664, 
+          "legacy_id": 6620, 
+          "longitude": 20.142896899638, 
           "name": "Tiszav\u00e1rkony"
         }, 
         {
-          "id": 5767, 
+          "id": "005514738", 
+          "is_domestic": true, 
+          "latitude": 47.9453532546822, 
+          "legacy_id": 5767, 
+          "longitude": 21.3749166356885, 
           "name": "Tiszavasv\u00e1ri"
         }, 
         {
-          "id": 5768, 
+          "id": "005544081", 
+          "is_domestic": true, 
+          "latitude": 47.6444369513027, 
+          "legacy_id": 5768, 
+          "longitude": 21.8238893206802, 
           "name": "Tisztav\u00edz"
         }, 
         {
-          "id": 6659, 
-          "name": "T.jen\u0151 [Tiszajen\u0151 als\u00f3]"
+          "id": "005544727_338", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6659, 
+          "longitude": null, 
+          "name": "T.jen\u0151 (Tiszajen\u0151 als\u00f3)"
         }, 
         {
-          "id": 6822, 
-          "name": "T.k\u00e9cske [Tiszak\u00e9cske]"
+          "id": "005517749_339", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6822, 
+          "longitude": null, 
+          "name": "T.k\u00e9cske (Tiszak\u00e9cske)"
         }, 
         {
-          "id": 5771, 
-          "name": "Tlmace"
+          "id": "005514860_340", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6856, 
+          "longitude": null, 
+          "name": "T.l\u00f6k (Tiszal\u00f6k)"
         }, 
         {
-          "id": 6856, 
-          "name": "T.l\u00f6k [Tiszal\u00f6k]"
+          "id": "005511411_341", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6810, 
+          "longitude": null, 
+          "name": "T.l\u00fac (Tiszal\u00fac)"
         }, 
         {
-          "id": 6810, 
-          "name": "T.l\u00fac [Tiszal\u00fac]"
-        }, 
-        {
-          "id": 5773, 
+          "id": "005514456", 
+          "is_domestic": true, 
+          "latitude": 47.5291123828197, 
+          "legacy_id": 5773, 
+          "longitude": 21.5888818208548, 
           "name": "T\u00f3c\u00f3v\u00f6lgy"
         }, 
         {
-          "id": 5776, 
+          "id": "005504945", 
+          "is_domestic": true, 
+          "latitude": 46.6700278434691, 
+          "legacy_id": 5776, 
+          "longitude": 16.8002975904035, 
           "name": "T\u00f3fej"
         }, 
         {
-          "id": 5777, 
+          "id": "005511478", 
+          "is_domestic": true, 
+          "latitude": 48.1127305858847, 
+          "legacy_id": 5777, 
+          "longitude": 21.4070223910372, 
           "name": "Tokaj"
         }, 
         {
-          "id": 5778, 
+          "id": "005501628", 
+          "is_domestic": true, 
+          "latitude": 47.7349045379207, 
+          "legacy_id": 5778, 
+          "longitude": 18.6745679619043, 
           "name": "Tokod"
         }, 
         {
-          "id": 5780, 
+          "id": "005506742", 
+          "is_domestic": true, 
+          "latitude": 46.4147877513243, 
+          "legacy_id": 5780, 
+          "longitude": 18.7501341958603, 
           "name": "Tolna-M\u00f6zs"
         }, 
         {
-          "id": 5781, 
+          "id": "005505975", 
+          "is_domestic": true, 
+          "latitude": 46.7278744344345, 
+          "legacy_id": 5781, 
+          "longitude": 18.4762394665171, 
           "name": "Tolnan\u00e9medi"
         }, 
         {
-          "id": 5782, 
-          "name": "Tomaj [Badacsonytomaj]"
+          "id": "005504549_342", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5782, 
+          "longitude": null, 
+          "name": "Tomaj (Badacsonytomaj)"
         }, 
         {
-          "id": 5783, 
-          "name": "Tomasovce"
-        }, 
-        {
-          "id": 5786, 
+          "id": "005516345", 
+          "is_domestic": true, 
+          "latitude": 46.2334026473288, 
+          "legacy_id": 5786, 
+          "longitude": 19.5771829814058, 
           "name": "Tompa"
         }, 
         {
-          "id": 5787, 
+          "id": "005544388", 
+          "is_domestic": true, 
+          "latitude": 46.321482015775, 
+          "legacy_id": 5787, 
+          "longitude": 20.9665469920413, 
           "name": "Tompapuszta"
         }, 
         {
-          "id": 5790, 
+          "id": "005340684", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5790, 
+          "longitude": null, 
           "name": "Toplita"
         }, 
         {
-          "id": 8161, 
-          "name": "TOPLITA [Toplita]"
+          "id": "007223404_343", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5796, 
+          "longitude": null, 
+          "name": "Topolya (Backa Topola)"
         }, 
         {
-          "id": 5791, 
-          "name": "Topolcany"
-        }, 
-        {
-          "id": 5794, 
-          "name": "Topolnica"
-        }, 
-        {
-          "id": 5796, 
-          "name": "Topolya [Backa Topola]"
-        }, 
-        {
-          "id": 5797, 
+          "id": "005508243", 
+          "is_domestic": true, 
+          "latitude": 46.3957099925087, 
+          "legacy_id": 5797, 
+          "longitude": 17.8398622136662, 
           "name": "Topon\u00e1r"
         }, 
         {
-          "id": 5799, 
-          "name": "Toporec"
-        }, 
-        {
-          "id": 5804, 
+          "id": "004345971", 
+          "is_domestic": true, 
+          "latitude": 47.43025, 
+          "legacy_id": 5804, 
+          "longitude": 16.781801, 
           "name": "Torm\u00e1sliget"
         }, 
         {
-          "id": 5805, 
-          "name": "Tornala"
-        }, 
-        {
-          "id": 5806, 
-          "name": "Tornalja [Tornala]"
-        }, 
-        {
-          "id": 5807, 
+          "id": "005513045", 
+          "is_domestic": true, 
+          "latitude": 48.5582758905402, 
+          "legacy_id": 5807, 
+          "longitude": 20.7873284319411, 
           "name": "Tornan\u00e1daska"
         }, 
         {
-          "id": 5808, 
+          "id": "005515883", 
+          "is_domestic": true, 
+          "latitude": 48.2684640468839, 
+          "legacy_id": 5808, 
+          "longitude": 22.2018391589237, 
           "name": "Tornyosp\u00e1lca"
         }, 
         {
-          "id": 5809, 
+          "id": "005517707", 
+          "is_domestic": true, 
+          "latitude": 47.098024543485, 
+          "legacy_id": 5809, 
+          "longitude": 20.1385685913803, 
           "name": "T\u00f3szeg"
         }, 
         {
-          "id": 5810, 
+          "id": "005518374", 
+          "is_domestic": true, 
+          "latitude": 46.4087859862717, 
+          "legacy_id": 5810, 
+          "longitude": 20.7270403877578, 
           "name": "T\u00f3tkoml\u00f3s"
         }, 
         {
-          "id": 5811, 
-          "name": "T\u00f3tmegyer [Palarikovo]"
-        }, 
-        {
-          "id": 5813, 
-          "name": "Tovarnik"
-        }, 
-        {
-          "id": 12967, 
-          "name": "TOVARNIK [Tovarnik]"
-        }, 
-        {
-          "id": 5814, 
+          "id": "005501156", 
+          "is_domestic": true, 
+          "latitude": 47.6468450724102, 
+          "legacy_id": 5814, 
+          "longitude": 18.3478680599364, 
           "name": "T\u00f3v\u00e1roskert"
         }, 
         {
-          "id": 5815, 
-          "name": "T\u0151keterebes [Trebisov]"
-        }, 
-        {
-          "id": 5816, 
+          "id": "005540139", 
+          "is_domestic": true, 
+          "latitude": 47.4498895727213, 
+          "legacy_id": 5816, 
+          "longitude": 18.9105312296876, 
           "name": "T\u00f6r\u00f6kb\u00e1lint"
         }, 
         {
-          "id": 5817, 
+          "id": "005513789", 
+          "is_domestic": true, 
+          "latitude": 47.1700156915956, 
+          "legacy_id": 5817, 
+          "longitude": 20.4125196128604, 
           "name": "T\u00f6r\u00f6kszentmikl\u00f3s"
         }, 
         {
-          "id": 5819, 
+          "id": "005544750", 
+          "is_domestic": true, 
+          "latitude": 46.8510743341163, 
+          "legacy_id": 5819, 
+          "longitude": 19.979739392303, 
           "name": "T\u0151serd\u0151"
         }, 
         {
-          "id": 13017, 
-          "name": "TR [Trebnje Kamna Gora]"
-        }, 
-        {
-          "id": 5836, 
-          "name": "Trautmannsdf/Leitha"
-        }, 
-        {
-          "id": 5838, 
-          "name": "Trbonje"
-        }, 
-        {
-          "id": 13008, 
-          "name": "TRBONJE [Trbonje]"
-        }, 
-        {
-          "id": 5839, 
-          "name": "Trbonjsko Jezero"
-        }, 
-        {
-          "id": 12989, 
-          "name": "TRBONJSKO [Trbonjsko Jezero]"
-        }, 
-        {
-          "id": 5840, 
+          "id": "007942203", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5840, 
+          "longitude": null, 
           "name": "Trbovlje"
         }, 
         {
-          "id": 12667, 
-          "name": "TRBOVLJE [Trbovlje]"
-        }, 
-        {
-          "id": 5841, 
-          "name": "Trebejov"
-        }, 
-        {
-          "id": 5842, 
-          "name": "Trebisov"
-        }, 
-        {
-          "id": 5843, 
-          "name": "Trebnje"
-        }, 
-        {
-          "id": 5844, 
-          "name": "Trebnje Kamna Gora"
-        }, 
-        {
-          "id": 12823, 
-          "name": "TREBNJE [Trebnje]"
-        }, 
-        {
-          "id": 5846, 
-          "name": "Trencianska Tepla"
-        }, 
-        {
-          "id": 5847, 
-          "name": "Trencianska Turna"
-        }, 
-        {
-          "id": 5848, 
-          "name": "Trencianske Bohuslavice"
-        }, 
-        {
-          "id": 5849, 
-          "name": "Trencianske Jastrabie"
-        }, 
-        {
-          "id": 8559, 
-          "name": "TRENCIAN.TEPLA [Trencianska Tepla]"
-        }, 
-        {
-          "id": 6886, 
-          "name": "Tren\u010d\u00edn"
-        }, 
-        {
-          "id": 5851, 
-          "name": "Trencin Predmestie"
-        }, 
-        {
-          "id": 6885, 
-          "name": "Trencs\u00e9n [Tren\u010d\u00edn]"
-        }, 
-        {
-          "id": 5853, 
-          "name": "Trencs\u00e9nh\u0151lak [Trencianska Tepla]"
-        }, 
-        {
-          "id": 5856, 
-          "name": "Treti Hamor"
-        }, 
-        {
-          "id": 8497, 
-          "name": "TRETI [Treti Hamor]"
-        }, 
-        {
-          "id": 13910, 
-          "name": "Triest Hauptbahnhof [Trieste Centrale]"
-        }, 
-        {
-          "id": 8143, 
-          "name": "Trieste Centrale"
-        }, 
-        {
-          "id": 13912, 
-          "name": "Trieste Gare Centrale [Trieste Centrale]"
-        }, 
-        {
-          "id": 13908, 
-          "name": "TRIESTE [Trieste Centrale]"
-        }, 
-        {
-          "id": 8121, 
-          "name": "Trieszt [Trieste Centrale]"
-        }, 
-        {
-          "id": 7467, 
-          "name": "Trinec"
-        }, 
-        {
-          "id": 8571, 
-          "name": "TRINEC [Trinec]"
-        }, 
-        {
-          "id": 8616, 
-          "name": "TRINEC-KON. [Trinec-Konska]"
-        }, 
-        {
-          "id": 8719, 
-          "name": "Trinec-Konska"
-        }, 
-        {
-          "id": 8556, 
-          "name": "Trinec-Lyzbice"
-        }, 
-        {
-          "id": 5865, 
+          "id": "007872404", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5865, 
+          "longitude": null, 
           "name": "Trnava (Cro)"
         }, 
         {
-          "id": 5867, 
-          "name": "Trnava Hora"
+          "id": "005517376_344", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6727, 
+          "longitude": null, 
+          "name": "T.sas (Tiszasas)"
         }, 
         {
-          "id": 5868, 
-          "name": "Trnava Predmestie"
+          "id": "005514241_345", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6629, 
+          "longitude": null, 
+          "name": "T.szentimre (Tiszaszentimre)"
         }, 
         {
-          "id": 5866, 
-          "name": "Trnava (Slo)"
+          "id": "005514258_346", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6780, 
+          "longitude": null, 
+          "name": "T.sz\u0151l\u0151s (Tiszasz\u0151l\u0151s)"
         }, 
         {
-          "id": 10030, 
-          "name": "TRNAVA [Trnava (Cro)]"
+          "id": "005517806_347", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6747, 
+          "longitude": null, 
+          "name": "T.teny\u0151 (Tiszateny\u0151)"
         }, 
         {
-          "id": 5869, 
-          "name": "Trnovec Nad Vahom"
+          "id": "005517293_348", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6759, 
+          "longitude": null, 
+          "name": "T.ug (Tiszaug)"
         }, 
         {
-          "id": 5872, 
-          "name": "Trstena"
+          "id": "005512567_349", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6719, 
+          "longitude": null, 
+          "name": "T.\u00fajv\u00e1ros (Tisza\u00fajv\u00e1ros)"
         }, 
         {
-          "id": 5873, 
-          "name": "Trsztena [Trstena]"
-        }, 
-        {
-          "id": 5877, 
-          "name": "Trzin"
-        }, 
-        {
-          "id": 5878, 
-          "name": "Trzin Ind. Cona"
-        }, 
-        {
-          "id": 5879, 
-          "name": "Trzin Mlake"
-        }, 
-        {
-          "id": 13263, 
-          "name": "TRZIN [Trzin]"
-        }, 
-        {
-          "id": 13145, 
-          "name": "TRZIN [Trzin Ind. Cona]"
-        }, 
-        {
-          "id": 12893, 
-          "name": "TRZIN [Trzin Mlake]"
-        }, 
-        {
-          "id": 5880, 
-          "name": "Trzisce"
-        }, 
-        {
-          "id": 12797, 
-          "name": "TRZISCE [Trzisce]"
-        }, 
-        {
-          "id": 6727, 
-          "name": "T.sas [Tiszasas]"
-        }, 
-        {
-          "id": 6629, 
-          "name": "T.szentimre [Tiszaszentimre]"
-        }, 
-        {
-          "id": 6780, 
-          "name": "T.sz\u0151l\u0151s [Tiszasz\u0151l\u0151s]"
-        }, 
-        {
-          "id": 6747, 
-          "name": "T.teny\u0151 [Tiszateny\u0151]"
-        }, 
-        {
-          "id": 6759, 
-          "name": "T.ug [Tiszaug]"
-        }, 
-        {
-          "id": 6719, 
-          "name": "T.\u00fajv\u00e1ros [Tisza\u00fajv\u00e1ros]"
-        }, 
-        {
-          "id": 5888, 
-          "name": "Tulcik"
-        }, 
-        {
-          "id": 5896, 
+          "id": "005515743", 
+          "is_domestic": true, 
+          "latitude": 47.9605862095022, 
+          "legacy_id": 5896, 
+          "longitude": 22.4426738427623, 
           "name": "Tunyogmatolcs"
         }, 
         {
-          "id": 5897, 
+          "id": "005515750", 
+          "is_domestic": true, 
+          "latitude": 47.9660582407167, 
+          "legacy_id": 5897, 
+          "longitude": 22.4644887574685, 
           "name": "Tunyogmatolcs als\u00f3"
         }, 
         {
-          "id": 5898, 
+          "id": "005511197", 
+          "is_domestic": true, 
+          "latitude": 47.6262445790564, 
+          "legacy_id": 5898, 
+          "longitude": 19.5970658953563, 
           "name": "Tura"
         }, 
         {
-          "id": 5899, 
-          "name": "Turany"
+          "id": "005340256_350", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6832, 
+          "longitude": null, 
+          "name": "Tusn\u00e1df\u00fcrd\u0151 (B\u0103ile Tu\u015fnad)"
         }, 
         {
-          "id": 5901, 
-          "name": "Turcek"
-        }, 
-        {
-          "id": 5903, 
-          "name": "Turcianske Teplice"
-        }, 
-        {
-          "id": 8506, 
-          "name": "TURCIAN.TEPLICE [Turcianske Teplice]"
-        }, 
-        {
-          "id": 13197, 
-          "name": "Turcin"
-        }, 
-        {
-          "id": 12705, 
-          "name": "TURCIN [Turcin]"
-        }, 
-        {
-          "id": 5905, 
-          "name": "Turdossin [Tvrdosin]"
-        }, 
-        {
-          "id": 5910, 
-          "name": "Tur\u00f3cdiv\u00e9k [Diviaky]"
-        }, 
-        {
-          "id": 5911, 
-          "name": "Tur\u00f3cszentm\u00e1rton [Martin]"
-        }, 
-        {
-          "id": 12970, 
-          "name": "Turopolje"
-        }, 
-        {
-          "id": 13178, 
-          "name": "TUROPOLJE [Turopolje]"
-        }, 
-        {
-          "id": 5912, 
-          "name": "Turz\u00f3falva [Turzovka]"
-        }, 
-        {
-          "id": 5913, 
-          "name": "Turzovka"
-        }, 
-        {
-          "id": 5914, 
-          "name": "Turzovka Zastavka"
-        }, 
-        {
-          "id": 6832, 
-          "name": "Tusn\u00e1df\u00fcrd\u0151 [B\u0103ile Tu\u015fnad]"
-        }, 
-        {
-          "id": 5921, 
+          "id": "005514159", 
+          "is_domestic": true, 
+          "latitude": 48.3424546793927, 
+          "legacy_id": 5921, 
+          "longitude": 22.1317479239269, 
           "name": "Tuzs\u00e9r"
         }, 
         {
-          "id": 5923, 
+          "id": "005504838", 
+          "is_domestic": true, 
+          "latitude": 46.9950074055976, 
+          "legacy_id": 5923, 
+          "longitude": 17.0947068081153, 
           "name": "T\u00fcrje"
         }, 
         {
-          "id": 5924, 
+          "id": "005504069", 
+          "is_domestic": true, 
+          "latitude": 47.1287689883244, 
+          "legacy_id": 5924, 
+          "longitude": 17.3313966327291, 
           "name": "T\u00fcskev\u00e1r"
         }, 
         {
-          "id": 6735, 
-          "name": "T.v\u00e1rkony [Tiszav\u00e1rkony]"
+          "id": "005517715_351", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6735, 
+          "longitude": null, 
+          "name": "T.v\u00e1rkony (Tiszav\u00e1rkony)"
         }, 
         {
-          "id": 6818, 
-          "name": "T.vasv\u00e1ri [Tiszavasv\u00e1ri]"
+          "id": "005514738_352", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6818, 
+          "longitude": null, 
+          "name": "T.vasv\u00e1ri (Tiszavasv\u00e1ri)"
         }, 
         {
-          "id": 5926, 
-          "name": "Tvrdosin"
-        }, 
-        {
-          "id": 5927, 
-          "name": "Tvrdosovce"
-        }, 
-        {
-          "id": 7365, 
+          "id": "005107370", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7365, 
+          "longitude": null, 
           "name": "Tychy"
         }, 
         {
-          "id": 8128, 
-          "name": "TYCHY [Tychy]"
+          "id": "005515552_353", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5929, 
+          "longitude": null, 
+          "name": "Tyukod (Porcsalma-Tyukod)"
         }, 
         {
-          "id": 5929, 
-          "name": "Tyukod [Porcsalma-Tyukod]"
+          "id": "005504440_354", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 5934, 
+          "longitude": null, 
+          "name": "Udvari (Balatonudvari)"
         }, 
         {
-          "id": 5932, 
-          "name": "Udavske"
+          "id": "007216003_355", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5939, 
+          "longitude": null, 
+          "name": "\u00dajbelgr\u00e1d (Novi Beograd)"
         }, 
         {
-          "id": 5934, 
-          "name": "Udvari [Balatonudvari]"
-        }, 
-        {
-          "id": 7342, 
-          "name": "\u00dajb\u00e1nya [Nova Bana]"
-        }, 
-        {
-          "id": 5939, 
-          "name": "\u00dajbelgr\u00e1d [Novi Beograd]"
-        }, 
-        {
-          "id": 5940, 
+          "id": "005517731", 
+          "is_domestic": true, 
+          "latitude": 46.9620409896138, 
+          "legacy_id": 5940, 
+          "longitude": 20.0936034122364, 
           "name": "\u00dajb\u00f6g"
         }, 
         {
-          "id": 5941, 
+          "id": "005513987", 
+          "is_domestic": true, 
+          "latitude": 47.8156311746194, 
+          "legacy_id": 5941, 
+          "longitude": 21.7062689036787, 
           "name": "\u00dajfeh\u00e9rt\u00f3"
         }, 
         {
-          "id": 5942, 
-          "name": "\u00dajgradiska [Nova Gradiska]"
-        }, 
-        {
-          "id": 5943, 
-          "name": "\u00dajkapela-Batrina [Nova Kapela-Batrina]"
-        }, 
-        {
-          "id": 5944, 
+          "id": "005544073", 
+          "is_domestic": true, 
+          "latitude": 48.2511482060282, 
+          "legacy_id": 5944, 
+          "longitude": 22.2215094665077, 
           "name": "\u00dajken\u00e9z"
         }, 
         {
-          "id": 5945, 
+          "id": "004305223", 
+          "is_domestic": true, 
+          "latitude": 47.457743, 
+          "legacy_id": 5945, 
+          "longitude": 16.786697, 
           "name": "\u00dajk\u00e9r"
         }, 
         {
-          "id": 5946, 
-          "name": "\u00dajp\u00e1zova [Nova Pazova]"
+          "id": "005510140_356", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6836, 
+          "longitude": null, 
+          "name": "\u00dajpest (R\u00e1kospalota-\u00dajpest)"
         }, 
         {
-          "id": 7312, 
+          "id": "005510207", 
+          "is_domestic": true, 
+          "latitude": 47.5587079843391, 
+          "legacy_id": 7312, 
+          "longitude": 19.0796399880464, 
           "name": "\u00dajpest"
         }, 
         {
-          "id": 6836, 
-          "name": "\u00dajpest [R\u00e1kospalota-\u00dajpest]"
-        }, 
-        {
-          "id": 5948, 
+          "id": "005511692", 
+          "is_domestic": true, 
+          "latitude": 47.2857613200618, 
+          "legacy_id": 5948, 
+          "longitude": 20.0671023671554, 
           "name": "\u00dajsz\u00e1sz"
         }, 
         {
-          "id": 5949, 
+          "id": "005518945", 
+          "is_domestic": true, 
+          "latitude": 46.2420296531142, 
+          "legacy_id": 5949, 
+          "longitude": 20.1601445398176, 
           "name": "\u00dajszeged"
         }, 
         {
-          "id": 7456, 
-          "name": "\u00dajtelep (R\u00e1koscsaba) [R\u00e1koscsaba-\u00dajtelep]"
+          "id": "005511098_357", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7456, 
+          "longitude": null, 
+          "name": "\u00dajtelep (R\u00e1koscsaba) (R\u00e1koscsaba-\u00dajtelep)"
         }, 
         {
-          "id": 5950, 
+          "id": "005505488", 
+          "is_domestic": true, 
+          "latitude": 46.5192793848797, 
+          "legacy_id": 5950, 
+          "longitude": 16.9803277899534, 
           "name": "\u00dajudvar"
         }, 
         {
-          "id": 5951, 
+          "id": "005542879", 
+          "is_domestic": true, 
+          "latitude": 46.660541400636, 
+          "legacy_id": 5951, 
+          "longitude": 20.5361598935129, 
           "name": "\u00dajv\u00e1ros"
         }, 
         {
-          "id": 5952, 
+          "id": "005506528", 
+          "is_domestic": true, 
+          "latitude": 46.9371710638198, 
+          "legacy_id": 5952, 
+          "longitude": 18.8716216412562, 
           "name": "\u00dajvenyim"
         }, 
         {
-          "id": 5953, 
-          "name": "\u00dajvid\u00e9k [Novi Sad]"
+          "id": "007216808_358", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5953, 
+          "longitude": null, 
+          "name": "\u00dajvid\u00e9k (Novi Sad)"
         }, 
         {
-          "id": 5954, 
+          "id": "005504689", 
+          "is_domestic": true, 
+          "latitude": 47.0405239415002, 
+          "legacy_id": 5954, 
+          "longitude": 17.1964960221806, 
           "name": "Ukk"
         }, 
         {
-          "id": 8454, 
-          "name": "UL [Ulm Hbf]"
-        }, 
-        {
-          "id": 5955, 
-          "name": "Ulany Nad Zitavou"
-        }, 
-        {
-          "id": 5957, 
+          "id": "008029103", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5957, 
+          "longitude": null, 
           "name": "Ulm Hbf"
         }, 
         {
-          "id": 8448, 
-          "name": "ULMA(ULM) [Ulm Hbf]"
-        }, 
-        {
-          "id": 5964, 
-          "name": "Unesic"
-        }, 
-        {
-          "id": 12814, 
-          "name": "UNESIC [Unesic]"
-        }, 
-        {
-          "id": 5983, 
-          "name": "Untersiebenbrunn"
-        }, 
-        {
-          "id": 5985, 
-          "name": "Upor"
-        }, 
-        {
-          "id": 5987, 
+          "id": "005544693", 
+          "is_domestic": true, 
+          "latitude": 46.9179745337907, 
+          "legacy_id": 5987, 
+          "longitude": 19.6205857660596, 
           "name": "\u00darihegy"
         }, 
         {
-          "id": 5991, 
-          "name": "Ursna Sela"
-        }, 
-        {
-          "id": 12831, 
-          "name": "URSNA [Ursna Sela]"
-        }, 
-        {
-          "id": 5994, 
+          "id": "005453179", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 5994, 
+          "longitude": null, 
           "name": "Usti Nad Labem hl. n."
         }, 
         {
-          "id": 7935, 
+          "id": "005453863", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7935, 
+          "longitude": null, 
           "name": "Usti Nad Orlici"
         }, 
         {
-          "id": 10031, 
-          "name": "Usti Nad Orlici Mesto"
-        }, 
-        {
-          "id": 8129, 
-          "name": "USTI [Usti Nad Labem hl. n.]"
-        }, 
-        {
-          "id": 8154, 
-          "name": "USTI [Usti Nad Orlici]"
-        }, 
-        {
-          "id": 10043, 
-          "name": "USTI/ORL.M. [Usti Nad Orlici Mesto]"
-        }, 
-        {
-          "id": 5996, 
-          "name": "Utekac"
-        }, 
-        {
-          "id": 6785, 
-          "name": "Uzice (Sb)"
-        }, 
-        {
-          "id": 8227, 
-          "name": "UZICE [Uzice (Sb)]"
-        }, 
-        {
-          "id": 6004, 
+          "id": "005504630", 
+          "is_domestic": true, 
+          "latitude": 46.9203777154698, 
+          "legacy_id": 6004, 
+          "longitude": 17.3317249948183, 
           "name": "Uzsa"
         }, 
         {
-          "id": 6005, 
+          "id": "005504622", 
+          "is_domestic": true, 
+          "latitude": 46.8982542587393, 
+          "legacy_id": 6005, 
+          "longitude": 17.3452668532528, 
           "name": "Uzsab\u00e1nya als\u00f3"
         }, 
         {
-          "id": 7370, 
-          "name": "\u00dcd\u00fcl\u0151telep [Csitt\u00e9nyhegy]"
+          "id": "005504333_359", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7370, 
+          "longitude": null, 
+          "name": "\u00dcd\u00fcl\u0151telep (Csitt\u00e9nyhegy)"
         }, 
         {
-          "id": 6010, 
+          "id": "005513649", 
+          "is_domestic": true, 
+          "latitude": 47.3906667581074, 
+          "legacy_id": 6010, 
+          "longitude": 19.3508537520962, 
           "name": "\u00dcll\u0151"
         }, 
         {
-          "id": 7311, 
+          "id": "005501412", 
+          "is_domestic": true, 
+          "latitude": 47.58069852744, 
+          "legacy_id": 7311, 
+          "longitude": 19.002094371661, 
           "name": "\u00dcr\u00f6m"
         }, 
         {
-          "id": 6847, 
-          "name": "\u00dcveggy\u00e1r [Orosh\u00e1za-\u00dcveggy\u00e1r]"
+          "id": "005544438_360", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6847, 
+          "longitude": null, 
+          "name": "\u00dcveggy\u00e1r (Orosh\u00e1za-\u00dcveggy\u00e1r)"
         }, 
         {
-          "id": 6012, 
+          "id": "005510447", 
+          "is_domestic": true, 
+          "latitude": 47.782436724598, 
+          "legacy_id": 6012, 
+          "longitude": 19.1331657716191, 
           "name": "V\u00e1c"
         }, 
         {
-          "id": 6013, 
+          "id": "005540816", 
+          "is_domestic": true, 
+          "latitude": 47.7724780396757, 
+          "legacy_id": 6013, 
+          "longitude": 19.1504866152071, 
           "name": "V\u00e1c-Als\u00f3v\u00e1ros"
         }, 
         {
-          "id": 6015, 
+          "id": "005510595", 
+          "is_domestic": true, 
+          "latitude": 47.7253239668509, 
+          "legacy_id": 6015, 
+          "longitude": 19.2495400775821, 
           "name": "V\u00e1charty\u00e1n"
         }, 
         {
-          "id": 6016, 
+          "id": "005510835", 
+          "is_domestic": true, 
+          "latitude": 47.7327205785477, 
+          "legacy_id": 6016, 
+          "longitude": 19.2178151477796, 
           "name": "V\u00e1cr\u00e1t\u00f3t"
         }, 
         {
-          "id": 6018, 
+          "id": "005512807", 
+          "is_domestic": true, 
+          "latitude": 48.2763035821161, 
+          "legacy_id": 6018, 
+          "longitude": 20.5556020190732, 
           "name": "Vadna"
         }, 
         {
-          "id": 6019, 
-          "name": "Vadosfa [P\u00e1li-Vadosfa]"
+          "id": "004302394_361", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6019, 
+          "longitude": null, 
+          "name": "Vadosfa (P\u00e1li-Vadosfa)"
         }, 
         {
-          "id": 6020, 
-          "name": "Vadovce"
-        }, 
-        {
-          "id": 6027, 
-          "name": "V\u00e1gbeszterce [Povazska Bystrica]"
-        }, 
-        {
-          "id": 8492, 
-          "name": "V\u00e1gsellye [Sa\u013ea]"
-        }, 
-        {
-          "id": 6029, 
-          "name": "V\u00e1g\u00fajhely [Nove Mesto Nad Vahom]"
-        }, 
-        {
-          "id": 6030, 
-          "name": "Vaihingen(Enz)"
-        }, 
-        {
-          "id": 6031, 
+          "id": "005515719", 
+          "is_domestic": true, 
+          "latitude": 48.0063148584655, 
+          "legacy_id": 6031, 
+          "longitude": 22.1636911994483, 
           "name": "Vaja-Rohod"
         }, 
         {
-          "id": 6032, 
+          "id": "005506668", 
+          "is_domestic": true, 
+          "latitude": 46.7142429719149, 
+          "legacy_id": 6032, 
+          "longitude": 18.6481682560626, 
           "name": "Vajta"
         }, 
         {
-          "id": 6034, 
-          "name": "Valaska"
-        }, 
-        {
-          "id": 6035, 
-          "name": "Valasske Mezirici"
-        }, 
-        {
-          "id": 8713, 
-          "name": "VALASSKE [Valasske Mezirici]"
-        }, 
-        {
-          "id": 7595, 
+          "id": "005345153", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7595, 
+          "longitude": null, 
           "name": "Valea lui Mihai"
         }, 
         {
-          "id": 8243, 
-          "name": "VALEA [Valea lui Mihai]"
-        }, 
-        {
-          "id": 6858, 
-          "name": "Valjevo"
-        }, 
-        {
-          "id": 8200, 
-          "name": "VALJEVO [Valjevo]"
-        }, 
-        {
-          "id": 6061, 
-          "name": "Valkovna"
-        }, 
-        {
-          "id": 6067, 
+          "id": "004302444", 
+          "is_domestic": true, 
+          "latitude": 47.3853653943335, 
+          "legacy_id": 6067, 
+          "longitude": 16.9610065205568, 
           "name": "V\u00e1moscsal\u00e1d"
         }, 
         {
-          "id": 6068, 
+          "id": "005511239", 
+          "is_domestic": true, 
+          "latitude": 47.6859363602019, 
+          "legacy_id": 6068, 
+          "longitude": 19.9280575965284, 
           "name": "V\u00e1mosgy\u00f6rk"
         }, 
         {
-          "id": 6069, 
+          "id": "005515164", 
+          "is_domestic": true, 
+          "latitude": 47.5179636231317, 
+          "legacy_id": 6069, 
+          "longitude": 21.8939393361655, 
           "name": "V\u00e1mosp\u00e9rcs"
         }, 
         {
-          "id": 6617, 
-          "name": "V\u00e1mos\u00fajfalu [Olaszliszka-Tolcsva]"
+          "id": "005513441_362", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6617, 
+          "longitude": null, 
+          "name": "V\u00e1mos\u00fajfalu (Olaszliszka-Tolcsva)"
         }, 
         {
-          "id": 6072, 
-          "name": "Vaniskovce"
-        }, 
-        {
-          "id": 6077, 
+          "id": "005507062", 
+          "is_domestic": true, 
+          "latitude": 46.2810991114265, 
+          "legacy_id": 6077, 
+          "longitude": 18.4362508594735, 
           "name": "V\u00e1ralja"
         }, 
         {
-          "id": 6078, 
-          "name": "Varann\u00f3 [Vranov Nad Toplou]"
-        }, 
-        {
-          "id": 12774, 
-          "name": "Varasd [Vara\u017edin]"
-        }, 
-        {
-          "id": 12825, 
-          "name": "Vara\u017edin"
-        }, 
-        {
-          "id": 13255, 
-          "name": "VARAZDIN [Vara\u017edin]"
-        }, 
-        {
-          "id": 6083, 
+          "id": "005508433", 
+          "is_domestic": true, 
+          "latitude": 46.4604898239507, 
+          "legacy_id": 6083, 
+          "longitude": 17.7248605469556, 
           "name": "V\u00e1rda"
         }, 
         {
-          "id": 6084, 
+          "id": "005540899", 
+          "is_domestic": true, 
+          "latitude": 47.7375877827522, 
+          "legacy_id": 6084, 
+          "longitude": 18.366973179428, 
           "name": "V\u00e1rhegyalja"
         }, 
         {
-          "id": 6085, 
-          "name": "Varin"
+          "id": "005544479_363", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6649, 
+          "longitude": null, 
+          "name": "V\u00e1roserd\u0151 (Gyulai v\u00e1roserd\u0151)"
         }, 
         {
-          "id": 6649, 
-          "name": "V\u00e1roserd\u0151 [Gyulai v\u00e1roserd\u0151]"
-        }, 
-        {
-          "id": 6089, 
+          "id": "005517129", 
+          "is_domestic": true, 
+          "latitude": 46.8157676763213, 
+          "legacy_id": 6089, 
+          "longitude": 19.7536834757845, 
           "name": "V\u00e1rosf\u00f6ld"
         }, 
         {
-          "id": 6090, 
+          "id": "005542903", 
+          "is_domestic": true, 
+          "latitude": 46.6975791608176, 
+          "legacy_id": 6090, 
+          "longitude": 19.8658404481807, 
           "name": "V\u00e1rosi park"
         }, 
         {
-          "id": 6091, 
+          "id": "005503970", 
+          "is_domestic": true, 
+          "latitude": 47.1443525242286, 
+          "legacy_id": 6091, 
+          "longitude": 17.6532171720376, 
           "name": "V\u00e1rosl\u0151d"
         }, 
         {
-          "id": 6092, 
+          "id": "005503988", 
+          "is_domestic": true, 
+          "latitude": 47.1342972811172, 
+          "legacy_id": 6092, 
+          "longitude": 17.6316901288345, 
           "name": "V\u00e1rosl\u0151d-Kisl\u0151d"
         }, 
         {
-          "id": 6093, 
+          "id": "005503871", 
+          "is_domestic": true, 
+          "latitude": 47.1948274748365, 
+          "legacy_id": 6093, 
+          "longitude": 18.1489681557999, 
           "name": "V\u00e1rpalota"
         }, 
         {
-          "id": 6097, 
+          "id": "005507195", 
+          "is_domestic": true, 
+          "latitude": 46.3102434551487, 
+          "legacy_id": 6097, 
+          "longitude": 18.1383610656939, 
           "name": "V\u00e1s\u00e1rosdomb\u00f3"
         }, 
         {
-          "id": 6098, 
+          "id": "005515933", 
+          "is_domestic": true, 
+          "latitude": 48.1266362103919, 
+          "legacy_id": 6098, 
+          "longitude": 22.3058227138072, 
           "name": "V\u00e1s\u00e1rosnam\u00e9ny"
         }, 
         {
-          "id": 6099, 
+          "id": "005542598", 
+          "is_domestic": true, 
+          "latitude": 48.0822342402612, 
+          "legacy_id": 6099, 
+          "longitude": 22.2512319791734, 
           "name": "V\u00e1s\u00e1rosnam\u00e9ny k\u00fcls\u0151"
         }, 
         {
-          "id": 7463, 
-          "name": "V\u00e1s\u00e1rt\u00e9r (Derecske) [Derecske-V\u00e1s\u00e1rt\u00e9r]"
+          "id": "005514969_364", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7463, 
+          "longitude": null, 
+          "name": "V\u00e1s\u00e1rt\u00e9r (Derecske) (Derecske-V\u00e1s\u00e1rt\u00e9r)"
         }, 
         {
-          "id": 7450, 
-          "name": "V\u00e1s\u00e1rt\u00e9r (Hajd\u00fan\u00e1n\u00e1s) [Hajd\u00fan\u00e1n\u00e1s-V\u00e1s\u00e1rt\u00e9r]"
+          "id": "005514712_365", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7450, 
+          "longitude": null, 
+          "name": "V\u00e1s\u00e1rt\u00e9r (Hajd\u00fan\u00e1n\u00e1s) (Hajd\u00fan\u00e1n\u00e1s-V\u00e1s\u00e1rt\u00e9r)"
         }, 
         {
-          "id": 7447, 
-          "name": "V\u00e1s\u00e1rt\u00e9r (P\u00fcsp\u00f6klad\u00e1ny) [P\u00fcsp\u00f6klad\u00e1ny-V\u00e1s\u00e1rt\u00e9r]"
+          "id": "005544305_366", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7447, 
+          "longitude": null, 
+          "name": "V\u00e1s\u00e1rt\u00e9r (P\u00fcsp\u00f6klad\u00e1ny) (P\u00fcsp\u00f6klad\u00e1ny-V\u00e1s\u00e1rt\u00e9r)"
         }, 
         {
-          "id": 7460, 
-          "name": "V\u00e1s\u00e1rt\u00e9r (Sziksz\u00f3) [Sziksz\u00f3-V\u00e1s\u00e1rt\u00e9r]"
+          "id": "005513136_367", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 7460, 
+          "longitude": null, 
+          "name": "V\u00e1s\u00e1rt\u00e9r (Sziksz\u00f3) (Sziksz\u00f3-V\u00e1s\u00e1rt\u00e9r)"
         }, 
         {
-          "id": 6100, 
-          "name": "Vasboldogasszony [Egerv\u00e1r-Vasboldogasszony]"
+          "id": "004305355_368", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6100, 
+          "longitude": null, 
+          "name": "Vasboldogasszony (Egerv\u00e1r-Vasboldogasszony)"
         }, 
         {
-          "id": 6101, 
+          "id": "004302451", 
+          "is_domestic": true, 
+          "latitude": 47.3748861961615, 
+          "legacy_id": 6101, 
+          "longitude": 16.9289579894866, 
           "name": "Vasegerszeg"
         }, 
         {
-          "id": 6104, 
-          "name": "Vass\u00far\u00e1ny [Salk\u00f6vesk\u00fat-Vassur\u00e1ny]"
+          "id": "004305264_369", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6104, 
+          "longitude": null, 
+          "name": "Vass\u00far\u00e1ny (Salk\u00f6vesk\u00fat-Vassur\u00e1ny)"
         }, 
         {
-          "id": 7361, 
+          "id": "005541145", 
+          "is_domestic": true, 
+          "latitude": 47.544089076783, 
+          "legacy_id": 7361, 
+          "longitude": 19.0992686831699, 
           "name": "Vas\u00fatm\u00fazeum"
         }, 
         {
-          "id": 6105, 
+          "id": "004305314", 
+          "is_domestic": true, 
+          "latitude": 47.0569617090778, 
+          "legacy_id": 6105, 
+          "longitude": 16.8003486148714, 
           "name": "Vasv\u00e1r"
         }, 
         {
-          "id": 6106, 
+          "id": "005502113", 
+          "is_domestic": true, 
+          "latitude": 47.4025781208171, 
+          "legacy_id": 6106, 
+          "longitude": 17.4964659352402, 
           "name": "Vaszar"
         }, 
         {
-          "id": 6110, 
-          "name": "Vazec"
-        }, 
-        {
-          "id": 13187, 
-          "name": "V.BANOVCI [Vinkovacki Banovci]"
-        }, 
-        {
-          "id": 6111, 
+          "id": "005513623", 
+          "is_domestic": true, 
+          "latitude": 47.4085764076476, 
+          "legacy_id": 6111, 
+          "longitude": 19.2563337391374, 
           "name": "Vecs\u00e9s"
         }, 
         {
-          "id": 6112, 
+          "id": "005513631", 
+          "is_domestic": true, 
+          "latitude": 47.4033802172787, 
+          "legacy_id": 6112, 
+          "longitude": 19.272815053448, 
           "name": "Vecs\u00e9s-Kertekalja"
         }, 
         {
-          "id": 6113, 
-          "name": "V\u00e9deny [Weiden am See]"
+          "id": "004333021_370", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6113, 
+          "longitude": null, 
+          "name": "V\u00e9deny (Weiden am See)"
         }, 
         {
-          "id": 6115, 
+          "id": "005519174", 
+          "is_domestic": true, 
+          "latitude": 46.3849860016013, 
+          "legacy_id": 6115, 
+          "longitude": 20.8792661611237, 
           "name": "V\u00e9gegyh\u00e1za"
         }, 
         {
-          "id": 6116, 
+          "id": "005544321", 
+          "is_domestic": true, 
+          "latitude": 46.367080829731, 
+          "legacy_id": 6116, 
+          "longitude": 20.866842589687, 
           "name": "V\u00e9gegyh\u00e1za als\u00f3"
         }, 
         {
-          "id": 8581, 
-          "name": "VEL. LOMNICA-GOLF [Velka Lomnica - Golf]"
-        }, 
-        {
-          "id": 13066, 
-          "name": "VEL [Velika Nedelja]"
-        }, 
-        {
-          "id": 6118, 
-          "name": "Velaty"
-        }, 
-        {
-          "id": 6121, 
+          "id": "005503210", 
+          "is_domestic": true, 
+          "latitude": 47.2269045048639, 
+          "legacy_id": 6121, 
+          "longitude": 18.6638445394052, 
           "name": "Velence"
         }, 
         {
-          "id": 6122, 
-          "name": "Velence Mestre [Venezia Mestre]"
-        }, 
-        {
-          "id": 6123, 
-          "name": "Velence S.L. [Venezia S. Lucia]"
-        }, 
-        {
-          "id": 6120, 
-          "name": "VELENCE* [VENEZIA*]"
-        }, 
-        {
-          "id": 6124, 
+          "id": "005503228", 
+          "is_domestic": true, 
+          "latitude": 47.218581260332, 
+          "legacy_id": 6124, 
+          "longitude": 18.6481089428632, 
           "name": "Velencef\u00fcrd\u0151"
         }, 
         {
-          "id": 6125, 
-          "name": "Velenje"
-        }, 
-        {
-          "id": 6126, 
-          "name": "Velenje Pesje"
-        }, 
-        {
-          "id": 13179, 
-          "name": "VELENJE [Velenje]"
-        }, 
-        {
-          "id": 13007, 
-          "name": "VELENJE [Velenje Pesje]"
-        }, 
-        {
-          "id": 6729, 
-          "name": "Veles"
-        }, 
-        {
-          "id": 12889, 
-          "name": "VELES [Veles]"
-        }, 
-        {
-          "id": 6131, 
-          "name": "Velicna"
-        }, 
-        {
-          "id": 6132, 
-          "name": "Velika Gorica"
-        }, 
-        {
-          "id": 6133, 
-          "name": "Velika Loka"
-        }, 
-        {
-          "id": 6134, 
-          "name": "Velika Nedelja"
-        }, 
-        {
-          "id": 6135, 
-          "name": "Velika Plana"
-        }, 
-        {
-          "id": 13030, 
-          "name": "VELIKA [Velika Gorica]"
-        }, 
-        {
-          "id": 12870, 
-          "name": "VELIKA [Velika Loka]"
-        }, 
-        {
-          "id": 13181, 
-          "name": "VELIKA [Velika Plana]"
-        }, 
-        {
-          "id": 13248, 
-          "name": "Veliko Trgovisce"
-        }, 
-        {
-          "id": 13130, 
-          "name": "Veliko Trojstvo"
-        }, 
-        {
-          "id": 13177, 
-          "name": "VELIKO [Veliko Trgovisce]"
-        }, 
-        {
-          "id": 13031, 
-          "name": "Velimirovac"
-        }, 
-        {
-          "id": 12900, 
-          "name": "VELIMIROVAC [Velimirovac]"
-        }, 
-        {
-          "id": 6137, 
-          "name": "Velka Ida"
-        }, 
-        {
-          "id": 6138, 
-          "name": "Velka Lodina"
-        }, 
-        {
-          "id": 6139, 
-          "name": "Velka Lomnica - Golf"
-        }, 
-        {
-          "id": 6140, 
-          "name": "Velka Luka"
-        }, 
-        {
-          "id": 6141, 
-          "name": "Velka Nad Velickou"
-        }, 
-        {
-          "id": 8663, 
-          "name": "VELKA [Velka Lodina]"
-        }, 
-        {
-          "id": 8527, 
-          "name": "VELKA [Velka Nad Velickou]"
-        }, 
-        {
-          "id": 8568, 
-          "name": "VELKA [Velka Ves]"
-        }, 
-        {
-          "id": 6142, 
-          "name": "Velka Ves"
-        }, 
-        {
-          "id": 6143, 
-          "name": "Velke Bielice"
-        }, 
-        {
-          "id": 6144, 
-          "name": "Velke Kostolany"
-        }, 
-        {
-          "id": 6145, 
-          "name": "Velke Kozmalovce"
-        }, 
-        {
-          "id": 6146, 
-          "name": "Velke Levare"
-        }, 
-        {
-          "id": 6147, 
-          "name": "Velke Teriakovce"
-        }, 
-        {
-          "id": 6148, 
-          "name": "Velke Uherce"
-        }, 
-        {
-          "id": 8563, 
-          "name": "VELKE [Velke Uherce]"
-        }, 
-        {
-          "id": 6149, 
-          "name": "Velky Biel"
-        }, 
-        {
-          "id": 6150, 
-          "name": "Velky Hores"
-        }, 
-        {
-          "id": 6151, 
-          "name": "Velky Kyr"
-        }, 
-        {
-          "id": 6152, 
-          "name": "Velky Saris"
-        }, 
-        {
-          "id": 6153, 
-          "name": "Velky Slavkov"
-        }, 
-        {
-          "id": 8638, 
-          "name": "VELKY [Velky Biel]"
-        }, 
-        {
-          "id": 8614, 
-          "name": "VELKY [Velky Kyr]"
-        }, 
-        {
-          "id": 8645, 
-          "name": "VENDRYNE [Vendryne (Wendrynia)]"
-        }, 
-        {
-          "id": 8702, 
-          "name": "Vendryne (Wendrynia)"
-        }, 
-        {
-          "id": 12639, 
-          "name": "Venedig Mestre [Venezia Mestre]"
-        }, 
-        {
-          "id": 12626, 
-          "name": "Venedig S. Lucia [Venezia S. Lucia]"
-        }, 
-        {
-          "id": 10048, 
-          "name": "VENEDIG [VENEZIA*]"
-        }, 
-        {
-          "id": 6156, 
-          "name": "VENEZIA*"
-        }, 
-        {
-          "id": 6157, 
-          "name": "Venezia Mestre"
-        }, 
-        {
-          "id": 6158, 
-          "name": "Venezia S. Lucia"
-        }, 
-        {
-          "id": 12686, 
-          "name": "VENEZIA [Venezia Mestre]"
-        }, 
-        {
-          "id": 12645, 
-          "name": "VENEZIA [Venezia S. Lucia]"
-        }, 
-        {
-          "id": 12675, 
-          "name": "Venice Mestre [Venezia Mestre]"
-        }, 
-        {
-          "id": 10034, 
-          "name": "VENICE [VENEZIA*]"
-        }, 
-        {
-          "id": 12674, 
-          "name": "Venise S. Lucia [Venezia S. Lucia]"
-        }, 
-        {
-          "id": 10056, 
-          "name": "VENISE [VENEZIA*]"
-        }, 
-        {
-          "id": 6162, 
+          "id": "004302238", 
+          "is_domestic": true, 
+          "latitude": 47.2358229758465, 
+          "legacy_id": 6162, 
+          "longitude": 16.7268236673159, 
           "name": "V\u00e9p"
         }, 
         {
-          "id": 6163, 
-          "name": "Verb\u00e1sz [Vrbas (YU)]"
+          "id": "007212214_371", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Verb\u00e1sz (Vrbas (YU))"
         }, 
         {
-          "id": 6164, 
-          "name": "Verb\u00f3c [Vrbovce]"
-        }, 
-        {
-          "id": 6167, 
+          "id": "005510561", 
+          "is_domestic": true, 
+          "latitude": 47.6491783804845, 
+          "legacy_id": 6167, 
+          "longitude": 19.2887343938882, 
           "name": "Veresegyh\u00e1z"
         }, 
         {
-          "id": 6168, 
-          "name": "Veresk\u0151 [Cervena Skala]"
-        }, 
-        {
-          "id": 6172, 
+          "id": "005510454", 
+          "is_domestic": true, 
+          "latitude": 47.8237829165333, 
+          "legacy_id": 6172, 
+          "longitude": 19.0317281190995, 
           "name": "Ver\u0151ce"
         }, 
         {
-          "id": 6173, 
-          "name": "Ver\u0151ce [Virovitica]"
-        }, 
-        {
-          "id": 6174, 
+          "id": "005501149", 
+          "is_domestic": true, 
+          "latitude": 47.6188536814889, 
+          "legacy_id": 6174, 
+          "longitude": 18.3763348046007, 
           "name": "V\u00e9rtessz\u0151l\u0151s"
         }, 
         {
-          "id": 6176, 
-          "name": "Verzej"
-        }, 
-        {
-          "id": 12917, 
-          "name": "VERZEJ [Verzej]"
-        }, 
-        {
-          "id": 8526, 
-          "name": "Veseli Nad Moravou"
-        }, 
-        {
-          "id": 8533, 
-          "name": "Veseli Nad Moravou-Zarazice"
-        }, 
-        {
-          "id": 8709, 
-          "name": "VESELI [Veseli Nad Moravou]"
-        }, 
-        {
-          "id": 8696, 
-          "name": "VESELI/M-ZAR [Veseli Nad Moravou-Zarazice]"
-        }, 
-        {
-          "id": 6179, 
+          "id": "004302618", 
+          "is_domestic": true, 
+          "latitude": 47.587042, 
+          "legacy_id": 6179, 
+          "longitude": 17.09924, 
           "name": "Veszk\u00e9ny"
         }, 
         {
-          "id": 6180, 
+          "id": "005503947", 
+          "is_domestic": true, 
+          "latitude": 47.1190236175095, 
+          "legacy_id": 6180, 
+          "longitude": 17.9115017727249, 
           "name": "Veszpr\u00e9m"
         }, 
         {
-          "id": 6181, 
+          "id": "005502964", 
+          "is_domestic": true, 
+          "latitude": 47.4432439070159, 
+          "legacy_id": 6181, 
+          "longitude": 17.8184287779052, 
           "name": "Veszpr\u00e9mvars\u00e1ny"
         }, 
         {
-          "id": 6182, 
+          "id": "005518465", 
+          "is_domestic": true, 
+          "latitude": 46.9389503290607, 
+          "legacy_id": 6182, 
+          "longitude": 21.2634649488909, 
           "name": "V\u00e9szt\u0151"
         }, 
         {
-          "id": 6185, 
-          "name": "Vezseny [Tiszajen\u0151-Vezseny]"
+          "id": "005517723_372", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6185, 
+          "longitude": null, 
+          "name": "Vezseny (Tiszajen\u0151-Vezseny)"
         }, 
         {
-          "id": 6188, 
+          "id": "004345674", 
+          "is_domestic": true, 
+          "latitude": 47.4777831105162, 
+          "legacy_id": 6188, 
+          "longitude": 17.1116946342615, 
           "name": "Vica"
         }, 
         {
-          "id": 6189, 
+          "id": "005540980", 
+          "is_domestic": true, 
+          "latitude": 47.6758668873645, 
+          "legacy_id": 6189, 
+          "longitude": 19.2860459762262, 
           "name": "Viczi\u00e1ntelep"
         }, 
         {
-          "id": 7875, 
-          "name": "VIDEN HL.N. [Wien Hbf]"
+          "id": "005310287", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6192, 
+          "longitude": null, 
+          "name": "Videle"
         }, 
         {
-          "id": 6194, 
-          "name": "Vidina"
+          "id": "008108000_373", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6198, 
+          "longitude": null, 
+          "name": "Vienna (WIEN*)"
         }, 
         {
-          "id": 13231, 
-          "name": "VIDINA [Vidina]"
+          "id": "005503327_374", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6204, 
+          "longitude": null, 
+          "name": "Vil\u00e1gos (Balatonvil\u00e1gos)"
         }, 
         {
-          "id": 7869, 
-          "name": "VIEDEN HL.ST. [Wien Hbf]"
-        }, 
-        {
-          "id": 7868, 
-          "name": "VIENNA CENTRALE [Wien Hbf]"
-        }, 
-        {
-          "id": 7866, 
-          "name": "VIENNA MAIN STATION [Wien Hbf]"
-        }, 
-        {
-          "id": 6771, 
-          "name": "Vienna Mainstation [Wien Hbf]"
-        }, 
-        {
-          "id": 6198, 
-          "name": "Vienna [WIEN*]"
-        }, 
-        {
-          "id": 7880, 
-          "name": "VIENNE GARE CENTRALE [Wien Hbf]"
-        }, 
-        {
-          "id": 6200, 
-          "name": "Viglas"
-        }, 
-        {
-          "id": 6204, 
-          "name": "Vil\u00e1gos [Balatonvil\u00e1gos]"
-        }, 
-        {
-          "id": 6205, 
+          "id": "005517269", 
+          "is_domestic": true, 
+          "latitude": 46.8552838168515, 
+          "legacy_id": 6205, 
+          "longitude": 19.9398519963592, 
           "name": "Vil\u00e1goshegy"
         }, 
         {
-          "id": 13257, 
-          "name": "VILLA OP CONFINE [Villa Opicina Confine (Sezana)]"
-        }, 
-        {
-          "id": 6206, 
-          "name": "Villa Opicina"
-        }, 
-        {
-          "id": 12732, 
-          "name": "Villa Opicina Confine (Sezana)"
-        }, 
-        {
-          "id": 13261, 
-          "name": "VILLA OPICINA [Villa Opicina]"
-        }, 
-        {
-          "id": 7881, 
-          "name": "VILLACCO CENTRALE [Villach Hbf]"
-        }, 
-        {
-          "id": 6207, 
-          "name": "VILLACH*"
-        }, 
-        {
-          "id": 6208, 
-          "name": "Villach Hbf"
-        }, 
-        {
-          "id": 6209, 
-          "name": "Villach Westbf"
-        }, 
-        {
-          "id": 6210, 
+          "id": "005507468", 
+          "is_domestic": true, 
+          "latitude": 45.8771974686636, 
+          "legacy_id": 6210, 
+          "longitude": 18.4516127188355, 
           "name": "Vill\u00e1ny"
         }, 
         {
-          "id": 6211, 
+          "id": "005507450", 
+          "is_domestic": true, 
+          "latitude": 45.8797540284781, 
+          "legacy_id": 6211, 
+          "longitude": 18.4262220378588, 
           "name": "Vill\u00e1nyk\u00f6vesd"
         }, 
         {
-          "id": 6216, 
-          "name": "Vilm\u00e1ny [Hejce-Vilm\u00e1ny]"
+          "id": "005513367_375", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6216, 
+          "longitude": null, 
+          "name": "Vilm\u00e1ny (Hejce-Vilm\u00e1ny)"
         }, 
         {
-          "id": 6217, 
+          "id": "005544628", 
+          "is_domestic": true, 
+          "latitude": 46.3665884451432, 
+          "legacy_id": 6217, 
+          "longitude": 20.0307903619423, 
           "name": "Vilmasz\u00e1ll\u00e1s"
         }, 
         {
-          "id": 6220, 
+          "id": "005502154", 
+          "is_domestic": true, 
+          "latitude": 47.3058654477002, 
+          "legacy_id": 6220, 
+          "longitude": 17.2824944202312, 
           "name": "Vin\u00e1r"
         }, 
         {
-          "id": 13251, 
-          "name": "Vinkovacki Banovci"
-        }, 
-        {
-          "id": 6222, 
-          "name": "Vinkovce [Vinkovci]"
-        }, 
-        {
-          "id": 6223, 
-          "name": "Vinkovci"
-        }, 
-        {
-          "id": 12739, 
-          "name": "VINKOVCI [Vinkovci]"
-        }, 
-        {
-          "id": 6224, 
-          "name": "Vinnica"
-        }, 
-        {
-          "id": 12680, 
-          "name": "VINNICA [Vinnica]"
-        }, 
-        {
-          "id": 6225, 
-          "name": "Vintgar"
-        }, 
-        {
-          "id": 13021, 
-          "name": "VINTGAR [Vintgar]"
-        }, 
-        {
-          "id": 6226, 
+          "id": "005321028", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6226, 
+          "longitude": null, 
           "name": "Vintu De Jos"
         }, 
         {
-          "id": 8223, 
-          "name": "VINTU [Vintu De Jos]"
-        }, 
-        {
-          "id": 6227, 
+          "id": "005545724", 
+          "is_domestic": true, 
+          "latitude": 47.3603490325133, 
+          "legacy_id": 6227, 
+          "longitude": 17.8196395697406, 
           "name": "Vinye"
         }, 
         {
-          "id": 6229, 
+          "id": "005543752", 
+          "is_domestic": true, 
+          "latitude": 48.0679164262261, 
+          "legacy_id": 6229, 
+          "longitude": 21.5260234770805, 
           "name": "Vir\u00e1nyos"
         }, 
         {
-          "id": 6230, 
-          "name": "Virje"
+          "id": "005510470_376", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6233, 
+          "longitude": null, 
+          "name": "Visegr\u00e1d (Nagymaros-Visegr\u00e1d)"
         }, 
         {
-          "id": 12882, 
-          "name": "VIRJE [Virje]"
-        }, 
-        {
-          "id": 12781, 
-          "name": "VIROV. [Virovitica Grad]"
-        }, 
-        {
-          "id": 6231, 
-          "name": "Virovitica"
-        }, 
-        {
-          "id": 6232, 
-          "name": "Virovitica Grad"
-        }, 
-        {
-          "id": 12951, 
-          "name": "VIROVITICA [Virovitica]"
-        }, 
-        {
-          "id": 6233, 
-          "name": "Visegr\u00e1d [Nagymaros-Visegr\u00e1d]"
-        }, 
-        {
-          "id": 6236, 
-          "name": "Visnja Gora"
-        }, 
-        {
-          "id": 12747, 
-          "name": "VISNJA [Visnja Gora]"
-        }, 
-        {
-          "id": 6237, 
-          "name": "Visnove"
-        }, 
-        {
-          "id": 6243, 
+          "id": "005515941", 
+          "is_domestic": true, 
+          "latitude": 48.0954924297979, 
+          "legacy_id": 6243, 
+          "longitude": 22.3081801475685, 
           "name": "Vitka"
         }, 
         {
-          "id": 6244, 
-          "name": "Vitkovce"
-        }, 
-        {
-          "id": 6245, 
+          "id": "004302634", 
+          "is_domestic": true, 
+          "latitude": 47.582006, 
+          "legacy_id": 6245, 
+          "longitude": 16.986886, 
           "name": "Vitny\u00e9d-Csermajor"
         }, 
         {
-          "id": 6639, 
-          "name": "V\u00edzm\u0171 [B\u00e1nr\u00e9vei V\u00edzm\u0171]"
+          "id": "005541558_377", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6639, 
+          "longitude": null, 
+          "name": "V\u00edzm\u0171 (B\u00e1nr\u00e9vei V\u00edzm\u0171)"
         }, 
         {
-          "id": 6249, 
-          "name": "Vizsoly [Korl\u00e1t-Vizsoly]"
+          "id": "005513342_378", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6249, 
+          "longitude": null, 
+          "name": "Vizsoly (Korl\u00e1t-Vizsoly)"
         }, 
         {
-          "id": 6248, 
+          "id": "005505629", 
+          "is_domestic": true, 
+          "latitude": 46.1013404821309, 
+          "legacy_id": 6248, 
+          "longitude": 17.2392425831919, 
           "name": "V\u00edzv\u00e1r"
         }, 
         {
-          "id": 12915, 
-          "name": "Vladicin Han"
-        }, 
-        {
-          "id": 12826, 
-          "name": "VLADICIN [Vladicin Han]"
-        }, 
-        {
-          "id": 6254, 
-          "name": "Vlarsky Prusmyk"
-        }, 
-        {
-          "id": 8585, 
-          "name": "VLARSKY [Vlarsky Prusmyk]"
-        }, 
-        {
-          "id": 6256, 
-          "name": "Vlkanova"
-        }, 
-        {
-          "id": 8520, 
-          "name": "Vnorovy"
-        }, 
-        {
-          "id": 8671, 
-          "name": "VNOROVY [Vnorovy]"
-        }, 
-        {
-          "id": 12984, 
-          "name": "Vodinci"
-        }, 
-        {
-          "id": 12888, 
-          "name": "VODJINCI [Vodinci]"
-        }, 
-        {
-          "id": 8080, 
-          "name": "Vodnjan"
-        }, 
-        {
-          "id": 12632, 
-          "name": "VODNJAN [Vodnjan]"
-        }, 
-        {
-          "id": 6262, 
+          "id": "007873105", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6262, 
+          "longitude": null, 
           "name": "Vojakovacki Klostar"
         }, 
         {
-          "id": 10039, 
-          "name": "VOJ.KLOSTAR [Vojakovacki Klostar]"
-        }, 
-        {
-          "id": 6264, 
+          "id": "005507435", 
+          "is_domestic": true, 
+          "latitude": 45.8993281097948, 
+          "legacy_id": 6264, 
+          "longitude": 18.3343105769263, 
           "name": "Vok\u00e1ny"
         }, 
         {
-          "id": 6265, 
-          "name": "Volcja Draga"
-        }, 
-        {
-          "id": 12752, 
-          "name": "VOLCJA [Volcja Draga]"
-        }, 
-        {
-          "id": 6267, 
-          "name": "Volica"
-        }, 
-        {
-          "id": 13174, 
-          "name": "Voloder"
-        }, 
-        {
-          "id": 12851, 
-          "name": "VOLODER [Voloder]"
-        }, 
-        {
-          "id": 6269, 
+          "id": "002238370", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6269, 
+          "longitude": null, 
           "name": "Volovec"
         }, 
         {
-          "id": 10063, 
-          "name": "VOLOVEC [Volovec]"
-        }, 
-        {
-          "id": 6271, 
+          "id": "005504770", 
+          "is_domestic": true, 
+          "latitude": 46.7553676162502, 
+          "legacy_id": 6271, 
+          "longitude": 17.3180057464478, 
           "name": "Vonyarcvashegy"
         }, 
         {
-          "id": 6277, 
-          "name": "Voznica"
-        }, 
-        {
-          "id": 7326, 
+          "id": "005501433", 
+          "is_domestic": true, 
+          "latitude": 47.610686632729, 
+          "legacy_id": 7326, 
+          "longitude": 18.9125068638272, 
           "name": "V\u00f6r\u00f6sv\u00e1rb\u00e1nya"
         }, 
         {
-          "id": 6282, 
+          "id": "005503574", 
+          "is_domestic": true, 
+          "latitude": 46.6628915994209, 
+          "legacy_id": 6282, 
+          "longitude": 17.2596774336271, 
           "name": "V\u00f6rs"
         }, 
         {
-          "id": 6284, 
-          "name": "Vrable"
-        }, 
-        {
-          "id": 6734, 
-          "name": "Vranje"
-        }, 
-        {
-          "id": 13224, 
-          "name": "VRANJE [Vranje]"
-        }, 
-        {
-          "id": 6286, 
-          "name": "Vranov Nad Toplou"
-        }, 
-        {
-          "id": 8679, 
-          "name": "VRANOV [Vranov Nad Toplou]"
-        }, 
-        {
-          "id": 6287, 
-          "name": "Vranovske Dlhe"
-        }, 
-        {
-          "id": 13092, 
-          "name": "Vrapce"
-        }, 
-        {
-          "id": 13259, 
-          "name": "VRAPCE [Vrapce]"
-        }, 
-        {
-          "id": 13194, 
-          "name": "Vratisinec"
-        }, 
-        {
-          "id": 12714, 
-          "name": "VRATISINEC [Vratisinec]"
-        }, 
-        {
-          "id": 8186, 
-          "name": "VRBAS [Vrbas (YU)]"
-        }, 
-        {
-          "id": 6289, 
+          "id": "007212214", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6289, 
+          "longitude": null, 
           "name": "Vrbas (YU)"
         }, 
         {
-          "id": 7657, 
-          "name": "Vrbnica"
-        }, 
-        {
-          "id": 8183, 
-          "name": "VRBNICA [Vrbnica]"
-        }, 
-        {
-          "id": 13156, 
-          "name": "Vrbova"
-        }, 
-        {
-          "id": 12963, 
-          "name": "VRBOVA [Vrbova]"
-        }, 
-        {
-          "id": 6290, 
-          "name": "Vrbovce"
-        }, 
-        {
-          "id": 6291, 
-          "name": "Vrbovce Zastavka"
-        }, 
-        {
-          "id": 6292, 
+          "id": "007873110", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6292, 
+          "longitude": null, 
           "name": "Vrbovec"
         }, 
         {
-          "id": 12654, 
-          "name": "VRBOVEC [Vrbovec]"
-        }, 
-        {
-          "id": 6293, 
-          "name": "Vrbovsko"
-        }, 
-        {
-          "id": 12802, 
-          "name": "VRBOVSKO [Vrbovsko]"
-        }, 
-        {
-          "id": 6294, 
-          "name": "Vrhovine"
-        }, 
-        {
-          "id": 13274, 
-          "name": "VRHOVINE [Vrhovine]"
-        }, 
-        {
-          "id": 6295, 
-          "name": "Vrutky"
-        }, 
-        {
-          "id": 6296, 
-          "name": "Vrutky Nakladna Stanica"
-        }, 
-        {
-          "id": 6297, 
-          "name": "Vsetin"
-        }, 
-        {
-          "id": 8598, 
-          "name": "VSETIN [Vsetin]"
-        }, 
-        {
-          "id": 12853, 
-          "name": "V.TROJSTVO [Veliko Trojstvo]"
-        }, 
-        {
-          "id": 12731, 
-          "name": "VUH [Vuhred Elektrarna]"
-        }, 
-        {
-          "id": 6298, 
-          "name": "Vuhred"
-        }, 
-        {
-          "id": 6299, 
-          "name": "Vuhred Elektrarna"
-        }, 
-        {
-          "id": 13158, 
-          "name": "VUHRED [Vuhred]"
-        }, 
-        {
-          "id": 13120, 
-          "name": "VUKOSAVLJEV. [Vukosavljevica]"
-        }, 
-        {
-          "id": 12844, 
-          "name": "Vukosavljevica"
-        }, 
-        {
-          "id": 6300, 
-          "name": "Vulkapord\u00e1ny [Wulkaprodersdorf (Roeee)]"
-        }, 
-        {
-          "id": 6302, 
-          "name": "Vuzenica"
-        }, 
-        {
-          "id": 12902, 
-          "name": "VUZENICA [Vuzenica]"
-        }, 
-        {
-          "id": 6303, 
-          "name": "Vycapy-Opatovce"
-        }, 
-        {
-          "id": 6304, 
-          "name": "Vychodna"
-        }, 
-        {
-          "id": 6305, 
-          "name": "Vydrnik"
-        }, 
-        {
-          "id": 6306, 
-          "name": "Vyskovce Nad Iplom"
-        }, 
-        {
-          "id": 6307, 
-          "name": "Vysna Mysla"
-        }, 
-        {
-          "id": 6308, 
-          "name": "Vysne Cabiny"
-        }, 
-        {
-          "id": 6309, 
-          "name": "Vysne Hagy"
-        }, 
-        {
-          "id": 8613, 
-          "name": "VYSNE [Vysne Cabiny]"
-        }, 
-        {
-          "id": 6310, 
-          "name": "Vysoka Nad Kysucou"
-        }, 
-        {
-          "id": 6311, 
-          "name": "Vysoka Pri Morave"
-        }, 
-        {
-          "id": 6328, 
+          "id": "008133027", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6328, 
+          "longitude": null, 
           "name": "Wallern Am Neusiedlersee"
         }, 
         {
-          "id": 7864, 
-          "name": "WALLERN/NEUS [Wallern Am Neusiedlersee]"
-        }, 
-        {
-          "id": 6339, 
+          "id": "005103362", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6339, 
+          "longitude": null, 
           "name": "WARSZAWA*"
         }, 
         {
-          "id": 6340, 
+          "id": "005103360", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6340, 
+          "longitude": null, 
           "name": "Warszawa Centralna"
         }, 
         {
-          "id": 8138, 
-          "name": "WARSZAWA [Warszawa Centralna]"
-        }, 
-        {
-          "id": 8151, 
-          "name": "WARSZAWA [Warszawa Wschodnia]"
-        }, 
-        {
-          "id": 8149, 
-          "name": "WARSZAWA [Warszawa Zachodnia]"
-        }, 
-        {
-          "id": 6341, 
+          "id": "005103865", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6341, 
+          "longitude": null, 
           "name": "Warszawa Wschodnia"
         }, 
         {
-          "id": 6342, 
+          "id": "005103350", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6342, 
+          "longitude": null, 
           "name": "Warszawa Zachodnia"
         }, 
         {
-          "id": 8476, 
-          "name": "WBE [Wittenberge]"
-        }, 
-        {
-          "id": 6354, 
+          "id": "004333021", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6354, 
+          "longitude": null, 
           "name": "Weiden am See"
         }, 
         {
-          "id": 6368, 
+          "id": "008101081", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6368, 
+          "longitude": null, 
           "name": "Wels Hbf"
         }, 
         {
-          "id": 7870, 
-          "name": "WENEN [WIEN*]"
-        }, 
-        {
-          "id": 6382, 
+          "id": "008108000", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6382, 
+          "longitude": null, 
           "name": "WIEN*"
         }, 
         {
-          "id": 6385, 
+          "id": "008102961", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6385, 
+          "longitude": null, 
           "name": "Wien Grillgasse"
         }, 
         {
-          "id": 6608, 
-          "name": "Wien Hauptbahnhof [Wien Hbf]"
+          "id": "008101003_379", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6608, 
+          "longitude": null, 
+          "name": "Wien Hauptbahnhof (Wien Hbf)"
         }, 
         {
-          "id": 6389, 
+          "id": "008101003", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6389, 
+          "longitude": null, 
           "name": "Wien Hbf"
         }, 
         {
-          "id": 6391, 
+          "id": "008103107", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6391, 
+          "longitude": null, 
           "name": "Wien Meidling"
         }, 
         {
-          "id": 6395, 
-          "name": "Wien Simmering"
-        }, 
-        {
-          "id": 8720, 
-          "name": "WIEN STADLAU"
-        }, 
-        {
-          "id": 6403, 
-          "name": "Wien Westbf"
-        }, 
-        {
-          "id": 6406, 
-          "name": "Wiener Neustadt"
-        }, 
-        {
-          "id": 6415, 
-          "name": "Wiesen-Sigless"
-        }, 
-        {
-          "id": 6420, 
-          "name": "Wilfleinsdorf"
-        }, 
-        {
-          "id": 6430, 
+          "id": "008027317", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6430, 
+          "longitude": null, 
           "name": "Wittenberge"
         }, 
         {
-          "id": 6433, 
+          "id": "005106489", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6433, 
+          "longitude": null, 
           "name": "Wloszczowa Polnoc"
         }, 
         {
-          "id": 13862, 
-          "name": "WLOSZCZOWAPN [Wloszczowa Polnoc]"
-        }, 
-        {
-          "id": 10002, 
+          "id": "005106840", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
           "name": "Wodzislaw Slaski"
         }, 
         {
-          "id": 10006, 
-          "name": "WODZISLAW [Wodzislaw Slaski]"
-        }, 
-        {
-          "id": 6447, 
+          "id": "008101170", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6447, 
+          "longitude": null, 
           "name": "W\u00f6rgl"
         }, 
         {
-          "id": 8528, 
-          "name": "Wroblik Szlachecki"
+          "id": "005106010", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6450, 
+          "longitude": null, 
+          "name": "Wroclaw Glowny"
         }, 
         {
-          "id": 8515, 
-          "name": "WROBLIK [Wroblik Szlachecki]"
-        }, 
-        {
-          "id": 6454, 
+          "id": "008133214", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6454, 
+          "longitude": null, 
           "name": "Wulkaprodersdorf (Roeee)"
         }, 
         {
-          "id": 8609, 
-          "name": "Wysoczany"
-        }, 
-        {
-          "id": 8626, 
-          "name": "WYSOCZANY [Wysoczany]"
-        }, 
-        {
-          "id": 12937, 
-          "name": "Zabjak"
-        }, 
-        {
-          "id": 13234, 
-          "name": "ZABJAK [Zabjak]"
-        }, 
-        {
-          "id": 6466, 
-          "name": "Zabok"
-        }, 
-        {
-          "id": 12965, 
-          "name": "ZABOK [Zabok]"
-        }, 
-        {
-          "id": 6467, 
-          "name": "Zabokreky Nad Nitrou"
-        }, 
-        {
-          "id": 7470, 
-          "name": "Zabreh Na Morave"
-        }, 
-        {
-          "id": 8670, 
-          "name": "ZABREH [Zabreh Na Morave]"
-        }, 
-        {
-          "id": 12871, 
-          "name": "Zadubravlje"
-        }, 
-        {
-          "id": 13166, 
-          "name": "ZADUBRAVLJE [Zadubravlje]"
-        }, 
-        {
-          "id": 6469, 
+          "id": "007942204", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6469, 
+          "longitude": null, 
           "name": "Zagorje"
         }, 
         {
-          "id": 12682, 
-          "name": "ZAGORJE [Zagorje]"
+          "id": "007872480_380", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6470, 
+          "longitude": null, 
+          "name": "Z\u00e1gr\u00e1b (Zagreb Glavni Kol.)"
         }, 
         {
-          "id": 8589, 
-          "name": "Zagorz"
-        }, 
-        {
-          "id": 8694, 
-          "name": "ZAGORZ [Zagorz]"
-        }, 
-        {
-          "id": 6470, 
-          "name": "Z\u00e1gr\u00e1b [Zagreb Glavni Kol.]"
-        }, 
-        {
-          "id": 6471, 
+          "id": "007872480", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6471, 
+          "longitude": null, 
           "name": "Zagreb Glavni Kol."
         }, 
         {
-          "id": 12625, 
-          "name": "ZAGREB [Zagreb Glavni Kol.]"
-        }, 
-        {
-          "id": 12972, 
-          "name": "ZAGREB [Zagreb Zap. Kol.]"
-        }, 
-        {
-          "id": 12785, 
-          "name": "Zagreb Zap. Kol."
-        }, 
-        {
-          "id": 6473, 
+          "id": "005511882", 
+          "is_domestic": true, 
+          "latitude": 48.0675356314763, 
+          "legacy_id": 6473, 
+          "longitude": 19.785232844944, 
           "name": "Zagyvap\u00e1lfalva"
         }, 
         {
-          "id": 6474, 
+          "id": "005542275", 
+          "is_domestic": true, 
+          "latitude": 47.2443025049979, 
+          "legacy_id": 6474, 
+          "longitude": 20.0975052314454, 
           "name": "Zagyvar\u00e9kas"
         }, 
         {
-          "id": 6475, 
-          "name": "Zagyvasz\u00e1nt\u00f3 [Apc-Zagyvasz\u00e1nt\u00f3]"
+          "id": "005511767_381", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6475, 
+          "longitude": null, 
+          "name": "Zagyvasz\u00e1nt\u00f3 (Apc-Zagyvasz\u00e1nt\u00f3)"
         }, 
         {
-          "id": 6476, 
+          "id": "005514175", 
+          "is_domestic": true, 
+          "latitude": 48.402062843744, 
+          "legacy_id": 6476, 
+          "longitude": 22.1837940716242, 
           "name": "Z\u00e1hony"
         }, 
         {
-          "id": 6477, 
-          "name": "Zahorska Ves"
-        }, 
-        {
-          "id": 8494, 
-          "name": "ZAHORSKA [Zahorska Ves]"
-        }, 
-        {
-          "id": 6478, 
+          "id": "005515826", 
+          "is_domestic": true, 
+          "latitude": 47.9028581858641, 
+          "legacy_id": 6478, 
+          "longitude": 22.7953111239732, 
           "name": "Zajta"
         }, 
         {
-          "id": 6479, 
+          "id": "005505579", 
+          "is_domestic": true, 
+          "latitude": 46.2551003141358, 
+          "legacy_id": 6479, 
+          "longitude": 16.9381213707605, 
           "name": "Z\u00e1k\u00e1ny"
         }, 
         {
-          "id": 6480, 
-          "name": "Zakarovce"
-        }, 
-        {
-          "id": 6481, 
-          "name": "Zalaba"
-        }, 
-        {
-          "id": 6482, 
+          "id": "005504846", 
+          "is_domestic": true, 
+          "latitude": 46.9831731019833, 
+          "legacy_id": 6482, 
+          "longitude": 17.0406500166626, 
           "name": "Zalab\u00e9r-Batyk"
         }, 
         {
-          "id": 6483, 
+          "id": "005505132", 
+          "is_domestic": true, 
+          "latitude": 46.8581847015649, 
+          "legacy_id": 6483, 
+          "longitude": 16.6614792791995, 
           "name": "Zalacs\u00e9b-Salomv\u00e1r"
         }, 
         {
-          "id": 6484, 
+          "id": "005504895", 
+          "is_domestic": true, 
+          "latitude": 46.8342403206607, 
+          "legacy_id": 6484, 
+          "longitude": 16.8479537761621, 
           "name": "Zalaegerszeg"
         }, 
         {
-          "id": 6485, 
+          "id": "005505090", 
+          "is_domestic": true, 
+          "latitude": 46.8510245281578, 
+          "legacy_id": 6485, 
+          "longitude": 16.83717944906, 
           "name": "Zalaegerszeg-Ola"
         }, 
         {
-          "id": 6486, 
+          "id": "005545856", 
+          "is_domestic": true, 
+          "latitude": 47.0110529131662, 
+          "legacy_id": 6486, 
+          "longitude": 17.2208508843884, 
           "name": "Zalagy\u00f6m\u00f6r\u0151"
         }, 
         {
-          "id": 6487, 
+          "id": "005503657", 
+          "is_domestic": true, 
+          "latitude": 46.5301807341515, 
+          "legacy_id": 6487, 
+          "longitude": 17.1879281212867, 
           "name": "Zalakom\u00e1r"
         }, 
         {
-          "id": 6488, 
+          "id": "005505033", 
+          "is_domestic": true, 
+          "latitude": 46.845666506132, 
+          "legacy_id": 6488, 
+          "longitude": 16.5766790065869, 
           "name": "Zalal\u00f6v\u0151"
         }, 
         {
-          "id": 6489, 
+          "id": "005545963", 
+          "is_domestic": true, 
+          "latitude": 46.845529710312, 
+          "legacy_id": 6489, 
+          "longitude": 16.6040689471899, 
           "name": "Zalapatakalja"
         }, 
         {
-          "id": 6490, 
+          "id": "005505124", 
+          "is_domestic": true, 
+          "latitude": 46.8723729356977, 
+          "legacy_id": 6490, 
+          "longitude": 16.7123313773955, 
           "name": "Zalaszentgy\u00f6rgy"
         }, 
         {
-          "id": 6491, 
+          "id": "005505371", 
+          "is_domestic": true, 
+          "latitude": 46.8876232437968, 
+          "legacy_id": 6491, 
+          "longitude": 16.9094815952888, 
           "name": "Zalaszentiv\u00e1n"
         }, 
         {
-          "id": 6492, 
+          "id": "005503608", 
+          "is_domestic": true, 
+          "latitude": 46.4915688441045, 
+          "legacy_id": 6492, 
+          "longitude": 17.1352501662502, 
           "name": "Zalaszentjakab"
         }, 
         {
-          "id": 6493, 
+          "id": "004305363", 
+          "is_domestic": true, 
+          "latitude": 46.9140131870754, 
+          "legacy_id": 6493, 
+          "longitude": 16.8770408190899, 
           "name": "Zalaszentl\u0151rinc"
         }, 
         {
-          "id": 6494, 
+          "id": "005505413", 
+          "is_domestic": true, 
+          "latitude": 46.7232521946715, 
+          "legacy_id": 6494, 
+          "longitude": 16.9517996652167, 
           "name": "Zalaszentmih\u00e1ly-Pacsa"
         }, 
         {
-          "id": 6496, 
-          "name": "Zalec"
-        }, 
-        {
-          "id": 13060, 
-          "name": "ZALEC [Zalec]"
-        }, 
-        {
-          "id": 6497, 
-          "name": "Zalesina"
-        }, 
-        {
-          "id": 12977, 
-          "name": "ZALESINA [Zalesina]"
-        }, 
-        {
-          "id": 6498, 
-          "name": "Zalna"
-        }, 
-        {
-          "id": 13005, 
-          "name": "ZALNA [Zalna]"
-        }, 
-        {
-          "id": 13088, 
-          "name": "Zaluka"
-        }, 
-        {
-          "id": 13069, 
-          "name": "ZALUKA [Zaluka]"
-        }, 
-        {
-          "id": 6500, 
+          "id": "005503392", 
+          "is_domestic": true, 
+          "latitude": 46.8800791150527, 
+          "legacy_id": 6500, 
+          "longitude": 17.944890649106, 
           "name": "Zam\u00e1rdi"
         }, 
         {
-          "id": 6501, 
+          "id": "005503384", 
+          "is_domestic": true, 
+          "latitude": 46.8860262285713, 
+          "legacy_id": 6501, 
+          "longitude": 17.9694289129625, 
           "name": "Zam\u00e1rdi fels\u0151"
         }, 
         {
-          "id": 6502, 
-          "name": "Zamusani"
-        }, 
-        {
-          "id": 12877, 
-          "name": "ZAMUSANI [Zamusani]"
-        }, 
-        {
-          "id": 6504, 
+          "id": "005504309", 
+          "is_domestic": true, 
+          "latitude": 46.877782663886, 
+          "legacy_id": 6504, 
+          "longitude": 17.7110814336328, 
           "name": "Z\u00e1nkaf\u00fcrd\u0151"
         }, 
         {
-          "id": 6505, 
+          "id": "005504473", 
+          "is_domestic": true, 
+          "latitude": 46.8727638210912, 
+          "legacy_id": 6505, 
+          "longitude": 17.6879158729975, 
           "name": "Z\u00e1nka-K\u00f6vesk\u00e1l"
         }, 
         {
-          "id": 12872, 
-          "name": "Zapolje"
-        }, 
-        {
-          "id": 13051, 
-          "name": "ZAPOLJE [Zapolje]"
-        }, 
-        {
-          "id": 6507, 
-          "name": "Zapresic"
-        }, 
-        {
-          "id": 13212, 
-          "name": "ZAPRESIC [Zapresic]"
-        }, 
-        {
-          "id": 6508, 
-          "name": "Zariecie"
-        }, 
-        {
-          "id": 6509, 
-          "name": "Zarnovica"
-        }, 
-        {
-          "id": 6512, 
-          "name": "Zavadka Nad Hronom Obec"
-        }, 
-        {
-          "id": 6518, 
-          "name": "Zavod"
-        }, 
-        {
-          "id": 6519, 
+          "id": "005107530", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6519, 
+          "longitude": null, 
           "name": "Zawiercie"
         }, 
         {
-          "id": 8146, 
-          "name": "ZAWIERCIE [Zawiercie]"
-        }, 
-        {
-          "id": 6521, 
-          "name": "Zbehy"
-        }, 
-        {
-          "id": 6522, 
-          "name": "Zbehy Obec"
-        }, 
-        {
-          "id": 8705, 
-          "name": "ZBEHY [Zbehy Obec]"
-        }, 
-        {
-          "id": 6523, 
-          "name": "Zbojska"
-        }, 
-        {
-          "id": 6524, 
-          "name": "Zbudske Dlhe"
-        }, 
-        {
-          "id": 8577, 
-          "name": "ZBUDSKE [Zbudske Dlhe]"
-        }, 
-        {
-          "id": 6525, 
-          "name": "Zbynov"
-        }, 
-        {
-          "id": 6526, 
-          "name": "Zdenci-Orahovica"
-        }, 
-        {
-          "id": 12720, 
-          "name": "ZDENCI-ORAHOVICA [Zdenci-Orahovica]"
-        }, 
-        {
-          "id": 6527, 
+          "id": "005510496", 
+          "is_domestic": true, 
+          "latitude": 47.8008175082021, 
+          "legacy_id": 6527, 
+          "longitude": 18.9091147766999, 
           "name": "Zebeg\u00e9ny"
         }, 
         {
-          "id": 6529, 
+          "id": "005107550", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6529, 
+          "longitude": null, 
           "name": "Zebrzydowice"
         }, 
         {
-          "id": 8156, 
-          "name": "ZEBRZYDOWICE [Zebrzydowice]"
+          "id": "005504895_382", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6705, 
+          "longitude": null, 
+          "name": "Z.egerszeg (Zalaegerszeg)"
         }, 
         {
-          "id": 6705, 
-          "name": "Z.egerszeg [Zalaegerszeg]"
-        }, 
-        {
-          "id": 13089, 
-          "name": "Zeinci"
-        }, 
-        {
-          "id": 13034, 
-          "name": "ZEINCI [Zeinci]"
-        }, 
-        {
-          "id": 6531, 
+          "id": "005514662", 
+          "is_domestic": true, 
+          "latitude": 47.626630288759, 
+          "legacy_id": 6531, 
+          "longitude": 21.578563888325, 
           "name": "Zelem\u00e9r"
         }, 
         {
-          "id": 6532, 
-          "name": "Zelene"
+          "id": "005545856_383", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6817, 
+          "longitude": null, 
+          "name": "Z.gy\u00f6m\u00f6r\u0151 (Zalagy\u00f6m\u00f6r\u0151)"
         }, 
         {
-          "id": 6533, 
-          "name": "Zeliezovce"
-        }, 
-        {
-          "id": 6539, 
-          "name": "Zemianske Kostolany"
-        }, 
-        {
-          "id": 6817, 
-          "name": "Z.gy\u00f6m\u00f6r\u0151 [Zalagy\u00f6m\u00f6r\u0151]"
-        }, 
-        {
-          "id": 6541, 
-          "name": "Ziar Nad Hronom"
-        }, 
-        {
-          "id": 6542, 
-          "name": "Ziar Nad Hronom Zastavka"
-        }, 
-        {
-          "id": 8685, 
-          "name": "ZIAR [Ziar Nad Hronom]"
-        }, 
-        {
-          "id": 6543, 
+          "id": "005504259", 
+          "is_domestic": true, 
+          "latitude": 47.124606385847, 
+          "legacy_id": 6543, 
+          "longitude": 18.6721500644353, 
           "name": "Zichy\u00fajfalu"
         }, 
         {
-          "id": 6544, 
+          "id": "007942200", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6544, 
+          "longitude": null, 
           "name": "Zidani Most"
         }, 
         {
-          "id": 12648, 
-          "name": "ZIDANI [Zidani Most]"
+          "id": "005102780", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": null, 
+          "longitude": null, 
+          "name": "Zielona Gora"
         }, 
         {
-          "id": 7908, 
-          "name": "\u017dilina"
-        }, 
-        {
-          "id": 6548, 
-          "name": "Zilina Zariecie"
-        }, 
-        {
-          "id": 6549, 
-          "name": "Zilina-Solinky"
-        }, 
-        {
-          "id": 8505, 
-          "name": "ZILIZARIECIE [Zilina Zariecie]"
-        }, 
-        {
-          "id": 6552, 
+          "id": "005502998", 
+          "is_domestic": true, 
+          "latitude": 47.266525514275, 
+          "legacy_id": 6552, 
+          "longitude": 17.8779145268632, 
           "name": "Zirc"
         }, 
         {
-          "id": 6554, 
-          "name": "Zirovnica"
+          "id": "005503657_384", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6626, 
+          "longitude": null, 
+          "name": "Z.kom\u00e1r (Zalakom\u00e1r)"
         }, 
         {
-          "id": 12795, 
-          "name": "ZIROVNICA [Zirovnica]"
+          "id": "005505033_385", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6681, 
+          "longitude": null, 
+          "name": "Z.l\u00f6v\u0151 (Zalal\u00f6v\u0151)"
         }, 
         {
-          "id": 6626, 
-          "name": "Z.kom\u00e1r [Zalakom\u00e1r]"
+          "id": "005545963_386", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6725, 
+          "longitude": null, 
+          "name": "Z.patakalja (Zalapatakalja)"
         }, 
         {
-          "id": 6555, 
-          "name": "Zlatar Bistrica"
-        }, 
-        {
-          "id": 12899, 
-          "name": "ZLATAR [Zlatar Bistrica]"
-        }, 
-        {
-          "id": 6557, 
-          "name": "Zlate Moravce"
-        }, 
-        {
-          "id": 6559, 
-          "name": "Zlatno"
-        }, 
-        {
-          "id": 6560, 
-          "name": "Zlatovce"
-        }, 
-        {
-          "id": 6681, 
-          "name": "Z.l\u00f6v\u0151 [Zalal\u00f6v\u0151]"
-        }, 
-        {
-          "id": 6672, 
-          "name": "Zmajevo"
-        }, 
-        {
-          "id": 8241, 
-          "name": "ZMAJEVO [Zmajevo]"
-        }, 
-        {
-          "id": 6565, 
-          "name": "Zohor"
-        }, 
-        {
-          "id": 6569, 
-          "name": "Z\u00f3lyom [ZVOLEN*]"
-        }, 
-        {
-          "id": 6570, 
-          "name": "Z\u00f3lyombr\u00e9z\u00f3 [Podbrezova]"
-        }, 
-        {
-          "id": 12727, 
-          "name": "Zombor [Sombor]"
-        }, 
-        {
-          "id": 13227, 
-          "name": "Zorkovac"
-        }, 
-        {
-          "id": 12921, 
-          "name": "ZORKOVAC [Zorkovac]"
-        }, 
-        {
-          "id": 6725, 
-          "name": "Z.patakalja [Zalapatakalja]"
-        }, 
-        {
-          "id": 6574, 
+          "id": "005506403", 
+          "is_domestic": true, 
+          "latitude": 46.2749951300746, 
+          "legacy_id": 6574, 
+          "longitude": 17.1401577969328, 
           "name": "Zr\u00ednyitelep"
         }, 
         {
-          "id": 6590, 
-          "name": "Zsebeh\u00e1za [Magyarkereszt\u00far-Zsebeh\u00e1za]"
+          "id": "004302386_387", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6590, 
+          "longitude": null, 
+          "name": "Zsebeh\u00e1za (Magyarkereszt\u00far-Zsebeh\u00e1za)"
         }, 
         {
-          "id": 7918, 
-          "name": "Zsolna [\u017dilina]"
-        }, 
-        {
-          "id": 6594, 
+          "id": "005513391", 
+          "is_domestic": true, 
+          "latitude": 48.4925645235947, 
+          "legacy_id": 6594, 
+          "longitude": 21.2649825103549, 
           "name": "Zsujta"
         }, 
         {
-          "id": 6768, 
-          "name": "Z.szentgy\u00f6rgy [Zalaszentgy\u00f6rgy]"
+          "id": "005505124_388", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6768, 
+          "longitude": null, 
+          "name": "Z.szentgy\u00f6rgy (Zalaszentgy\u00f6rgy)"
         }, 
         {
-          "id": 6841, 
-          "name": "Z.szentiv\u00e1n [Zalaszentiv\u00e1n]"
+          "id": "005505371_389", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6841, 
+          "longitude": null, 
+          "name": "Z.szentiv\u00e1n (Zalaszentiv\u00e1n)"
         }, 
         {
-          "id": 6576, 
+          "id": "005510090", 
+          "is_domestic": true, 
+          "latitude": 47.5116316567079, 
+          "legacy_id": 6576, 
+          "longitude": 19.1008768727302, 
           "name": "Zugl\u00f3"
         }, 
         {
-          "id": 6577, 
-          "name": "Zur\u00e1ny [Zurndorf]"
+          "id": "008102978_390", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6577, 
+          "longitude": null, 
+          "name": "Zur\u00e1ny (Zurndorf)"
         }, 
         {
-          "id": 12668, 
-          "name": "ZURICH MAIN STATION [Z\u00fcrich HB]"
-        }, 
-        {
-          "id": 6578, 
+          "id": "008102978", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 6578, 
+          "longitude": null, 
           "name": "Zurndorf"
         }, 
         {
-          "id": 7421, 
+          "id": "008503000", 
+          "is_domestic": false, 
+          "latitude": null, 
+          "legacy_id": 7421, 
+          "longitude": null, 
           "name": "Z\u00fcrich HB"
         }, 
         {
-          "id": 6584, 
-          "name": "ZVOLEN*"
+          "id": "005503608_391", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6851, 
+          "longitude": null, 
+          "name": "Z.zentjakab (Zalaszentjakab)"
         }, 
         {
-          "id": 6585, 
-          "name": "Zvolen Mesto"
-        }, 
-        {
-          "id": 6586, 
-          "name": "Zvolen Nakladna Stanica"
-        }, 
-        {
-          "id": 6587, 
-          "name": "Zvolen Osobna Stanica"
-        }, 
-        {
-          "id": 8680, 
-          "name": "ZVOLEN [Zvolen Mesto]"
-        }, 
-        {
-          "id": 8124, 
-          "name": "ZVOLEN [Zvolen Osobna Stanica]"
-        }, 
-        {
-          "id": 6588, 
-          "name": "Zvolenska Slatina"
-        }, 
-        {
-          "id": 6589, 
-          "name": "Zwardon"
-        }, 
-        {
-          "id": 8608, 
-          "name": "ZWARDON [Zwardon]"
-        }, 
-        {
-          "id": 6851, 
-          "name": "Z.zentjakab [Zalaszentjakab]"
-        }, 
-        {
-          "id": 6693, 
-          "name": "Z.zentl\u0151rinc [Zalaszentl\u0151rinc]"
+          "id": "004305363_392", 
+          "is_domestic": true, 
+          "latitude": null, 
+          "legacy_id": 6693, 
+          "longitude": null, 
+          "name": "Z.zentl\u0151rinc (Zalaszentl\u0151rinc)"
         }
-      ]
+      ];
 }

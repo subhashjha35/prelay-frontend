@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgSelectModule } from '@ng-select/ng-select';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -17,7 +17,9 @@ import { TransportService } from './transport.service';
 import { ProfileComponent } from './user/profile/profile.component';
 import { ProfileHomeComponent } from './user/profile/profile-home/profile-home.component';
 import { FaqComponent } from './faq/faq.component';
+import { AuthGuard } from './guards/auth.guard';
 
+import { NgHttpLoaderModule } from 'ng-http-loader';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,10 +38,11 @@ import { FaqComponent } from './faq/faq.component';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
+    NgHttpLoaderModule,
     FormsModule,
     NgSelectModule
   ],
-  providers: [StationsService, TransportService],
+  providers: [StationsService, TransportService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

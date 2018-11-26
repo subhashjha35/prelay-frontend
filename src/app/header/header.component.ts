@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { UserService } from '../user.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +9,15 @@ import * as $ from 'jquery';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
-
+  
+  isLoggedIn:boolean;
+  constructor(private userService:UserService) { 
+    this.userService.isLoggedIn().subscribe(val=>this.isLoggedIn=val);
+    console.log(this.isLoggedIn);
+  }
+  private logout():void{
+    this.userService.logout();
+  }
   ngOnInit() {
     
   }

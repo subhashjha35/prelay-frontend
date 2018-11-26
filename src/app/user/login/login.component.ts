@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { UserService } from '../../user.service';
+import { Router } from '@angular/router';
 export interface User{
   email:string;
   password:string;
@@ -18,7 +19,7 @@ export class LoginComponent implements OnInit {
   userData:User={email:null,password:null};
   error;
   success;
-  constructor(private formBuilder:FormBuilder, private userService:UserService) { }
+  constructor(private formBuilder:FormBuilder, private userService:UserService, private route:Router) { }
 
   ngOnInit() {
     this.loginForm = this.formBuilder.group({
@@ -47,6 +48,9 @@ export class LoginComponent implements OnInit {
     this.userService.loginUser(this.userData).subscribe(data => {
       if(data['success']==true){
         this.success="User Logged In";
+        localStorage.setItem('token', 'JWT');
+        this.userService.isLoginSubject.next(true);
+        this.route.navigate(['/profile']);
         this.error=null;
       }
       console.log(data);
