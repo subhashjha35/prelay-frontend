@@ -20,6 +20,12 @@ import { FaqComponent } from './faq/faq.component';
 import { AuthGuard } from './guards/auth.guard';
 
 import { NgHttpLoaderModule } from 'ng-http-loader';
+import { JourneysComponent } from './user/profile/journeys/journeys.component';
+import { UserNotification } from './user/profile/notification/notification.component';
+import { ViewJourneysComponent } from './user/profile/journeys/view-journeys/view-journeys.component';
+import { RegisterJourneysComponent } from './user/profile/journeys/register-journeys/register-journeys.component';
+import { PushNotificationComponent } from './shared/push-notification/push-notification.component';
+import { NewsletterService } from './shared/newsletter.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +36,12 @@ import { NgHttpLoaderModule } from 'ng-http-loader';
     ScheduleComponent,
     ProfileComponent,
     ProfileHomeComponent,
-    FaqComponent
+    FaqComponent,
+    JourneysComponent,
+    UserNotification,
+    ViewJourneysComponent,
+    RegisterJourneysComponent,
+    PushNotificationComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +53,7 @@ import { NgHttpLoaderModule } from 'ng-http-loader';
     FormsModule,
     NgSelectModule
   ],
-  providers: [StationsService, TransportService, AuthGuard],
+  providers: [StationsService, TransportService, AuthGuard, NewsletterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-<div class="row jumbotron">
+<div class="row jumbotron bg-light">
   <div style="transition:all 0.3s ease-out" class="col-lg-4 table-bordered bg-light {{(!scheduleResData)?'offset-lg-4':''}}">
     <form [formGroup]="scheduleForm" (ngSubmit)="onSubmit()">
       <div class="form-group">
@@ -57,8 +57,8 @@
     <div class="row" *ngIf="(scheduleResData)">
       <div style="overflow-x:scroll">
         <div *ngFor="let res of scheduleResData">
-          <table class="table table-bordered table-sm table-striped">
-            <tr>
+          <table class="table table-bordered text-muted table-sm">
+            <tr class="font-weight-bold">
               <td>Departure Station</td>
               <td>Arrival Station</td>
               <td>Next day Forecast</td>
@@ -67,8 +67,8 @@
               <td>Departure Scheduled</td>
             </tr>
             <tr *ngFor="let rows of res">
-              <td>{{ stnCodeToName(rows.departure.station) }}</td>
-              <td>{{ stnCodeToName(rows.arrival.station) }}</td>
+              <td><strong>{{ stnCodeToName(rows.departure.station) }}</strong></td>
+              <td><strong>{{ stnCodeToName(rows.arrival.station) }}</strong></td>
               <td>{{ timestampToTime(rows.arrival.forecast_for_tomorrow) }}</td>
               <td>{{ timestampToTime(rows.arrival.scheduled )}}</td>
               <td>{{ timestampToTime(rows.departure.actual) }}</td>
