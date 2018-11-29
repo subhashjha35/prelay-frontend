@@ -61,9 +61,9 @@
             <tr class="font-weight-bold">
               <td>Departure Station</td>
               <td>Arrival Station</td>
-              <td>Next day Forecast</td>
+              <td>Next day Arrival</td>
               <td>Arrival Scheduled</td>
-              <td>Departure Actual</td>
+              <td>Next day Departure</td>
               <td>Departure Scheduled</td>
             </tr>
             <tr *ngFor="let rows of res">
@@ -71,7 +71,7 @@
               <td><strong>{{ stnCodeToName(rows.arrival.station) }}</strong></td>
               <td>{{ timestampToTime(rows.arrival.forecast_for_tomorrow) }}</td>
               <td>{{ timestampToTime(rows.arrival.scheduled )}}</td>
-              <td>{{ timestampToTime(rows.departure.actual) }}</td>
+              <td>{{ timestampToTime(rows.departure.forecast_for_tomorrow) }}</td>
               <td>{{ timestampToTime(rows.departure.scheduled) }}</td>
             </tr>
           </table>

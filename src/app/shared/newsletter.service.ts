@@ -11,7 +11,7 @@ export class NewsletterService {
   }
 
   addPushSubscriber(sub:any) {
-    return this.http.post('http://prelay-api.herokuapp.com/v1/notification/?key='+this.keys.get_token(), sub);
+    return this.http.post('https://prelay-api.herokuapp.com/v1/notification/?key='+this.keys.get_token(), sub);
   }
 
   send() {
