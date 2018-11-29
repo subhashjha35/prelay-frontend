@@ -11,6 +11,6 @@ export class NewsService {
 
   constructor(private http: HttpClient) { }
   get_news(){
-    return this.http.get<NewsModel>("http://prelay-api.herokuapp.com/v1/news/mav?key=MOCK1234");
+    return this.http.get<NewsModel>("https://prelay-api.herokuapp.com/v1/news/mav?key=MOCK1234");
   }
 }
