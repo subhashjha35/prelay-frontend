@@ -12,13 +12,14 @@ import { NewsletterService } from '../newsletter.service';
   styleUrls: ['./push-notification.component.css']
 })
 export class PushNotificationComponent implements OnInit {
-  readonly VAPID_PUBLIC_KEY="BGE-WENT2E2AID_piniQxf6dQcc3kp8oKHttMQdxmPd899tRcLGS56KDr35A2aEZkPqOkN6bwUdT1BACByjbHPc";
+  // {"publicKey":"BA7NNR9M1sYFh-HloNXnBpddcTHwOzY0BdPE6hgyZz_L7uN6-UGuS_s4uUnYe6JZRSst0Eo8NB_Um9hG0Lva-Qs","privateKey":"zs8f-tH6QiiZ6Ul-9B_qp5H2sswXY8b2OgkUv0sfCHk"}
+  readonly VAPID_PUBLIC_KEY="BA7NNR9M1sYFh-HloNXnBpddcTHwOzY0BdPE6hgyZz_L7uN6-UGuS_s4uUnYe6JZRSst0Eo8NB_Um9hG0Lva-Qs";
   constructor(private swPush: SwPush, private newsletterService: NewsletterService) { }
 
   subscribeToNotifications() {
 
     this.swPush.requestSubscription({
-        serverPublicKey: this.VAPID_PUBLIC_KEY
+      serverPublicKey: this.VAPID_PUBLIC_KEY
     })
     .then(sub => this.newsletterService.addPushSubscriber(sub).subscribe())
     .catch(err => console.error("Could not subscribe to notifications", err));
