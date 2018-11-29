@@ -3,6 +3,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Router } from '@angular/router';
 
+interface UserLoginResponseType{
+  id_token:string;
+  settings:{
+    name:string;
+    subscribed: boolean;
+  },
+  success: boolean;
+}
 @Injectable({
   providedIn: 'root'
 })
@@ -30,7 +38,7 @@ export class UserService {
     return this.http.post("https://prelay-api.herokuapp.com/v1/user/signup?key=MOCK1234", userData, options);
   }
 
-  loginUser(userData){
+  loginUser(userData):any{
     return this.http.post("https://prelay-api.herokuapp.com/v1/user/login?key=MOCK1234", userData);
   }
   logout() : void {
