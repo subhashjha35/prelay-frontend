@@ -38,8 +38,11 @@
         </div>
     </div>
   <div class="row">
-      <div class="jumbotron col-md-12 text-center rounded-0">
-          <img src="assets/imgs/under_construction.webp" alt="Under Construction" class="img-fluid">
-      </div>
+      News
+    <ul>
+        <li let row of news>
+            <a href="{{row['url']}}">{{row['title']}}</a>
+        </li>
+    </ul>
   </div>
 </div>
