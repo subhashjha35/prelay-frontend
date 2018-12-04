@@ -13,7 +13,7 @@ import { NewsletterService } from '../newsletter.service';
 })
 export class PushNotificationComponent implements OnInit {
   // {"publicKey":"BA7NNR9M1sYFh-HloNXnBpddcTHwOzY0BdPE6hgyZz_L7uN6-UGuS_s4uUnYe6JZRSst0Eo8NB_Um9hG0Lva-Qs","privateKey":"zs8f-tH6QiiZ6Ul-9B_qp5H2sswXY8b2OgkUv0sfCHk"}
-  readonly VAPID_PUBLIC_KEY="BA7NNR9M1sYFh-HloNXnBpddcTHwOzY0BdPE6hgyZz_L7uN6-UGuS_s4uUnYe6JZRSst0Eo8NB_Um9hG0Lva-Qs";
+  readonly VAPID_PUBLIC_KEY="BHDcRuV4kBlIjK7l2E-MtoFOdf86FJktTRMyYY_3MhucWicW_UJTEtHeIC39wI4A7RmnpcumDoE4IfEyJz0nZPI";
   constructor(private swPush: SwPush, private newsletterService: NewsletterService) { }
 
   subscribeToNotifications() {
