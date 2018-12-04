@@ -9,5 +9,4 @@ export class JourneysComponent implements OnInit {
 
   ngOnInit(){}
   
-
 }
