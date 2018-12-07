@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class KeysService {
-  readonly VAPID_PUBLIC_KEY="BA7NNR9M1sYFh-HloNXnBpddcTHwOzY0BdPE6hgyZz_L7uN6-UGuS_s4uUnYe6JZRSst0Eo8NB_Um9hG0Lva-Qs";
+  readonly VAPID_PUBLIC_KEY="BHDcRuV4kBlIjK7l2E-MtoFOdf86FJktTRMyYY_3MhucWicW_UJTEtHeIC39wI4A7RmnpcumDoE4IfEyJz0nZPI";
   get_public_key(){
     return this.VAPID_PUBLIC_KEY;
   }
