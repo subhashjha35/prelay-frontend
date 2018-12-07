@@ -46,4 +46,9 @@ export class UserService {
     this.isLoginSubject.next(false);
     this.route.navigate(['\login']);
   }
+
+  subscribeNotification(newData=null){
+    let token:string=localStorage.getItem('token');
+    return this.http.post("https://prelay-api.herokuapp.com/v1/user/subscribe?key="+token, newData);
+  }
 }

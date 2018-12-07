@@ -19,4 +19,7 @@ export class TransportService {
     console.log(this.scheduleObj);
     return this.http.get("https://prelay-api.herokuapp.com/v1/schedule/mav/"+this.scheduleObj.dep_id+"/"+this.scheduleObj.arr_id+"/"+this.scheduleObj.toj+"?key=MOCK1234");
   }
+  addToFavorite(data){
+    return this.http.post("https://prelay-api.herokuapp.com/v1/user/addFavoriteLine?key="+localStorage.getItem('token'),data);
+  }
 }

@@ -65,6 +65,11 @@ export class ScheduleComponent implements OnInit {
       m="0"+m;
     return (h+":"+m);
   };
+  addToFavorite(){
+    this.transport.addToFavorite({"arrival_station": this.schdeduleReqData.selectedDestination, "departure_station": this.schdeduleReqData.selectedSource}).subscribe(data=>
+      console.log(data)
+    );
+  }
   onSubmit(){
     this.reqError=null;
     this.scheduleResData=[];

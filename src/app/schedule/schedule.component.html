@@ -55,6 +55,7 @@
       {{"Error:"}}{{reqError}}
     </div>
     <div class="row" *ngIf="(scheduleResData)">
+      <div>Do you want to add this line to your favourites? <button class="btn btn-sm btn-success" (click)="addToFavorite()">Add</button></div>
       <div style="overflow-x:scroll">
         <div *ngFor="let res of scheduleResData">
           <table class="table table-bordered text-muted table-sm">

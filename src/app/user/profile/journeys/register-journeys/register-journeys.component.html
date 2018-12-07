@@ -35,13 +35,13 @@
                 <div *ngIf="f.selectedDestination.errors.required">Destination is required</div>
             </div>
           </div>
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label>Journey Time</label>
             <input type="date" formControlName="toj" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.toj.errors }" min="{{jstoday}}" value={{jstoday}} />
             <div *ngIf="submitted && f.toj.errors" class="invalid-feedback">
                 <div *ngIf="f.toj.errors.required">Incorrect Time of Journey</div>
             </div>
-          </div>
+          </div> -->
           <div class="form-group">
             <button class="btn btn-info">Register Journeys</button>
           </div>

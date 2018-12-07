@@ -34,8 +34,8 @@ export class RegisterJourneysComponent implements OnInit {
   ngOnInit() {
     this.scheduleForm = this.formBuilder.group({
       'selectedSource' : [null,[Validators.required]],
-      'selectedDestination' : [null, [Validators.required]],
-      'toj':[null, [Validators.required]]
+      'selectedDestination' : [null, [Validators.required]]
+      // 'toj':[null, [Validators.required]]
     });
   }
   get f() { return this.scheduleForm.controls; }
