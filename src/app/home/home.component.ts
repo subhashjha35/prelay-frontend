@@ -9,14 +9,13 @@ import { NewsService } from '../shared/news.service';
 export class HomeComponent implements OnInit {
   news:any;
   constructor(private newsService:NewsService) { 
-    this.news=[];
-  }
-  ngOnInit() {
-    this.newsService.get_news().subscribe(data => {
+    this.newsService.newsData.subscribe(data=>{
       this.news=data;
       console.log(this.news);
-      console.log("successfully called news");
     });
+    console.log(this.news);
   }
-
+  ngOnInit() {
+    
+  }
 }

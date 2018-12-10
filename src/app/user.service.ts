@@ -43,12 +43,20 @@ export class UserService {
   }
   logout() : void {
     localStorage.removeItem('token');
+    localStorage.removeItem('data');
     this.isLoginSubject.next(false);
     this.route.navigate(['\login']);
   }
-
-  subscribeNotification(newData=null){
+  getUserDetails(){
     let token:string=localStorage.getItem('token');
-    return this.http.post("https://prelay-api.herokuapp.com/v1/user/subscribe?key="+token, newData);
+    return this.http.get("https://prelay-api.herokuapp.com/v1/user/getSettings?key="+token);
+  }
+  subscribeNotification(subscribe){
+    let newData:string=null;
+    let token:string=localStorage.getItem('token');
+    if(subscribe)
+      return this.http.post("https://prelay-api.herokuapp.com/v1/user/subscribe?key="+token, newData);
+    else
+      return this.http.post("https://prelay-api.herokuapp.com/v1/user/unsubscribe?key="+token, newData);
   }
 }

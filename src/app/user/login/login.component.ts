@@ -49,6 +49,7 @@ export class LoginComponent implements OnInit {
       if(data.success==true){
         this.success="User Logged In";
         localStorage.setItem('token', data.id_token);
+        localStorage.setItem('data', JSON.stringify(data.settings));
         this.userService.isLoginSubject.next(true);
         this.route.navigate(['/profile']);
         this.error=null;

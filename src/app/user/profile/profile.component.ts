@@ -8,6 +8,8 @@ import { NewsletterService } from 'src/app/shared/newsletter.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+  name:string;
+  userData:any;
   constructor(private swPush:SwPush, private keys:KeysService, private newsletterService:NewsletterService){
 
   }
@@ -17,6 +19,7 @@ export class ProfileComponent implements OnInit {
     })
     .then(sub => this.newsletterService.addPushSubscriber(sub).subscribe())
     .catch(err => console.error("Could not subscribe to notifications", err));
-
+    this.userData=JSON.parse(localStorage.getItem('data'));
+    this.name=this.userData.name;
   }
 }
