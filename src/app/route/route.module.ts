@@ -13,6 +13,7 @@ import { ViewJourneysComponent } from '../user/profile/journeys/view-journeys/vi
 import { RegisterJourneysComponent } from '../user/profile/journeys/register-journeys/register-journeys.component';
 import { UserNotification } from '../user/profile/notification/notification.component';
 import { PushNotificationComponent } from '../shared/push-notification/push-notification.component';
+import { SubscriptionComponent } from '../user/profile/subscription/subscription.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -24,7 +25,7 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] ,
     children: [
       {path:'home', component:ProfileHomeComponent},
-      {path:'journeys', component:JourneysComponent,
+      {path:'favorite-lines', component:JourneysComponent,
         children:[
           {path:'all', component:ViewJourneysComponent},
           {path:'register', component:RegisterJourneysComponent},
@@ -32,6 +33,7 @@ const routes: Routes = [
         ]
       },
       {path:'notification', component:UserNotification},
+      {path:'subscription', component:SubscriptionComponent},
       {path:'', component:ProfileHomeComponent}
 
     ]},

@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TransportService } from 'src/app/transport.service';
 import { ScheduleModel } from 'src/app/schedule/schedule.component';
 import {formatDate } from '@angular/common';
+import { UserService } from 'src/app/user.service';
 
 @Component({
   selector: 'app-register-journeys',
@@ -14,8 +15,7 @@ export class RegisterJourneysComponent implements OnInit {
 
   reqError;
   stn:stationType[];
-  schdeduleReqData:ScheduleModel={selectedSource:null, selectedDestination: null, toj:null};
-  scheduleResData;
+  schdeduleReqData:any={selectedSource:null, selectedDestination: null};
   scheduleForm:FormGroup;
   submitted=false;
   formArray;
@@ -24,18 +24,15 @@ export class RegisterJourneysComponent implements OnInit {
 
   today= new Date();
   jstoday = '';
-  constructor(private station:StationsService, private formBuilder:FormBuilder, private transport:TransportService) { 
+  constructor(private userService: UserService,private station:StationsService, private formBuilder:FormBuilder, private transport:TransportService) { 
     this.stn=station.getList();
     console.log(this.stn);
-    this.jstoday = formatDate(this.today, 'yyyy-MM-dd', 'en-US', '+0530');
-    console.log(this.jstoday);
   }
 
   ngOnInit() {
     this.scheduleForm = this.formBuilder.group({
       'selectedSource' : [null,[Validators.required]],
       'selectedDestination' : [null, [Validators.required]]
-      // 'toj':[null, [Validators.required]]
     });
   }
   get f() { return this.scheduleForm.controls; }
@@ -49,28 +46,26 @@ export class RegisterJourneysComponent implements OnInit {
       else
         this.schdeduleReqData[key] = this.formArray[key].value;
     });
-    this.schdeduleReqData.toj=(new Date(this.schdeduleReqData.toj).getTime())/1000;
     console.log(this.schdeduleReqData);
   }
   onSubmit(){
     this.reqError=null;
-    this.scheduleResData=[];
     this.submitted = true;
     console.log("submitted");
     this.data();
-    this.transport.getSchedule(this.schdeduleReqData).subscribe(
-      data=>{
-        console.log(data);
-        this.scheduleResData=data;
+    this.transport.addToFavorite({"arrival_station": this.schdeduleReqData.selectedDestination, "departure_station": this.schdeduleReqData.selectedSource}).subscribe(data=>{
+      console.log(data);
+      this.userService.getUserDetails().subscribe(userData =>{
+        localStorage.setItem('data',JSON.stringify(userData));
+      });
       },
       error=>{
-        this.reqError=error.header.message;
-        console.log(this.reqError);
-      });
+        console.log(error);
+      }
+    );
     // stop here if form is invalid
     if (this.scheduleForm.invalid) {
       return;
     }
   }
-
 }

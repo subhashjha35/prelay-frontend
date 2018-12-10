@@ -1,21 +1,23 @@
 <div class="row jumbotron bg-light">
   <div class="col-md-12 mt-3">
-    <span class="h4">View Past Journeys</span>
+    <span class="h4">View Favorite Lines</span>
     <div class="float-right">
-      <a [routerLink]="['/profile/journeys/register']" class="btn btn-success btn-sm">Register New Journey</a>
+      <a [routerLink]="['/profile/favorite-lines/register']" class="btn btn-success btn-sm">Register New Favorite Line</a>
     </div>
   </div>
   <div class="col-md-12 mt-3">
     <table class="table">
       <tr>
         <th>Starting Station</th>
+        <th>STN Code</th>
         <th>Destination Station</th>
-        <th>Date</th>
+        <th>STN Code</th>
       </tr>
-      <tr>
-        <td>12312321</td>
-        <td>213324234</td>
-        <td>11-22-2018</td>
+      <tr *ngFor="let line of fav_lines">
+        <td>{{line.arrivalStation}}</td>
+        <td>{{getStnName(line.arrivalStation)}}</td>
+        <td>{{line.departureStation}}</td>
+        <td>{{getStnName(line.departureStation)}}</td>
       </tr>
     </table>
   </div>

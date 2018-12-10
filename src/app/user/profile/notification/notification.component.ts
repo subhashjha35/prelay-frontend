@@ -10,7 +10,7 @@ import { UserService } from "src/app/user.service";
                     <div class="jumbotron bg-light">
                         <h3>Notification Setting</h3>
                         <div class="form-group">
-                            <input type="checkbox" checked="subscribed" class="mr-2"><label>Get the Notification in your browser and mobile</label>
+                            <input type="checkbox" [(ngModel)]="subscribed" class="mr-2"><label>Get the Notification in your browser and mobile</label>
                             <button (click)="save_data()" class="btn btn-success btn-sm float-right">Save changes</button>
                         </div>
                     </div>
@@ -26,6 +26,7 @@ export class UserNotification{
 
     }
     save_data(){
+        console.log(this.subscribed);
         this.userService.subscribeNotification(this.subscribed).subscribe(data=>{
             console.log(data);
         });

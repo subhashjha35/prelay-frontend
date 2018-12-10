@@ -2,7 +2,7 @@
   <div class="col-md-12 mt-3">
     <span class="h4">Register New Journey</span>
     <div class="float-right">
-      <a [routerLink]="['/profile/journeys/all']" class="btn btn-success btn-sm">Journey Records</a>
+      <a [routerLink]="['/profile/favorite-lines/all']" class="btn btn-success btn-sm">Favorite Lines</a>
     </div>
   </div>
   <div class="col-lg-12">
@@ -35,15 +35,8 @@
                 <div *ngIf="f.selectedDestination.errors.required">Destination is required</div>
             </div>
           </div>
-          <!-- <div class="form-group">
-            <label>Journey Time</label>
-            <input type="date" formControlName="toj" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.toj.errors }" min="{{jstoday}}" value={{jstoday}} />
-            <div *ngIf="submitted && f.toj.errors" class="invalid-feedback">
-                <div *ngIf="f.toj.errors.required">Incorrect Time of Journey</div>
-            </div>
-          </div> -->
           <div class="form-group">
-            <button class="btn btn-info">Register Journeys</button>
+            <button class="btn btn-info">Register New Favorite Line</button>
           </div>
           <div class="alert alert-danger" *ngIf="(error!=null)">
             {{error}}
