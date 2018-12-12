@@ -1,5 +1,6 @@
 <div class="row" style="background: url('assets/imgs/budapest_refugees.jpg') no-repeat fixed center 100%">
     <div class="col-lg-4 offset-md-4 mt-md-5 mb-md-5 rounded p-5 text-white" style="background-color:rgba(0,0,0,0.6)">
+        <div class="alert-danger text-center"*ngIf="(return)">Login first to Continue</div>
         <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="">
           <div class="form-group">
               <label>Email</label>
