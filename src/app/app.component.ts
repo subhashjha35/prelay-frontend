@@ -17,7 +17,8 @@ export class AppComponent {
       this.newsService.newsData.next(data);
       console.log(this.newsService.newsData);
       console.log("news called");
-      this.userService.userName.next(JSON.parse(localStorage.getItem('data')).name);
+      if(localStorage.getItem('data'))
+        this.userService.userName.next(JSON.parse(localStorage.getItem('data')).name);
     });
   }
 }

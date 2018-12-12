@@ -36,7 +36,7 @@ const routes: Routes = [
       },
       {path:'notification', component:UserNotification},
       {path:'subscription', component:SubscriptionComponent},
-      {path:'', component:ProfileHomeComponent}
+      {path:'', component:UserNotification}
 
     ]},
   { path: '**', component: HomeComponent },

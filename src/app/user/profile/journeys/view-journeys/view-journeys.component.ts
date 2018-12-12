@@ -8,7 +8,7 @@ import { TransportService } from 'src/app/transport.service';
 })
 export class ViewJourneysComponent implements OnInit {
   data:any;
-  fav_lines;
+  fav_lines=[];
   fav_data:any[];
   getStnName(id){
     let stn=this.stnService.getList();
@@ -16,8 +16,10 @@ export class ViewJourneysComponent implements OnInit {
   }
   constructor(private stnService:StationsService,){
     this.data=JSON.parse(localStorage.getItem('data'));
-    this.fav_lines=this.data.favoriteLines;
-    this.fav_lines=Object.keys(this.fav_lines).map(i=>this.fav_lines[i]);
+    if(this.data.hasOwnProperty('favoriteLines')){
+      this.fav_lines=this.data.favoriteLines;
+      this.fav_lines=Object.keys(this.fav_lines).map(i=>this.fav_lines[i]);
+    }
     console.log(this.fav_lines);
   }
   ngOnInit(){
