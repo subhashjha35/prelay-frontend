@@ -1,84 +1,86 @@
-<div class="row jumbotron bg-light">
-  <div style="transition:all 0.3s ease-out" class="col-lg-4 table-bordered bg-light {{(!scheduleResData)?'offset-lg-4':''}}">
-    <form [formGroup]="scheduleForm" (ngSubmit)="onSubmit()">
-      <div class="form-group">
-        <label>Source:</label>
-        <ng-select 
-          formControlName="selectedSource"
-          [items]="stn"
-          bindLabel="name"
-          placeholder="Select Stations"
-          [virtualScroll]="true"
-          [ngClass]="{ 'is-invalid': submitted && f.selectedSource.errors }">
-        </ng-select>
-        <div *ngIf="submitted && f.selectedSource.errors" class="invalid-feedback">
-            <div *ngIf="f.selectedSource.errors.required">Source is required</div>
+<div class="container-fluid bg-light">
+  <div class="row">
+      <div style="transition:all 0.3s ease-out" class="col-lg-4 table-bordered bg-light {{(!scheduleResData)?'offset-lg-4':''}}">
+          <form [formGroup]="scheduleForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label>Source:</label>
+              <ng-select 
+                formControlName="selectedSource"
+                [items]="stn"
+                bindLabel="name"
+                placeholder="Select Stations"
+                [virtualScroll]="true"
+                [ngClass]="{ 'is-invalid': submitted && f.selectedSource.errors }">
+              </ng-select>
+              <div *ngIf="submitted && f.selectedSource.errors" class="invalid-feedback">
+                  <div *ngIf="f.selectedSource.errors.required">Source is required</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Destination:</label>
+              <ng-select
+                formControlName="selectedDestination"
+                [items]="stn"
+                bindLabel="name"
+                placeholder="Select Stations"
+                [virtualScroll]="true"
+                [ngClass]="{ 'is-invalid': submitted && f.selectedDestination.errors }">
+              </ng-select>
+              <div *ngIf="submitted && f.selectedDestination.errors" class="invalid-feedback">
+                  <div *ngIf="f.selectedDestination.errors.required">Destination is required</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Journey Time</label>
+              <input type="date" formControlName="toj" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.toj.errors }" />
+              <div *ngIf="submitted && f.toj.errors" class="invalid-feedback">
+                  <div *ngIf="f.toj.errors.required">Time of Journey is required</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary">Find Schedules</button>
+            </div>
+            <div class="alert alert-danger" *ngIf="(error!=null)">
+              {{error}}
+            </div>
+            <div class="alert alert-success" *ngIf="(success!=null)">
+              {{success}}
+            </div>
+          </form>
+      </div>
+      <div class="col-lg-8 pl-md-1">
+        <div *ngIf="(scheduleResData==[])" class="alert alert-warning" role="alert">
+          <p class="mb-0">There is no such route</p>
+        </div>
+        <div class="text-center alert-danger" *ngIf="(reqError)">
+          {{"Error:"}}{{reqError}}
+        </div>
+        <div *ngIf="(scheduleResData)">
+          <div class="alert-warning mt-1 mb-1 p-1">Do you want to add this line to your favourites? <button class="btn btn-sm btn-success" (click)="addToFavorite()">Add</button></div>
+          <div style="overflow-x:scroll">
+            <div *ngFor="let res of scheduleResData">
+              <table class="table table-bordered table-responsive text-muted table-sm">
+                <tr class="font-weight-bold">
+                  <td>Departure Station</td>
+                  <td>Arrival Station</td>
+                  <td>Next day Arrival</td>
+                  <td>Arrival Scheduled</td>
+                  <td>Next day Departure</td>
+                  <td>Departure Scheduled</td>
+                </tr>
+                <tr *ngFor="let rows of res">
+                  <td><strong>{{ stnCodeToName(rows.departure.station) }}</strong></td>
+                  <td><strong>{{ stnCodeToName(rows.arrival.station) }}</strong></td>
+                  <td>{{ timestampToTime(rows.arrival.forecast_for_tomorrow) }}</td>
+                  <td>{{ timestampToTime(rows.arrival.scheduled )}}</td>
+                  <td>{{ timestampToTime(rows.departure.forecast_for_tomorrow) }}</td>
+                  <td>{{ timestampToTime(rows.departure.scheduled) }}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="form-group">
-        <label>Destination:</label>
-        <ng-select
-          formControlName="selectedDestination"
-          [items]="stn"
-          bindLabel="name"
-          placeholder="Select Stations"
-          [virtualScroll]="true"
-          [ngClass]="{ 'is-invalid': submitted && f.selectedDestination.errors }">
-        </ng-select>
-        <div *ngIf="submitted && f.selectedDestination.errors" class="invalid-feedback">
-            <div *ngIf="f.selectedDestination.errors.required">Destination is required</div>
-        </div>
-      </div>
-      <div class="form-group">
-        <label>Journey Time</label>
-        <input type="date" formControlName="toj" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.toj.errors }" />
-        <div *ngIf="submitted && f.toj.errors" class="invalid-feedback">
-            <div *ngIf="f.toj.errors.required">Time of Journey is required</div>
-        </div>
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary">Find Schedules</button>
-      </div>
-      <div class="alert alert-danger" *ngIf="(error!=null)">
-        {{error}}
-      </div>
-      <div class="alert alert-success" *ngIf="(success!=null)">
-        {{success}}
-      </div>
-    </form>
-  </div>
-  <div class="col-lg-8">
-    <div *ngIf="(scheduleResData==[])" class="alert alert-warning" role="alert">
-      <p class="mb-0">There is no such route</p>
-    </div>
-    <div class="text-center alert-danger" *ngIf="(reqError)">
-      {{"Error:"}}{{reqError}}
-    </div>
-    <div class="row" *ngIf="(scheduleResData)">
-      <div>Do you want to add this line to your favourites? <button class="btn btn-sm btn-success" (click)="addToFavorite()">Add</button></div>
-      <div style="overflow-x:scroll">
-        <div *ngFor="let res of scheduleResData">
-          <table class="table table-bordered text-muted table-sm">
-            <tr class="font-weight-bold">
-              <td>Departure Station</td>
-              <td>Arrival Station</td>
-              <td>Next day Arrival</td>
-              <td>Arrival Scheduled</td>
-              <td>Next day Departure</td>
-              <td>Departure Scheduled</td>
-            </tr>
-            <tr *ngFor="let rows of res">
-              <td><strong>{{ stnCodeToName(rows.departure.station) }}</strong></td>
-              <td><strong>{{ stnCodeToName(rows.arrival.station) }}</strong></td>
-              <td>{{ timestampToTime(rows.arrival.forecast_for_tomorrow) }}</td>
-              <td>{{ timestampToTime(rows.arrival.scheduled )}}</td>
-              <td>{{ timestampToTime(rows.departure.forecast_for_tomorrow) }}</td>
-              <td>{{ timestampToTime(rows.departure.scheduled) }}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
