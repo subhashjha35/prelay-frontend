@@ -28,6 +28,7 @@ export class LoginComponent implements OnInit {
     password: [null, [Validators.required, Validators.minLength(6)]]
     });
     this.actRoute.queryParams.subscribe(params => this.return = params['return'] || '/profile');
+    console.log(this.return);
   }
 
   get f() { return this.loginForm.controls; }
