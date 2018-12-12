@@ -14,14 +14,16 @@ import { RegisterJourneysComponent } from '../user/profile/journeys/register-jou
 import { UserNotification } from '../user/profile/notification/notification.component';
 import { PushNotificationComponent } from '../shared/push-notification/push-notification.component';
 import { SubscriptionComponent } from '../user/profile/subscription/subscription.component';
+import { ApiComponent } from '../api/api.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
+  { path: 'home', component: HomeComponent},
   { path: 'push', component: PushNotificationComponent},
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'schedule', component: ScheduleComponent, canActivate: [AuthGuard]  },
   { path: 'faq', component: FaqComponent },
+  { path: 'api', component: ApiComponent },
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] ,
     children: [
       {path:'home', component:ProfileHomeComponent},

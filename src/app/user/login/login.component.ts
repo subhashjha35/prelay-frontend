@@ -48,6 +48,7 @@ export class LoginComponent implements OnInit {
     this.userService.loginUser(this.userData).subscribe(data => {
       if(data.success==true){
         this.success="User Logged In";
+        this.userService.userName.next(data.settings.name);
         localStorage.setItem('token', data.id_token);
         localStorage.setItem('data', JSON.stringify(data.settings));
         this.userService.isLoginSubject.next(true);

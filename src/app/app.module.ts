@@ -27,6 +27,7 @@ import { RegisterJourneysComponent } from './user/profile/journeys/register-jour
 import { PushNotificationComponent } from './shared/push-notification/push-notification.component';
 import { NewsletterService } from './shared/newsletter.service';
 import { SubscriptionComponent } from './user/profile/subscription/subscription.component';
+import { ApiComponent } from './api/api.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { SubscriptionComponent } from './user/profile/subscription/subscription.
     ViewJourneysComponent,
     RegisterJourneysComponent,
     PushNotificationComponent,
-    SubscriptionComponent
+    SubscriptionComponent,
+    ApiComponent
   ],
   imports: [
     BrowserModule,

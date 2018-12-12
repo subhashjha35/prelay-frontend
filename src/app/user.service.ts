@@ -15,7 +15,7 @@ interface UserLoginResponseType{
   providedIn: 'root'
 })
 export class UserService {
-
+  userName= new BehaviorSubject<string>(null);
   isLoginSubject = new BehaviorSubject<boolean>(this.hasToken());
   constructor(private http:HttpClient, private route:Router ) { 
   }
@@ -44,6 +44,7 @@ export class UserService {
   logout() : void {
     localStorage.removeItem('token');
     localStorage.removeItem('data');
+    this.userName.next(null);
     this.isLoginSubject.next(false);
     this.route.navigate(['\login']);
   }
