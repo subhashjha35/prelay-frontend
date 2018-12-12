@@ -10,34 +10,38 @@
                 <div class="card mb-0">
                     <div class="card-header bg-light collapsed" data-toggle="collapse" href="#collapseOne">
                         <a class="card-title">
-                            FAQ 1
+                            1. How could an app possibly predict the delays for the next day?
                         </a>
                     </div>
                     <div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <p> 
+                        We are using machine learning of course. 
+                        We trained our ML model with historical data of delays based on the weather conditions at that time.
+                        It still needs a lot more data to make it smarter.
                         </p>
                     </div>
                     <div class="card-header bg-light collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                         <a class="card-title">
-                            FAQ 2
+                            2. How accurate is the prediction?
                         </a>
                     </div>
                     <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <p>
+                            The training process of our ML model is at an early stage. 
+                            It gives you a good idea of what to expect, due to the weather conditions. 
+                            We would need at least a cycle’s worth of data, that is one year. 
+                            Given time, based on some research papers about our ML model, it could reach around 70% of accuracy.
                         </p>
                     </div>
                     <div class="card-header bg-light collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                         <a class="card-title">
-                            FAQ 3
+                            3. What about accidents and events, that cannot be predicted?
                         </a>
                     </div>
                     <div id="collapseThree" class="collapse" data-parent="#accordion" >
-                        <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS.
+                        <div class="card-body">
+                            That is a very reasonable question. 
+                            For events like accidents or stolen overhead powerline, etc. our text analysis algorithm is checking MÁV’s official RSS Feed to retrieve the relevant information from the news, such as the reason for the delay, the expected delay and the stations, that can be affected by it, so we could notify you of potential delays in time.
                         </div>
                     </div>
                 </div>
