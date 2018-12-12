@@ -1,24 +1,26 @@
 <div class="row jumbotron bg-light">
   <div class="col-md-12 mt-3">
     <span class="h4">View Favorite Lines</span>
-    <div class="float-right">
+    <div class="float-md-right">
       <a [routerLink]="['/profile/favorite-lines/register']" class="btn btn-success btn-sm">Register New Favorite Line</a>
     </div>
   </div>
   <div class="col-md-12 mt-3">
-    <table class="table">
-      <tr>
-        <th>Starting Station</th>
-        <th>STN Code</th>
-        <th>Destination Station</th>
-        <th>STN Code</th>
-      </tr>
-      <tr *ngFor="let line of fav_lines">
-        <td>{{line.arrivalStation}}</td>
-        <td>{{getStnName(line.arrivalStation)}}</td>
-        <td>{{line.departureStation}}</td>
-        <td>{{getStnName(line.departureStation)}}</td>
-      </tr>
-    </table>
+    <div style="overflow-x:scroll;">
+        <table class="table table-responsive">
+            <tr>
+              <th>Starting Station</th>
+              <th>STN Code</th>
+              <th>Destination Station</th>
+              <th>STN Code</th>
+            </tr>
+            <tr *ngFor="let line of fav_lines">
+              <td>{{line.arrivalStation}}</td>
+              <td>{{getStnName(line.arrivalStation)}}</td>
+              <td>{{line.departureStation}}</td>
+              <td>{{getStnName(line.departureStation)}}</td>
+            </tr>
+          </table>
+    </div>
   </div>
 </div>
