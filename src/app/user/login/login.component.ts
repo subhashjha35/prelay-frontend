@@ -52,6 +52,7 @@ export class LoginComponent implements OnInit {
         localStorage.setItem('token', data.id_token);
         localStorage.setItem('data', JSON.stringify(data.settings));
         this.userService.isLoginSubject.next(true);
+        Notification.requestPermission();
         this.route.navigate(['/profile']);
         this.error=null;
       }
